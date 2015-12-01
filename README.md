@@ -1,7 +1,7 @@
 > This project is currently under development.
 
-# RCL Drupal Theme
-A custom drupal theme created for the River Campus libraries web site.
+# May Bragdon Drupal Theme
+A custom drupal theme created for the May Bragdon project.
 
 ### Table of Contents
 1. Installation Instructions (Below)
