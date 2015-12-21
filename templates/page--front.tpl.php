@@ -3,7 +3,8 @@
 <div class="parallax">
   <div id="group1" class="parallax__group">
     <div class="parallax__layer parallax__layer--base">
-      <div class="title">Base Layer</div>
+      <div class="title"><img src="may-logo.gif" alt="">
+</div>
     </div>
   </div>
   <div id="group2" class="parallax__group">
