@@ -9,13 +9,13 @@
 $(window).scroll(function() {
     if ($(this).scrollTop() > 34){
         $('.navbar').addClass("fixed"); // Navbar moves to position:fixed
-        $('.navbar-spacer ').addClass("show"); // Spacer
-        $('.section-header').addClass("fixed");
+        $('.cover').addClass("jump"); // Spacer
+        $('.navbar-default').addClass("fixed");
     }
     else{
         $('.navbar').removeClass("fixed");
-        $('.navbar-spacer').removeClass("show");
-        $('.section-header').removeClass("fixed");
+        $('.cover').removeClass("jump");
+        $('.navbar-default').removeClass("fixed");
     }
 });
 })(jQuery);

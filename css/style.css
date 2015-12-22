@@ -21,4 +21,7 @@ sub-theme.
 @import url("page.css");
 
 /* 4. Landing Page - Global styles*/
-@import url("landing-page.css");
+@import url("front-page.css");
+
+/* 5. Slideshow */
+@import url("slideshow.css");

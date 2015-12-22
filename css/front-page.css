@@ -1,0 +1,314 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+body {
+    background-color: black;
+    }
+* {
+    margin:0;
+    padding:0;
+    }
+
+/* HEADER
+-----------------------------------*/
+
+/* University of Rochester Bar */
+.uofr-header{
+    background-color: #021e47;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    z-index: 1000;
+    top: 0;
+    }
+.uofr-logo-container,
+.everbetter-container {
+    width: 50%;
+    float: left;
+    }
+    .navbar-brand-uofr-logo {
+        width: 210px;
+        height: auto;
+        }
+    .navbar-brand-everbetter {
+        width: 128px;
+        height: auto;
+        float: right;
+        }
+/**/
+
+/* Living History Project Bar */
+.lhp-logo {
+    width: 240px;
+    height: auto;
+    }
+
+.navbar {
+    margin: 0;
+    }
+    .navbar.fixed{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        }
+.navbar-default{
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: 1000;
+    }
+    .navbar-default.fixed{
+        background: rgba(0, 0, 0, 0.8);
+        }
+
+/* Search Box */
+.navbar-form{
+  padding: 0 0 0 15px;
+  }
+.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1.0);
+  }
+
+.navbar-form .form-control {
+      box-shadow: none;
+      border: 0;
+      background-color: #d6d6d6;
+      color: black;
+}
+/**/
+
+/* Collapsed button */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background: none;
+}
+
+.navbar-toggle{
+  border: none;
+}
+
+/**/
+
+/* Added space to prevent jump on scroll */
+.spacer      {height: 0;   }
+.spacer.show {height: 50px;}
+/**/
+
+/* COVER
+-----------------------------------*/
+.cover {
+  width: 100%;
+  margin-top: -50px;
+  }
+  .cover.jump {
+      margin-top: 50px;
+      }
+
+.tagline {
+  width: 600px;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  position: absolute;
+  top: 120px;
+}
+/**/
+
+.scroll-hint {
+  z-index: 4001;
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.scroll-hint i {
+  color: white;
+  font-size: 30px;
+}
+
+.about-sec {
+  padding: 100px 50px 100px 50px;
+}
+
+.about-sec p {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+
+/* Boxes
+-----------------------------------*/
+
+.main-boxes-heading{
+  color: gray;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.box {
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+.box-images {
+    height: auto;
+    width: 100%;
+    opacity: 0.9;
+    }
+    .box-images:hover {
+      opacity: 1;
+      }
+.box-text {
+    position: relative;
+    }
+.box-headline {
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    bottom: 97px;
+    font-size: 35px;
+    color: white;
+    font-weight: 200;
+    }
+.box-tagline{
+    position: absolute;
+    bottom: 27px;
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    color: lightgray;
+    }
+.box-headline,
+.box-tagline {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.box-date{
+    font-family: 'Merriweather', serif;
+    display: block;
+    color: white;
+    font-size: 17px;
+    }
+.box-odd{border-left: none;}
+.box-even{border-right: none;}
+
+/**/
+
+
+
+
+/* FOOTER
+--------------------------------*/
+
+.footer{
+      padding-top: 15px;
+      background-color: #021e47;
+      width: 100%;
+      margin: 0;
+      color: #919aaf;
+}
+.footer-left,
+.footer-right{
+  width: 50%;
+  float: right;
+  margin-top: 40px;
+}
+.footer-left ul {list-style: none;}
+
+.footer-right{
+  text-align: right;
+}
+
+.footer-uofr-logo {
+    width: 270px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    }
+/**/
+
+/* MEDIA QUERIES
+--------------------------------*/
+
+@media (max-width: 768px) {
+    /* Removing the Ever Better graphic on mobile */
+    .uofr-logo-container{width: 100%}
+    .everbetter-container {display: none;}
+    /**/
+    /* Reverting padding on search box for mobile */
+    .navbar-form{
+        padding: 10px 20px;
+        margin: 0;
+        border-top: none;
+        border-bottom: none;
+        }
+    /**/
+    .navbar :focus {outline:none;}
+    /**/
+    /*.navbar-default {background: rgba(0, 0, 0, 1);}*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+        }
+    /**/
+    /* Tagline move below cover */
+    .tagline {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 300;
+        position:static;
+        padding: 20px;
+        }
+    /**/
+    /**/
+    .box-tagline{font-weight: 300;}
+    /**/
+    .box-headline,
+    .box-tagline {
+        margin-left: 20px;
+        margin-left: 20px;
+        }
+    .box-tagline {
+    }
+    /**/
+    .box { width: 100%;}
+    /**/
+    .footer-left,
+    .footer-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    /**/
+    .footer-uofr-logo {
+        padding-top: 20px;
+        margin: auto;
+        }
+    /**/
+    /**/
+    .about-sec p {
+      font-size: 16px;
+    }
+    /**/
+    /**/
+    .box-images {opacity: 1;}
+    /**/
+}

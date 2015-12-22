@@ -1,0 +1,58 @@
+#awan {
+/*position:absolute;*/
+z-index: 4000;
+top:0px;left:0px;
+text-align:center;
+margin:-50px 0 0 0;
+padding:0px;
+background-color:#C0DEED;
+background: url(http://localhost:8080/drupal/sites/all/themes/may_bragdon_theme/images/big-bg.jpg) center top repeat-x;
+padding-top:100px;
+padding-bottom:10px;
+  width: 100%;
+  height: 800px;
+    animation: awan-animasi 200s linear infinite;
+  -ms-animation: awan-animasi 200s linear infinite;
+  -moz-animation: awan-animasi 200s linear infinite;
+  -webkit-animation: awan-animasi 200s linear infinite;
+}
+
+@keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-webkit-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-ms-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-moz-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
