@@ -65,6 +65,23 @@
 
 <div class="main-boxes-heading">Timeline</div>
 
+
+
+<div class="tagline-hint">
+    The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="sub-tag-hint">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+</div>
+<div class="scroll-hint-text"><a href="#begin">Explore</a></div>
+<a href="#begin"><i class="fa fa-chevron-down"></i></a>
+</div>
+
+
+<div class="mobile-tagline">
+  The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+</div>
+
+
+
+
 <!-- 4 Boxes  -->
 <div class="box box-odd">
   <a href="#">

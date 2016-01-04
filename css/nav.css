@@ -15,10 +15,31 @@ portion.
 
 
 
+
+
 /* CUSTOM STYLES
 -------------------------------*/
 
-/*div {outline: 1px solid red;}*/
+.tagline-hint{
+  color: white;
+  font-size: 22px;
+  width: 80%;
+  font-weight: 100;
+  /* text-align: left; */
+  margin: auto;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 30px;
+}
+
+.scroll-hint-text a {color: lightgray;}
+.scroll-hint i a {color: red;}
+.scroll-hint-text a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-tagline{display: none;}
+
 
 /*  UofR bar  */
 .uofrbar {
@@ -51,7 +72,7 @@ portion.
         }
 
 /* Chat Online/Offline Toggle */
-.chat-offline{
+.chat-offline {
     cursor: default;
     color: #546f99!important;
     }
