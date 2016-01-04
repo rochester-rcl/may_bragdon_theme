@@ -47,11 +47,7 @@
 <div class="spacer"></div>
 
 <!-- Cover Image -->
-
-  <div id="awan">
-
-
-</div>
+<div id="awan"></div>
 
 
 <div class="about-sec">
@@ -205,4 +201,4 @@
 
 
 <!--====== Navigation Scroll JS ======-->
-<script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/nav.js'; ?>"></script>
+<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
