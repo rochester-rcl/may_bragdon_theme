@@ -6,7 +6,7 @@ A custom drupal theme created for the May Bragdon project.
 ### Table of Contents
 1. Installation Instructions (Below)
 2. [Module Installation](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/install_modules)
-3. [Templates](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/templates)
+3. [Templates](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/templates) 
 4. [CSS](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/css)
 
 
@@ -19,12 +19,10 @@ Before you install please make sure your Drupal instance meets the following req
 ### Installation
 Install this theme as you would any other Drupal theme.
 
-1. Move the **rcl_drupal_theme** folder into **sites/all/themes**
-2. Unzip the contents of the **install_modules** folder into  **sites/all/modules folder** > then remove it from the theme folder. *The install_modules folder is just helpful grouping of modules specific to this theme. See the install_modules README for more information about module installs*
-3. Download the [Bootstrap 3](https://drupal.org/project/bootstrap) theme and unzip into **sites/all/themes**.
-4. In the Drupal admin go to **Apperance** > then find the **Bootstrap 3** theme > enable it but **DO NOT** set it as default.
-5. In the Drupal admin go to **Apperance** > then find the **RCL Theme** > enable it & set as default.
-6. [Install Modules](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/install_modules)
+1. Move the **may_bragdon_theme** folder into **sites/all/themes**
+2. Download the [Bootstrap 3](https://drupal.org/project/bootstrap) theme and unzip into **sites/all/themes**.
+3. In the Drupal admin go to **Apperance** > then find the **Bootstrap 3** theme > enable it but **DO NOT** set it as default.
+4. In the Drupal admin go to **Apperance** > then find the **May Bragdon Theme** > enable it & set as default.
 
 
 ##### Drupal Admin Configurations
@@ -38,40 +36,3 @@ You must make these adjustments in drupal to insure proper display or the theme 
 
 ### Known Issues
 - Admin editing via mobile is poor but that is a drupal issue.
-
-
-
-### Drupal Configuration Requirements
-- After login trigger must be in place to take them to "/staff-login" or the page they were intending to be sent prior to login state. (*Looking into possible modules for this as well.*)
-
-### Other
-Temporary place for uncategorized items
-
-- PHP code for printing page title:
-```
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-
-```
-
-
-- **Navigation PHP**: Place this into the page.tpl.php file to generate menu. Currently working on a new elseif statment that allows the user to override the default menu with the dynamic drupal one. Will remove this when that is complete.
-```
-<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-  <div class="navbar-collapse collapse navbar-right">
-    <nav role="navigation">
-      <?php if (!empty($primary_nav)): ?>
-        <?php print render($primary_nav); ?>
-      <?php endif; ?>
-      <?php if (!empty($secondary_nav)): ?>
-        <?php print render($secondary_nav); ?>
-      <?php endif; ?>
-      <?php if (!empty($page['navigation'])): ?>
-        <?php print render($page['navigation']); ?>
-      <?php endif; ?>
-      <?php if (!empty($page['navigation'])): ?>
-        <?php print render($page['navigation']); ?>
-      <?php endif; ?>
-    </nav>
-  </div>
-<?php endif; ?>
-```
