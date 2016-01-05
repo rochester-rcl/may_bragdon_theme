@@ -20,9 +20,9 @@ Before you install please make sure your Drupal instance meets the following req
 Install this theme as you would any other Drupal theme.
 
 1. Move the **may_bragdon_theme** folder into **sites/all/themes**
-*(Note) the following two lines can be done using drush with the following command: drush en bootstrap -y
 2. Download the [Bootstrap 3](https://drupal.org/project/bootstrap) theme and unzip into **sites/all/themes**.
 3. In the Drupal admin go to **Apperance** > then find the **Bootstrap 3** theme > enable it but **DO NOT** set it as default.
+  *(Note) the previous two lines can be done using drush with the following command: drush en bootstrap -y
 4. In the Drupal admin go to **Apperance** > then find the **May Bragdon Theme** > enable it & set as default.
 
 
