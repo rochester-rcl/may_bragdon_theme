@@ -23,19 +23,11 @@ html {
 /*div{outline: 1px solid red}*/
 
 body {
-  background-color: black;
 }
 * {
   margin:0;
   padding:0;
 }
-
-.google-form{
-  background: transparent;
-  border: none;
-
-}
-
 .project-marker{
   padding: 10px 20px;
   background-color: #021e47;

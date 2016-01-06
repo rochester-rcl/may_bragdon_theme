@@ -1,12 +1,16 @@
 > This project is currently under development.
 
+>**Temporary Note**
+I currently have a background image CSS animation. It has a hard coded absolute URL. You will need to change that URL in order for it to show up. It is located on **line 9** of **css/slideshow.css**
+
 # May Bragdon Drupal Theme
 A custom drupal theme created for the May Bragdon project.
+
 
 ### Table of Contents
 1. Installation Instructions (Below)
 2. [Module Installation](https://github.com/rochester-rcl/may_bragdon_theme/tree/master/install_modules)
-3. [Templates](https://github.com/rochester-rcl/may_bragdon_theme/tree/master/templates) 
+3. [Templates](https://github.com/rochester-rcl/may_bragdon_theme/tree/master/templates)
 4. [CSS](https://github.com/rochester-rcl/may_bragdon_theme/tree/master/css)
 
 
@@ -18,6 +22,7 @@ Before you install please make sure your Drupal instance meets the following req
 
 ### Installation
 Install this theme as you would any other Drupal theme.
+
 
 1. Move the **may_bragdon_theme** folder into **sites/all/themes**
 2. Download the [Bootstrap 3](https://drupal.org/project/bootstrap) theme and unzip into **sites/all/themes**.

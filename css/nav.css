@@ -38,6 +38,16 @@ portion.
   color: white;
 }
 
+.header-search .btn {
+    margin: 8px 0px 0px 0px;
+    border-radius: 0 5px 5px 0;
+    }
+
+.header-search .form-control{
+    border-radius: 5px 0 0 5px;
+    }
+
+
 .mobile-tagline{display: none;}
 
 
