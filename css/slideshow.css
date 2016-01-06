@@ -16,7 +16,9 @@ padding-bottom:10px;
   -moz-animation: awan-animasi 200s linear infinite;
   -webkit-animation: awan-animasi 200s linear infinite;
 }
-
+#awan.space {
+  margin:0px 0 0 0;
+}
 @keyframes awan-animasi {
   from {
     background-position: 0 0;

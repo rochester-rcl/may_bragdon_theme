@@ -50,35 +50,23 @@
 <div id="awan"></div>
 
 
-<div class="about-sec">
-  <div class="container">
-    <p>
-    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius. Nihil graece vel in, utinam repudiandae eum ea, veri probo insolens vix ex. Utinam adipiscing qui at, ius quem gubergren ea.
-  </p>
-</div>
-</div>
+
 
 <div class="scroll-hint">
-  <i class="fa fa-chevron-down"></i>
-</div>
 
-
-<div class="main-boxes-heading">Timeline</div>
-
+  <img class="cover-logo" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
 
 
 <div class="tagline-hint">
-    The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="sub-tag-hint">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius. Nihil graece vel in, utinam repudiandae eum ea, veri probo insolens vix ex. Utinam adipiscing qui at, ius quem gubergren ea.
 </div>
-<div class="scroll-hint-text"><a href="#begin">Explore</a></div>
+<div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>
 
 
-<div class="mobile-tagline">
-  The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
-</div>
 
+<!-- <div class="main-boxes-heading">Timeline</div> -->
 
 
 
@@ -87,7 +75,7 @@
   <a href="#">
     <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -97,7 +85,7 @@
   <a href="#">
     <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -107,7 +95,7 @@
   <a href="#">
     <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -117,7 +105,7 @@
   <a href="#">
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -125,40 +113,60 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1898-02.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">November 12, 1898-January 18, 1902</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">January 19, 1902-February 4, 1904</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">February 26, 1904-June 8, 1905</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+    </div>
+  </a>
+</div>
+
+<div class="box box-odd">
+  <a href="#">
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
+    <div class="box-text">
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+    </div>
+  </a>
+</div>
+
+<div class="box box-even">
+  <a href="#">
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
+    <div class="box-text">
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">January 1, 1910-December 31, 1914</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>

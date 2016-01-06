@@ -23,6 +23,7 @@ html {
 /*div{outline: 1px solid red}*/
 
 body {
+  background-color: black;
 }
 * {
   margin:0;

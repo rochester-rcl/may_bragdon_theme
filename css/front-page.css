@@ -95,7 +95,7 @@
   margin-top: -50px;
   }
   .cover.jump {
-      margin-top: 50px;
+      margin-top: 0px;
       }
 
 .tagline {
@@ -111,15 +111,45 @@
 .scroll-hint {
   z-index: 4001;
   position: fixed;
-  bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 60px;
+  bottom: 0;
+  /*height: 400px;*/
   left: 0;
   right: 0;
   text-align: center;
+  /*Gradient BG*/
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.89) 72%, rgba(0,0,0,0.9) 73%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.89) 72%,rgba(0,0,0,0.9) 73%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.89) 72%,rgba(0,0,0,0.9) 73%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+
+  /*Animation*/
+  opacity: 1;
+  transition: opacity .50s ease-in-out;
+  -moz-transition: opacity .50s ease-in-out;
+  -webkit-transition: opacity .50s ease-in-out;
 }
+.scroll-hint.test {
+  opacity: 0;
+  }
+  .scroll-hint.gone {
+    display: none;
+  }
+
+  .scroll-hint-text{
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+
+  }
+
 .scroll-hint i {
   color: white;
   font-size: 30px;
 }
+
 
 .about-sec {
   padding: 100px 50px 100px 50px;
@@ -132,6 +162,16 @@
   font-family: 'Merriweather', serif;
   text-align: center;
 }
+
+
+/* Tagline
+-----------------------------------*/
+
+.cover-logo{
+  width: 70%;
+}
+
+
 
 
 /* Boxes
@@ -285,6 +325,10 @@
         margin: auto;
         }
     /**/
+    /**/
+    .tagline-hint{
+      font-size: 14px;
+    }
     /**/
     .about-sec p {
       font-size: 16px;

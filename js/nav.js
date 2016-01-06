@@ -9,12 +9,12 @@
 $(window).scroll(function() {
     if ($(this).scrollTop() > 34){
         $('.navbar').addClass("fixed"); // Navbar moves to position:fixed
-        $('.cover').addClass("jump"); // Spacer
+        $('#awan').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
     }
     else{
         $('.navbar').removeClass("fixed");
-        $('.cover').removeClass("jump");
+        $('#awan').removeClass("space");
         $('.scroll-hint').removeClass("test");
     }
 });

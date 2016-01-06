@@ -1,5 +1,5 @@
 name = May Bragdon Drupal Theme 1.0
-description = A powerful fully responsive theme built for the May Bragdon Project.
+description = A theme built for the May Bragdon Project.
 core = 7.x
 base theme = bootstrap
 
