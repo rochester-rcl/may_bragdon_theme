@@ -66,10 +66,13 @@
 
 .navbar-form .form-control {
       box-shadow: none;
-      border: 0;
-      background-color: #2d2d2d;
+      border:none;
+      background-color: #e7e7e7;
       color: black;
 }
+
+
+
 /**/
 
 /* Collapsed button */
@@ -194,8 +197,7 @@
     border-radius: 0px 5px 5px 0px;
     }
 .hp-search-big .btn:hover{
-    font-size: 30px;
-    background-color: gray;
+    background-color: #e7e7e7;
     }
 
 /* Tagline
