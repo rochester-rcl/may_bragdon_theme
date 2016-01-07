@@ -59,18 +59,35 @@
 <div class="spacer"></div>
 
 <!-- Cover Image -->
-<div id="awan"></div>
+
+<div id="awan">
+<div class="santa">
+  <span class="marker-title">Test marker</span>
+  <span class="marker-caption">May Bragdon</span>
+  </div>
+<div class="santa2">
+  <span class="marker-title">Diary Page</span>
+  <span class="marker-caption">Feburary 1887</span>
+</div>
+</div>
 
 
 
 
 <div class="scroll-hint">
 
-  <img class="cover-logo" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
+<div class="hp-search-big">
+  <form class="" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+      <div class="form-group">
+        <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+    </form>
+  </div>
 
+</div>
 
 <div class="tagline-hint">
-    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius. Nihil graece vel in, utinam repudiandae eum ea, veri probo insolens vix ex. Utinam adipiscing qui at, ius quem gubergren ea.
+    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
 </div>
 <div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
