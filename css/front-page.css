@@ -478,6 +478,22 @@
     border-radius: 5px;
     }
     /**/
+    .navbar-brand-uofr-logo {
+    width: 374px;
+    height: auto;
+    margin-left: -10px;
+    text-align: center;
+    }
+    /**/
+    .box-tagline{
+      font-weight: bold;
+      font-size: 13px;
+    }
+    /**/
+    .box-date {
+    font-size: 15px;
+    }
+    /**/
     .no-mobile {display: none;}
     /**/
 }
