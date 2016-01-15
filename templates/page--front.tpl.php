@@ -9,16 +9,17 @@
     <!-- UofR Container -->
     <div class="uofr-logo-container">
       <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
+        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
       </a>
     </div>
     <!-- Ever Better Container -->
     <div class="everbetter-container">
-        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/everbetter.png" />
+        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-dp.png" />
     </div>
   </div>
 </div>
 
+<div style="background-color: black;">
 
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
@@ -71,7 +72,7 @@
 </div>
 </div> -->
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -84,54 +85,68 @@
     <div class="item active">
       <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
       <div class="carousel-caption">
-        May B in a boat!
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
       </div>
     </div>
     <div class="item">
       <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
       <div class="carousel-caption">
-        Second May B
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
       </div>
     </div>
-    ...
+    <div class="item">
+      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
+      <div class="carousel-caption">
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
+      </div>
+    </div>
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a> -->
 </div>
 <!-- / -->
 
 
+<div class="mobile-cover">
+  <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
+</div>
+
 <div class="scroll-hint">
 
+
+<!-- Search Box -->
 <div class="hp-search-big">
   <form class="" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
       <div class="form-group">
-        <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
+        <input class="form-control" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
         <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
     </form>
   </div>
-
 </div>
 
 <div class="tagline-hint">
     An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
+
+
 </div>
 <div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>
-
+</div>
 
 
 <!-- <div class="main-boxes-heading">Timeline</div> -->
-
 
 
 <!-- 4 Boxes  -->

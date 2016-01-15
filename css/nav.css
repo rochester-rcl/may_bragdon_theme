@@ -30,6 +30,10 @@ portion.
     border-radius: 5px 0 0 5px;
     }
 
+.header-search {display: none;}
+.header-search.show{
+    display: block;
+      }
 
 .mobile-tagline{display: none;}
 
