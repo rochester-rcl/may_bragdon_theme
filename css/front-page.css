@@ -117,8 +117,8 @@
 
 
 .mobile-cover {
-  display: none;
-}
+    display: none;
+    }
 
 /**/
 .carousel-caption {
@@ -434,8 +434,6 @@
     /**/
     .mobile-cover {
       display: block;
-      position: absolute;
-      top: 35px;
     }
     /**/
     .mobile-cover img{
@@ -461,9 +459,24 @@
     margin: auto;
     }
     /**/
+    .header-search .btn {
+    display: none;
+    }
+    /**/
+    input.form-control.navbar-search-grow {
+    width: 100%;
+    margin: auto;
+    }
+    /**/
+    /**/
     .hp-search-big form input{
         width: 85%;
         }
+    /**/
+    /**/
+    .header-search .form-control {
+    border-radius: 5px;
+    }
     /**/
     .no-mobile {display: none;}
     /**/
