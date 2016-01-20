@@ -1,7 +1,5 @@
 > This project is currently under development.
 
->**Temporary Note**
-I currently have a background image CSS animation. It has a hard coded absolute URL. You will need to change that URL in order for it to show up. It is located on **line 9** of **css/slideshow.css**
 
 # May Bragdon Drupal Theme
 A custom drupal theme created for the May Bragdon project.
