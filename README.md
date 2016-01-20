@@ -4,6 +4,8 @@
 # May Bragdon Drupal Theme
 A custom drupal theme created for the May Bragdon project.
 
+![Alt text](http://full/path/to/img.jpg "Optional title")
+
 
 ### Table of Contents
 1. Installation Instructions (Below)
