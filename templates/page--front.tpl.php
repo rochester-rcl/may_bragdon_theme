@@ -140,6 +140,9 @@
 
 
 </div>
+
+<!-- <div class="vertical-line"><hr width="1" size="500"></div> -->
+
 <div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>

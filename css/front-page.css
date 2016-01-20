@@ -149,7 +149,7 @@
 }
 
 .scroll-hint {
-  z-index: 4001;
+  z-index: 10;
   position: fixed;
   padding-bottom: 10px;
   padding-top: 60px;
@@ -364,11 +364,69 @@
     height: auto;
 }
 
+.vertical-line hr {
+  color: white;
+  border: 1px solid white;
+  height: 500;
+}
 
+
+div.vertical-line{
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content.
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
 
 /* MEDIA QUERIES
 --------------------------------*/
 
+/* Height Based   */
+
+/* Tall Screens*/
+@media (min-height: 768px) {
+  .tagline-hint {
+    font-size: 30px;
+  }
+  .scroll-hint {
+    padding-bottom: 20px;
+    padding-top: 300px;
+  }
+}
+
+/* Taller Screens */
+@media (min-height: 900px) {
+  .scroll-hint {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(35%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  }
+  .tagline-hint{
+    padding-bottom: 80px;
+  }
+}
+
+/* Tallest Screens */
+@media (min-height: 1100px) {
+  .scroll-hint {
+    padding-bottom: 60px;
+    padding-top: 150px;
+  }
+  .tagline-hint{
+    padding-bottom: 400px;
+  }
+}
+
+/* Width Based */
 @media (max-width: 768px) {
     /* Removing the Ever Better graphic on mobile */
     .uofr-logo-container{width: 100%}
