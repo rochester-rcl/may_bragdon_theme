@@ -4,7 +4,7 @@
 # May Bragdon Drupal Theme
 A custom drupal theme created for the May Bragdon project.
 
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![Alt text](https://raw.githubusercontent.com/rochester-rcl/may_bragdon_theme/master/images/mayb-cover-image.png "Optional title")
 
 
 ### Table of Contents
