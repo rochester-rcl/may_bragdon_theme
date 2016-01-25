@@ -25,3 +25,6 @@ sub-theme.
 
 /* 5. Slideshow */
 @import url("slideshow.css");
+
+/* 6. Fancy Box Login Module Overides */
+@import url("fancy-box.css");
