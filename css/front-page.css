@@ -9,18 +9,22 @@
 .uofr-header{
     background-color: #021e47;
     width: 100%;
-    height: 35px;
+    height: 50px;
     padding: 5px;
     z-index: 1000;
     top: 0;
+    }
+.uofr-logo-container {
     }
 .uofr-logo-container,
 .everbetter-container {
     width: 50%;
     float: left;
+    padding-top: 7px;
+
     }
     .navbar-brand-uofr-logo {
-        width: 210px;
+        width: 460px;
         height: auto;
         }
     .navbar-brand-everbetter {
@@ -66,10 +70,13 @@
 
 .navbar-form .form-control {
       box-shadow: none;
-      border: 0;
-      background-color: #d6d6d6;
+      border:none;
+      background-color: #e7e7e7;
       color: black;
 }
+
+
+
 /**/
 
 /* Collapsed button */
@@ -95,7 +102,7 @@
   margin-top: -50px;
   }
   .cover.jump {
-      margin-top: 50px;
+      margin-top: 0px;
       }
 
 .tagline {
@@ -108,18 +115,81 @@
 }
 /**/
 
+
+.mobile-cover {
+    display: none;
+    }
+
+/**/
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    font-size: 12px;
+    z-index: 10;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+/**/
+
+.carousel-indicators {
+    display: none;
+    }
+
+.carousel-caption a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.carousel-caption a:hover,
+.carousel-caption a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
 .scroll-hint {
-  z-index: 4001;
+  z-index: 10;
   position: fixed;
-  bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 60px;
+  bottom: 0;
+  /*height: 400px;*/
   left: 0;
   right: 0;
   text-align: center;
+  /*Gradient BG*/
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.89) 72%, rgba(0,0,0,0.9) 73%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.89) 72%,rgba(0,0,0,0.9) 73%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.89) 72%,rgba(0,0,0,0.9) 73%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+
+  /*Animation*/
+  opacity: 1;
+  transition: opacity .50s ease-in-out;
+  -moz-transition: opacity .50s ease-in-out;
+  -webkit-transition: opacity .50s ease-in-out;
 }
+.scroll-hint.test {
+  opacity: 0;
+  }
+  .scroll-hint.gone {
+    display: none;
+  }
+
+  .scroll-hint-text{
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+
+  }
+
 .scroll-hint i {
   color: white;
   font-size: 30px;
 }
+
 
 .about-sec {
   padding: 100px 50px 100px 50px;
@@ -131,6 +201,66 @@
   font-weight: 100;
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+
+.hp-search-big {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 40px;
+    font-size: 18px;
+    }
+.hp-search-big form input{
+    width: 90%;
+    background-color: #e7e7e7;
+    border: none;
+    height: 60px;
+    font-size: 18px;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    }
+.hp-search-big form input:focus{
+    width: 90%;
+    outline: none;
+    background-color: white;
+    }
+.hp-search-big .btn{
+    height: 60px;
+    font-size: 23px;
+    width: 10%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    }
+.hp-search-big .btn:hover{
+    background-color: #e7e7e7;
+    }
+
+/* Tagline
+-----------------------------------*/
+
+.cover-logo{
+  width: 70%;
+}
+
+
+.tagline-hint{
+  color: lightgray;
+  font-size: 22px;
+  width: 80%;
+  font-weight: 100;
+  /* text-align: left; */
+  margin: auto;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 30px;
+}
+
+.scroll-hint-text a {color: gray;}
+.scroll-hint i  {color: gray;}
+.scroll-hint-text a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -228,9 +358,75 @@
     }
 /**/
 
+
+#carousel-example-generic img {
+    width: 100%;
+    height: auto;
+}
+
+.vertical-line hr {
+  color: white;
+  border: 1px solid white;
+  height: 500;
+}
+
+
+div.vertical-line{
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content.
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}
+
 /* MEDIA QUERIES
 --------------------------------*/
 
+/* Height Based   */
+
+/* Tall Screens*/
+@media (min-height: 768px) {
+  .tagline-hint {
+    font-size: 30px;
+  }
+  .scroll-hint {
+    padding-bottom: 20px;
+    padding-top: 300px;
+  }
+}
+
+/* Taller Screens */
+@media (min-height: 900px) {
+  .scroll-hint {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(35%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  }
+  .tagline-hint{
+    padding-bottom: 80px;
+  }
+}
+
+/* Tallest Screens */
+@media (min-height: 1100px) {
+  .scroll-hint {
+    padding-bottom: 60px;
+    padding-top: 150px;
+  }
+  .tagline-hint{
+    padding-bottom: 400px;
+  }
+}
+
+/* Width Based */
 @media (max-width: 768px) {
     /* Removing the Ever Better graphic on mobile */
     .uofr-logo-container{width: 100%}
@@ -286,11 +482,76 @@
         }
     /**/
     /**/
+    .tagline-hint{
+      font-size: 14px;
+    }
+    /**/
     .about-sec p {
       font-size: 16px;
     }
     /**/
+    .mobile-cover {
+      display: block;
+    }
+    /**/
+    .mobile-cover img{
+      width: 100%;
+      height: auto;
+      /*margin-top: -50px;*/
+    }
+    /**/
+    /**/
+    .hp-search-big {
+      width: 90%;
+    }
     /**/
     .box-images {opacity: 1;}
+    /**/
+    .hp-search-big .btn {
+    font-size: 18px;
+    width: 15%;
+    }
+    /**/
+    input.form-control.navbar-search-grow {
+    width: 85%;
+    margin: auto;
+    }
+    /**/
+    .header-search .btn {
+    display: none;
+    }
+    /**/
+    input.form-control.navbar-search-grow {
+    width: 100%;
+    margin: auto;
+    }
+    /**/
+    /**/
+    .hp-search-big form input{
+        width: 85%;
+        }
+    /**/
+    /**/
+    .header-search .form-control {
+    border-radius: 5px;
+    }
+    /**/
+    .navbar-brand-uofr-logo {
+    width: 374px;
+    height: auto;
+    margin-left: -10px;
+    text-align: center;
+    }
+    /**/
+    .box-tagline{
+      font-weight: bold;
+      font-size: 13px;
+    }
+    /**/
+    .box-date {
+    font-size: 15px;
+    }
+    /**/
+    .no-mobile {display: none;}
     /**/
 }

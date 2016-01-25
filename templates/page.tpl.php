@@ -125,7 +125,7 @@
         <!-- Nav Search box -->
           <form class="navbar-form navbar-left" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
             <div class="form-group">
-              <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
+              <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search..." title="Seach the Library website">
               </div>
           </form>
           <!-- <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button> -->

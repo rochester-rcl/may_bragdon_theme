@@ -9,16 +9,17 @@
     <!-- UofR Container -->
     <div class="uofr-logo-container">
       <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
+        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
       </a>
     </div>
     <!-- Ever Better Container -->
     <div class="everbetter-container">
-        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/everbetter.png" />
+        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-dp.png" />
     </div>
   </div>
 </div>
 
+<div style="background-color: black;">
 
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
@@ -39,6 +40,18 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://livinghistory.lib.rochester.edu">Home</a></li>
         <li><a href="http://livinghistory.lib.rochester.edu/about">About Project</a></li>
+        <!-- Nav Search box -->
+        <li>
+          <div class="header-search">
+            <form class="navbar-form navbar-left" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+                <div class="form-group">
+                  <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
+                </div>
+              </form>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+            </form>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -47,39 +60,96 @@
 <div class="spacer"></div>
 
 <!-- Cover Image -->
-<div id="awan"></div>
 
-
-<div class="about-sec">
-  <div class="container">
-    <p>
-    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius. Nihil graece vel in, utinam repudiandae eum ea, veri probo insolens vix ex. Utinam adipiscing qui at, ius quem gubergren ea.
-  </p>
+<!-- <div id="large-bg-image">
+<div class="move">
+  <span class="marker-title">Test marker</span>
+  <span class="marker-caption">May Bragdon</span>
+  </div>
+<div class="move2">
+  <span class="marker-title">Diary Page</span>
+  <span class="marker-caption">Feburary 1887</span>
 </div>
+</div> -->
+
+<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <div class="carousel-caption">
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
+      <div class="carousel-caption">
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
+      <div class="carousel-caption">
+        <a href="#"><span class="">February 25, 1897</span></a>
+        <!-- <span class="">An nostrum</span> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+<!-- / -->
+
+
+<div class="mobile-cover">
+  <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
 </div>
 
 <div class="scroll-hint">
-  <i class="fa fa-chevron-down"></i>
+
+
+<!-- Search Box -->
+<div class="hp-search-big">
+  <form class="" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+      <div class="form-group">
+        <input class="form-control" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+    </form>
+  </div>
 </div>
-
-
-<div class="main-boxes-heading">Timeline</div>
-
-
 
 <div class="tagline-hint">
-    The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="sub-tag-hint">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
+
+
 </div>
-<div class="scroll-hint-text"><a href="#begin">Explore</a></div>
+
+<!-- <div class="vertical-line"><hr width="1" size="500"></div> -->
+
+<div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>
-
-
-<div class="mobile-tagline">
-  The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
 </div>
 
 
+<!-- <div class="main-boxes-heading">Timeline</div> -->
 
 
 <!-- 4 Boxes  -->
@@ -87,7 +157,7 @@
   <a href="#">
     <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -97,7 +167,7 @@
   <a href="#">
     <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -107,7 +177,7 @@
   <a href="#">
     <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -117,7 +187,7 @@
   <a href="#">
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
@@ -125,40 +195,60 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1898-02.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">November 12, 1898-January 18, 1902</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">January 19, 1902-February 4, 1904</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">February 26, 1904-June 8, 1905</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/spoken-word.jpg" />
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
     <div class="box-text">
-      <div class="box-headline">1897-1898</div>
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+    </div>
+  </a>
+</div>
+
+<div class="box box-odd">
+  <a href="#">
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
+    <div class="box-text">
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+    </div>
+  </a>
+</div>
+
+<div class="box box-even">
+  <a href="#">
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
+    <div class="box-text">
+      <!-- <div class="box-headline">1897-1898</div> -->
+      <div class="box-tagline"><span class="box-date">January 1, 1910-December 31, 1914</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
     </div>
   </a>
 </div>

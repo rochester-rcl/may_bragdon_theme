@@ -7,15 +7,18 @@
 
 (function ($) {
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 34){
+    if ($(this).scrollTop() > 50){
         $('.navbar').addClass("fixed"); // Navbar moves to position:fixed
-        $('.cover').addClass("jump"); // Spacer
+        $('.carousel-inner').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
+       $('.header-search').addClass("show");
     }
     else{
         $('.navbar').removeClass("fixed");
-        $('.cover').removeClass("jump");
+        $('.carousel-inner').removeClass("space");
         $('.scroll-hint').removeClass("test");
+       $('.header-search').removeClass("show");
+
     }
 });
 })(jQuery);

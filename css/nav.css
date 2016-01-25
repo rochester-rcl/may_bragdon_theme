@@ -20,23 +20,20 @@ portion.
 /* CUSTOM STYLES
 -------------------------------*/
 
-.tagline-hint{
-  color: white;
-  font-size: 22px;
-  width: 80%;
-  font-weight: 100;
-  /* text-align: left; */
-  margin: auto;
-  font-family: 'Merriweather', serif;
-  padding-bottom: 30px;
-}
 
-.scroll-hint-text a {color: lightgray;}
-.scroll-hint i a {color: red;}
-.scroll-hint-text a:hover {
-  text-decoration: none;
-  color: white;
-}
+.header-search .btn {
+    margin: 8px 0px 0px 0px;
+    border-radius: 0 5px 5px 0;
+    }
+
+.header-search .form-control{
+    border-radius: 5px 0 0 5px;
+    }
+
+.header-search {display: none;}
+.header-search.show{
+    display: block;
+      }
 
 .mobile-tagline{display: none;}
 
@@ -272,7 +269,7 @@ section .block-title {
   border-radius: 1px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #71a8fc;
+  background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar:hover,
 .navbar-default .navbar-toggle .icon-bar:focus,  {
@@ -308,22 +305,24 @@ NAVBAR >> SEARCH BOX
   }
 
 /* Changing the placecolor inside navbar  */
-.navbar .form-control::-moz-placeholder {
-  color: #c4dbff;
+/*.navbar .form-control::-moz-placeholder {
+  color: gray;
   opacity: 1;
 }
 .navbar .form-control:-ms-input-placeholder {
-  color: #c4dbff;
+  color: gray;
 }
 .navbar .form-control::-webkit-input-placeholder {
-  color: #c4dbff;
-}
+  color: gray;
+}*/
 
 /* Removing padding from the searchbox.
 It was adding accessive padding-right. */
 .navbar-form {
   padding: 0;
 }
+
+/*.btn-default {border: none;}*/
 
 /* Better style for search box on mobile */
 @media (max-width: 760px) {
