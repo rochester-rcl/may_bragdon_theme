@@ -1,4 +1,4 @@
-> This project is currently under development. 2
+> This project is currently under development.
 
 # May Bragdon Drupal Theme
 A custom drupal theme created for the May Bragdon project.
