@@ -38,8 +38,24 @@
     <!-- Nav links -->
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://livinghistory.lib.rochester.edu">Home</a></li>
-        <li><a href="http://livinghistory.lib.rochester.edu/about">About Project</a></li>
+        <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+           <li><a href="#">February 27-December 31, 1893</a></li>
+           <li><a href="#">April 6, 1895-February 26, 1896</a></li>
+           <li><a href="#">February 29, 1896-February 24, 1897</a></li>
+           <li><a href="#">February 25, 1897-November 11, 1898</a></li>
+           <li><a href="#">November 12, 1898-January 18, 1902</a></li>
+           <li><a href="#">January 19, 1902-February 4, 1904</a></li>
+           <li><a href="#">February 26, 1904-June 8, 1905</a></li>
+           <li><a href="#">June 9, 1905-October 17, 1907</a></li>
+           <li><a href="#">October 18, 1907-December 31, 1909</a></li>
+           <li><a href="#">January 1, 1910-December 31, 1914</a></li>
+           <!-- <li role="separator" class="divider"></li>
+           <li><a href="#">Separated link</a></li> -->
+        </li>
+        </ul>
+        <li><a href="http://livinghistory.lib.rochester.edu">About Project</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
@@ -85,7 +101,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
-      <div class="carousel-caption">
+      <div class="carousel-caption content">
         <a href="#"><span class="">February 25, 1897</span></a>
         <!-- <span class="">An nostrum</span> -->
       </div>
@@ -107,15 +123,14 @@
   </div>
 
   <!-- Controls -->
-  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
-</div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
 <!-- / -->
 
 
@@ -144,7 +159,7 @@
 
 <!-- <div class="vertical-line"><hr width="1" size="500"></div> -->
 
-<div class="scroll-hint-text"><a href="#begin">Timeline</a></div>
+<div class="scroll-hint-text"><a href="#begin">Diaries</a></div>
 <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>
 </div>
@@ -249,7 +264,7 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">January 1, 1910-December 31, 1914</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">January 1, 1910-December 31, 1914</div>
     </div>
   </a>
 </div>
@@ -312,3 +327,4 @@
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
+<script src="js/bootstrap.js"></script>
