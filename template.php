@@ -1,17 +1,6 @@
 <?php
 
 /**
- * @file
- * template.php
- */
-
-?>
-
-
-
-<?php
-
-/**
  * Variables preprocess function for the "page" theming hook.
  */
 function may_bragdon_theme_preprocess_page(&$vars) {
@@ -67,6 +56,3 @@ function may_bragdon_theme_preprocess_page(&$vars) {
 
 }
 
-
-
-?>
