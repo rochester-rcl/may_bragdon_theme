@@ -89,10 +89,13 @@
 </div>
 </div> -->
 
-<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="carousel">
+
+<!--============== CAROUSEL  ==============-->
+<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="=">
   <!-- Indicators -->
+  <!-- <ol class="carousel-indicators"> -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">    </li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
@@ -100,81 +103,77 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
-      <div class="carousel-caption content">
-        <a href="#"><span class="">February 25, 1897</span></a>
-        <!-- <span class="">An nostrum</span> -->
+      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
+      <div class="content">
+        <div class="car-cap">
+          <a href="#">
+          <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
+          <span class="cap-date">February 25, 1897 p.67</span>
+          </a>
+        </div>
       </div>
     </div>
     <div class="item">
       <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
-      <div class="carousel-caption">
-        <a href="#"><span class="">February 25, 1897</span></a>
-        <!-- <span class="">An nostrum</span> -->
-      </div>
-    </div>
-    <div class="item">
-      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
-      <div class="carousel-caption">
-        <a href="#"><span class="">February 25, 1897</span></a>
-        <!-- <span class="">An nostrum</span> -->
-      </div>
+      <div class="carousel-caption"><a href="#"><span class="">February 25, 1897</span></a></div>
     </div>
   </div>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-     <span class="sr-only">Previous</span>
-   </a>
-   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-     <span class="sr-only">Next</span>
-   </a>
-<!-- / -->
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
+<!--============== MOBILE COVER VERSION  ==============-->
 <div class="mobile-cover">
   <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
 </div>
 
-<div class="scroll-hint">
 
 
-<!-- Search Box -->
-<div class="hp-search-big">
-  <form class="" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
-      <div class="form-group">
-        <input class="form-control" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
-    </form>
+
+<!-- <div class="scroll-hint">
+  <div class="hp-search-big">
+    <form class="" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+        <div class="form-group">
+          <input class="form-control" type="text" name="search"  placeholder="Search..." title="Seach the May Bragdon Project">
+          <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="tagline-hint">
+      An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
+  </div>
+
+  <div class="scroll-hint-text"><a href="#begin">Diaries</a></div>
+  <a href="#begin"><i class="fa fa-chevron-down"></i></a>
+</div> -->
+
+
+<!--============== ABOUT SECTION ==============-->
+<div class="tagline-section">
+  <div class="tagline-hint content">
+      An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
   </div>
 </div>
 
-<div class="tagline-hint">
-    An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
+<!--============== DIARIES  ==============-->
+<div class="main-boxes-heading">Diaries</div>
 
-
-</div>
-
-<!-- <div class="vertical-line"><hr width="1" size="500"></div> -->
-
-<div class="scroll-hint-text"><a href="#begin">Diaries</a></div>
-<a href="#begin"><i class="fa fa-chevron-down"></i></a>
-</div>
-</div>
-
-
-<!-- <div class="main-boxes-heading">Timeline</div> -->
-
-
-<!-- 4 Boxes  -->
 <div class="box box-odd">
   <a href="#">
     <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
-      <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">February 27-December 31, 1893</div>
+
     </div>
   </a>
 </div>
@@ -183,18 +182,17 @@
   <a href="#">
     <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
     <div class="box-text">
-      <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">April 6, 1895-February 26, 1896</div>
     </div>
   </a>
 </div>
+
 
 <div class="box box-odd">
   <a href="#">
     <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
     <div class="box-text">
-      <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">February 29, 1896-February 24, 1897</div>
     </div>
   </a>
 </div>
@@ -204,7 +202,8 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">February 25, 1897-November 11, 1898</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">February 25, 1897-November 11, 1898</div>
+
     </div>
   </a>
 </div>
@@ -214,7 +213,8 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1898-02.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">November 12, 1898-January 18, 1902</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">November 12, 1898-January 18, 1902</div>
+
     </div>
   </a>
 </div>
@@ -224,7 +224,7 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">January 19, 1902-February 4, 1904</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">January 19, 1902-February 4, 1904</div>
     </div>
   </a>
 </div>
@@ -234,7 +234,7 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">February 26, 1904-June 8, 1905</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">February 26, 1904-June 8, 1905</div>
     </div>
   </a>
 </div>
@@ -244,7 +244,7 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+      <div class="box-date">June 9, 1905-October 17, 1907</div>
     </div>
   </a>
 </div>
@@ -254,7 +254,7 @@
     <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
-      <div class="box-tagline"><span class="box-date">June 9, 1905-October 17, 1907</span> fierent perpetua interesset eum ad, vim nemore scripserit disputando ne. Eripuit signiferumque pro cu</div>
+        <div class="box-date">October 18, 1907-December 31, 1909</div>
     </div>
   </a>
 </div>

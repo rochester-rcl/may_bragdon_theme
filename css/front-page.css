@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
+/* ABOUT SECTION
+-----------------------------------*/
+.tagline-section {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+}
 
 
 /* HEADER
@@ -109,7 +117,7 @@
   width: 600px;
   color: white;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;;
   position: absolute;
   top: 120px;
 }
@@ -121,32 +129,48 @@
     }
 
 /**/
-.carousel-caption {
+.car-cap {
     position: absolute;
-    top: 30px;
-    right: 12px;
     font-size: 12px;
-    z-index: 10;
     color: gray;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    right: 10%;
+    bottom: 30%;
     text-align: right;
     text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    width: 400px;
     }
 /**/
+.cap-quote{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 100;
+  display: block;
+}
+.cap-date{
+  font-size: 13px;
+}
 
 .carousel-indicators {
-    display: none;
     }
 
-.carousel-caption a {
+/*.carousel-caption a {
   color: rgba(255, 255, 255, 0.8);
 }
 .carousel-caption a:hover,
 .carousel-caption a:focus {
   color: #FFF;
   text-decoration: none;
+}*/
+
+.car-cap a {
+  color: rgba(255, 255, 255, 0.8);
 }
+.car-cap a:hover,
+.car-cap a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
 
 .scroll-hint {
   z-index: 10;
@@ -299,29 +323,20 @@
     bottom: 97px;
     font-size: 35px;
     color: white;
-    font-weight: 200;
+    font-weight: 100;
     }
-.box-tagline{
-    position: absolute;
-    bottom: 27px;
-    font-size: 15px;
-    color: white;
-    font-weight: 200;
-    color: lightgray;
-    }
+
 .box-headline,
-.box-tagline {
-  margin-left: 30px;
-  margin-right: 30px;
-}
+
 .box-date{
     font-family: 'Merriweather', serif;
     display: block;
     color: white;
-    font-size: 17px;
+    font-size: 25px;
     position: absolute;
     bottom: 20px;
     left: 20px;
+    font-weight: 100;
     }
 .box-odd{border-left: none;}
 .box-even{border-right: none;}
@@ -362,6 +377,13 @@
 /**/
 
 
+.car-thumbs ol li img {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  z-index: 2000;
+  bottom: 50px;
+}
 
 #carousel-example-generic img {
     width: 100%;
@@ -390,7 +412,7 @@ div.vertical-line{
 /* Height Based   */
 
 /* Tall Screens*/
-@media (min-height: 768px) {
+/*@media (min-height: 768px) {
   .tagline-hint {
     font-size: 25px;
   }
@@ -406,10 +428,10 @@ div.vertical-line{
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
   }
-}
+}*/
 
 /* Taller Screens */
-@media (min-height: 900px) {
+/*@media (min-height: 900px) {
   .scroll-hint {
     padding-bottom: 50px;
     padding-top: 100px;
@@ -425,10 +447,10 @@ div.vertical-line{
   .tagline-hint{
     padding-bottom: 80px;
   }
-}
+}*/
 
 /* Tallest Screens */
-@media (min-height: 1100px) {
+/*@media (min-height: 1100px) {
   .scroll-hint {
     padding-bottom: 60px;
     padding-top: 150px;
@@ -436,7 +458,7 @@ div.vertical-line{
   .tagline-hint{
     padding-bottom: 400px;
   }
-}
+}*/
 
 /* Width Based */
 @media (max-width: 768px) {
@@ -463,21 +485,14 @@ div.vertical-line{
     .tagline {
         width: 100%;
         font-size: 15px;
-        font-weight: 300;
+        /*font-weight: 300;*/
         position:static;
         padding: 20px;
         }
     /**/
     /**/
-    .box-tagline{font-weight: 300;}
     /**/
     .box-headline,
-    .box-tagline {
-        margin-left: 20px;
-        margin-left: 20px;
-        }
-    .box-tagline {
-    }
     /**/
     .box { width: 100%;}
     /**/
@@ -555,10 +570,6 @@ div.vertical-line{
     text-align: center;
     }
     /**/
-    .box-tagline{
-      font-weight: bold;
-      font-size: 13px;
-    }
     /**/
     .box-date {
     font-size: 15px;

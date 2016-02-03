@@ -150,6 +150,20 @@ Changing Bootstrap Specific Styles
 -------------------------------*/
 
 /* Dropdown Menu */
+
+
+.navbar-default
+.navbar-nav>.open>a,
+.navbar-default
+.navbar-nav>.open>a:hover,
+.navbar-default
+.navbar-nav>
+.open>a:focus {
+  background-color: black;
+  color: white;
+}
+
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -164,7 +178,7 @@ Changing Bootstrap Specific Styles
     list-style: none;
     background-color: black;
     border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,0.15);
+    border: none;
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
     box-shadow: 0 6px 12px rgba(0,0,0,0.175);

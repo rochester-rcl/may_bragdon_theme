@@ -8,7 +8,7 @@ function may_bragdon_theme_preprocess_page(&$vars) {
   // Do we have a node?
   if (isset($vars['node'])) {
 
-    // Ref suggestions cuz it's stupid long.
+    // Ref suggestions.
     $suggests = &$vars['theme_hook_suggestions'];
 
     // Get path arguments.
@@ -55,4 +55,3 @@ function may_bragdon_theme_preprocess_page(&$vars) {
   }
 
 }
-
