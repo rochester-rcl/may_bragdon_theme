@@ -24,13 +24,14 @@ portion.
 .header-search .btn {
     margin: 8px 0px 0px 0px;
     border-radius: 0 5px 5px 0;
+    border-color: white;
     }
 
 .header-search .form-control{
     border-radius: 5px 0 0 5px;
     }
 
-.header-search {display: none;}
+/*.header-search {display: none;}*/
 .header-search.show{
     display: block;
       }

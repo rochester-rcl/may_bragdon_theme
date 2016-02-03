@@ -20,6 +20,7 @@ Before you install please make sure your Drupal instance meets the following req
 - [Bootstrap](https://drupal.org/project/bootstrap) 7.x-2.0 or 7.x-3.0 (base-theme must be enabled).
 - [jQuery Update](https://drupal.org/project/jquery_update) jQuery Update - 7.x-2.4 or higher. Bootstrap 2 requires a minimum jQuery version of 1.7 or higher, while Bootstrap 3 requires jQuery 1.9+
 - If using the [bootstrap carousel](http://getbootstrap.com/javascript/#carousel) you must make a change to the parent theme to fix the **next** & **previous** buttons issue [follow these instructions](https://www.drupal.org/node/2233127).
+- [Font-Awesome](https://www.drupal.org/project/fontawesome) This theme uses fontawesome. You must have it installed in order for the icons to show up.
 
 
 ### Installation
