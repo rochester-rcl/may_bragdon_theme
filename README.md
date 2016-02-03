@@ -19,6 +19,7 @@ Before you install please make sure your Drupal instance meets the following req
 
 - [Bootstrap](https://drupal.org/project/bootstrap) 7.x-2.0 or 7.x-3.0 (base-theme must be enabled).
 - [jQuery Update](https://drupal.org/project/jquery_update) jQuery Update - 7.x-2.4 or higher. Bootstrap 2 requires a minimum jQuery version of 1.7 or higher, while Bootstrap 3 requires jQuery 1.9+
+- If using the [bootstrap carousel](http://getbootstrap.com/javascript/#carousel) you must make a change to the parent theme to fix the **next** & **previous** buttons issue [follow these instructions](https://www.drupal.org/node/2233127).
 
 
 ### Installation
@@ -30,7 +31,6 @@ Install this theme as you would any other Drupal theme.
 3. In the Drupal admin go to **Apperance** > then find the **Bootstrap 3** theme > enable it but **DO NOT** set it as default.
   *(Note) the previous two lines can be done using drush with the following command: drush en bootstrap -y
 4. In the Drupal admin go to **Apperance** > then find the **May Bragdon Theme** > enable it & set as default.
-5. If using the [bootstrap carousel](http://getbootstrap.com/javascript/#carousel) you must make a change to the parent theme to fix the **next** & **previous** buttons issue [follow these instructions](https://www.drupal.org/node/2233127).
 
 
 
