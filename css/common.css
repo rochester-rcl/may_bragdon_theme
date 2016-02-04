@@ -65,14 +65,14 @@ body {
 
 /*  logged-in style adjustments
 --------------------------------------- */
-body.logged-in {
+/*body.logged-in {
   margin-top: 19px; }
 
 .logged-in .uofrbar {
   top: 29px !important; }
 
 body.logged-in .navbar-fixed-top {
-  top: 64px; }
+  top: 64px; }*/
 
 /*.logged-in .main-container.container  {margin-top: 100px;   }*/
 .logged-in .event-image-push {
