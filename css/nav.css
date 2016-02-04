@@ -259,7 +259,8 @@ section .block-title {
 
 /* Navbar color for RCL bar */
 .navbar-default {
-    background-color: #234b87;
+    background-color: black;
+    margin-bottom: 15px;
     }
 
 /* Moving navbar down to fit uofrbar */
