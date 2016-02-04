@@ -132,7 +132,7 @@
            <li><a href="#">Separated link</a></li> -->
         </li>
         </ul>
-        <li><a href="http://livinghistory.lib.rochester.edu">About Project</a></li>
+        <li><a href="http://livinghistory.lib.rochester.edu">About</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
