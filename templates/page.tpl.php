@@ -95,8 +95,7 @@
   </div>
 </div>
 
-<div style="">
-
+<div style="inside-nav">
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -132,6 +131,7 @@
     </div>
   </div>
 </header>
+</div>
 
 <div class="spacer"></div>
 <!-- /Header/ -->

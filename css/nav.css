@@ -258,7 +258,7 @@ section .block-title {
     }
 
 /* Navbar color for RCL bar */
-.navbar-default {
+.inside-nav .navbar-default {
     background-color: black;
     margin-bottom: 15px;
     }
