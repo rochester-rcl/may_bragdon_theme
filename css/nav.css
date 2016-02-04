@@ -131,7 +131,7 @@ portion.
     float: right;
     }
 
-section#block-menu-menu-lam-square,
+/*section#block-menu-menu-lam-square,
 section#block-menu-menu-carlson-research-center {
     float: right;
     }
@@ -144,7 +144,7 @@ section#block-menu-menu-carlson-research-center ul li a {
     display: inline;
     color: #afccfc;
     padding: 7px 12px;
-    }
+    }*/
 
 /* OVERIDES
 Changing Bootstrap Specific Styles
@@ -405,11 +405,11 @@ It was adding accessive padding-right. */
       width: 30%;
       font-size: 16px;
       }
-  section#block-menu-menu-lam-square ul li a,
+  /*section#block-menu-menu-lam-square ul li a,
   section#block-menu-menu-carlson-research-center ul li a {
       display: inline;
       color: #afccfc;
       padding: 5px 5px 6px 5px;
-      }
+      }*/
 
 }
