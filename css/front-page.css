@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
+
+.hide {display: none;}
+
 /* ABOUT SECTION
 -----------------------------------*/
 .tagline-section {
@@ -17,6 +20,8 @@
     left: 0;
     margin-left: 5px;
     width: 100%;
+    position: absolute;
+    bottom: 245px;
 }
 /* Indicators list style */
 .article-slide .carousel-indicators li {
@@ -580,6 +585,12 @@ div.vertical-line{
     /**/
     .tagline-hint{
       font-size: 14px;
+      position: absolute;;
+      top: 595px;
+      margin: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
     }
     /**/
     .about-sec p {
