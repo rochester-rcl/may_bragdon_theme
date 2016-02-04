@@ -51,8 +51,9 @@
 /**/
 
 
-.carousel img {
+.car-img {
   width: 100%;
+  height: auto;
 }
 
 

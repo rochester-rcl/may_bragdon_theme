@@ -102,7 +102,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
       <div class="content">
         <div class="car-cap">
           <a href="#">
@@ -114,7 +114,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
       <div class="car-cap">
         <a href="#">
         <span class="cap-quote">"There was a fire that would be remembered for ages..."</span>
@@ -124,7 +124,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
       <div class="content">
         <div class="car-cap">
           <a href="#">
