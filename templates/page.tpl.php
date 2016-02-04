@@ -251,6 +251,7 @@
 
       <!-- Left Side of Footer -->
       <div class="footer-left">
+
         <!-- <div class="social-icons">
           <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook-square"></i></a>
           <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter-square"></i></a>
@@ -271,6 +272,10 @@
             <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
           </a>
         </div>
+
+        <?php if (!empty($page['footer'])): ?>
+            <?php print render($page['footer']); ?>
+        <?php endif; ?>
 
       </div>
 
