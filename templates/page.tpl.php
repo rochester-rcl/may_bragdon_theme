@@ -79,23 +79,6 @@
 
 
 
-<!--====== UNIVERSITY HEADER ======-->
-<div class="uofr-header">
-  <div class="container">
-    <!-- UofR Container -->
-    <div class="uofr-logo-container">
-      <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
-      </a>
-    </div>
-    <!-- Ever Better Container -->
-    <div class="everbetter-container">
-        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-dp.png" />
-    </div>
-  </div>
-</div>
-
-<div class="inside-nav">
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -113,8 +96,24 @@
     <!-- Nav links -->
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://livinghistory.lib.rochester.edu">Home</a></li>
-        <li><a href="http://livinghistory.lib.rochester.edu/about">About Project</a></li>
+        <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+           <li><a href="#">February 27-December 31, 1893</a></li>
+           <li><a href="#">April 6, 1895-February 26, 1896</a></li>
+           <li><a href="#">February 29, 1896-February 24, 1897</a></li>
+           <li><a href="#">February 25, 1897-November 11, 1898</a></li>
+           <li><a href="#">November 12, 1898-January 18, 1902</a></li>
+           <li><a href="#">January 19, 1902-February 4, 1904</a></li>
+           <li><a href="#">February 26, 1904-June 8, 1905</a></li>
+           <li><a href="#">June 9, 1905-October 17, 1907</a></li>
+           <li><a href="#">October 18, 1907-December 31, 1909</a></li>
+           <li><a href="#">January 1, 1910-December 31, 1914</a></li>
+           <!-- <li role="separator" class="divider"></li>
+           <li><a href="#">Separated link</a></li> -->
+        </li>
+        </ul>
+        <li><a href="http://livinghistory.lib.rochester.edu">About Project</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
@@ -131,27 +130,7 @@
     </div>
   </div>
 </header>
-</div>
 
-<div class="spacer"></div>
-<!-- /Header/ -->
-
-<!-- Section Sub Nav -->
-<?php if(!empty($node->field_section['und'][0]['taxonomy_term'])): ?>
-<div class="section-header noprint">
-  <div class="container">
-    <div class="page-title-header">
-    <?php print $node->field_section['und'][0]['taxonomy_term']->name ?>
-    </div>
-    <!-- Nav links -->
-    <div class="menu-container">
-      <ul class="sub-nav">
-        <?php print render($page['section_header']);?>
-      </ul>
-    </div>
-  </div>
-</div>
-<?php endif;  ?>
 
 
 
