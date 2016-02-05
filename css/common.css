@@ -30,6 +30,15 @@ body {
   padding: 10px 20px;
   background-color: #021e47; }
 
+
+
+/* Page Title */
+.basic-page-title {
+    font-size: 50px;
+    border: none;
+    font-family: 'Merriweather', serif;
+}
+
 /* OVERIDES
 -------------------------------*/
 .messages-overlay {
