@@ -13,9 +13,19 @@
 
 
 
-
+  div#paged-tei-seadragon-viewer-seadragon-pane {
+      width: 35%;
+      float: left;
+  }
 
   #paged-tei-seadragon-viewer-tei-pane {
       width: 30%;
+      float: left;
+  }
+
+
+  .paged-tei-seadragon-viewer-download-datastreams {
+      display: block;
+      border: 1px solid blue;
       float: left;
   }
