@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+
+#paged-tei-seadragon-viewer-seadragon-pane {
+    width: 69%;
+}
+
 /* Files
 -----------------------------------*/
 
@@ -53,9 +58,6 @@
     text-align: left;
 }
 
-.diary-page-class .paged-tei-seadragon-viewer-pane {
-  height: 100%;
-}
 
 /* Removes the toggle button for TEI */
 button#paged-tei-seadragon-viewer-tei-toggle {
