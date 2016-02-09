@@ -2,8 +2,9 @@
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+      z-index: 5000;
+      bottom: 0px;
+      left: 10px;
 }
 
 /*

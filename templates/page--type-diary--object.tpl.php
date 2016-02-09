@@ -162,7 +162,8 @@
 
 
 
-<div class="main-container container">
+<div class="">
+  <!-- <div class="main-container container"> -->
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
