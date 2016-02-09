@@ -51,7 +51,7 @@ function may_bragdon_theme_preprocess_page(&$vars) {
     // Latter items take precedence.
     } else {
         if (isset($vars['page']['content']['system_main']['islandora_book'])) {
-            /*
+            
             
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
@@ -67,10 +67,10 @@ function may_bragdon_theme_preprocess_page(&$vars) {
             // Bring it all together.
             $suggests = array_merge(
                     $suggests, array($type), theme_get_suggestions($args, $type)
-            ); */
+            ); 
             
         } else if (isset($vars['page']['content']['islandora_compound_object_compound_navigation'])) {
-            /*
+            
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
 
@@ -85,12 +85,9 @@ function may_bragdon_theme_preprocess_page(&$vars) {
             // Bring it all together.
             $suggests = array_merge(
                     $suggests, array($type), theme_get_suggestions($args, $type)
-            );*/
+            );
         } else {
             //dpm("don't know");
         }
     }
-
-    dpm("vars");
-    dpm($vars);
 }
