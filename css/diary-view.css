@@ -4,9 +4,9 @@
 -----------------------------------*/
 
 /*header color*/
-.black {
-  opacity: 1;
-  background: black;
+.diary-page-class .navbar-default {
+  position:relative;
+  top: 0;
 }
 
 /* Tabs */

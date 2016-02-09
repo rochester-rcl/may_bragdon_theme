@@ -81,8 +81,8 @@
 
 
 <!--======  HEADER ======-->
-<div class="inside-nav">
-<header id="navbar" role="banner" class="navbar navbar-default fixed">
+<div class="diary-page-class">
+<header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <!-- LHP Logo -->
