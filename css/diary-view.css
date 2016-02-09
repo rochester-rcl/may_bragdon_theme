@@ -97,7 +97,6 @@
 }
 #paged-tei-seadragon-viewer-tei-pane {
   overflow-x: hidden;
-  min-height: 100%;
   position: absolute;
   bottom: 0;
   top: 50px;
@@ -111,6 +110,11 @@
 #paged-tei-seadragon-viewer-tei {
     overflow-x: hidden;
     max-height: 5000px;
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    bottom: 0;
+    min-height: 100%;
 }
 
 /* Removes the toggle button for TEI */
