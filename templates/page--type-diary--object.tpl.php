@@ -194,11 +194,7 @@
 
 
 <!-- Page title  -->
-      <?php if (!empty($title)): ?>
-        <div class="page-title-wrapper">
-          <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-        </div>
-      <?php endif; ?>
+<!-- Removed for now -->
 
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
