@@ -1,0 +1,94 @@
+
+
+/* Page Structure
+-----------------------------------*/
+
+
+
+/* Tabs */
+.diary-page-class .tab-container-edit-screens {
+  position: fixed;
+      z-index: 5000;
+      bottom: 0px;
+      left: 10px;
+}
+
+
+/* Viewer
+-----------------------------------*/
+#book-viewer {
+    width: 100%;
+}
+
+/* Files
+-----------------------------------*/
+
+/* Removing the download links temporarly */
+.paged-tei-seadragon-viewer-download-datastreams {
+  display: none;
+}
+/* Inclusions
+-----------------------------------*/
+
+/* TEI Region
+-----------------------------------*/
+
+
+.tei .body {
+    margin-top: -270px; /*Moves text up*/
+    padding: 0px 2em 0px 0px;
+}
+.tei > div {
+    line-height: 20px;
+}
+#paged-tei-seadragon-viewer-tei-pane {
+    max-width: 49%;
+    width: 30%;
+}
+
+/* Removes the toggle button for TEI */
+button#paged-tei-seadragon-viewer-tei-toggle {
+    display: none;
+}
+
+/* Removes the second page label */
+label.control-label {
+    display: none;
+}
+
+/*
+
+
+.main-container.container {
+    width: 100%;
+        padding: 0;
+}
+
+.content-h-c {
+    min-height: 100%;
+    border: 1px solid gray;
+  }
+
+
+
+  div#paged-tei-seadragon-viewer-seadragon-pane {
+      width: 35%;
+      float: left;
+  }
+
+  #paged-tei-seadragon-viewer-tei-pane {
+      width: 30%;
+      float: left;
+  }
+
+
+  .paged-tei-seadragon-viewer-download-datastreams {
+      display: block;
+      border: 1px solid blue;
+      float: left;
+  }
+
+  section#block-islandora-compound-object-compound-navigation {
+    float: left;
+    width: 15%;
+}*/
