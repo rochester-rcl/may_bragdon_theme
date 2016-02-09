@@ -209,7 +209,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-      <div class="content-h-c">
+      <div class="">
       <?php print render($page['content']); ?>
     </div>
 
