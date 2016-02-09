@@ -36,8 +36,9 @@
     margin-top: -200px; /*Moves text up*/
     padding: 0px 2em 0px 0px;
 }
-
-
+.tei > div {
+    line-height: 20px;
+}
 #paged-tei-seadragon-viewer-tei-pane {
     max-width: 49%;
     width: 30%;
