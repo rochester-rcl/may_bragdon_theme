@@ -7,6 +7,11 @@
       left: 10px;
 }
 
+/* Removes the toggle button for TEI */
+button#paged-tei-seadragon-viewer-tei-toggle {
+    display: none;
+}
+
 /*
 
 
