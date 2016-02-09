@@ -187,9 +187,11 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="tab-container-edit-screens">
-      <?php print render($tabs); ?>
-    </div>
+      <div class="diary-page-class">
+        <div class="tab-container-edit-screens">
+          <?php print render($tabs); ?>
+        </div>
+      </div>
     <?php endif; ?>
 
 
