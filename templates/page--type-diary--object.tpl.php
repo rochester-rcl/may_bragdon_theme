@@ -79,6 +79,7 @@
 
 
 <!--====== UNIVERSITY HEADER ======-->
+<div class="no-scroll-vert">
 <div class="uofr-header">
   <div class="container">
     <!-- UofR Container -->
@@ -282,7 +283,8 @@
 
 
 </div>
-
+</div>
+</div>
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
