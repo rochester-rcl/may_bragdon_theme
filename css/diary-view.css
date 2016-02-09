@@ -2,6 +2,7 @@
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
   position: fixed;
+  z-index: 5000;
   bottom: 10px;
   left: 10px;
 }
