@@ -197,7 +197,6 @@
       <?php if (!empty($title)): ?>
         <div class="page-title-wrapper">
           <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-           <h1>Diary Page</h1>
         </div>
       <?php endif; ?>
 
