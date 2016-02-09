@@ -25,7 +25,7 @@
 
 
 #paged-tei-seadragon-viewer-seadragon-pane {
-    width: 69%;
+    width: 70%;
 }
 
 /* Files
@@ -52,6 +52,7 @@
 #paged-tei-seadragon-viewer-tei-pane {
     max-width: 49%;
     width: 30%;
+    float: left;
 }
 
 .tei .div .p {
