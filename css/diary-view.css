@@ -35,8 +35,16 @@
 .paged-tei-seadragon-viewer-download-datastreams {
   display: none;
 }
+
+
 /* Inclusions
 -----------------------------------*/
+.inclusion-sidebar {
+  float: left;
+  width: 20%;
+  overflow-y: scroll;
+}
+
 
 /* TEI Region
 -----------------------------------*/
