@@ -79,7 +79,6 @@
 <link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/diary-view-html.css'; ?>">
 
 <!--====== UNIVERSITY HEADER ======-->
-<div class="no-scroll-vert">
 <div class="uofr-header">
   <div class="container">
     <!-- UofR Container -->
@@ -210,7 +209,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-      <div class="">
+      <div class="diary-page-class">
       <?php print render($page['content']); ?>
     </div>
 
@@ -282,7 +281,6 @@
 
 
 
-</div>
 </div>
 </div>
 

@@ -3,9 +3,7 @@
 /* Page Structure
 -----------------------------------*/
 
-.no-scroll-vert {
-  overflow:hidden;
-}
+
 
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
@@ -15,6 +13,9 @@
       left: 10px;
 }
 
+.region.region-content {
+    margin-top: -40px;
+}
 
 /* Viewer
 -----------------------------------*/
@@ -38,7 +39,7 @@
 
 .tei .body {
     margin-top: -270px; /*Moves text up*/
-    padding: 0px 2em 0px 0px;
+    padding: 0;
 }
 .tei > div {
     line-height: 20px;
@@ -46,6 +47,14 @@
 #paged-tei-seadragon-viewer-tei-pane {
     max-width: 49%;
     width: 30%;
+}
+
+.tei .div .p {
+    text-align: left;
+}
+
+.diary-page-class .paged-tei-seadragon-viewer-pane {
+  height: 100%;
 }
 
 /* Removes the toggle button for TEI */
