@@ -3,7 +3,11 @@
 /* Page Structure
 -----------------------------------*/
 
-
+/*header color*/
+.black {
+  opacity: 1;
+  background: black;
+}
 
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
