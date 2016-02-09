@@ -34,9 +34,9 @@
 
 
 #paged-tei-seadragon-viewer-seadragon-pane {
-  width: 65%;
+  width: 60%;
   position: absolute;
-  left: 20%;
+  left: 25%;
   right: 0;
   bottom: 0;
   top: 50px;
@@ -111,7 +111,7 @@
     overflow-x: hidden;
     max-height: 5000px;
     position: absolute;
-    width: 20%;
+    width: 25%;
     top: 50px;
     bottom: 0;
     min-height: 100%;
