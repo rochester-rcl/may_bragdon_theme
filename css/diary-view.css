@@ -1,4 +1,8 @@
 
+
+/* Page Structure
+-----------------------------------*/
+
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
   position: fixed;
@@ -7,8 +11,28 @@
       left: 10px;
 }
 
+
+/* Viewer
+-----------------------------------*/
+/* Inclusions
+-----------------------------------*/
+
+/* TEI Region
+-----------------------------------*/
+
+
+.tei .body {
+    margin-top: -200px; /*Moves text up*/
+    padding: 0px 2em 0px 0px;
+}
+
 /* Removes the toggle button for TEI */
 button#paged-tei-seadragon-viewer-tei-toggle {
+    display: none;
+}
+
+/* Removes the second page label */
+label.control-label {
     display: none;
 }
 
