@@ -86,15 +86,7 @@
 -----------------------------------*/
 
 .paged-tei-seadragon-viewer-left-toolbar {
-    position: absolute;
-    left: 0;
-    top: 50px;
-    text-align: center;
-    width: 24%;
-    background: #FFF;
-    border-bottom: 1px solid lightgray;
-    z-index: 6000;
-    padding: 10px;
+      padding: 10px;
 }
 
 .tei .body {
