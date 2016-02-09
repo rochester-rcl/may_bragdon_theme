@@ -56,6 +56,10 @@
   top: 100px;
 }
 
+.islandora-compound-thumbs img.active,
+.islandora-compound-thumbs img {
+  border: none;
+}
 
 /* TEI Region
 -----------------------------------*/
