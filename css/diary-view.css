@@ -95,13 +95,13 @@
 .tei > div {
     line-height: 20px;
 }
-#paged-tei-seadragon-viewer-tei-pane {
+/*#paged-tei-seadragon-viewer-tei-pane {
   overflow-x: hidden;
   position: absolute;
   bottom: 0;
   top: 50px;
   width: 20%;
-}
+}*/
 
 .tei .div .p {
     text-align: left;
