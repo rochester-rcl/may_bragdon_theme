@@ -159,10 +159,14 @@ button#paged-tei-seadragon-viewer-tei-toggle {
     display: none;
 }
 
+
+
 /* Removes the second page label */
 label.control-label {
     display: none;
 }
+
+/* - Elements inside TEI - */
 
 .tei .div .persName,
 .tei .div .placeName,
@@ -178,6 +182,32 @@ label.control-label {
 .tei .div .orgName:hover,
 .tei .div .title:hover {
     border-bottom:2px solid #5aadff;
+}
+
+.tei .date {
+  display: inline;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+  display: block;
+  text-align: left;
+  padding: 0;
+  padding-left: 0;
+  margin-left: -60px;
+  margin-top: 41px;
+}
+
+
+.tei .hi {
+    background-color: #fffac6;
+}
+.tei .class--rend--underline {
+    text-decoration: none;
+}
+.tei .hi {
+    background-color: #fffac6;
+    padding: 0px 3px;
+
 }
 
 /*
