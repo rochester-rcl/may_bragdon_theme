@@ -96,6 +96,7 @@
 .islandora-compound-thumbs img.active,
 .islandora-compound-thumbs img {
   border: none;
+  width: 100%;
 }
 
 /* TEI Region
