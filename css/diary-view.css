@@ -101,11 +101,18 @@
 /* TEI Region
 -----------------------------------*/
 
+/*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
     padding: 10px;
     position: fixed;
     left: 0px;
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    background: white;
+    z-index: 2000;
 }
+
 
 .tei .body {
     margin-top: -375px; /*Moves text up*/
