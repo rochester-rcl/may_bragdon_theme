@@ -177,7 +177,7 @@ label.control-label {
 .tei .div .placeName:hover,
 .tei .div .orgName:hover,
 .tei .div .title:hover {
-    border-bottom: #5aadff;
+    border-bottom:2px solid #5aadff;
 }
 
 /*
