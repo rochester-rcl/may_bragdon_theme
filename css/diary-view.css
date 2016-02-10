@@ -112,12 +112,14 @@
     text-align: center;
     background: white;
     z-index: 2000;
+    white-space: nowrap;
 }
 
 
 .tei {
     color: black;
     margin: 0;
+    margin-top: -150px;
 }
 
 .tei .body {
@@ -127,6 +129,7 @@
     line-height: 1.8;
     font-family: 'Merriweather', serif;
     width: 100%;
+    white-space: nowrap;
     /*margin-left: -30px;*/
 }
 .tei > div {
@@ -204,12 +207,11 @@ label.control-label {
   text-transform: uppercase;
   border-bottom: 1px solid lightgray;
   display: block;
-  padding: 0;
-  padding-left: 0;
-  width: 52%;
+  width: 100%;
   text-align: left;
-  margin-left: -35px;
+  margin-left: -55px;
   margin-top: 41px;
+  white-space: nowrap;
 }
 
 
