@@ -121,7 +121,7 @@
 }
 
 .tei .body {
-    margin-top: -375px; /*Moves text up*/
+    margin-top: 0; /*Moves text up*/
     padding: 0;
     font-size: 16px;
     line-height: 1.8;
@@ -132,6 +132,10 @@
 .tei > div {
     line-height: 20px;
 }
+
+/* Temp removing head */
+span.head {display: none;}
+
 /*#paged-tei-seadragon-viewer-tei-pane {
   overflow-x: hidden;
   position: absolute;
