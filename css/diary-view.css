@@ -40,8 +40,24 @@
   right: 0;
   bottom: 0;
   top: 50px;
-  background: black;
+  /*background: black;*/
 }
+
+
+/* Viewer Toolbars*/
+
+
+/*Right toolbar*/
+.paged-tei-seadragon-viewer-right-toolbar {
+    position: absolute;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    left: 45%;
+    z-index: 6000;
+}
+
+
 
 /* Files
 -----------------------------------*/
@@ -85,14 +101,28 @@
 /* TEI Region
 -----------------------------------*/
 
+/*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
-      padding: 10px;
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    background: white;
+    z-index: 2000;
+}
+
+
+.tei {
+    color: black;
+    margin: 15%;
 }
 
 .tei .body {
     margin-top: -375px; /*Moves text up*/
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
     font-family: 'Merriweather', serif;
     width: 128%;
@@ -118,7 +148,7 @@
     max-height: 5000px;
     position: absolute;
     width: 30%;
-    top: 50px;
+    top: 91px;
     bottom: 0;
     min-height: 100%;
     background: white;
@@ -132,6 +162,22 @@ button#paged-tei-seadragon-viewer-tei-toggle {
 /* Removes the second page label */
 label.control-label {
     display: none;
+}
+
+.tei .div .persName,
+.tei .div .placeName,
+.tei .div .orgName,
+.tei .div .title {
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid #2c91d8;
+    cursor: pointer;
+}
+.tei .div .persName:hover,
+.tei .div .placeName:hover,
+.tei .div .orgName:hover,
+.tei .div .title:hover {
+    border-bottom:2px solid #5aadff;
 }
 
 /*
