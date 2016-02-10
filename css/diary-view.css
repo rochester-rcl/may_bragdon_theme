@@ -114,6 +114,11 @@
 }
 
 
+.tei {
+    color: black;
+    margin: 15%;
+}
+
 .tei .body {
     margin-top: -375px; /*Moves text up*/
     padding: 0;
