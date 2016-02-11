@@ -55,11 +55,11 @@
            <li><a href="#">Separated link</a></li> -->
         </li>
         </ul>
-        <li><a href="http://livinghistory.lib.rochester.edu">About</a></li>
+        <li><a href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/about">About</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form class="navbar-form navbar-left" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+            <form class="navbar-form navbar-left" name="sitesearch" action="/islandora/object/islandora%3Aroot" method="post" accept-charset="UTF-8">
                 <div class="form-group">
                   <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
                 </div>
@@ -274,7 +274,7 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
+    <img class="box-images" alt="Diary February 27 to December 31, 1893" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
       <div class="box-date">February 27-December 31, 1893</div>
 
@@ -284,7 +284,7 @@
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
+    <img class="box-images" alt="Diary April 6, 1895 to February 26, 1896" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
     <div class="box-text">
       <div class="box-date">April 6, 1895-February 26, 1896</div>
     </div>
@@ -294,7 +294,7 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
+    <img class="box-images" alt="Diary February 29, 1896 to February 24, 1897" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
     <div class="box-text">
       <div class="box-date">February 29, 1896-February 24, 1897</div>
     </div>
@@ -303,7 +303,7 @@
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
+    <img class="box-images" alt="Diary February 25, 1897 to November 11, 1898" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">February 25, 1897-November 11, 1898</div>
@@ -314,7 +314,7 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1898-02.jpg" />
+    <img class="box-images" alt="Diary November 12, 1898 to January 18, 1902" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1898-02.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">November 12, 1898-January 18, 1902</div>
@@ -325,7 +325,7 @@
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
+    <img class="box-images" alt="Diary January 19, 1902 to February 4, 1904" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">January 19, 1902-February 4, 1904</div>
@@ -335,7 +335,7 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
+    <img class="box-images" alt="Diary February 26, 1904 to June 8, 1905" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">February 26, 1904-June 8, 1905</div>
@@ -345,7 +345,7 @@
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
+    <img class="box-images" alt="Diary June 9, 1905 to October 17, 1907" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">June 9, 1905-October 17, 1907</div>
@@ -355,7 +355,7 @@
 
 <div class="box box-odd">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
+    <img class="box-images" alt="Diary October 18, 1907 to December 31, 1909" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
         <div class="box-date">October 18, 1907-December 31, 1909</div>
@@ -365,7 +365,7 @@
 
 <div class="box box-even">
   <a href="#">
-    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
+    <img class="box-images" alt="Diary January 1, 1910 to December 31, 1914" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">January 1, 1910-December 31, 1914</div>
