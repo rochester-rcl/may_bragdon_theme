@@ -83,8 +83,22 @@
 
 }
 /* Hiding the front/back text */
-.inclusion-sidebar .region.region-sidebar-second h3{
-  display: none;
+/*.inclusion-sidebar .region.region-sidebar-second h3{
+  display: block;
+}*/
+.inclusion-sidebar .region.region-sidebar-second h3 {
+    display: block;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    top: 30px;
+    left: 8px;
+    background: black;
+    width: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: .6;
+    padding: 2px;
 }
 
 .islandora-compound-thumb,
@@ -99,6 +113,15 @@
   width: 100%;
 }
 
+/* Making back look closed to front */
+.islandora-compound-thumb.back {
+    margin-top: -18px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.islandora-compound-thumb.back h3{
+    display: block;
+}
 /* TEI Region
 -----------------------------------*/
 
@@ -119,7 +142,7 @@
 .tei {
     color: black;
     margin: 0;
-    margin-top: -150px;
+    margin-top: 10px;
 }
 
 .tei .body {
