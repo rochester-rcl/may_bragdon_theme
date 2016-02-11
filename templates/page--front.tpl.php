@@ -66,7 +66,6 @@
                   <input type="hidden" name="form_id" value="islandora_solr_simple_search_form">
                   <input type="hidden" name="form_token" value="<?php print drupal_get_token('maybsearch'); ?>">
                 </div>
-              </form>
               <button type="submit" class="btn btn-default" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
             </form>
           </div>
