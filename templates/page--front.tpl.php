@@ -59,7 +59,7 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form action="/" method="post" class="navbar-form navbar-left" id="islandora-solr-simple-search-form" accept-charset="UTF-8">
+            <form action="/" method="post" class="navbar-form navbar-left" name="maybsearch" id="islandora-solr-simple-search-form" accept-charset="UTF-8">
               <div>
                 <div class="form-group container-inline form-wrapper" id="edit-simple">
                   <div class="form-item form-type-textfield form-item-islandora-simple-search-query">
