@@ -59,9 +59,10 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form class="navbar-form navbar-left" name="sitesearch" action="/islandora/object/islandora%3Aroot" method="post" accept-charset="UTF-8">
+            <form class="navbar-form navbar-left" name="sitesearch" action="/" method="post" accept-charset="UTF-8">
                 <div class="form-group">
                   <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
+                  <input type="hidden" name="form_id" value="islandora_solr_simple_search_form" />
                 </div>
               </form>
               <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
