@@ -59,15 +59,15 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form class="navbar-form navbar-left" name="maybsearch" id="maybsearch" action="islandora/search/" method="post" accept-charset="UTF-8">
-                <div class="form-group form-item form-type-textfield form-item-islandora-simple-search-query">
+            <form class="navbar-form navbar-left" name="maybsearch" id="islandora-solr-simple-search-form" action="islandora/search/" method="post" accept-charset="UTF-8">
+                <div class="form-group form-item form-type-textfield form-item-islandora-simple-search-query" id="edit-simple">
                   <input class="form-control navbar-search-grow" type="text" name="islandora_simple_search_query"  placeholder="Search" title="Seach the May Bragdon Diaries">
                   <!-- need form_build_id here -->
                   <input type="hidden" name="form_id" value="islandora_solr_simple_search_form" />
                   <input type="hidden" name="form_token" value="<?php print drupal_get_token('maybsearch'); ?>" />
                 </div>
               </form>
-              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+              <button type="submit" class="btn btn-default" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
             </form>
           </div>
         </li>
