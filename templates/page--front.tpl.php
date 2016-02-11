@@ -60,8 +60,8 @@
         <li>
           <div class="header-search">
             <form class="navbar-form navbar-left" name="maybsearch" id="maybsearch" action="islandora/search/" method="post" accept-charset="UTF-8">
-                <div class="form-group">
-                  <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
+                <div class="form-group form-item form-type-textfield form-item-islandora-simple-search-query">
+                  <input class="form-control navbar-search-grow" type="text" name="islandora_simple_search_query"  placeholder="Search" title="Seach the May Bragdon Diaries">
                   <!-- need form_build_id here -->
                   <input type="hidden" name="form_id" value="islandora_solr_simple_search_form" />
                   <input type="hidden" name="form_token" value="<?php print drupal_get_token('maybsearch'); ?>" />
