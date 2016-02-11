@@ -69,9 +69,8 @@ function may_bragdon_theme_preprocess_page(&$vars) {
                     $suggests, array($type), theme_get_suggestions($args, $type)
             ); 
             
-        } else if (isset($vars['page']['content']['islandora_compound_object_compound_navigation'])) {
+        } else if (isset($vars['page']['sidebar_second']['islandora_compound_object_compound_navigation'])) {
             
-            /*
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
 
@@ -86,7 +85,7 @@ function may_bragdon_theme_preprocess_page(&$vars) {
             // Bring it all together.
             $suggests = array_merge(
                     $suggests, array($type), theme_get_suggestions($args, $type)
-            );*/
+            );
         } else {
             //dpm("don't know");
         }
