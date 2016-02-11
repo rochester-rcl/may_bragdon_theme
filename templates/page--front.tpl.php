@@ -59,10 +59,12 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form class="navbar-form navbar-left" name="sitesearch" action="/" method="post" accept-charset="UTF-8">
+            <form class="navbar-form navbar-left" name="maybsearch" id="maybsearch" action="maybragdon/" method="post" accept-charset="UTF-8">
                 <div class="form-group">
                   <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
+                  <!-- need form_build_id here -->
                   <input type="hidden" name="form_id" value="islandora_solr_simple_search_form" />
+                  <input type="hidden" name="form_token" value="<?php print drupal_get_token('maybsearch'); ?>" />
                 </div>
               </form>
               <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
