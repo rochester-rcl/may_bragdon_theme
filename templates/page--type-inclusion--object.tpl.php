@@ -136,13 +136,8 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form class="navbar-form navbar-left" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
-                <div class="form-group">
-                  <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
-                </div>
-              </form>
-              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
-            </form>
+            <?php print drupal_render(drupal_get_form('may_bragdon_simple_search_form')); ?>
+            <button type="submit" form="may-bragdon-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
           </div>
         </li>
       </ul>
