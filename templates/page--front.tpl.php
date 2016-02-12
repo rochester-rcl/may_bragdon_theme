@@ -59,18 +59,7 @@
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
-            <form action="/" method="post" class="navbar-form navbar-left" name="maybsearch" id="islandora-solr-simple-search-form" accept-charset="UTF-8">
-              <div>
-                <div class="form-group container-inline form-wrapper" id="edit-simple">
-                  <div class="form-item form-type-textfield form-item-islandora-simple-search-query">
-                    <input class="form-control navbar-search-grow" type="text" id="edit-islandora-simple-search-query" name="islandora_simple_search_query" value="" size="15" maxlength="128" class="form-text" placeholder="Search">
-                  </div>
-                </div>
-              </div>
-              <input type="hidden" name="form_token" value="<?php print drupal_get_token('maybsearch'); ?>">
-              <input type="hidden" name="form_id" value="islandora_solr_simple_search_form">
-            </form>
-            <button type="submit" form="islandora-solr-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+            <?php print drupal_render(drupal_get_form('may_bragdon_simple_search_form')); ?>
           </div>
         </li>
       </ul>
