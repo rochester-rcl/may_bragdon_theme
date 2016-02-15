@@ -409,7 +409,7 @@
             <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
           </a>
 
-          <a href="http://localhost:8080/drupal/user/login">Login</a>
+          <a href="user/login">Login</a>
         </div>
 
       </div>

@@ -222,16 +222,16 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
-      <img alt="" src="http://placehold.it/250x180">
+      <img alt="" src="https://placehold.it/250x180">
     </li>
     <li class="" data-slide-to="1" data-target="#article-photo-carousel">
-      <img alt="" src="http://placehold.it/250x180">
+      <img alt="" src="https://placehold.it/250x180">
     </li>
     <li class="" data-slide-to="2" data-target="#article-photo-carousel">
-      <img alt="" src="http://placehold.it/250x180">
+      <img alt="" src="https://placehold.it/250x180">
     </li>
     <li class="" data-slide-to="3" data-target="#article-photo-carousel">
-      <img alt="" src="http://placehold.it/250x180">
+      <img alt="" src="https://placehold.it/250x180">
     </li>
   </ol>
 </div>
@@ -416,7 +416,7 @@
             <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
           </a>
 
-          <a href="http://localhost:8080/drupal/user/login">Login</a>
+          <a href="user/login">Login</a>
         </div>
 
       </div>
@@ -429,4 +429,4 @@
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
-<script src="js/bootstrap.js"></script>
+<script src="<?php print base_path() . drupal_get_path('theme', 'bootstrap') . '/js/bootstrap.js'; ?>"></script>
