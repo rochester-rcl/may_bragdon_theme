@@ -76,7 +76,7 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/inclusion-view-html.css'; ?>">
 
 <!--====== UNIVERSITY HEADER ======-->
 <div class="uofr-header">
