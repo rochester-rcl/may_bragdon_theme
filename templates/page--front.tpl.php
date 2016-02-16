@@ -55,7 +55,7 @@
            <li><a href="#">Separated link</a></li> -->
         </li>
         </ul>
-        <li><a href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/about">About</a></li>
+        <li><a href="<?php print base_path() ?>/about">About</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
