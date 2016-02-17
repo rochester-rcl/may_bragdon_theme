@@ -224,6 +224,7 @@ label.control-label {
 .tei .div .orgName:hover,
 .tei .div .title:hover {
     border-bottom:2px solid gray;
+    cursor: pointer;
 }
 
 .tei .date {
