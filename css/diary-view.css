@@ -162,14 +162,14 @@
 
 /* Removing elements that we
 don't understand */
-/*.tei .super-magic,
+.tei .super-magic,
 .tei .sub-magic,
 .tei .facsimile, {
   display: none;
-}*/
+}
 
 /* Temp removing head */
-/*span.head {display: none;}*/
+span.head {display: none;}
 
 /*#paged-tei-seadragon-viewer-tei-pane {
   overflow-x: hidden;
