@@ -233,8 +233,9 @@ label.control-label {
   display: block;
   width: 100%;
   text-align: left;
-  /*margin-left: -55px;*/
+  margin-left: -55px;
   margin-top: 41px;
+  padding: 0px 0px 8px 45px;
   white-space: nowrap;
 }
 
