@@ -227,7 +227,7 @@ label.control-label {
     cursor: pointer;
 }
 
-/*.tei .date {
+.tei .date {
   font-size: 14px;
   text-transform: uppercase;
   border-bottom: 1px solid lightgray;
@@ -237,7 +237,7 @@ label.control-label {
   margin-left: -55px;
   margin-top: 41px;
   white-space: nowrap;
-}*/
+}
 
 
 .tei .hi {
