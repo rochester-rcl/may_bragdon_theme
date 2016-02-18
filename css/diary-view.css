@@ -12,10 +12,24 @@
 
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
-  position: fixed;
-      z-index: 5000;
-      bottom: 0px;
-      left: 10px;
+    position: fixed;
+    z-index: 5000;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    width: 30%;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.diary-page-class .nav-tabs {
+  border-bottom: none;
+  margin: 0;
+}
+.diary-page-class .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .diary-page-class .region.region-content {
