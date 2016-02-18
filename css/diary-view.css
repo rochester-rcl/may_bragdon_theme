@@ -42,7 +42,9 @@
     padding: 5px 9px;
 }
 
-
+.diary-page-class .nav-tabs > li.active > a,{
+  display: none!important;
+}
 
 
 
