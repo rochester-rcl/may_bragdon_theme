@@ -86,7 +86,7 @@
 /*.inclusion-sidebar .region.region-sidebar-second h3{
   display: block;
 }*/
-.inclusion-sidebar .region.region-sidebar-second h3 {
+.inclusion-sidebar .region.region-sidebar-second .inclusion-label {
     display: block;
     color: white;
     font-size: 11px;
@@ -114,14 +114,13 @@
 }
 
 /* Making back look closed to front */
-.islandora-compound-thumb.back {
+.islandora-compound-thumb.back .inclusion-label{
     margin-top: -18px;
     border-bottom: 1px solid black;
     margin-bottom: 10px;
-}
-.islandora-compound-thumb.back h3{
     display: block;
 }
+
 /* TEI Region
 -----------------------------------*/
 
