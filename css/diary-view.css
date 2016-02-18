@@ -293,39 +293,11 @@ label.control-label {
     font-weight: 100;
 }*/
 
-/*
+/* Media Queries
+-----------------------------------*/
 
+/* Large Sceens */
+@media (max-width: 768px) {
+  .no-mobile {display: none;}
 
-.main-container.container {
-    width: 100%;
-        padding: 0;
 }
-
-.content-h-c {
-    min-height: 100%;
-    border: 1px solid gray;
-  }
-
-
-
-  div#paged-tei-seadragon-viewer-seadragon-pane {
-      width: 35%;
-      float: left;
-  }
-
-  #paged-tei-seadragon-viewer-tei-pane {
-      width: 30%;
-      float: left;
-  }
-
-
-  .paged-tei-seadragon-viewer-download-datastreams {
-      display: block;
-      border: 1px solid blue;
-      float: left;
-  }
-
-  section#block-islandora-compound-object-compound-navigation {
-    float: left;
-    width: 15%;
-}*/

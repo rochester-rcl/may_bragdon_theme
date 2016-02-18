@@ -2,6 +2,7 @@ body, html {
   height:100%;
   width:100%;
   overflow: hidden;
+  min-width: 768px;
 }
 
 /* Hack to remove the view tab on the diary page */
