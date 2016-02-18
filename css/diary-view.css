@@ -251,6 +251,11 @@ label.control-label {
 
 }
 
+/*  removing indent */
+.tei p {
+    text-indent: 0!important;
+}
+
 /* "No markup available message" */
 /*.form-item.form-type-item.form-group {
     font-size: 19px;
