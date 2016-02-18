@@ -36,7 +36,7 @@
     border-radius: 0;
 }
 
-.diary-page-class .nav > li > a {
+.diary-page-class .diary-pass-tabs .nav > li > a {
     position: relative;
     display: block;
     padding: 5px 9px;
@@ -259,7 +259,7 @@ label.control-label {
   margin-left: -55px;
   margin-top: 41px;
   padding: 0px 0px 8px 45px;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 
 

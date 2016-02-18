@@ -170,7 +170,7 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="diary-page-class">
+      <div class="diary-page-class diary-pass-tabs">
         <div class="tab-container-edit-screens">
           <?php print render($tabs); ?>
         </div>
