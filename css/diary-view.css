@@ -100,7 +100,7 @@
     margin-top: 5px;
     width: 35px;
     height: 34px;
-    background-size: 35px 34px;
+    background-size: 35px 34px!important;
     display: block;
 }
 .unoccluded {
