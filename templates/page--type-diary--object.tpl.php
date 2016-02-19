@@ -81,7 +81,7 @@
 
 
 <!--======  HEADER ======-->
-<!-- <div class="diary-page-class"> -->
+<div class="diary-page-class">
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="">
     <div class="navbar-header">
@@ -132,7 +132,7 @@
     </div>
   </div>
 </header>
-<!-- </div> -->
+</div>
 <div class="spacer"></div>
 <!-- /Header/ -->
 
