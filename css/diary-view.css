@@ -114,7 +114,7 @@
   right: 0;
   top: 50px;
   bottom: 0;
-  padding: 1% 0% 15% 1%;
+  padding: 1% 0 0 1%;
   background-color: #30343b;
 
 }
@@ -250,7 +250,7 @@ label.control-label {
     color: black;
     font-weight: 400;
     border: 1px solid lightgray;
-    padding: 1px 5px;
+    padding: 0px 4px;
     /*font-size: 13px;*/
 }
 .tei .div .persName:hover,
