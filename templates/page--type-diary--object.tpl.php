@@ -146,8 +146,9 @@
 
 
 <div class="">
-  <!-- <div class="main-container container"> -->
 
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
+        
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead">Site slogan</p>
@@ -159,7 +160,6 @@
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
