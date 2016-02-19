@@ -160,6 +160,7 @@
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
     <?php endif; ?>
 
       <?php if (!empty($page['highlighted'])): ?>
@@ -208,6 +209,14 @@
 
 
 <!--====== FOOTER ======-->
+
+<div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <p>Cite This Stuff</p>
+    </div>
+  </div>
+</div>
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
