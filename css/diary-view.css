@@ -18,7 +18,7 @@
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
     position: fixed;
-    z-index: 1000;
+    z-index: 999;
     bottom: 0px;
     left: 0px;
     background: white;
