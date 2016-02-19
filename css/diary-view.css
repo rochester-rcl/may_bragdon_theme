@@ -122,6 +122,8 @@
 /* adding padding for buttons */
 .diary-page-class button img {
     padding: 3px!important;
+    width: 35px;
+    height: auto;
 }
 
 /*//*/
