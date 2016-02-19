@@ -117,6 +117,7 @@
     display: none;
 }
 
+/* adding padding for buttons */
 .diary-page-class button img {
     padding: 3px!important;
 }
