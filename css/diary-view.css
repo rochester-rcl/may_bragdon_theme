@@ -243,7 +243,6 @@ label.control-label {
 }
 
 /* - Elements inside TEI - */
-
 .tei .div .persName,
 .tei .div .placeName,
 .tei .div .orgName,
@@ -252,6 +251,7 @@ label.control-label {
     font-weight: 400;
     border: 1px solid lightgray;
     padding: 1px 5px;
+    font-size: 13px;
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
@@ -266,7 +266,8 @@ label.control-label {
   text-transform: uppercase;
   border-bottom: 1px solid lightgray;
   display: block;
-  width: 100%;
+  width: 120%;
+  color: gray;
   text-align: left;
   margin-left: -55px;
   margin-top: 41px;
@@ -290,6 +291,15 @@ label.control-label {
 /*  removing indent */
 .tei p {
     text-indent: 0!important;
+}
+
+.diary-page-class .caption {
+    font-family: sans-serif;
+    font-style: italic;
+    color: gray;
+    font-weight: 200;
+    border-left: 2px solid lightgray;
+    padding: 10px 0 10px 15px;
 }
 
 /* "No markup available message" */
