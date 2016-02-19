@@ -18,7 +18,7 @@
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
     position: fixed;
-    z-index: 5000;
+    z-index: 1000;
     bottom: 0px;
     left: 0px;
     background: white;
@@ -54,7 +54,7 @@
     background-color: #fff;
     border-color: #ccc;
     position: absolute;
-    z-index: 1000;
+    z-index: 4000;
     left: 23%;
     top: 100px;
 }
@@ -86,7 +86,7 @@
     margin: auto;
     text-align: center;
     left: 45%;
-    z-index: 6000;
+    z-index: 1000;
 }
 /*//*/
 
