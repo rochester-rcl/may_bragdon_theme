@@ -224,7 +224,7 @@
         <h4 class="modal-title">Cite This</h4>
       </div>
       <div class="modal-body">
-        <p>Citation Stuff</p>
+        <p>Titles Can Go Here.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
