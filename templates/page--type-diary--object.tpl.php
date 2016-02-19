@@ -159,8 +159,8 @@
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
       </aside>  <!-- /#sidebar-first -->
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
     <?php endif; ?>
 
       <?php if (!empty($page['highlighted'])): ?>
