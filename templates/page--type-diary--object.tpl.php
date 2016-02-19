@@ -148,7 +148,9 @@
 <div class="diary-page-class">
 
 <!--======= CITE THIS BUTTON  ========-->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
+  <div class="diary-page-cite">
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
+  </div>
 <!--======= // ========-->
 
   <header role="banner" id="page-header">

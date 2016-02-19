@@ -49,9 +49,14 @@
 
 /* Cite this button
 -----------------------------------*/
-.btn-lg, .btn-group-lg > .btn {
+.diary-page-cite .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
     position: absolute;
-    z-index: 5000;
+    z-index: 4000;
+    left: 25%;
+    top: 100px;
 }
 
 /* Viewer
