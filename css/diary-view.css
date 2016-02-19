@@ -360,25 +360,29 @@ label.control-label {
 @media (min-width: 1700px) {
   .tei .body {
       font-size: 18px;
+      color: blue;
     }
 }
 /*  */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .tei .body {
       font-size: 16px;
+      color: red;
     }
 }
 /*  */
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
   .tei .body {
       font-size: 15px;
+      color: green;
     }
 }
 /*  */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .tei .body {
     font-size: 13px;
     line-height: 1.6;
+    color: yellow;
     white-space: normal;
     }
 }
