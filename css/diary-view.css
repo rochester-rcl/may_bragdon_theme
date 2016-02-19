@@ -41,7 +41,9 @@
     display: block;
     padding: 5px 9px;
 }
-
+.not-logged-in .diary-page-class .tab-container-edit-screens {
+  display: none;
+}
 /*.diary-page-class .nav-tabs > li.active > a,{
   display: none!important;
 }*/
