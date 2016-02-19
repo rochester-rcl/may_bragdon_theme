@@ -217,7 +217,18 @@
 <div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      <p>Cite This Stuff</p>
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Cite This</h4>
+      </div>
+      <div class="modal-body">
+        <p>Citation Stuff</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
