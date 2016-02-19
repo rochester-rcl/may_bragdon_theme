@@ -118,44 +118,42 @@
   background-color: #333333;
 
 }
-/* Hiding the front/back text */
-/*.inclusion-sidebar .region.region-sidebar-second h3{
-  display: block;
-}*/
+
 .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
-    display: block;
-    color: white;
-    font-size: 11px;
-    position: relative;
-    top: 30px;
-    left: 8px;
-    background: black;
-    width: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    opacity: .6;
-    padding: 2px;
+  display: block;
+  color: white;
+  font-size: 11px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  background: black;
+  width: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .6;
+  padding: 2px;
 }
+
 
 .islandora-compound-thumb,
- .islandora-compound-thumbs{
-     border: none;
+.islandora-compound-thumbs{
+   border: none;
 }
-
 
 .islandora-compound-thumbs img.active,
 .islandora-compound-thumbs img {
-  border: none;
-  width: 100%;
+    border: none;
+    width: 100%;
 }
 
 /* Making back look closed to front */
-.islandora-compound-thumb.back .inclusion-label-1{
-    margin-top: -18px;
-    border-bottom: 1px solid black;
-    margin-bottom: 10px;
-    display: block;
+.inclusion-label.label-1,
+.inclusion-label.label-2,
+.inclusion-label.label-3 {
+    margin-top: -38px;
 }
+/*//*/
+
 
 /* TEI Region
 -----------------------------------*/
