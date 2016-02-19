@@ -289,7 +289,7 @@ label.control-label {
     font-weight: 400;
     border: 1px solid lightgray;
     padding: 0px 4px;
-    /*font-size: 13px;*/
+    line-height: 1.7;
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
@@ -366,7 +366,7 @@ label.control-label {
 }
 @media (max-width: 1700px) {
   .tei .body {
-      font-size: 18px;
+      font-size: 17px;
       color: blue;
       line-height: 1.3;
     }
