@@ -251,7 +251,7 @@ label.control-label {
     font-weight: 400;
     border: 1px solid lightgray;
     padding: 1px 5px;
-    font-size: 13px;
+    /*font-size: 13px;*/
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
