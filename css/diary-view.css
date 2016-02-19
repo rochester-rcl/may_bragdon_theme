@@ -59,12 +59,12 @@
     top: 100px;
 }
 
+
 /* Viewer
 -----------------------------------*/
 #book-viewer {
     width: 100%;
 }
-
 
 #paged-tei-seadragon-viewer-seadragon-pane {
   width: 55%;
@@ -73,12 +73,9 @@
   right: 0;
   bottom: 0;
   top: 50px;
-  /*background: black;*/
 }
 
-
 /* Viewer Toolbars*/
-
 
 /*Right toolbar*/
 .paged-tei-seadragon-viewer-right-toolbar {
@@ -89,6 +86,8 @@
     left: 45%;
     z-index: 6000;
 }
+/*//*/
+
 
 
 
