@@ -47,6 +47,12 @@
 }*/
 
 
+/* Cite this button
+-----------------------------------*/
+.btn-lg, .btn-group-lg > .btn {
+    position: absolute;
+    z-index: 5000;
+}
 
 /* Viewer
 -----------------------------------*/

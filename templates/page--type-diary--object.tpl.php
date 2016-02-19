@@ -145,10 +145,12 @@
 
 
 
-<div class="">
+<div class="diary-page-class">
 
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
-        
+<!--======= CITE THIS BUTTON  ========-->
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
+<!--======= // ========-->
+
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead">Site slogan</p>
@@ -171,7 +173,7 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="diary-page-class diary-pass-tabs">
+      <div class=" diary-pass-tabs">
         <div class="tab-container-edit-screens">
           <?php print render($tabs); ?>
         </div>
