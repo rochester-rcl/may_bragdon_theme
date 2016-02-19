@@ -102,6 +102,10 @@
     height: 34px;
     background-size: 35px 34px!important;
     display: block;
+    opacity: 0.6;
+}
+#tei-viewer-occluded:hover {
+  opacity: 1;
 }
 .unoccluded {
     background: url(../images/no-inclusions.png) no-repeat left top !important;
