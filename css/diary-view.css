@@ -168,7 +168,7 @@
     text-align: center;
     background: white;
     z-index: 1000;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 
