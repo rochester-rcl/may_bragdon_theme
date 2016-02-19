@@ -94,7 +94,7 @@
 /* View Occludded Buttons  */
 
 #tei-viewer-occluded {
-    background: url(../images/icon_page_occluded_black.png) no-repeat left top;
+    background: url(../images/inclusions.png) no-repeat left top;
     float: left;
     font-size: 0px;
     width: 18px;
@@ -102,7 +102,7 @@
     display: block;
 }
 .unoccluded {
-    background: url(../images/icon_page_unoccluded_black.png) no-repeat left top !important;
+    background: url(../images/no-inclusions.png) no-repeat left top !important;
 }
 
 /* Removing Clip and Annotate Icon/links */
