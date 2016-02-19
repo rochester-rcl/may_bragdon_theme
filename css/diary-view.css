@@ -54,7 +54,7 @@
     background-color: #fff;
     border-color: #ccc;
     position: absolute;
-    z-index: 4000;
+    z-index: 1000;
     left: 23%;
     top: 100px;
 }
