@@ -357,6 +357,12 @@ label.control-label {
 -----------------------------------*/
 
 /*  */
+@media (min-width: 1701px) {
+  .tei .body {
+      font-size: 18px;
+      color: orange;
+    }
+}
 @media (max-width: 1700px) {
   .tei .body {
       font-size: 18px;
