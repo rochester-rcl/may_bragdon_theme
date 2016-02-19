@@ -90,6 +90,26 @@
     left: 45%;
     z-index: 1000;
 }
+
+/* View Occludded Buttons  */
+
+#tei-viewer-occluded {
+    background: url(../images/icon_page_occluded_black.png) no-repeat left top;
+    float: left;
+    font-size: 0px;
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+.unoccluded {
+    background: url(../images/icon_page_unoccluded_black.png) no-repeat left top !important;
+}
+
+/* Removing Clip and Annotate Icon/links */
+#tei-viewer-annotate,
+.paged-tei-seadragon-viewer-right-toolbar a#clip {
+    display: none;
+}
 /*//*/
 
 
