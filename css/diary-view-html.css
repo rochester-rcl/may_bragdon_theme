@@ -6,11 +6,14 @@ body, html {
 }
 
 /* Hack to remove the view tab on the diary page */
-.nav-tabs li.active  a,{
+.nav-tabs li.active  a{
   display: none !important;
 }
 
 
+.islandora-openseadragon{
+    height:100vh;
+}
 
 /* Scrollbars
 -----------------------------------*/
