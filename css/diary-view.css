@@ -97,8 +97,10 @@
     background: url(../images/inclusions.png) no-repeat left top;
     float: left;
     font-size: 0px;
-    width: 18px;
-    height: 18px;
+    margin-top: 5px;
+    width: 35px;
+    height: 34px;
+    background-size: 35px 34px;
     display: block;
 }
 .unoccluded {
