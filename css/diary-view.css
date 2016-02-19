@@ -208,7 +208,15 @@
     z-index: 500;
     white-space: nowrap;
 }
-
+.paged-tei-seadragon-viewer-left-toolbar img {
+    width: 14px;
+    height: auto;
+    margin: 0px 27px;
+    opacity: 0.8;
+}
+.paged-tei-seadragon-viewer-left-toolbar img:hover {
+    opacity: 1;
+}
 
 .tei {
     color: black;
