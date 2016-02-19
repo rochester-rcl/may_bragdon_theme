@@ -223,8 +223,8 @@
         </button>
         <h4 class="modal-title">Cite This</h4>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab"></a></li>
-          <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab"></a></li>
+          <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
+          <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
         </ul>
       </div>
       <div class="modal-body">
