@@ -225,6 +225,7 @@
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
           <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
+          <li role="presentation" id="chicagoTab"><a href="#chicagoStyle" aria-controls="chicagoStyle" role="tab" data-toggle="tab">MLA</a></li>
         </ul>
       </div>
       <div class="modal-body">
@@ -234,6 +235,9 @@
           </div>
           <div role="tabpanel" class="tab-pane" id="mlaStyle">
             MLA Stuff Here
+          </div>
+          <div role="tabpanel" class="tab-pane" id="chicagoStyle">
+            Pizza...mmmm.
           </div>
         </div>
       </div>
