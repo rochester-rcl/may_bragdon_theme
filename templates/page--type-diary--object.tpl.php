@@ -230,15 +230,9 @@
       </div>
       <div class="modal-body">
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="apaStyle">
-            APA Stuff Here
-          </div>
-          <div role="tabpanel" class="tab-pane" id="mlaStyle">
-            MLA Stuff Here
-          </div>
-          <div role="tabpanel" class="tab-pane" id="chicagoStyle">
-            Pizza...mmmm.
-          </div>
+          <div role="tabpanel" class="tab-pane active" id="apaStyle"></div>
+          <div role="tabpanel" class="tab-pane" id="mlaStyle"></div>
+          <div role="tabpanel" class="tab-pane" id="chicagoStyle"></div>
         </div>
       </div>
       <div class="modal-footer">
