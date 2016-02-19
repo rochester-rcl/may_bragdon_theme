@@ -116,6 +116,11 @@
 .paged-tei-seadragon-viewer-right-toolbar a#clip {
     display: none;
 }
+
+.diary-page-class button img {
+    padding: 3px!important;
+}
+
 /*//*/
 
 
