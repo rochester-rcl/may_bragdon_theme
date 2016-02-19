@@ -77,7 +77,9 @@
 
 /* Viewer Toolbars*/
 
-/*Right toolbar*/
+/*Right toolbar
+- Moved to the TEI area
+*/
 .paged-tei-seadragon-viewer-right-toolbar {
     position: absolute;
     width: 55%;
