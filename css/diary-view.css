@@ -28,6 +28,8 @@
 .diary-page-class .nav-tabs {
   border-bottom: none;
   margin: 0;
+  width: 350px;
+  margin: auto;
 }
 .diary-page-class .nav-tabs > li > a {
     margin-right: 2px;
