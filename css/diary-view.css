@@ -363,19 +363,19 @@ label.control-label {
     }
 }
 /*  */
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .tei .body {
       font-size: 16px;
     }
 }
 /*  */
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .tei .body {
       font-size: 15px;
     }
 }
 /*  */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .tei .body {
     font-size: 13px;
     line-height: 1.6;
