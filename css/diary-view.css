@@ -408,6 +408,13 @@ label.control-label {
 .hi.class--rend--underwrite .name  {
     border: none;
 }
+.caption .persName,
+.caption .placeName,
+.caption .orgName,
+.caption .title,
+.caption .name  {
+    margin: 0 8px;
+}
 .caption .date {
   border: none;
   display: inline;
