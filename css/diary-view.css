@@ -414,6 +414,7 @@ label.control-label {
 .caption .title,
 .caption .name  {
     margin: 0 8px;
+    color: gray;
 }
 .caption .date {
   border: none;
@@ -422,7 +423,9 @@ label.control-label {
   padding: 0;
 }
 
-
+[data-when=|"1893-07-15"] {
+    display: none;
+}
 /*//*/
 
 
