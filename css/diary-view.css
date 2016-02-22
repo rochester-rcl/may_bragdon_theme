@@ -423,7 +423,7 @@ label.control-label {
   padding: 0;
 }
 
-[data-when=|"1893-07-15"] {
+[data-when="1893-07-15"] {
     display: none;
 }
 /*//*/
