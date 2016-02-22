@@ -214,9 +214,9 @@
 /* TEI Region
 -----------------------------------*/
 
-.tei br:nth-child(even) {
+/*.tei br:nth-child(even) {
     display: none;
-}
+}*/
 
 
 /*Moved from Viewer div*/
