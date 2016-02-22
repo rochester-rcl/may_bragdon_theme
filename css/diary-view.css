@@ -88,12 +88,21 @@
 - Moved to the TEI area
 */
 .paged-tei-seadragon-viewer-right-toolbar {
-    position: absolute;
+    /*position: absolute;
     width: 55%;
     margin: auto;
     text-align: center;
     left: 45%;
+    z-index: 500;*/
+    position: fixed;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    height: 100px;
     z-index: 500;
+    border: 1px solid yellow;
 }
 
 /* View Occludded Buttons  */
@@ -109,7 +118,8 @@
   display: block;
   opacity: 0.6;
   padding: 2px;
-  background: gray;
+  background: #4a505a;
+  border-bottom: 2px solid black;
   position: fixed;
   left: 85%;
   top: 50px;
