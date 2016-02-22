@@ -205,62 +205,6 @@
 </div>
 
 
-<!--====== FOOTER ======-->
-<div class="footer" style="margin-top: 100px;">
-    <div class="container">
-      <!-- Right Side of Footer -->
-        <div class="footer-right">
-          <div class="address">
-            <p>
-              Rare Books Special Collections Preservation <br>
-              Rush Rhees Library <br>
-              Second Floor, Room 225 <br>
-              755 Library Road <br>
-              University of Rochester	<br>
-              Rochester, NY 14627-0055 <br>
-            </p>
-            <p>
-              Phone: (585) 275-4477 <br>
-              Fax: (585) 273-1032 <br>
-              <a href="mailto:rarebks@library.rochester.edu">rarebks@library.rochester.edu</a>
-            </p>
-          </div>
-        </div>
-
-      <!-- Left Side of Footer -->
-      <div class="footer-left">
-
-        <!-- <div class="social-icons">
-          <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook-square"></i></a>
-          <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter-square"></i></a>
-          <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube-square"></i></a>
-          <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
-        </div> -->
-        <ul class="">
-          <li><a href="#">Advanced Search</a></li>
-          <li></li>
-          <li></li>
-        </ul>
-
-        <!-- Copyright  -->
-        <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
-          University of Rochester | River Campus Libraries <br>
-          Rare Books, Special Collections and Preservation
-          <a href="http://www.rochester.edu/">
-            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
-          </a>
-        </div>
-
-        <?php if (!empty($page['footer'])): ?>
-            <?php print render($page['footer']); ?>
-        <?php endif; ?>
-
-      </div>
-
-
-
-
-</div>
 
 
 <!--====== Navigation Scroll JS ======-->
