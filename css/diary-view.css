@@ -54,13 +54,16 @@
 /* Cite this button
 -----------------------------------*/
 .diary-page-cite .btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-    position: absolute;
-    z-index: 500;
-    left: 23%;
-    top: 100px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  position: absolute;
+  z-index: 500;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 5px 0 0;
+  border-bottom: none;
+  border-left: none;
 }
 
 
