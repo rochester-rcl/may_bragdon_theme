@@ -20,6 +20,13 @@ body, html {
     height:100vh;
 }
 
+/* Navigation
+-----------------------------------*/
+.navbar-default {
+  border-bottom: 1px solid #3c4049;
+}
+
+
 /* Scrollbars
 -----------------------------------*/
 
