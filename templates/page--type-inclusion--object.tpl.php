@@ -138,31 +138,41 @@
 
 
 
+<div class="diary-page-class">
+<!--======= // ========-->
 
-<div class="main-container container">
+  <header role="banner" id="page-header">
+    <?php if (!empty($site_slogan)): ?>
+      <p class="lead">Site slogan</p>
+    <?php endif; ?>
+    <?php print render($page['header']); ?>
+  </header> <!-- /#page-header -->
 
-  <div class="row">
+  <div class="">
     <?php if (!empty($page['sidebar_first'])): ?>
+      <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
+      </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-
+      <?php if (!empty($page['highlighted'])): ?>
+        <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+      <?php endif; ?>
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="tab-container-edit-screens">
-      <?php print render($tabs); ?>
-    </div>
+      <div class="diary-page-tabs">
+        <div class="tab-container-edit-screens">
+          <?php print render($tabs); ?>
+        </div>
+      </div>
     <?php endif; ?>
 
 
 <!-- Page title  -->
-      <?php if (!empty($title)): ?>
-        <div class="page-title-wrapper">
-          <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-          <h1>Inclusion Page</h1>
-        </div>
-      <?php endif; ?>
+<!-- Removed for now -->
 
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
@@ -174,19 +184,20 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-      <div class="content-h-c">
+      <div class="diary-page-class">
       <?php print render($page['content']); ?>
-      </div>
+    </div>
 
 
 
     <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="inclusion-sidebar" role="complementary">
         <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
   </div>
 </div>
-
 
 
 

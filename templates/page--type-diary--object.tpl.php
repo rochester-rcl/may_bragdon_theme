@@ -212,7 +212,7 @@
 </div>
 
 
-<!--====== FOOTER ======-->
+<!--====== Citation ======-->
 
 <div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
   <div class="modal-dialog modal-lg">
