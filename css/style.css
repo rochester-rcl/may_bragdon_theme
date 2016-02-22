@@ -28,3 +28,6 @@ sub-theme.
 
 /* 6. Dairy View Overides */
 @import url("diary-view.css");
+
+/* 7. Inclusion View Overides */
+@import url("inclusion-view.css");

@@ -1,0 +1,35 @@
+
+/* Back Button
+-----------------------------------*/
+.back-to-diary {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    background-color: gray;
+    padding: 14px 20px;
+    height: 50px;
+    color: white;
+}
+
+
+/* Media Queries
+-----------------------------------*/
+
+/* Largest  */
+@media (min-width: 1701px) {
+}
+/* Very Large  */
+@media (max-width: 1700px) {
+}
+/* Large */
+@media (max-width: 1200px) {
+
+}
+/* Main */
+@media (max-width: 1000px) {
+}
+/* Small */
+@media (max-width: 768px) {
+}
