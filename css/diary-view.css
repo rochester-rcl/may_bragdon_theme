@@ -375,6 +375,9 @@ label.control-label {
     #paged-tei-seadragon-viewer-tei {
       padding: 0px 30px 60px 60px;
     }
+  .tei .date {
+        margin-left: -63px;
+  }
 }
 /* Very Large  */
 @media (max-width: 1700px) {
