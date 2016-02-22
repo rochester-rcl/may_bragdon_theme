@@ -406,6 +406,19 @@ label.control-label {
     font-weight: 100;
 }*/
 
+
+/**/
+/* Cite this
+-----------------------------------*/
+.tab-content {
+    font-size: 17px;
+    width: 91%;
+    margin: auto;
+    border: 1px dashed lightgray;
+    padding: 30px 25px;
+    background-color: #f3f8ff;
+}
+
 /* Media Queries
 -----------------------------------*/
 
