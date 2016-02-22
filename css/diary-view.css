@@ -352,7 +352,7 @@ label.control-label {
   font-size: 14px;
   text-transform: uppercase;
   /*border-bottom: 1px solid lightgray;*/
-  border-bottom: double lightgray 1px;
+  border-bottom: double lightgray;
   display: block;
   width: 120%;
   color: gray;
@@ -382,12 +382,13 @@ label.control-label {
 }
 
 .diary-page-class .caption {
-    font-family: sans-serif;
-    font-style: italic;
-    color: gray;
-    font-weight: 200;
-    border-left: 2px solid lightgray;
-    padding: 10px 0 10px 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: gray;
+  font-weight: 200;
+  /* border-left: 2px solid lightgray; */
+  /* padding: 10px 0 10px 15px; */
+  display: block;
 }
 
 /* "No markup available message" */
