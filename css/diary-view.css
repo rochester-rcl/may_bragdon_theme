@@ -103,6 +103,7 @@
     height: 100px;
     z-index: 500;
     border: 1px solid yellow;
+    background-size: 100px 100px;
 }
 
 /* View Occludded Buttons  */
