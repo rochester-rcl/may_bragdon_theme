@@ -144,7 +144,7 @@ a#tei-viewer-occluded {
 }
 .unoccluded {
     /*background: url(../images/no-inclusions.png) no-repeat left top !important;*/
-    background: transparent!important;
+    background: #4a505a!important;
 }
 
 /* Removing Clip and Annotate Icon/links */
