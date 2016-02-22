@@ -237,6 +237,13 @@ a#tei-viewer-occluded {
     display: none;
 }*/
 
+/* Page Select Menu */
+.diary-page-class .uneditable-input, input, select, textarea {
+    max-width: 100%;
+    width: auto;
+    background: white;
+    font-size: 18px;
+}
 
 /*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
