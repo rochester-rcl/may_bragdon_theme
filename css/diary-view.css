@@ -334,7 +334,7 @@ label.control-label {
 .tei .div .placeName,
 .tei .div .orgName,
 .tei .div .title,
-.tei .div .name, {
+.tei .div .name {
     color: black;
     font-weight: 400;
     border: 1px solid lightgray;
@@ -345,7 +345,7 @@ label.control-label {
 .tei .div .placeName:hover,
 .tei .div .orgName:hover,
 .tei .div .title:hover,
-.tei .div .name:hover, {
+.tei .div .name:hover {
     border-bottom:2px solid gray;
     cursor: pointer;
 }
