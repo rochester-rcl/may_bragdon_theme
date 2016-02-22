@@ -32,6 +32,35 @@ body, html {
 -----------------------------------*/
 
 
+/* TEI SCROLLBAR */
+
+#paged-tei-seadragon-viewer-tei::-webkit-scrollbar {
+    width: 12px;
+    margin-right: 5px;
+}
+
+/* Track */
+#paged-tei-seadragon-viewer-tei::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+}
+
+/* Handle */
+#paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(96,96,96,0.8);
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+#paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(96,96,96,0.4);
+}
+
+
+
+/* DEFAULT SCROLLBAR*/
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
