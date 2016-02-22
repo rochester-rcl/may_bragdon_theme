@@ -126,7 +126,8 @@
   opacity: 1;
 }
 .unoccluded {
-    background: url(../images/no-inclusions.png) no-repeat left top !important;
+    /*background: url(../images/no-inclusions.png) no-repeat left top !important;*/
+    background: transparent!important;
 }
 
 /* Removing Clip and Annotate Icon/links */
@@ -390,14 +391,13 @@ label.control-label {
 @media (min-width: 1701px) {
   .tei .body {
       font-size: 18px;
-      /*color: orange;*/
       line-height: 1.1;
     }
     #paged-tei-seadragon-viewer-tei {
       padding: 0px 30px 60px 60px;
     }
   .tei .date {
-        margin-left: -63px;
+      margin-left: -63px;
   }
 }
 /* Very Large  */
