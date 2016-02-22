@@ -99,20 +99,20 @@
 /* View Occludded Buttons  */
 
 #tei-viewer-occluded {
-    float: left;
-    font-size: 0px;
-    margin-top: 5px;
-    width: 15%;
-    color: white;
-    font-size: 18px;
-    height: 34px;
-    display: block;
-    opacity: 0.6;
-    border-radius: 5px;
-    background: gray;
-    position: fixed;
-    left: 85%;
-    top: 50px;
+  float: left;
+  font-size: 0px;
+  margin-top: 1px;
+  width: 15%;
+  color: white;
+  font-size: 15px;
+  height: 29px;
+  display: block;
+  opacity: 0.6;
+  /* border-radius: 5px; */
+  background: gray;
+  position: fixed;
+  left: 85%;
+  top: 50px;
 }
 /*#tei-viewer-occluded {
     background: url(../images/inclusions.png) no-repeat left top;
