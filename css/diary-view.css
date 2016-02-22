@@ -96,6 +96,22 @@
 /* View Occludded Buttons  */
 
 #tei-viewer-occluded {
+    float: left;
+    font-size: 0px;
+    margin-top: 5px;
+    width: 15%;
+    color: white;
+    font-size: 18px;
+    height: 34px;
+    display: block;
+    opacity: 0.6;
+    border-radius: 5px;
+    background: gray;
+    position: fixed;
+    left: 85%;
+    top: 50px;
+}
+/*#tei-viewer-occluded {
     background: url(../images/inclusions.png) no-repeat left top;
     float: left;
     font-size: 0px;
@@ -105,7 +121,7 @@
     background-size: 35px 34px!important;
     display: block;
     opacity: 0.6;
-}
+}*/
 #tei-viewer-occluded:hover {
   opacity: 1;
 }
@@ -197,6 +213,11 @@
 
 /* TEI Region
 -----------------------------------*/
+
+.tei br:nth-child(even) {
+    display: none;
+}
+
 
 /*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
@@ -298,7 +319,7 @@ label.control-label {
     font-weight: 400;
     border: 1px solid lightgray;
     padding: 0px 4px;
-    line-height: 1.7;
+    /*line-height: 1.7;*/
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
