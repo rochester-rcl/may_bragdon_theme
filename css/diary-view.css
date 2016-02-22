@@ -400,6 +400,25 @@ label.control-label {
   display: block;
 }
 
+/* Making nested elements look better  */
+.hi.class--rend--underwrite .persName,
+.hi.class--rend--underwrite .placeName,
+.hi.class--rend--underwrite .orgName,
+.hi.class--rend--underwrite .title,
+.hi.class--rend--underwrite .name  {
+    border: none;
+}
+.caption .date {
+  border: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*//*/
+
+
 /* "No markup available message" */
 /*.form-item.form-type-item.form-group {
     font-size: 19px;
