@@ -247,7 +247,7 @@ a#tei-viewer-occluded {
 
 /*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
-    padding: 10px;
+    padding: 7px;
     position: fixed;
     left: 0px;
     width: 35%;
