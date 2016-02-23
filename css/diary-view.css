@@ -470,6 +470,15 @@ label.control-label {
   padding: 0;
 }
 
+/* When element is nested inside .name */
+.name .placeName {
+    margin: 0!important;
+    font-size: 17px;
+    border: 1px dashed black!important;
+}
+.name .placeName:hover {
+    border-bottom: 3px solid black!important;
+}
 
 /* Fixing date styles - P. 3 */
 span.date.page_p__000c.diary_A_B81_076A {
