@@ -249,10 +249,9 @@ a#tei-viewer-occluded {
 .tei br {
   content: "A" !important;
   margin-bottom: 1.5em !important;
-  border-right: 1px dotted gray;
-  clear: right;
+  border-right: 1px dotted #7cbcff;
   height: 17px;
-  width: 1px;
+  width: 4px;
   margin: 0 5px;
 }
 
