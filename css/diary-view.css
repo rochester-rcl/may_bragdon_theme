@@ -253,9 +253,9 @@ of a line */
   display: none;
 }
 
-.seg.class--rend--undone {
+/*.seg.class--rend--undone {
     color: red!important;
-}
+}*/
 
 .class--rend--overwrite {
     text-decoration: line-through;
