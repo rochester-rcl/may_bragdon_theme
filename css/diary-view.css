@@ -481,7 +481,7 @@ span[data-when="1893-07-24"] {
 @media (min-width: 1701px) {
   .tei .body {
       font-size: 18px;
-      line-height: 1.1;
+      line-height: 2;
     }
     #paged-tei-seadragon-viewer-tei {
       padding: 0px 30px 60px 60px;
@@ -492,7 +492,7 @@ span[data-when="1893-07-24"] {
   .tei .body {
       font-size: 17px;
       /*color: blue;*/
-      line-height: 1.1;
+      line-height: 2;
     }
   #paged-tei-seadragon-viewer-tei {
     padding: 0px 30px 60px 25px;
@@ -503,7 +503,7 @@ span[data-when="1893-07-24"] {
   .tei .body {
       font-size: 16px;
       /*color: red;*/
-      line-height: 1.4;
+      line-height: 1.9;
     }
   #paged-tei-seadragon-viewer-tei {
     padding: 0px 25px 60px 10px;
@@ -514,7 +514,7 @@ span[data-when="1893-07-24"] {
   .tei .body {
       font-size: 15px;
       /*color: green;*/
-      line-height: 1.5;
+      line-height: 1.9;
     }
   #paged-tei-seadragon-viewer-tei {
     padding: 0px 15px 60px 10px;
@@ -524,7 +524,7 @@ span[data-when="1893-07-24"] {
 @media (max-width: 768px) {
   .tei .body {
     font-size: 13px;
-    line-height: 1.6;
+    line-height: 1.8;
     /*color: lightblue;*/
     white-space: normal;
     }
