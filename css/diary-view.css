@@ -269,9 +269,9 @@ of a line */
 .caption + br {
   display: none;
 }
-.body br:last-child {
+/*.body br:last-child {
     display: none;
-}
+}*/
 
 /*.seg.class--rend--undone {
     color: red!important;
