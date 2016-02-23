@@ -252,6 +252,10 @@ a#tei-viewer-occluded {
   margin: 0!important;
 }
 
+/* Fixing wierd .div issue */
+.tei .div .p {
+  display: inline;
+}
 .tei .body > .div {
     display: inline;
     counter-increment: div1;
