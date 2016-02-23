@@ -252,6 +252,13 @@ a#tei-viewer-occluded {
   margin: 0!important;
 }
 
+.tei .body > .div {
+    display: inline;
+    counter-increment: div1;
+    counter-reset: div2;
+    margin: 0;
+}
+
 /* Removing the ""|"" @ the begining
 of a line */
 .date + br,
