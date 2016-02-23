@@ -246,7 +246,8 @@ a#tei-viewer-occluded {
     border: none!important;
 }*/
 
-
+/* Removing the ""|"" @ the begining
+of a line */
 .date + br,
 .caption + br {
   display: none;
@@ -255,6 +256,16 @@ a#tei-viewer-occluded {
 .seg.class--rend--undone {
     color: red!important;
 }
+
+.class--rend--overwrite {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+/*.seg.class--rend--undone {
+    color: red!important;
+}*/
 
 .tei br {
   content: "A" !important;
@@ -340,7 +351,6 @@ span.head {display: none;}
 .tei .div .p {
     text-align: left;
 }
-
 #paged-tei-seadragon-viewer-tei {
     overflow-x: hidden;
     max-height: 5000px;
@@ -356,14 +366,10 @@ span.head {display: none;}
 button#paged-tei-seadragon-viewer-tei-toggle {
     display: none;
 }
-
-
-
 /* Removes the second page label */
 label.control-label {
     display: none;
 }
-
 /* - Elements inside TEI - */
 .tei .div .persName,
 .tei .div .placeName,
