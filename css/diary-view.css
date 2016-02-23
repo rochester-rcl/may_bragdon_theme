@@ -240,13 +240,20 @@ a#tei-viewer-occluded {
 /*.tei br:nth-child(even) {
     display: none;
 }*/
+
+p br:first-child {
+    display: block!important;
+    border: none!important;
+}
+
 .tei br {
-    content: "A" !important;
-    display: block !important;
-    margin-bottom: 1.5em !important;
-    border-right: 1px solid gray;
-    height: 17px;
-    width: 1px;
+  content: "A" !important;
+  margin-bottom: 1.5em !important;
+  border-right: 1px dotted gray;
+  clear: right;
+  height: 17px;
+  width: 1px;
+  margin: 0 5px;
 }
 
 /* Page Select Menu */
