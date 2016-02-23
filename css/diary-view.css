@@ -262,7 +262,6 @@ of a line */
     opacity: 0.5;
 }
 
-
 /*.seg.class--rend--undone {
     color: red!important;
 }*/
@@ -407,17 +406,12 @@ label.control-label {
   /*white-space: nowrap;*/
 }
 
-
-.tei .hi {
-    background-color: #fffac6;
-}
 .tei .class--rend--underline {
     text-decoration: none;
 }
 .tei .hi {
     background-color: #fffac6;
     padding: 0px 3px;
-
 }
 
 /*  removing indent */
@@ -430,8 +424,6 @@ label.control-label {
   font-style: italic;
   color: gray;
   font-weight: 200;
-  /* border-left: 2px solid lightgray; */
-  /* padding: 10px 0 10px 15px; */
   display: block;
 }
 
@@ -462,7 +454,6 @@ span[data-when="1893-07-24"] {
     display: none;
 }
 /*//*/
-
 
 
 /* Cite this
