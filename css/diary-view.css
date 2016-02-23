@@ -453,12 +453,13 @@ label.control-label {
 
 /* Fixing date styles - P. 3 */
 span.date.page_p__000c.diary_A_B81_076A {
-    color: black;
-    margin: 0;
-    border: none;
-    text-transform: inherit;
-    display: inline;
-    padding: 0;
+  color: black;
+  margin: 0;
+  border: none;
+  text-transform: inherit;
+  display: inline;
+  padding: 0;
+  font-size: inherit;
 }
 
 /*//*/
