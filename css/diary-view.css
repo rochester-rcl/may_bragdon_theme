@@ -252,6 +252,10 @@ a#tei-viewer-occluded {
   margin: 0!important;
 }
 
+/* Fixing wierd .div issue */
+.tei .div .p {
+  display: inline;
+}
 .tei .body > .div {
     display: inline;
     counter-increment: div1;
@@ -265,6 +269,9 @@ of a line */
 .caption + br {
   display: none;
 }
+/*.body br:last-child {
+    display: none;
+}*/
 
 /*.seg.class--rend--undone {
     color: red!important;
@@ -463,6 +470,11 @@ label.control-label {
   padding: 0;
 }
 
+/* When element is nested inside .name */
+
+.name .placeName:hover {
+    border-bottom: 3px solid black!important;
+}
 
 /* Fixing date styles - P. 3 */
 span.date.page_p__000c.diary_A_B81_076A {
