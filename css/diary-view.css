@@ -386,6 +386,7 @@ label.control-label {
   text-align: left;
   margin-left: -55px;
   margin-top: 41px;
+  margin-bottom: 30px;
   padding: 0px 0px 8px 45px;
   /*white-space: nowrap;*/
 }
