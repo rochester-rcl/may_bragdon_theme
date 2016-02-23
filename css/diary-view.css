@@ -125,6 +125,10 @@
   left: 85%;
   top: 50px;
 }
+.logged-in #tei-viewer-occluded {
+  top: 70px;
+}
+
 a#tei-viewer-occluded {
   text-decoration: none;
 }
