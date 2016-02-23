@@ -246,6 +246,12 @@ a#tei-viewer-occluded {
     border: none!important;
 }*/
 
+
+/* Removing the P tag style */
+.tei .p {
+  margin: 0!important;
+}
+
 /* Removing the ""|"" @ the begining
 of a line */
 .date + br,
