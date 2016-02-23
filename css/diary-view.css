@@ -450,9 +450,17 @@ label.control-label {
   padding: 0;
 }
 
-span[data-when="1893-07-24"] {
-    display: none;
+
+/* Fixing date styles - P. 3 */
+span.date.page_p__000c.diary_A_B81_076A {
+    color: black;
+    margin: 0;
+    border: none;
+    text-transform: inherit;
+    display: inline;
+    padding: 0;
 }
+
 /*//*/
 
 
