@@ -237,9 +237,9 @@ a#tei-viewer-occluded {
 /* TEI Region
 -----------------------------------*/
 
-.tei br:nth-child(even) {
+/*.tei br:nth-child(even) {
     display: none;
-}
+}*/
 .tei br {
     content: "A" !important;
     display: block !important;
