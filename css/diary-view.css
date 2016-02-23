@@ -247,7 +247,8 @@ a#tei-viewer-occluded {
 }*/
 
 
-.date + br {
+.date + br,
+.caption + br {
   display: none;
 }
 
