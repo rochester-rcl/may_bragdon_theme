@@ -237,9 +237,17 @@ a#tei-viewer-occluded {
 /* TEI Region
 -----------------------------------*/
 
-/*.tei br:nth-child(even) {
+.tei br:nth-child(even) {
     display: none;
-}*/
+}
+.tei br {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 1.5em !important;
+    border-right: 1px solid gray;
+    height: 17px;
+    width: 1px;
+}
 
 /* Page Select Menu */
 .diary-page-class .uneditable-input, input, select, textarea {
