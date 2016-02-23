@@ -252,6 +252,10 @@ a#tei-viewer-occluded {
   display: none;
 }
 
+.seg.class--rend--undone {
+    color: red!important;
+}
+
 .tei br {
   content: "A" !important;
   margin-bottom: 1.5em !important;
