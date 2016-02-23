@@ -423,7 +423,7 @@ label.control-label {
   padding: 0;
 }
 
-[data-when="1893-07-15"] {
+span[data-when="1893-07-24"] {
     display: none;
 }
 /*//*/
@@ -467,9 +467,6 @@ label.control-label {
     #paged-tei-seadragon-viewer-tei {
       padding: 0px 30px 60px 60px;
     }
-  .tei .date {
-      margin-left: -63px;
-  }
 }
 /* Very Large  */
 @media (max-width: 1700px) {
