@@ -241,10 +241,10 @@ a#tei-viewer-occluded {
     display: none;
 }*/
 
-p br:first-child {
+/*p br:first-child {
     display: block!important;
     border: none!important;
-}
+}*/
 
 .tei br {
   content: "A" !important;
