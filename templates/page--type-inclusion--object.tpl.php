@@ -80,7 +80,7 @@
 
 
 <!--======  HEADER ======-->
-<div class="diary-page-class" id="inclusion-page">
+<div class="diary-page-class inclusion-page-class" id="inclusion-page">
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="">
     <div class="navbar-header">

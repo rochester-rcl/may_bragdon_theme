@@ -14,6 +14,66 @@
 }
 
 
+
+/* Right Side Inclusions Pane
+-----------------------------------*/
+.inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
+  float: left;
+  width: 15%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  padding: 1% 0 0 1%;
+  background-color: #30343b;
+
+}
+.logged-in .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
+  top: 80px;
+}
+
+.inclusion-page-class .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
+  display: block;
+  color: white;
+  font-size: 11px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  background: black;
+  width: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .6;
+  padding: 2px;
+}
+
+
+.inclusion-page-class .islandora-compound-thumb,
+.inclusion-page-class .islandora-compound-thumbs{
+   border: none;
+}
+
+.inclusion-page-class .islandora-compound-thumbs img.active,
+.inclusion-page-class .islandora-compound-thumbs img {
+    border: none;
+    width: 100%;
+}
+
+/* Making back look closed to front */
+.inclusion-label.label-1,
+.inclusion-label.label-2,
+.inclusion-label.label-3 {
+    margin-top: -38px;
+}
+
+.islandora-compound-title {
+    color: gray;
+}
+/*//*/
+
+
 /* Media Queries
 -----------------------------------*/
 
