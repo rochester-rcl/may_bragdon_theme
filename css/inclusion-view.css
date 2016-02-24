@@ -17,7 +17,7 @@
 
 /* Right Side Inclusions Pane
 -----------------------------------*/
-.inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
+.inclusion-page-class .inclusion-page-sidebar .region.region-sidebar-second{
   float: left;
   width: 15%;
   overflow-y: auto;
