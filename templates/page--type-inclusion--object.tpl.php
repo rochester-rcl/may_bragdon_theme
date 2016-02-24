@@ -191,7 +191,7 @@
 
 
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="inclusion-page-sidebar" role="complementary">
+      <aside class="inclusion-sidebar" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
