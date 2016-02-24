@@ -103,18 +103,18 @@
          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
          <ul class="dropdown-menu">
            <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A1">February 27-December 31, 1893</a></li>
-           <!-- <li><a href="#">April 6, 1895-February 26, 1896</a></li>
-           <li><a href="#">February 29, 1896-February 24, 1897</a></li> -->
+           <li><a href="#">April 6, 1895-February 26, 1896</a></li>
+           <li><a href="#">February 29, 1896-February 24, 1897</a></li>
            <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A576">February 25, 1897-November 11, 1898</a></li>
-           <!-- <li><a href="#">November 12, 1898-January 18, 1902</a></li>
+           <li><a href="#">November 12, 1898-January 18, 1902</a></li>
            <li><a href="#">January 19, 1902-February 4, 1904</a></li>
            <li><a href="#">February 26, 1904-June 8, 1905</a></li>
            <li><a href="#">June 9, 1905-October 17, 1907</a></li>
            <li><a href="#">October 18, 1907-December 31, 1909</a></li>
-           <li><a href="#">January 1, 1910-December 31, 1914</a></li> -->
+           <li><a href="#">January 1, 1910-December 31, 1914</a></li>
 
-           <!-- <li role="separator" class="divider"></li>
-           <li><a href="#">Separated link</a></li> -->
+           <li role="separator" class="divider"></li>
+           <li><a href="#">View All</a></li>
         </li>
         </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
@@ -183,11 +183,12 @@
     <?php endif; ?>
 
 
-<!-- Page title  -->
-<!-- Removed for now -->
-
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
+<!--===== ALERTS  =====-->
+<?php if (!empty($messages)): ?>
+  <div class="alert-messages-container">
+      <?php print render($messages); ?>
+  </div>
+<?php endif; ?>
 
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>

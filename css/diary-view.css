@@ -8,6 +8,17 @@
     width: 85%;
 }
 
+/* Alert Messages */
+.diary-page-class .alert-messages-container {
+  width: 70%;
+  position: absolute;
+  z-index: 6000;
+  top: 65%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 /*header color*/
 .diary-page-class .navbar-default {
   position:relative;
