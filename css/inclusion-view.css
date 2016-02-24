@@ -28,11 +28,10 @@
   bottom: 0;
   padding: 1% 0 0 1%;
   background-color: #30343b;
-
 }
-.logged-in .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
+/*.logged-in .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
   top: 80px;
-}
+}*/
 
 .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
   display: block;
