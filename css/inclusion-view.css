@@ -54,6 +54,7 @@
 .inclusion-page-class .navbar-default {
   background: black;
   border-bottom: 1px solid #3c4049;
+  padding-right: 30px;
 }
 /* Moving the logo for the "back to diary" btn */
 .inclusion-page-class .navbar-default .navbar-brand {

@@ -188,7 +188,7 @@ Changing Bootstrap Specific Styles
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: white;
     text-decoration: none;
-    background-color: gray;
+    background-color: #30343b;
 }
 
 .dropdown-menu>li>a {
@@ -210,6 +210,12 @@ Changing Bootstrap Specific Styles
 .navbar-default .navbar-nav>.open>a{
     color: white;
     background-color: black;
+}
+
+
+/* Changing the divider */
+.dropdown-menu .divider {
+    background-color: #30343b;
 }
 
 /* // */
