@@ -19,6 +19,7 @@
 -----------------------------------*/
 .inclusion-page-class .navbar-default {
   background: black;
+  border-bottom: 1px solid #3c4049;
 }
 
 
@@ -32,7 +33,14 @@
     left: 0px;
     background: rgba(0,0,0,0.7);
     width: 100%;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #3c4049;
+}
+
+.inclusion-page-class .nav-tabs {
+    border-bottom: none;
+    margin: 0;
+    width: 100%;
+    margin: auto;
 }
 
 /* Right Side Inclusions Pane
