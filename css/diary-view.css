@@ -3,6 +3,16 @@
 /* Page Structure
 -----------------------------------*/
 
+/*Page Title*/
+.diary-page-class .basic-page-title {
+    font-size: 19px;
+    border: none;
+    color: white;
+    font-weight: 100;
+    float: left;
+}
+
+
 .diary-page-class .region.region-content {
     margin-top: 0;
     width: 85%;
