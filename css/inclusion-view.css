@@ -8,7 +8,7 @@
     left: 0;
     font-size: 15px;
     background-color: #30343b;
-    padding: 14px 20px;
+    padding: 14px 20px 14px 43px;
     height: 50px;
     color: white;
     color: white;
@@ -27,7 +27,10 @@
     left: 12px;
     z-index: 1500;
 }
-
+.back-to-diary a:hover,
+.back-to-diary a:focus{
+    background-color: #50555e;
+}
 
 
 
@@ -55,7 +58,7 @@
 /* Moving the logo for the "back to diary" btn */
 .inclusion-page-class .navbar-default .navbar-brand {
     color: #777;
-    margin-left: 140px;
+    margin-left: 153px;
 }
 
 
