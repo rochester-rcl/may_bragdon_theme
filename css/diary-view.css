@@ -418,11 +418,10 @@ label.control-label {
 .tei .div .orgName,
 .tei .div .title,
 .tei .div .name {
-    color: black;
+    color: #248ED1;
     font-weight: 400;
-    border: 1px solid lightgray;
+    border: 1px solid #eae7da;
     padding: 0px 4px;
-    /*line-height: 1.7;*/
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
