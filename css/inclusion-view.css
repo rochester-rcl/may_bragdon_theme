@@ -54,12 +54,26 @@ a .back-to-diary {
     width: 100%;
     border-top: 1px solid #3c4049;
 }
-
 .inclusion-page-class .nav-tabs {
     border-bottom: none;
     margin: 0;
     width: 100%;
     margin: auto;
+}
+.inclusion-page-class .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.inclusion-page-class .diary-pass-tabs .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 5px 9px;
+}
+.not-logged-in .inclusion-page-class .tab-container-edit-screens {
+  display: none;
 }
 
 /* Right Side Inclusions Pane
