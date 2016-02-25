@@ -1,7 +1,7 @@
 
 /* Back Button
 -----------------------------------*/
-.back-to-diary {
+.back-to-diary a{
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -11,13 +11,21 @@
     padding: 14px 20px;
     height: 50px;
     color: white;
-}
-a .back-to-diary {
     color: white;
     text-decoration: none;
 }
 .logged-in .back-to-diary {
     top:20px;
+}
+/* Arrow Icon */
+.inclusion-page-class i.fa.fa-angle-left {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    font-size: 49px;
+    color: white;
+    left: 12px;
+    z-index: 1500;
 }
 
 
@@ -104,9 +112,7 @@ a .back-to-diary {
   bottom: 0;
   padding: 1% 0 0 1%;
   background-color: #1a1d21;
-
 }
-
 .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
   display: block;
   color: white;
