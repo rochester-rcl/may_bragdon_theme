@@ -163,7 +163,7 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="diary-page-tabs">
+      <div class="inlusion-page-tabs">
         <div class="tab-container-edit-screens">
           <?php print render($tabs); ?>
         </div>

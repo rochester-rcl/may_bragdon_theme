@@ -9,7 +9,6 @@ body, html {
 /* Hack to remove the view tab on the diary page */
 .diary-page-tabs .nav-tabs li.active  a{
   display: none !important;
-
 }
 
 .diary-page-tabs .nav > li > a {

@@ -6,3 +6,7 @@ body, html {
   min-width: 768px;
   background-color: #30343b;
 }
+/* Hack to remove the view tab on the inclusion page */
+.diary-page-tabs .nav-tabs li.active  a{
+  display: none !important;
+}

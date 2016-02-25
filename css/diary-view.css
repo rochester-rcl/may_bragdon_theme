@@ -50,7 +50,7 @@
     border-radius: 0;
 }
 
-.diary-page-class .diary-pass-tabs .nav > li > a {
+.diary-page-class .diary-page-tabs .nav > li > a {
     position: relative;
     display: block;
     padding: 5px 9px;

@@ -67,7 +67,7 @@ a .back-to-diary {
     border-radius: 0;
 }
 
-.inclusion-page-class .diary-pass-tabs .nav > li > a {
+.inclusion-page-class .inclusion-pass-tabs .nav > li > a {
     position: relative;
     display: block;
     padding: 5px 9px;
