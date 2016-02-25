@@ -5,13 +5,19 @@
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
-    font-size: 19px;
+    font-size: 16px;
     border: none;
     color: white;
     font-weight: 100;
     float: left;
+    /* padding: 0; */
+    position: absolute;
+    margin: 0;
+    left: 40%;
+    top: 16px;
+    right: 0;
+    /* padding-top: 12px; */
 }
-
 
 .diary-page-class .region.region-content {
     margin-top: 0;
