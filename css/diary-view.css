@@ -314,14 +314,6 @@ of a line */
     color: red!important;
 }*/
 
-.tei br {
-  content: "A" !important;
-  margin-bottom: 1.5em !important;
-  border-right: 1px dotted #7cbcff;
-  height: 17px;
-  width: 4px;
-  margin: 0 5px;
-}
 
 /* Page Select Menu */
 .diary-page-class .uneditable-input, input, select, textarea {
@@ -574,6 +566,14 @@ span.date.page_p__000c.diary_A_B81_076A {
   #paged-tei-seadragon-viewer-tei {
     padding: 0px 15px 20px 25px;
   }
+  .tei br {
+    content: "A" !important;
+    margin-bottom: 1.5em !important;
+    border-right: 1px dotted #7cbcff;
+    height: 17px;
+    width: 4px;
+    margin: 0 5px;
+  }
 }
 /* Small */
 @media (max-width: 768px) {
@@ -585,5 +585,13 @@ span.date.page_p__000c.diary_A_B81_076A {
     }
   #paged-tei-seadragon-viewer-tei {
     padding: 0px 15px 20px 15px;
+  }
+  .tei br {
+    content: "A" !important;
+    margin-bottom: 1.5em !important;
+    border-right: 1px dotted #7cbcff;
+    height: 17px;
+    width: 4px;
+    margin: 0 5px;
   }
 }
