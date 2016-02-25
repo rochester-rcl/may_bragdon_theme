@@ -452,6 +452,7 @@ label.control-label {
 .tei .class--rend--underline {
     border-bottom: 2px solid #eae5d2;
     background-color: transparent;
+    text-decoration: none;
 }
 
 
