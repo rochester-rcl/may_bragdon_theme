@@ -138,7 +138,7 @@
 
 
 
-<div class="diary-page-class">
+<div class="diary-page-class inclusion-page-class">
 <!--======= // ========-->
 
   <header role="banner" id="page-header">
