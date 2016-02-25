@@ -16,7 +16,6 @@ portion.
 
 
 
-
 /* CUSTOM STYLES
 -------------------------------*/
 
@@ -255,10 +254,9 @@ section .block-title {
 
 /* Size and positioning for the RCL Logo */
 .navbar-brand img {
-    width: 168px;
+    width: 240px;
     height: auto;
     position: relative;
-    bottom: 3px;
     }
 
 /* Navbar color for RCL bar */
