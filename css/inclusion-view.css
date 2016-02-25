@@ -14,11 +14,26 @@
 }
 
 
+
+/* Nav overides
+-----------------------------------*/
 .inclusion-page-class .navbar-default {
   background: black;
 }
 
 
+
+/* Admin Tabs
+-----------------------------------*/
+.inclusion-page-class .tab-container-edit-screens {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
 
 /* Right Side Inclusions Pane
 -----------------------------------*/
