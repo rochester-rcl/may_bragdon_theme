@@ -14,6 +14,13 @@
 }
 
 
+/* Additional info
+-----------------------------------*/
+
+/* Removing the details for now */
+.inclusion-page-class .islandora-large-image-metadata {
+    display: none;
+}
 
 /* Nav overides
 -----------------------------------*/
