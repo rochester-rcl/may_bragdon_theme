@@ -179,7 +179,7 @@ Changing Bootstrap Specific Styles
     list-style: none;
     background-color: black;
     border: 1px solid #ccc;
-    border: none;
+    border: 1px solid #30343b;
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
     box-shadow: 0 6px 12px rgba(0,0,0,0.175);
