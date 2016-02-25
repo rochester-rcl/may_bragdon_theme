@@ -7,10 +7,13 @@
     top: 0;
     left: 0;
     font-size: 15px;
-    background-color: gray;
+    background-color: #30343b;
     padding: 14px 20px;
     height: 50px;
     color: white;
+}
+.logged-in .back-to-diary {
+    top:30px;
 }
 
 
@@ -27,6 +30,11 @@
 .inclusion-page-class .navbar-default {
   background: black;
   border-bottom: 1px solid #3c4049;
+}
+/* Moving the logo for the "back to diary" btn */
+.inclusion-page-class .navbar-default .navbar-brand {
+    color: #777;
+    margin-left: 140px;
 }
 
 
