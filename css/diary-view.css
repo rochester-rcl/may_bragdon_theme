@@ -18,6 +18,9 @@
     right: 0;
     /* padding-top: 12px; */
 }
+.diary-page-class .page-title-wrapper {
+    margin-top: 0;
+}
 
 .diary-page-class .region.region-content {
     margin-top: 0;
