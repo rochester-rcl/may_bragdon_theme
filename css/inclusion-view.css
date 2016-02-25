@@ -14,7 +14,7 @@
     color: white;
     text-decoration: none;
 }
-.logged-in .back-to-diary {
+.logged-in .back-to-diary a {
     top:20px;
 }
 /* Arrow Icon */
