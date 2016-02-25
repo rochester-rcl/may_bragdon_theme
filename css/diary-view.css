@@ -577,6 +577,10 @@ span.date.page_p__000c.diary_A_B81_076A {
     width: 4px;
     margin: 0 5px;
   }
+  .diary-page-class .basic-page-title {
+    left: 248px;
+    font-size: 14px;
+  }
 }
 /* Small */
 @media (max-width: 768px) {
@@ -599,5 +603,6 @@ span.date.page_p__000c.diary_A_B81_076A {
   }
   .diary-page-class .basic-page-title {
     left: 248px;
+    font-size: 14px;
   }
 }
