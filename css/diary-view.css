@@ -418,7 +418,7 @@ label.control-label {
 .tei .div .orgName,
 .tei .div .title,
 .tei .div .name {
-    color: #248ED1;
+    color: black;
     font-weight: 400;
     /*border: 1px solid #eae7da;*/
     padding: 0px 2px;
