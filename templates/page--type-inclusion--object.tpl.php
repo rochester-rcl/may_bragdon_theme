@@ -79,6 +79,13 @@
 <link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/inclusion-view-html.css'; ?>">
 
 
+
+<!-- Back button arrow -->
+<div class="inclusion-page-class">
+  <i class="fa fa-angle-left"></i>
+</div>
+<!-- // -->
+
 <!--======  HEADER ======-->
 <div class="inclusion-page-class" id="inclusion-page">
 <header id="navbar" role="banner" class="navbar navbar-default">
