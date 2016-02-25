@@ -111,7 +111,7 @@
            <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A1">February 27-December 31, 1893</a></li>
            <!-- <li><a href="#">April 6, 1895-February 26, 1896</a></li>
            <li><a href="#">February 29, 1896-February 24, 1897</a></li> -->
-           <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A576">February 25, 1897-November 11, 1898</a></li>
+           <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A728?">February 25, 1897-November 11, 1898</a></li>
            <li><a href="#">November 12, 1898-January 18, 1902</a></li>
            <li><a href="#">January 19, 1902-February 4, 1904</a></li>
            <li><a href="#">February 26, 1904-June 8, 1905</a></li>
