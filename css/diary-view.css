@@ -420,8 +420,9 @@ label.control-label {
 .tei .div .name {
     color: #248ED1;
     font-weight: 400;
-    border: 1px solid #eae7da;
-    padding: 0px 4px;
+    /*border: 1px solid #eae7da;*/
+    padding: 0px 2px;
+    border-bottom: 2px solid #248ED1
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
