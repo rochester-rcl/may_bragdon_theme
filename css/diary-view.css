@@ -415,6 +415,22 @@ label.control-label {
     display: none;
 }
 /* - Elements inside TEI - */
+.tei .div .persName,
+.tei .div .placeName,
+.tei .div .orgName,
+.tei .div .title,
+.tei .div .name {
+  color: inherit;
+  text-decoration: none;
+}
+.tei .div .persName:hover,
+.tei .div .placeName:hover,
+.tei .div .orgName:hover,
+.tei .div .title:hover,
+.tei .div .name:hover {
+  color: inherit;
+  text-decoration: none;
+}
 .tei .div .persName[data-ref],
 .tei .div .placeName[data-ref],
 .tei .div .orgName[data-ref],
