@@ -415,11 +415,11 @@ label.control-label {
     display: none;
 }
 /* - Elements inside TEI - */
-.tei .div .persName [data-ref],
-.tei .div .placeName [data-ref],
-.tei .div .orgName [data-ref],
-.tei .div .title [data-ref],
-.tei .div .name [data-ref]{
+.tei .div .persName[data-ref],
+.tei .div .placeName[data-ref],
+.tei .div .orgName[data-ref],
+.tei .div .title[data-ref],
+.tei .div .name[data-ref]{
     color: black;
     font-weight: 400;
     /*border: 1px solid #eae7da;*/
