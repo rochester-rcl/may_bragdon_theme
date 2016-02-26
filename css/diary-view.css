@@ -415,6 +415,15 @@ label.control-label {
     display: none;
 }
 /* - Elements inside TEI - */
+
+.tei.reading div.note{
+  display: block;
+  font-size: 12px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px;
+}
+
 .tei .div .persName,
 .tei .div .placeName,
 .tei .div .orgName,
