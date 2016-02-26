@@ -5,6 +5,15 @@
  */
 function may_bragdon_theme_preprocess_page(&$vars) {
 
+    
+    $current_path = current_path();
+    $url_parts = explode( '/', $current_path);
+    
+    $last_part = null;
+    if(sizeof($url_parts) > 0 ){
+        $last_part = $url_parts[sizeof($url_parts) - 1];
+    }
+    
     // Do we have a node?
     if (isset($vars['node'])) {
         // Ref suggestions.
@@ -50,8 +59,25 @@ function may_bragdon_theme_preprocess_page(&$vars) {
         //
     // Latter items take precedence.
     } else {
-        if (isset($vars['page']['content']['system_main']['islandora_book'])) {
-            
+       
+        if($last_part == 'pages') {
+           
+            // Ref suggestions.
+            $suggests = &$vars['theme_hook_suggestions'];
+
+            // Get path arguments.
+            $args = arg();
+            // Remove first argument of "node".
+            unset($args[0]);
+
+            // Set type.
+            $type = "page__type_pages";
+
+            // Bring it all together.
+            $suggests = array_merge(
+                    $suggests, array($type), theme_get_suggestions($args, $type)
+            );
+        } else if (isset($vars['page']['content']['system_main']['islandora_book'])) {
             
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
