@@ -218,8 +218,17 @@
 </div>
 
 
-<!--====== Citation ======-->
+<!-- ====== Ographys ======= -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+<!-- // -->
 
+<!--====== Citation ======-->
 <div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
