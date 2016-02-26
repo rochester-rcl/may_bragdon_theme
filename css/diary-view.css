@@ -415,22 +415,47 @@ label.control-label {
     display: none;
 }
 /* - Elements inside TEI - */
+
+.tei.reading div.note{
+  display: block;
+  font-size: 12px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px;
+}
+
 .tei .div .persName,
 .tei .div .placeName,
 .tei .div .orgName,
 .tei .div .title,
 .tei .div .name {
-    color: black;
-    font-weight: 400;
-    /*border: 1px solid #eae7da;*/
-    padding: 0px 2px;
-    border-bottom: 2px solid #248ED1
+  color: inherit;
+  text-decoration: none;
 }
 .tei .div .persName:hover,
 .tei .div .placeName:hover,
 .tei .div .orgName:hover,
 .tei .div .title:hover,
 .tei .div .name:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.tei .div .persName[data-ref],
+.tei .div .placeName[data-ref],
+.tei .div .orgName[data-ref],
+.tei .div .title[data-ref],
+.tei .div .name[data-ref]{
+    color: black;
+    font-weight: 400;
+    /*border: 1px solid #eae7da;*/
+    padding: 0px 2px;
+    border-bottom: 2px solid #248ED1
+}
+.tei .div .persName[data-ref]:hover,
+.tei .div .placeName[data-ref]:hover,
+.tei .div .orgName[data-ref]:hover,
+.tei .div .title[data-ref]:hover,
+.tei .div .name[data-ref]:hover {
     border-bottom:2px solid gray;
     cursor: pointer;
 }
