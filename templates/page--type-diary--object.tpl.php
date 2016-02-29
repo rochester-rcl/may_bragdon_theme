@@ -178,6 +178,10 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
 
+<!--===== pages link =====-->      
+ <?php if (!empty($is_book)): ?>
+   <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
+<?php endif; ?>
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
       <div class="diary-page-tabs">
@@ -201,7 +205,9 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-
+        
+        
+<!--===== CONTENT  =====-->
       <div class="diary-page-class">
       <?php print render($page['content']); ?>
     </div>
