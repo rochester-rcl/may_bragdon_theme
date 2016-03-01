@@ -15,6 +15,9 @@
 .tei div {
      font-family: FontAwesome;
 }
+.note::before {
+    display: none;
+}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
