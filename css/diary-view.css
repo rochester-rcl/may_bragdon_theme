@@ -3,6 +3,15 @@
 /* Page Structure
 -----------------------------------*/
 
+/* Pages Link */
+a.page-link {
+  position: absolute;
+  z-index: 1000;
+  top:300px;
+  bottom: 100px;
+}
+
+
 /*Page Title*/
 .diary-page-class .basic-page-title {
     font-size: 16px;
@@ -445,7 +454,7 @@ label.control-label {
 }
 
 .tei .class--rend--underline {
-    border-bottom: 2px solid #eae5d2;
+    border-bottom: 1px dotted #989690;
     background-color: transparent;
     text-decoration: none;
 }
