@@ -4,7 +4,7 @@
 -----------------------------------*/
 
 /* Pages Link */
-a.page-link {
+.page-link {
   position: absolute;
   z-index: 1000;
   top:300px;
