@@ -139,49 +139,9 @@
     /*background-size: 100px 100px;*/
 }
 
-/* View Occludded Buttons  */
-
+/* Removing View Occludded Buttons  */
 #tei-viewer-occluded {
-  float: left;
-  font-size: 0px;
-  margin-top: 1px;
-  width: 15%;
-  color: white;
-  font-size: 15px;
-  height: 29px;
-  display: block;
-  opacity: 0.6;
-  padding: 2px;
-  background: #4a505a;
-  border-bottom: 2px solid black;
-  position: fixed;
-  left: 85%;
-  top: 50px;
-}
-.logged-in #tei-viewer-occluded {
-  top: 70px;
-}
-
-a#tei-viewer-occluded {
-  text-decoration: none;
-}
-/*#tei-viewer-occluded {
-    background: url(../images/inclusions.png) no-repeat left top;
-    float: left;
-    font-size: 0px;
-    margin-top: 5px;
-    width: 35px;
-    height: 34px;
-    background-size: 35px 34px!important;
-    display: block;
-    opacity: 0.6;
-}*/
-#tei-viewer-occluded:hover {
-  opacity: 1;
-}
-.unoccluded {
-    /*background: url(../images/no-inclusions.png) no-repeat left top !important;*/
-    background: #4a505a!important;
+  display: none;
 }
 
 /* Removing Clip and Annotate Icon/links */
