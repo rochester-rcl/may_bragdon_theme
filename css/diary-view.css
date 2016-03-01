@@ -12,6 +12,9 @@
   left: 10px;
 }
 
+.tei div {
+     font-family: FontAwesome;
+}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
