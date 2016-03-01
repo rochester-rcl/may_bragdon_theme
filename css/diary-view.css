@@ -12,12 +12,6 @@
   left: 10px;
 }
 
-.tei div {
-     font-family: FontAwesome;
-}
-.note::before {
-    display: none;
-}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
@@ -398,15 +392,23 @@ button#paged-tei-seadragon-viewer-tei-toggle {
 label.control-label {
     display: none;
 }
+
+
 /* - Elements inside TEI - */
 
-.tei.reading div.note{
-  display: block;
-  font-size: 12px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  padding: 10px 0px;
+.tei div {
+     font-family: FontAwesome;
 }
+.note::before {
+    display: none;
+}
+.tei.reading div.note {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 3px;
+}
+
+
 
 .tei .div .persName,
 .tei .div .placeName,
