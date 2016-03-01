@@ -173,6 +173,7 @@
 
 /* Inclusions Pane
 -----------------------------------*/
+
 .diary-page-class .inclusion-sidebar .region.region-sidebar-second{
   float: left;
   width: 15%;
@@ -186,7 +187,6 @@
   background-color: #30343b;
 
 }
-
 .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
   display: block;
   color: white;
@@ -201,7 +201,6 @@
   opacity: .6;
   padding: 2px;
 }
-
 
 .islandora-compound-thumb,
 .islandora-compound-thumbs{
@@ -224,6 +223,15 @@
 .islandora-compound-title {
     color: gray;
 }
+
+/* Original Manuscript Img  */
+#roch-tei-viewer-occluded {
+    padding: 5px 18px 17px 0px;
+}
+#roch-tei-viewer-occluded img {
+    width: 100%;
+}
+
 /*//*/
 
 
