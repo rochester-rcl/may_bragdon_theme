@@ -7,8 +7,9 @@
 .page-link {
   position: absolute;
   z-index: 1000;
-  top:300px;
-  bottom: 100px;
+  display: block;
+  top: 60px;
+  left: 10px;
 }
 
 
