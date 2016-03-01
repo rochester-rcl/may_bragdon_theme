@@ -182,6 +182,7 @@
       <?php if (!empty($is_book)): ?>
         <div class="page-link">
           <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
+          <i class="fa fa-file-text"></i>
         </div>
       <?php endif; ?>
 <!--===== TABS =====-->
