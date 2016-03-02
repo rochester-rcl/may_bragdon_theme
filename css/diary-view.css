@@ -577,7 +577,12 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-body{
     padding: 25px;
 }
-
+.modal-header {
+    min-height: 16.42857143px;
+    padding: 15px;
+    height: 55px;
+    border-bottom: 1px solid #e5e5e5;
+}
 .modal-dialog note {
     display: block;
     margin-top: 23px;
