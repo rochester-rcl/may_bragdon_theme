@@ -446,7 +446,9 @@ label.control-label {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     line-break: auto;
 }
-
+.popover-content {
+    padding: 9px 14px!important;
+}
 
 .tei .div .persName,
 .tei .div .placeName,
