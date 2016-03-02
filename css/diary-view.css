@@ -593,7 +593,8 @@ span.date.page_p__000c.diary_A_B81_076A {
 }
 
 /* XLT Display */
-persname[type=display] {
+persname[type=display],
+name[type=display]       {
     font-size: 20px;
     display: block;
     position: absolute;
@@ -602,20 +603,24 @@ persname[type=display] {
 }
 persname[type=index],
 persname[type=primary],
-persname[type=aka] {
+persname[type=aka],
+name[type=index],
+name[type=primary],
+name[type=aka],
+idno[type=LCNAF] {
     display: block;
     color: gray;
 }
 birth[cert=high],
+birth[cert=medium],
 death[cert=high] {
     display: inline-block;
     color: gray;
-}
-birth[cert=high]{
     border-right: 1px solid lightgray;
     padding-right: 5px;
 }
-persname[type=aka]{
+persname[type=aka],
+name[type=aka]{
     font-style: italic;
 }
 
