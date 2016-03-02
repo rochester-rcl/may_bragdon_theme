@@ -584,12 +584,27 @@ span.date.page_p__000c.diary_A_B81_076A {
     min-height: 16.42857143px;
     padding: 15px;
     height: 55px;
-    border-bottom: 1px solid #e5e5e5;
+    /* border-bottom: 1px solid #e5e5e5; */
+    background: lightgray;
+    border-radius: 4px 4px 0 0;
 }
 .modal-dialog note {
     display: block;
     margin: 23px 0 25px 0;
-    /*border-top: 1px solid lightgray;*/
+    font-size: 17px;
+    font-weight: 100;
+    border-top: 1px solid lightgray;
+    padding-top: 13px;
+}
+.modal-dialog .close {
+    /*float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;*/
 }
 
 /* XLT Display */
