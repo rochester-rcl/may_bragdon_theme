@@ -178,7 +178,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
 
-<!--===== pages link =====-->      
+<!--===== pages link =====-->
  <?php if (!empty($is_book)): ?>
    <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
 <?php endif; ?>
@@ -205,8 +205,8 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-        
-        
+
+
 <!--===== CONTENT  =====-->
       <div class="diary-page-class">
       <?php print render($page['content']); ?>
@@ -224,13 +224,22 @@
 </div>
 
 
-<!-- ====== Ographys ======= -->
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      ...
+<!-- ====== Ographys ======= --->
+<div id="OgraphyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="OgraphyModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body edit-content">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <!-- // -->
 
@@ -265,3 +274,23 @@
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
+
+<!--====== OgraphyModal JS ======-->
+<script>
+    $('#OgraphyModal').on('show.bs.modal', function(e) {
+
+        var $modal = $(this),
+            psnID = $(e.relatedTarget).attr("data-ref");     //psn:BELe_32
+
+          $.ajax({
+            cache: false,
+            type: 'POST',
+            url: '/scripts/mbd_dom.php?data-ref='+psnID,
+            success: function(data)
+            {
+                $modal.find('.edit-content').html(data);
+            }
+        });
+
+    })
+</script>
