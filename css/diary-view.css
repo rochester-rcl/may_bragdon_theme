@@ -574,6 +574,9 @@ span.date.page_p__000c.diary_A_B81_076A {
 /* Model Dialog
 -----------------------------------*/
 
+.modal-dialog{
+    font-family: 'Merriweather', serif;
+}
 .modal-body{
     padding: 25px;
 }
@@ -599,8 +602,7 @@ persname[type=display] {
 }
 persname[type=index],
 persname[type=primary],
-birth[cert=high],
-death[cert=high] {
+persname[type=aka] {
     display: block;
     color: gray;
 }
@@ -611,6 +613,10 @@ death[cert=high] {
 }
 birth[cert=high]{
     border-right: 1px solid lightgray;
+    padding-right: 5px;
+}
+persname[type=aka]{
+    font-style: italic;
 }
 
 
