@@ -604,8 +604,14 @@ death[cert=high] {
     display: block;
     color: gray;
 }
-
-
+birth[cert=high],
+death[cert=high] {
+    display: inline-block;
+    color: gray;
+}
+birth[cert=high]{
+    border-right: 1px solid lightgray;
+}
 
 
 
