@@ -228,7 +228,7 @@
 
 
 <!-- ====== Ographys ======= --->
-<div id="OgraphyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="OgraphyModal" aria-hidden="true">
+<div class="modal fade" id="OgraphyModal" tabindex="-1" role="dialog" aria-labelledby="OgraphyModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -279,21 +279,4 @@
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
 
 <!--====== OgraphyModal JS ======-->
-<script>
-    $('#OgraphyModal').on('show.bs.modal', function(e) {
-
-        var $modal = $(this),
-            psnID = $(e.relatedTarget).attr("data-ref");     //psn:BELe_32
-
-          $.ajax({
-            cache: false,
-            type: 'POST',
-            url: '/scripts/mbd_dom.php?data-ref='+psnID,
-            success: function(data)
-            {
-                $modal.find('.edit-content').html(data);
-            }
-        });
-
-    })
-</script>
+<script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/js/ography.js"></script>
