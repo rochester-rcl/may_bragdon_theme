@@ -280,6 +280,7 @@
 
 <!--====== OgraphyModal JS ======-->
 <script>
+(function ($) {
     $('#OgraphyModal').on('show.bs.modal', function(e) {
 
         var $modal = $(this),
@@ -296,4 +297,5 @@
         });
 
     })
+})(jQuery);
 </script>
