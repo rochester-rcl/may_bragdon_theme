@@ -635,6 +635,7 @@ placename[type=alternate],
 address {
     display: block;
     color: gray;
+    font-weight: 300;
 }
 birth[cert=high],
 birth[cert=medium],
