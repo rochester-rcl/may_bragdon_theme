@@ -588,6 +588,9 @@ span.date.page_p__000c.diary_A_B81_076A {
 persname[type=display] {
     font-size: 20px;
     display: block;
+    position: absolute;
+    top: -43px;
+    left: 21px;
 }
 
 
