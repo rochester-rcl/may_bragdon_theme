@@ -179,9 +179,12 @@
       <?php print render($title_prefix); ?>
 
 <!--===== pages link =====-->
- <?php if (!empty($is_book)): ?>
-   <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
-<?php endif; ?>
+      <?php if (!empty($is_book)): ?>
+        <div class="page-link">
+          <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
+          <i class="fa fa-file-text"></i>
+        </div>
+      <?php endif; ?>
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
       <div class="diary-page-tabs">
