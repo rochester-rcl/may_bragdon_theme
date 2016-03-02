@@ -12,9 +12,6 @@
   left: 10px;
 }
 
-.tei div {
-     font-family: FontAwesome;
-}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
@@ -395,14 +392,62 @@ button#paged-tei-seadragon-viewer-tei-toggle {
 label.control-label {
     display: none;
 }
+
+
 /* - Elements inside TEI - */
 
-.tei.reading div.note{
-  display: block;
-  font-size: 12px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  padding: 10px 0px;
+.tei div {
+     font-family: FontAwesome;
+}
+.note::before {
+    display: none;
+}
+.tei.reading div.note {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 3px;
+}
+.note i:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* Note popover */
+.tei .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    max-width: 276px;
+    padding: 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    line-break: auto;
+}
+.popover-content {
+    padding: 9px 14px!important;
 }
 
 .tei .div .persName,
@@ -467,6 +512,7 @@ label.control-label {
 /*  removing indent */
 .tei p {
     text-indent: 0!important;
+    display: inline;
 }
 
 .diary-page-class .caption {
