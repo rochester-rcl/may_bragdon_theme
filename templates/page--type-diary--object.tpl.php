@@ -279,4 +279,4 @@
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
 
 <!--====== OgraphyModal JS ======-->
-<script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/bootstrap/js/ography.js"></script>
+<script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/js/ography.js"></script>
