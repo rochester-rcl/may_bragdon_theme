@@ -586,7 +586,7 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-dialog note {
     display: block;
     margin-top: 23px;
-    border-top: 1px solid lightgray;
+    /*border-top: 1px solid lightgray;*/
 }
 
 /* XLT Display */
@@ -596,6 +596,11 @@ persname[type=display] {
     position: absolute;
     top: -43px;
     left: 21px;
+}
+persname[type=index],
+persname[type=primary] {
+    display: block;
+    color: gray;
 }
 
 
