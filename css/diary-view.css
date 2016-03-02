@@ -610,7 +610,7 @@ name[type=primary],
 name[type=aka],
 idno[type=LCNAF],
 placename[type=index],
-placename[type=alternate], {
+placename[type=alternate] {
     display: block;
     color: gray;
 }
