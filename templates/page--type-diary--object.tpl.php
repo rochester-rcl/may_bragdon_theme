@@ -279,23 +279,4 @@
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
 
 <!--====== OgraphyModal JS ======-->
-<script>
-(function ($) {
-    $('#OgraphyModal').on('show.bs.modal', function(e) {
-
-        var $modal = $(this),
-            psnID = $(e.relatedTarget).attr("data-ref");     //psn:BELe_32
-
-          $.ajax({
-            cache: false,
-            type: 'POST',
-            url: '/scripts/mbd_dom.php?data-ref='+psnID,
-            success: function(data)
-            {
-                $modal.find('.edit-content').html(data);
-            }
-        });
-
-    })
-})(jQuery);
-</script>
+<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/ography.js'; ?>"></script>
