@@ -574,12 +574,20 @@ span.date.page_p__000c.diary_A_B81_076A {
 /* Model Dialog
 -----------------------------------*/
 
+.modal-body{
+    padding: 25px;
+}
 
 .modal-dialog note {
     display: block;
     margin-top: 23px;
     border-top: 1px solid lightgray;
-    padding: 25px;
+}
+
+/* XLT Display */
+persname[type=display] {
+    font-size: 20px;
+    display: block;
 }
 
 
