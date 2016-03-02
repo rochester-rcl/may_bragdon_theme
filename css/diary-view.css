@@ -610,7 +610,8 @@ span.date.page_p__000c.diary_A_B81_076A {
 /* XLT Display */
 persname[type=display],
 name[type=display],
-placename[type=display]  {
+placename[type=display],
+label[type=display] {
     font-size: 20px;
     display: block;
     position: absolute;
@@ -624,6 +625,10 @@ name[type=index],
 name[type=primary],
 name[type=aka],
 idno[type=LCNAF],
+label[type=index],
+label[type=primary],
+label[type=alternate],
+desc[type=place],
 placename[type=index],
 placename[type=primary],
 placename[type=alternate],
