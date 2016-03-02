@@ -12,7 +12,8 @@
           $.ajax({
             cache: false,
             type: 'POST',
-            url: 'maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref='+psnID,
+            url: '//rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref='+psnID,
+            //https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref=psn:BELe_32
             success: function(data)
             {
                 $modal.find('.edit-content').html(data);
