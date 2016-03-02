@@ -472,6 +472,7 @@ label.control-label {
 /*  removing indent */
 .tei p {
     text-indent: 0!important;
+    display: inline;
 }
 
 .diary-page-class .caption {
