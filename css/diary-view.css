@@ -610,7 +610,9 @@ name[type=primary],
 name[type=aka],
 idno[type=LCNAF],
 placename[type=index],
-placename[type=alternate] {
+placename[type=primary],
+placename[type=alternate],
+address {
     display: block;
     color: gray;
 }
@@ -626,8 +628,6 @@ persname[type=aka],
 name[type=aka]{
     font-style: italic;
 }
-
-
 
 
 /* Cite this
