@@ -644,6 +644,7 @@ death[cert=high] {
     color: gray;
     border-right: 1px solid lightgray;
     padding-right: 5px;
+    font-weight: 300;
 }
 persname[type=aka],
 name[type=aka]{
