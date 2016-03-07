@@ -7,9 +7,13 @@
 .diary-subnav{
     background: white;
     display: block;
-    width: 30%;
-    border: 1px solid red;
+    width: 35%;
+    border-top: 1px solid lightgray;
     position: absolute;
+    bottom: 0;
+    height: 33px;
+    left: 0;
+    z-index: 100;
 }
 
 
@@ -105,16 +109,14 @@
 /* Cite this button
 -----------------------------------*/
 .diary-page-cite .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
-  position: absolute;
-  z-index: 500;
-  left: 0;
-  bottom: 0;
-  border-radius: 0 5px 0 0;
-  border-bottom: none;
-  border-left: none;
+    color: #333;
+    background-color: #fff;
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    width: 95px;
+    bottom: 0;
+    border: none;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
@@ -187,7 +189,11 @@
 
 /* Removing the download links temporarly */
 .paged-tei-seadragon-viewer-download-datastreams {
-  display: none;
+  display: block;
+  position: absolute;
+  z-index: 1001;
+  bottom: 0;
+  left: 0;
 }
 
 
