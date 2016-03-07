@@ -3,6 +3,16 @@
 /* Page Structure
 -----------------------------------*/
 
+/* Bottom Bar */
+.diary-subnav{
+    background: white;
+    display: block;
+    width: 30%;
+    border: 1px solid red;
+    position: absolute;
+}
+
+
 /* Pages Link */
 .page-link {
   position: absolute;
