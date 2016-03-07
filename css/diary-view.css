@@ -187,13 +187,15 @@
 /* Files
 -----------------------------------*/
 
-/* Removing the download links temporarly */
 .paged-tei-seadragon-viewer-download-datastreams {
   display: block;
   position: absolute;
   z-index: 1001;
   bottom: 0;
   left: 0;
+}
+.paged-tei-seadragon-viewer-download-datastreams strong{
+    display: none;
 }
 
 
