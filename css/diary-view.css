@@ -19,11 +19,11 @@
 
 /* Pages Link */
 .page-link {
-  position: absolute;
-  z-index: 1000;
-  display: block;
-  top: 60px;
-  left: 10px;
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    left: 300px;
+    bottom: 6px;
 }
 
 
