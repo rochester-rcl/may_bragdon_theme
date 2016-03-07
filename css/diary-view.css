@@ -191,12 +191,19 @@
   display: block;
   position: absolute;
   z-index: 1001;
-  bottom: 0;
-  left: 0;
+  bottom: 6px;
+  left: 87px;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
     display: none;
 }
+#paged-tei-seadragon-viewer-download-datastream-JP2,
+#paged-tei-seadragon-viewer-download-datastream-PDF {
+    display: inline-block;
+    width: 110px;
+}
+
+
 
 
 /* Inclusions Pane
