@@ -188,18 +188,29 @@
 -----------------------------------*/
 
 .paged-tei-seadragon-viewer-download-datastreams {
-  display: block;
-  position: absolute;
-  z-index: 1001;
-  bottom: 6px;
-  left: 50%;
+    display: block;
+    position: absolute;
+    z-index: 1001;
+    bottom: 6px;
+    left: 35%;
+    width: 50%;
+    color: lightgray;
+}
+.paged-tei-seadragon-viewer-download-datastreams a {
+    color: white;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
 }
-#paged-tei-seadragon-viewer-download-datastream-JP2,
+/* Hiding the JPG option */
+div#paged-tei-seadragon-viewer-download-datastream-JP2 {
+    display: none;
+}
 #paged-tei-seadragon-viewer-download-datastream-PDF {
     display: inline-block;
-    width: 110px;
+    float: right;
+    /* width: 90%; */
+    padding-right: 15px;
+    padding-top: 3px;
 }
 
 
