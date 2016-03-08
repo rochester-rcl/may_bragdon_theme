@@ -1,6 +1,6 @@
 <!-- Test -->
 <script type="text/javascript">
-    $('.paged-tei-seadragon-viewer-download-datastream-PDF.a').text().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
+    $('.paged-tei-seadragon-viewer-download-datastreams').text().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
 </script>
 <!-- // -->
 
