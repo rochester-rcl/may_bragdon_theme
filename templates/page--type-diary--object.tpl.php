@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * @file
@@ -105,23 +107,23 @@
     <!-- Nav links -->
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
-         <ul class="dropdown-menu">
-           <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A728">February 27-December 31, 1893</a></li>
-           <!-- <li><a href="#">April 6, 1895-February 26, 1896</a></li>
-           <li><a href="#">February 29, 1896-February 24, 1897</a></li> -->
-           <li><a href="">February 25, 1897-November 11, 1898</a></li>
-           <li><a href="#">November 12, 1898-January 18, 1902</a></li>
-           <li><a href="#">January 19, 1902-February 4, 1904</a></li>
-           <li><a href="#">February 26, 1904-June 8, 1905</a></li>
-           <li><a href="#">June 9, 1905-October 17, 1907</a></li>
-           <li><a href="#">October 18, 1907-December 31, 1909</a></li>
-           <li><a href="#">January 1, 1910-December 31, 1914</a></li>
-           <li role="separator" class="divider"></li>
-           <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
-        </li>
-        </ul>
+           <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A524">February 27-December 31, 1893</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A1047">April 6, 1895-February 26, 1896</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A4673">February 29, 1896-February 24, 1897</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3356">February 25, 1897-November 11, 1898</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6104">November 12, 1898-January 18, 1902</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A7854">January 19, 1902-February 4, 1904</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A9149">February 26, 1904-June 8, 1905</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A12692">June 9, 1905-October 17, 1907</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A14209">October 18, 1907-December 31, 1909</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A16177">January 1, 1910-December 31, 1914</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
+           </li>
+           </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
         <!-- Nav Search box -->
         <li>
@@ -142,15 +144,14 @@
 <!-- /Header/ -->
 
 
-
-<!--======= /HEADER  ========-->
-
-
-
-
-
-
 <div class="diary-page-class">
+
+<!--======= DIARY SUB NAV  ========-->
+<div class="diary-subnav">
+Test
+</div>
+<!--======= // ========-->
+
 
 <!--======= CITE THIS BUTTON  ========-->
   <div class="diary-page-cite">
@@ -182,7 +183,6 @@
       <?php if (!empty($is_book)): ?>
         <div class="page-link">
           <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
-          <i class="fa fa-file-text"></i>
         </div>
       <?php endif; ?>
 <!--===== TABS =====-->
@@ -228,17 +228,19 @@
 
 
 <!-- ====== Ographys ======= --->
-<div class="modal fade" id="OgraphyModal" tabindex="-1" role="dialog" aria-labelledby="OgraphyModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
-            </div>
-            <div class="modal-body edit-content">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<div class="ograpy-modal">
+    <div class="modal fade" id="OgraphyModal" tabindex="-1" role="dialog" aria-labelledby="OgraphyModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                </div>
+                <div class="modal-body edit-content">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
@@ -246,33 +248,42 @@
 <!-- // -->
 
 <!--====== Citation ======-->
-<div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title">Cite This</h4>
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
-          <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
-          <li role="presentation" id="chicagoTab"><a href="#chicagoStyle" aria-controls="chicagoStyle" role="tab" data-toggle="tab">Chicago</a></li>
-        </ul>
-      </div>
-      <div class="modal-body">
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="apaStyle"></div>
-          <div role="tabpanel" class="tab-pane" id="mlaStyle"></div>
-          <div role="tabpanel" class="tab-pane" id="chicagoStyle"></div>
+<div class="citation-modal">
+    <div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- <h4 class="modal-title">Cite This</h4> -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
+              <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
+              <li role="presentation" id="chicagoTab"><a href="#chicagoStyle" aria-controls="chicagoStyle" role="tab" data-toggle="tab">Chicago</a></li>
+            </ul>
+          </div>
+          <div class="modal-body">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="apaStyle"></div>
+              <div role="tabpanel" class="tab-pane" id="mlaStyle"></div>
+              <div role="tabpanel" class="tab-pane" id="chicagoStyle"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
 </div>
+
+<!-- Test -->
+<script type="text/javascript">
+    $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="12345">$1</span>'));
+</script>
+<!-- // -->
+
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
