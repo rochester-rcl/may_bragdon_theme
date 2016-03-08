@@ -1,3 +1,9 @@
+<!-- Test -->
+<script type="text/javascript">
+    $('#ADF').html($('#ADF').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
+</script>
+<!-- // -->
+
 <?php
 /**
  * @file
@@ -74,11 +80,7 @@
  */
 ?>
 
-<!-- Test -->
-<script type="text/javascript">
-    $('#ADF').html($('#ADF').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
-</script>
-<!-- // -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/diary-view-html.css'; ?>">
 
