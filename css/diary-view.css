@@ -111,12 +111,15 @@
 .diary-page-cite .btn-default {
     color: #333;
     background-color: #fff;
+    border-color: #ccc;
     position: absolute;
     z-index: 500;
     left: 0;
     width: 95px;
     bottom: 0;
-    border: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 5px 0 0;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
@@ -188,23 +191,46 @@
 -----------------------------------*/
 
 .paged-tei-seadragon-viewer-download-datastreams {
-  display: block;
-  position: absolute;
-  z-index: 1001;
-  bottom: 6px;
-  left: 87px;
+    display: block;
+    position: absolute;
+    z-index: 1001;
+    bottom: 20px;
+    left: 35%;
+    padding: 5px;
+    width: 50%;
+    color: lightgray;
+    background: rgba(0, 0, 0, 0.5);
+}
+.paged-tei-seadragon-viewer-download-datastreams a {
+    color: white;
+    background: #3f444c;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+.paged-tei-seadragon-viewer-download-datastreams a:hover {
+    background: #565c66;
+    text-decoration: none;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
+    font-weight: 400;
+}
+/* Hiding the JPG option */
+div#paged-tei-seadragon-viewer-download-datastream-JP2 {
     display: none;
 }
-#paged-tei-seadragon-viewer-download-datastream-JP2,
 #paged-tei-seadragon-viewer-download-datastream-PDF {
     display: inline-block;
-    width: 110px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 3px;
 }
 
 
 
+.12345{
+    color: red;
+    font-size: 5px;
+}
 
 /* Inclusions Pane
 -----------------------------------*/
@@ -605,7 +631,13 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-body{
     padding: 25px;
 }
-.modal-header {
+.citation-modal .modal-header{
+    border: none;
+}
+.citation-modal .modal-footer {
+    border: none;
+}
+.ograpy-modal .modal-header {
     min-height: 16.42857143px;
     padding: 15px;
     height: 55px;
@@ -681,7 +713,6 @@ name[type=aka]{
 -----------------------------------*/
 .tab-content {
     font-size: 17px;
-    width: 91%;
     margin: auto;
     border: 1px dashed lightgray;
     padding: 30px 25px;
