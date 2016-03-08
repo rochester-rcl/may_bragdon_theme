@@ -13,7 +13,7 @@
           $.ajax({
             cache: false,
             type: 'GET',
-            url: window.location.protocol + "//" + window.location.host + '/may_bragdon/ography/' + psnID,
+            url:  '/maybragdon/may_bragdon/ography/' + psnID,
             //https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref=psn:BELe_32
             success: function(data)
             {
