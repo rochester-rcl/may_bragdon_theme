@@ -6,25 +6,26 @@
 (function ($) {
     $('#OgraphyModal').on('show.bs.modal', function(e) {
 
+        //$modal.find('.edit-content').html("");
         var $modal = $(this),
             psnID = $(e.relatedTarget).attr("data-ref");     //psn:BELe_32
-
+        $modal.find('.edit-content').html("");
           $.ajax({
             cache: false,
-            type: 'POST',
-            url: '//rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref='+psnID,
+            type: 'GET',
+            url: '/may_bragdon/ography/' + psnID,
             //https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/scripts/mbd_dom.php?data-ref=psn:BELe_32
             success: function(data)
             {
+                //console.log(data);
                 $modal.find('.edit-content').html(data);
+            },
+            error: function(data){
+                //console.log(data);
             }
         });
 
     })
 })(jQuery);
 
-(function ($) {
-    $('#OgraphyModal').on('hidden.bs.modal', function() {
-      $(this).removeData('bs.modal');
-    });
-})(jQuery);
+
