@@ -148,7 +148,7 @@
 </script>
 <!-- // -->
 
-<div id="#ADF">
+<div id="ADF">
     Hello World (Make me smaller)
 </div>
 
