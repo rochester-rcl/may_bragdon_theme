@@ -192,10 +192,9 @@
   position: absolute;
   z-index: 1001;
   bottom: 6px;
-  left: 87px;
+  left: 50%;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
-    display: none;
 }
 #paged-tei-seadragon-viewer-download-datastream-JP2,
 #paged-tei-seadragon-viewer-download-datastream-PDF {
