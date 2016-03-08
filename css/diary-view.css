@@ -631,6 +631,12 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-body{
     padding: 25px;
 }
+.citation-modal .modal-header{
+    border: none;
+}
+.citation-modal .modal-footer {
+    border: none;
+}
 .ograpy-modal .modal-header {
     min-height: 16.42857143px;
     padding: 15px;
@@ -707,7 +713,6 @@ name[type=aka]{
 -----------------------------------*/
 .tab-content {
     font-size: 17px;
-    width: 91%;
     margin: auto;
     border: 1px dashed lightgray;
     padding: 30px 25px;
