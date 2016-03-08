@@ -1,6 +1,6 @@
 <!-- Test -->
 <script type="text/javascript">
-    $('#ADF').text().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
+    $('.paged-tei-seadragon-viewer-download-datastream-PDF').text().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
 </script>
 <!-- // -->
 
