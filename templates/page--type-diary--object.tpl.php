@@ -248,34 +248,35 @@ Test
 <!-- // -->
 
 <!--====== Citation ======-->
-<div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title">Cite This</h4>
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
-          <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
-          <li role="presentation" id="chicagoTab"><a href="#chicagoStyle" aria-controls="chicagoStyle" role="tab" data-toggle="tab">Chicago</a></li>
-        </ul>
-      </div>
-      <div class="modal-body">
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="apaStyle"></div>
-          <div role="tabpanel" class="tab-pane" id="mlaStyle"></div>
-          <div role="tabpanel" class="tab-pane" id="chicagoStyle"></div>
+<div class="citation-modal">
+    <div class="modal fade" id="citeThisModal" tabindex="-1" role="dialog" aria-labelledby="citeThisModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- <h4 class="modal-title">Cite This</h4> -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" id="apaTab" class="active"><a href="#apaStyle" aria-controls="apaStyle" role="tab" data-toggle="tab">APA</a></li>
+              <li role="presentation" id="mlaTab"><a href="#mlaStyle" aria-controls="mlaStyle" role="tab" data-toggle="tab">MLA</a></li>
+              <li role="presentation" id="chicagoTab"><a href="#chicagoStyle" aria-controls="chicagoStyle" role="tab" data-toggle="tab">Chicago</a></li>
+            </ul>
+          </div>
+          <div class="modal-body">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="apaStyle"></div>
+              <div role="tabpanel" class="tab-pane" id="mlaStyle"></div>
+              <div role="tabpanel" class="tab-pane" id="chicagoStyle"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
 </div>
-
 
 <!-- Test -->
 <script type="text/javascript">
