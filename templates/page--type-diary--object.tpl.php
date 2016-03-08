@@ -142,12 +142,15 @@
 <!-- /Header/ -->
 
 
+<!-- Test -->
+<script type="text/javascript">
+    $('#ADF').html($('#ADF').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
+</script>
+<!-- // -->
 
-<!--======= /HEADER  ========-->
-
-
-
-
+<div id="#ADF">
+    Hello World (Make me smaller)
+</div>
 
 
 <div class="diary-page-class">

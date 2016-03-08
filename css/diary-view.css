@@ -209,6 +209,7 @@
     text-decoration: none;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
+    font-weight: 400;
 }
 /* Hiding the JPG option */
 div#paged-tei-seadragon-viewer-download-datastream-JP2 {
@@ -222,7 +223,20 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
 }
 
 
-
+#ADF {
+    position: absolute;
+    z-index: 5000;
+    font-size: 30px;
+    color: white;
+    background: black;
+    padding: 10px 30px;
+    top: 40px;
+    left: 30px;
+}
+.new_class{
+    color: red;
+    font-size: 12px;
+}
 
 /* Inclusions Pane
 -----------------------------------*/
