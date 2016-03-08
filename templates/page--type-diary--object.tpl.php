@@ -292,4 +292,4 @@ Test
 <script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/js/ography.js"></script>
 
 <!--====== RewrittenDropDown JS ======-->
-<!-- <script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/js/mbd_dropdown.js"></script> -->
+<script src="https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/js/mbd_dropdown.js"></script>
