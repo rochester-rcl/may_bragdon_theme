@@ -121,7 +121,7 @@
               <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A14209">October 18, 1907-December 31, 1909</a></li>
               <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A16177">January 1, 1910-December 31, 1914</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
            </li>
            </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
