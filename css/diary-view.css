@@ -111,12 +111,15 @@
 .diary-page-cite .btn-default {
     color: #333;
     background-color: #fff;
+    border-color: #ccc;
     position: absolute;
     z-index: 500;
     left: 0;
     width: 95px;
     bottom: 0;
-    border: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 5px 0 0;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
@@ -223,17 +226,8 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
 }
 
 
-#ADF {
-    position: absolute;
-    z-index: 5000;
-    font-size: 30px;
-    color: white;
-    background: gray;
-    padding: 10px 30px;
-    top: 40px;
-    left: 30px;
-}
-span.new_class{
+
+.12345{
     color: red;
     font-size: 5px;
 }
@@ -637,7 +631,7 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-body{
     padding: 25px;
 }
-.modal-header {
+.ograpy-modal .modal-header {
     min-height: 16.42857143px;
     padding: 15px;
     height: 55px;
