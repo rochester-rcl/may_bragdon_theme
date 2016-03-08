@@ -111,12 +111,15 @@
 .diary-page-cite .btn-default {
     color: #333;
     background-color: #fff;
+    border-color: #ccc;
     position: absolute;
     z-index: 500;
     left: 0;
     width: 95px;
     bottom: 0;
-    border: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 5px 0 0;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
