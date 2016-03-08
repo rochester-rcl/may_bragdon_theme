@@ -1,6 +1,6 @@
 <!-- Test -->
 <script type="text/javascript">
-    $('#ADF').html($('#ADF').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
+    $('#ADF').text().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
 </script>
 <!-- // -->
 
