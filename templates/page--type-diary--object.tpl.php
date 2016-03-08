@@ -148,13 +148,6 @@
 <!-- /Header/ -->
 
 
-
-
-<div id="ADF">
-    Hello World (Make me smaller)
-</div>
-
-
 <div class="diary-page-class">
 
 <!--======= DIARY SUB NAV  ========-->
