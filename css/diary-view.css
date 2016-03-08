@@ -226,7 +226,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
 #ADF {
     position: absolute;
     z-index: 5000;
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: white;
     background: black;
     padding: 10px 30px;
