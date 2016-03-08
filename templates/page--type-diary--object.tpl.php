@@ -277,7 +277,7 @@ Test
 
 <!-- Test -->
 <script type="text/javascript">
-    $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
+    $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="12345">$1</span>'));
 </script>
 <!-- // -->
 
