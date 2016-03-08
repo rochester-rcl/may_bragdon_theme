@@ -191,8 +191,9 @@
     display: block;
     position: absolute;
     z-index: 1001;
-    bottom: 30px;
+    bottom: 20px;
     left: 35%;
+    padding: 5px;
     width: 50%;
     color: lightgray;
     background: rgba(0, 0, 0, 0.5);
@@ -202,6 +203,10 @@
     background: #3f444c;
     padding: 3px 8px;
     border-radius: 2px;
+}
+.paged-tei-seadragon-viewer-download-datastreams a:hover {
+    background: #565c66;
+    text-decoration: none;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
 }
