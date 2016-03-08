@@ -1,8 +1,4 @@
-<!-- Test -->
-<script type="text/javascript">
-    $('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/.*?(\(.*?\)).*?/, '<span class="small">$1</span>')
-</script>
-<!-- // -->
+
 
 <?php
 /**
@@ -277,6 +273,14 @@ Test
     </div>
   </div>
 </div>
+
+
+<!-- Test -->
+<script type="text/javascript">
+    $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="new_class">$1</span>'));
+</script>
+<!-- // -->
+
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
