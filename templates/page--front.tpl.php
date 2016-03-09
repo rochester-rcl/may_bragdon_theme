@@ -276,7 +276,6 @@
   </div>
 </div>
 
-</div> <!-- Closing out the black background -->
 
 
 
@@ -386,6 +385,10 @@
   </a>
 </div>
 <!--/-->
+
+</div> <!-- Closing out the black background -->
+
+
 
 <!--====== FOOTER ======-->
 <div class="footer">
