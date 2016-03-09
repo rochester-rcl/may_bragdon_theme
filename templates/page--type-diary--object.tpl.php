@@ -87,8 +87,8 @@
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="">
     <div class="navbar-header">
-      <!-- LHP Logo -->
-      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="lhp-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
+      <!-- May Bragdon Logo -->
+      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="mayb-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
       </a>
       <!-- Page title  -->
             <?php if (!empty($title)): ?>
