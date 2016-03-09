@@ -140,18 +140,19 @@ portion.
     top: 0;
 }
 
+/* RCL/DP logo sizing */
+.navbar-brand-dp-logo,
+.navbar-brand-rcl-logo{
+    height: 12px;
+    width: auto;
+}
 /* RCL logo */
 .navbar-brand-rcl-logo{
     display: inline-block;
-    width: auto;
-    height: 12px;
 }
-
 /* Digital Projects Logo */
 .navbar-brand-dp-logo{
     display: inline-block;
-    width: auto;
-    height: 12px;
 }
 
 
