@@ -180,33 +180,6 @@ portion.
       display: block;
       }
 
-/* Section Navigation */
-.section-header {
-    background: rgba(34, 70, 137, 0.8);
-    /*background: rgba(0, 0, 0, 0.5);*/
-    border-top: 1px solid #466daf;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    height: 35px;
-    }
-    .section-header.fixed {
-        position: fixed;
-        top: 50px;
-        left: 0;
-        right: 0;
-        }
-    /* Adjustment for Admin menu  */
-    .logged-in .section-header.fixed {
-        top: 70px;
-        }
-    .section-header a{
-        /*color: gray;*/
-        }
-    .section-header a:hover{
-        color: #FFF;
-        }
 
 .page-title-header{
     width: 40%;
