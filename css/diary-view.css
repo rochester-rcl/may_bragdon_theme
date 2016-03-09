@@ -141,7 +141,6 @@ a#islandora-paged-tei-seadragon-navigate-right{
 a#islandora-paged-tei-seadragon-navigate-left:hover,
 a#islandora-paged-tei-seadragon-navigate-right:hover{
     background: rgba(0,0,0,1);
-    color: rgba(255,255,255,1);
 }
 /* Right arrow */
 a#islandora-paged-tei-seadragon-navigate-right {
@@ -155,18 +154,24 @@ a#islandora-paged-tei-seadragon-navigate-left {
     border-radius: 0 5px 5px 0;
     border-left: none;
 }
-.paged-tei-seadragon-viewer-left-toolbar img {
+a#islandora-paged-tei-seadragon-navigate-left img,
+a#islandora-paged-tei-seadragon-navigate-right img {
     width: 26px;
     height: auto;
     position: absolute;
     top: 36%;
     bottom: 0;
-    left: 17%;
     opacity: 0.7;
 }
-.paged-tei-seadragon-viewer-left-toolbar img:hover {
-    opacity: 1;
+a#islandora-paged-tei-seadragon-navigate-left img{
+    left: 17%;
 }
+a#islandora-paged-tei-seadragon-navigate-right img{
+    right: 17%;
+}
+/*.paged-tei-seadragon-viewer-left-toolbar img:hover {
+    opacity: 1;
+}*/
 
 #book-viewer {
     width: 100%;
