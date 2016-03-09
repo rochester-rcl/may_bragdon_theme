@@ -158,11 +158,6 @@
 
 
 
-<?php
-require_once(dirname(__FILE__).'/templates/header.html');
-?>
-
-
 <div class="main-container container">
 
   <header role="banner" id="page-header">
