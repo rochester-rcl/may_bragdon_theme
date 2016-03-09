@@ -14,8 +14,6 @@ portion.
 
 /* Clean up */
 
-/* HEADER
------------------------------------*/
 
 /* University of Rochester Bar */
 .uofr-header{
@@ -31,20 +29,14 @@ portion.
     width: 50%;
     float: left;
     padding-top: 7px;
-
-    }
-    .navbar-brand-uofr-logo {
-        width: 200px;
-        height: auto;
-        float: right;
-        }
+}
+.navbar-brand-uofr-logo {
+    width: 200px;
+    height: auto;
+    float: right;
+}
 /**/
 
-/* Living History Project Bar */
-.lhp-logo {
-    width: 240px;
-    height: auto;
-    }
 
 .navbar {
     margin: 0;
@@ -138,18 +130,19 @@ portion.
 }
 
 /* RCL/DP logo sizing */
-.navbar-brand-dp-logo,
-.navbar-brand-rcl-logo{
-    height: 12px;
-    width: auto;
-}
+
+
 /* RCL logo */
 .navbar-brand-rcl-logo{
     display: inline-block;
+    width: 200px;
+    height: auto;
 }
 /* Digital Projects Logo */
 .navbar-brand-dp-logo{
     display: inline-block;
+    width: 150px;
+    height: auto;
 }
 
 
