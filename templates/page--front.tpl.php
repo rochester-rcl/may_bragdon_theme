@@ -74,7 +74,7 @@
     </div>
   </div>
 </header>
-
+</div>
 <div class="spacer"></div>
 <!-- /Header/ -->
 
