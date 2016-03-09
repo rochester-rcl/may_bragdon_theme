@@ -35,6 +35,19 @@
 
 
 
+/* Viewer Pane
+-----------------------------------*/
+
+.islandora-large-image-content-wrapper {
+    width: 85%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.islandora-large-image-content {
+    display: none;
+}
 
 /* Additional info
 -----------------------------------*/
