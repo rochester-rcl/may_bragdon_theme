@@ -15,7 +15,7 @@
         <img class="navbar-brand-dp-logo" alt="Digital Projects" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/dp_logo.png" />
     </a>
     </div>
-    <!-- Ever Better Container -->
+    <!-- Right Container -->
     <div class="right-logo-container">
         <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
     </div>
@@ -24,6 +24,7 @@
 
 <div style="background-color: black;">
 
+<!--====== MAY BRAGDON HEADER ======-->
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
