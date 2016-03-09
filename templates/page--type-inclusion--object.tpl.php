@@ -79,20 +79,19 @@
 <link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/inclusion-view-html.css'; ?>">
 
 
-
 <!-- Back button arrow -->
 <div class="inclusion-page-class">
   <i class="fa fa-angle-left"></i>
 </div>
 <!-- // -->
 
-<!--======  HEADER ======-->
+<!--======  MAY BRAGDON HEADER ======-->
 <div class="inclusion-page-class" id="inclusion-page">
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="">
     <div class="navbar-header">
-      <!-- LHP Logo -->
-      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="lhp-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
+      <!-- May Bragdon Logo -->
+      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="mayb-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
       </a>
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
