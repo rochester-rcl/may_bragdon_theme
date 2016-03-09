@@ -125,8 +125,30 @@
   bottom: 51px;
 }
 
-/* Viewer
+/* Viewer Pane
 -----------------------------------*/
+
+a#islandora-paged-tei-seadragon-navigate-right {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    right: 15%;
+    top: 45%;
+    height: 100px;
+    width: 49px;
+    border: 1px solid white;
+}
+.paged-tei-seadragon-viewer-left-toolbar img {
+    width: 14px;
+    height: auto;
+    margin: 0px 27px;
+    opacity: 0.7;
+    vertical-align: middle;
+    display: inline-block;
+}
+.paged-tei-seadragon-viewer-left-toolbar img:hover {
+    opacity: 1;
+}
+
 #book-viewer {
     width: 100%;
 }
@@ -187,7 +209,7 @@
 
 
 
-/* File Downloads Datastreams 
+/* File Downloads Datastreams
 -----------------------------------*/
 
 .paged-tei-seadragon-viewer-download-datastreams {
@@ -299,16 +321,6 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
 /* Transcription Pane
 -----------------------------------*/
 
-/*.tei br:nth-child(even) {
-    display: none;
-}*/
-
-/*p br:first-child {
-    display: block!important;
-    border: none!important;
-}*/
-
-
 /* Removing the P tag style */
 .tei .p {
   margin: 0!important;
@@ -368,15 +380,6 @@ of a line */
     background: white;
     z-index: 500;
     white-space: nowrap;
-}
-.paged-tei-seadragon-viewer-left-toolbar img {
-    width: 14px;
-    height: auto;
-    margin: 0px 27px;
-    opacity: 0.7;
-}
-.paged-tei-seadragon-viewer-left-toolbar img:hover {
-    opacity: 1;
 }
 
 .tei {
