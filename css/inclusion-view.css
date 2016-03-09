@@ -62,9 +62,12 @@ form.openseadragon-container {
 .item-metadata {
     position: fixed;
     z-index: 1000;
-    right: 0;
-    top: 100px;
-    border: 1px solid white;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 85%;
+    padding: 20px 40px;
+    color: white;
 }
 
 
