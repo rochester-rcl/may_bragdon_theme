@@ -284,7 +284,7 @@
 
 <!--============== DIARIES  ==============-->
 <div class="main-boxes-heading">Diaries</div>
-
+<div class="boxes">
 <div class="box box-odd">
   <a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A728">
     <img class="box-images" alt="Diary February 27 to December 31, 1893" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
@@ -384,6 +384,7 @@
       <div class="box-date">January 1, 1910-December 31, 1914</div>
     </div>
   </a>
+</div>
 </div>
 <!--/-->
 
