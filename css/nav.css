@@ -360,7 +360,7 @@ section .block-title {
 
 /* Nav link default color  */
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: lightgray;
     }
 
 /* Nav link Hover/Focus color  */
