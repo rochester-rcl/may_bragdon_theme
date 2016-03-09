@@ -46,7 +46,7 @@
 }
 
 .islandora-large-image-content {
-    display: none;
+    background: red!important;
 }
 
 /* Additional info
