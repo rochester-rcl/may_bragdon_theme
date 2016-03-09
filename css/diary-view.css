@@ -140,7 +140,7 @@ a#islandora-paged-tei-seadragon-navigate-right{
 }
 a#islandora-paged-tei-seadragon-navigate-left:hover,
 a#islandora-paged-tei-seadragon-navigate-right:hover{
-    background: rgba(0,0,0,1);
+    background: #30343b;
 }
 /* Right arrow */
 a#islandora-paged-tei-seadragon-navigate-right {
