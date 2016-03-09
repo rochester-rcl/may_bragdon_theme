@@ -161,7 +161,7 @@ a#islandora-paged-tei-seadragon-navigate-left {
     position: absolute;
     top: 36%;
     bottom: 0;
-    right: 15%;
+    left: 17%;
     opacity: 0.7;
 }
 .paged-tei-seadragon-viewer-left-toolbar img:hover {
