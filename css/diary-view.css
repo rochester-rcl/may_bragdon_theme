@@ -135,15 +135,17 @@ a#islandora-paged-tei-seadragon-navigate-right {
     top: 45%;
     height: 100px;
     width: 49px;
-    border: 1px solid white;
+    border: 1px solid gray;
+    border-radius: 5px 0 0 5px;
 }
 .paged-tei-seadragon-viewer-left-toolbar img {
-    width: 14px;
+    width: 26px;
     height: auto;
-    margin: 0px 27px;
+    position: absolute;
+    top: 36%;
+    bottom: 0;
+    right: 15%;
     opacity: 0.7;
-    vertical-align: middle;
-    display: inline-block;
 }
 .paged-tei-seadragon-viewer-left-toolbar img:hover {
     opacity: 1;
