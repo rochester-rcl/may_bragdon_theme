@@ -159,7 +159,7 @@
 
 
 <?php
-require_once(dirname(__FILE__).'print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/templates/header.html');
+require_once(dirname(__FILE__).'/templates/header.html');
 ?>
 
 
