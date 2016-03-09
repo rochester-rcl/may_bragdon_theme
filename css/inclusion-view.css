@@ -69,7 +69,19 @@ form.openseadragon-container {
     padding: 20px 40px;
     color: white;
 }
-
+.item-metadata-label {
+    display: none;
+}
+/* Title */
+.item-metadata div:nth-child(1) {
+    font-size: 20px;
+}
+/* Abstract */
+.item-metadata div:nth-child(2) {
+    font-size: 14px;
+    font-style: italic;
+    color: lightgray;
+}
 
 
 
