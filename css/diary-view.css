@@ -127,6 +127,16 @@
 
 /* Viewer Pane
 -----------------------------------*/
+
+.openseadragon-container div:nth-child(3) {
+    border: 1px solid red!important;
+    position: absolute;
+    right: 8px;
+    left: initial;
+    top: 104px!important;
+    left: auto!important;
+}
+
 /* Arrow icons: Left and Right */
 a#islandora-paged-tei-seadragon-navigate-left,
 a#islandora-paged-tei-seadragon-navigate-right{
