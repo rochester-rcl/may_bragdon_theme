@@ -158,7 +158,7 @@
 
 
 
-<?php include '<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/templates/header.php' ?>
+<?php include "<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/templates/header.php" ?>
 
 
 <div class="main-container container">
