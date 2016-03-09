@@ -46,3 +46,37 @@ You must make these adjustments in drupal to insure proper display or the theme 
 
 ### Known Issues
 - Admin editing via mobile is poor but that is a drupal issue.
+
+
+##### Drupal Source Fixes
+
+  ## Fix the viewer so that level 0 works
+  1. cd /sites/all/modules/islandora_openseadragon/js
+  2. edit djtilesource.js
+  3. change the following code:
+  ```javascript
+
+  $.TileSource.call(
+	that,
+	parseInt(data.width),
+	parseInt(data.height),
+	parseInt(settings.tileSize),
+	parseInt(settings.tileOverlap),
+	1,
+	parseInt(data.levels)
+      );  
+   ```
+   To
+   ```javascript
+
+  $.TileSource.call(
+	that,
+	parseInt(data.width),
+	parseInt(data.height),
+	parseInt(settings.tileSize),
+	parseInt(settings.tileOverlap),
+	0,
+	parseInt(data.levels)
+      );  
+   ```
+   Notice the 1 -> 0

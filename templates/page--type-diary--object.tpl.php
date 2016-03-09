@@ -87,8 +87,8 @@
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="">
     <div class="navbar-header">
-      <!-- LHP Logo -->
-      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="lhp-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
+      <!-- May Bragdon Logo -->
+      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="mayb-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
       </a>
       <!-- Page title  -->
             <?php if (!empty($title)): ?>
@@ -121,7 +121,7 @@
               <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A14209">October 18, 1907-December 31, 1909</a></li>
               <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A16177">January 1, 1910-December 31, 1914</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
+              <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
            </li>
            </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
@@ -280,6 +280,7 @@ Test
 
 <!-- Test -->
 <script type="text/javascript">
+    console.log($('.paged-tei-seadragon-viewer-download-datastreams'));
     $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="12345">$1</span>'));
 </script>
 <!-- // -->

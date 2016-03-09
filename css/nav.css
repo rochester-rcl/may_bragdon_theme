@@ -12,6 +12,88 @@ portion.
 
 -------------------------------*/
 
+/* Clean up */
+
+
+/* University of Rochester Bar */
+.uofr-header{
+    background-color: #021e47;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    z-index: 1000;
+    top: 0;
+    }
+.left-logo-container,
+.right-logo-container {
+    width: 50%;
+    float: left;
+    padding-top: 7px;
+}
+.navbar-brand-uofr-logo {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+/**/
+
+
+.navbar {
+    margin: 0;
+    }
+    .navbar.fixed{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        }
+.navbar-default{
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: 1000;
+    }
+    .navbar-default.fixed{
+        background: rgba(0, 0, 0, 0.8);
+        }
+
+/* Search Box */
+/*.navbar-form{
+  padding: 0 0 0 15px;
+  }
+.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1.0);
+  }*/
+
+.navbar-form .form-control {
+      box-shadow: none;
+      border:none;
+      background-color: #e7e7e7;
+      color: black;
+}
+/**/
+
+
+/* Collapsed button */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background: none;
+}
+
+.navbar-toggle{
+  border: none;
+}
+
+/**/
+
+/* Added space to prevent jump on scroll */
+.spacer      {height: 0;   }
+.spacer.show {height: 50px;}
+/**/
+
+
+
+
 
 
 
@@ -30,7 +112,6 @@ portion.
     border-radius: 5px 0 0 5px;
     }
 
-/*.header-search {display: none;}*/
 .header-search.show{
     display: block;
       }
@@ -44,16 +125,32 @@ portion.
     width: 100%;
     height: 35px;
     padding: 5px;
-    /*position: fixed;*/
     z-index: 1000;
     top: 0;
-    }
+}
 
-/* UofR logo in navbar */
-.navbar-brand-uofr-logo{
-    width: 210px;
+
+
+/* RCL logo */
+.navbar-brand-rcl-logo{
+    display: inline-block;
+    width: 200px;
     height: auto;
-    }
+    margin-right: 5px;
+}
+/* Digital Projects Logo */
+.navbar-brand-dp-logo{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    border-left: 1px solid #184284;
+    padding: 4px 0 0 10px;
+}
+/* May B Logo */
+.mayb-logo{
+    width: 235px;
+    height: auto;
+}
 
 /* Search box grow on focus */
 .navbar-search-grow, .navbar .form-control {
@@ -82,34 +179,6 @@ portion.
     .navbar-spacer.show {
       display: block;
       }
-
-/* Section Navigation */
-.section-header {
-    background: rgba(34, 70, 137, 0.8);
-    /*background: rgba(0, 0, 0, 0.5);*/
-    border-top: 1px solid #466daf;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    height: 35px;
-    }
-    .section-header.fixed {
-        position: fixed;
-        top: 50px;
-        left: 0;
-        right: 0;
-        }
-    /* Adjustment for Admin menu  */
-    .logged-in .section-header.fixed {
-        top: 70px;
-        }
-    .section-header a{
-        /*color: gray;*/
-        }
-    .section-header a:hover{
-        color: #FFF;
-        }
 
 .page-title-header{
     width: 40%;
@@ -252,12 +321,7 @@ section .block-title {
     top: 20px;
     }
 
-/* Size and positioning for the RCL Logo */
-.navbar-brand img {
-    width: 240px;
-    height: auto;
-    position: relative;
-    }
+
 
 /* Navbar color for RCL bar */
 .inside-nav {
@@ -296,7 +360,7 @@ section .block-title {
 
 /* Nav link default color  */
 .navbar-default .navbar-nav > li > a {
-    color: #71a8fc;
+    color: lightgray;
     }
 
 /* Nav link Hover/Focus color  */
@@ -363,9 +427,10 @@ NAVBAR >> SEARCH BOX
 
 /* Changing the search box styles inside nav */
 .navbar .form-control {
-  background-color: #021e47;
-  border: none;
-  color: #FFF;
+    box-shadow: none;
+    border:none;
+    background-color: #e7e7e7;
+    color: black;
   }
   .navbar .form-control:focus {
     border: none;

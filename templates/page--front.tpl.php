@@ -3,29 +3,34 @@
 
 
 
+<div style="background-color: black;">
+
 <!--====== UNIVERSITY HEADER ======-->
 <div class="uofr-header">
   <div class="container">
     <!-- UofR Container -->
-    <div class="uofr-logo-container">
+    <div class="left-logo-container">
       <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
+        <img class="navbar-brand-rcl-logo" alt="River Campus Libraries" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/rcl_logo.png" />
       </a>
+      <a href="http://www.rochester.edu/">
+        <img class="navbar-brand-dp-logo" alt="Digital Projects" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/dp_logo.png" />
+    </a>
     </div>
-    <!-- Ever Better Container -->
-    <div class="everbetter-container">
-        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-dp.png" />
+    <!-- Right Container -->
+    <div class="right-logo-container">
+        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
     </div>
   </div>
 </div>
 
-<div style="background-color: black;">
 
+<!--====== MAY BRAGDON HEADER ======-->
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <!-- LHP Logo -->
-      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="lhp-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
+      <!-- May Bragdon  Logo -->
+      <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="mayb-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
       </a>
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -71,7 +76,6 @@
     </div>
   </div>
 </header>
-
 <div class="spacer"></div>
 <!-- /Header/ -->
 
@@ -255,10 +259,15 @@
   <div class="scroll-hint-text"><a href="#begin">Diaries</a></div>
   <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div> -->
+
+
+
 <!--============== MOBILE COVER VERSION  ==============-->
 <div class="mobile-cover">
   <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
 </div>
+
+
 
 
 <!--============== ABOUT SECTION ==============-->
@@ -268,9 +277,14 @@
   </div>
 </div>
 
+
+
+
+
+
 <!--============== DIARIES  ==============-->
 <div class="main-boxes-heading">Diaries</div>
-
+<div class="boxes">
 <div class="box box-odd">
   <a href="https://rclinddev.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A728">
     <img class="box-images" alt="Diary February 27 to December 31, 1893" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
@@ -371,7 +385,11 @@
     </div>
   </a>
 </div>
+</div>
 <!--/-->
+
+
+
 
 <!--====== FOOTER ======-->
 <div class="footer">
@@ -426,6 +444,7 @@
 
 
 </div>
+</div> <!-- Closing out the black background -->
 
 
 <!--====== Navigation Scroll JS ======-->

@@ -125,8 +125,64 @@
   bottom: 51px;
 }
 
-/* Viewer
+/* Viewer Pane
 -----------------------------------*/
+
+.openseadragon-container div:nth-child(3) {
+    /*border: 1px solid red!important;*/
+    position: absolute;
+    right: 8px;
+    left: initial;
+    top: 104px!important;
+    left: auto!important;
+}
+
+/* Arrow icons: Left and Right */
+a#islandora-paged-tei-seadragon-navigate-left,
+a#islandora-paged-tei-seadragon-navigate-right{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 45%;
+    height: 100px;
+    width: 49px;
+    border: 1px solid gray;
+    display: block;
+}
+a#islandora-paged-tei-seadragon-navigate-left:hover,
+a#islandora-paged-tei-seadragon-navigate-right:hover{
+    background: #30343b;
+}
+/* Right arrow */
+a#islandora-paged-tei-seadragon-navigate-right {
+    right: 15%;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+/* Left arrow */
+a#islandora-paged-tei-seadragon-navigate-left {
+    left: 35%;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+a#islandora-paged-tei-seadragon-navigate-left img,
+a#islandora-paged-tei-seadragon-navigate-right img {
+    width: 26px;
+    height: auto;
+    position: absolute;
+    top: 36%;
+    bottom: 0;
+    opacity: 0.7;
+}
+a#islandora-paged-tei-seadragon-navigate-left img{
+    left: 17%;
+}
+a#islandora-paged-tei-seadragon-navigate-right img{
+    right: 17%;
+}
+/*.paged-tei-seadragon-viewer-left-toolbar img:hover {
+    opacity: 1;
+}*/
+
 #book-viewer {
     width: 100%;
 }
@@ -187,14 +243,14 @@
 
 
 
-/* Files
+/* File Downloads Datastreams
 -----------------------------------*/
 
 .paged-tei-seadragon-viewer-download-datastreams {
     display: block;
     position: absolute;
     z-index: 1001;
-    bottom: 20px;
+    bottom: 0;
     left: 35%;
     padding: 5px;
     width: 50%;
@@ -299,16 +355,6 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
 /* Transcription Pane
 -----------------------------------*/
 
-/*.tei br:nth-child(even) {
-    display: none;
-}*/
-
-/*p br:first-child {
-    display: block!important;
-    border: none!important;
-}*/
-
-
 /* Removing the P tag style */
 .tei .p {
   margin: 0!important;
@@ -368,15 +414,6 @@ of a line */
     background: white;
     z-index: 500;
     white-space: nowrap;
-}
-.paged-tei-seadragon-viewer-left-toolbar img {
-    width: 14px;
-    height: auto;
-    margin: 0px 27px;
-    opacity: 0.7;
-}
-.paged-tei-seadragon-viewer-left-toolbar img:hover {
-    opacity: 1;
 }
 
 .tei {
