@@ -127,16 +127,33 @@
 
 /* Viewer Pane
 -----------------------------------*/
-
-a#islandora-paged-tei-seadragon-navigate-right {
+/* Arrow icons: Left and Right */
+a#islandora-paged-tei-seadragon-navigate-left,
+a#islandora-paged-tei-seadragon-navigate-right{
     background: rgba(0,0,0,0.5);
     position: fixed;
-    right: 15%;
     top: 45%;
     height: 100px;
     width: 49px;
     border: 1px solid gray;
+    display: block;
+}
+a#islandora-paged-tei-seadragon-navigate-left:hover,
+a#islandora-paged-tei-seadragon-navigate-right:hover{
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+}
+/* Right arrow */
+a#islandora-paged-tei-seadragon-navigate-right {
+    right: 15%;
     border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+/* Left arrow */
+a#islandora-paged-tei-seadragon-navigate-right {
+    left: 35%;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
 }
 .paged-tei-seadragon-viewer-left-toolbar img {
     width: 26px;
