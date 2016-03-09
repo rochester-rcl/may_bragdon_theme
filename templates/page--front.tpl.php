@@ -9,7 +9,7 @@
     <!-- UofR Container -->
     <div class="uofr-logo-container">
       <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
+        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/rcl_logo.png" />
       </a>
     </div>
     <!-- Ever Better Container -->
