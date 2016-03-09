@@ -75,7 +75,6 @@
     </div>
   </div>
 </header>
-</div>
 <div class="spacer"></div>
 <!-- /Header/ -->
 
@@ -259,10 +258,15 @@
   <div class="scroll-hint-text"><a href="#begin">Diaries</a></div>
   <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div> -->
+
+
+
 <!--============== MOBILE COVER VERSION  ==============-->
 <div class="mobile-cover">
   <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
 </div>
+
+
 
 
 <!--============== ABOUT SECTION ==============-->
@@ -271,6 +275,12 @@
       An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
   </div>
 </div>
+
+</div> <!-- Closing out the black background -->
+
+
+
+
 
 <!--============== DIARIES  ==============-->
 <div class="main-boxes-heading">Diaries</div>
