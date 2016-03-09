@@ -56,10 +56,16 @@ form.openseadragon-container {
 -----------------------------------*/
 
 /* Removing the details for now */
-.inclusion-page-class .islandora-large-image-metadata {
+/*.inclusion-page-class .islandora-large-image-metadata {
     display: none;
+}*/
+.item-metadata {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top: 100px;
+    border: 1px solid white;
 }
-
 
 
 
