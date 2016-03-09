@@ -3,6 +3,8 @@
 
 
 
+<div style="background-color: black;">
+
 <!--====== UNIVERSITY HEADER ======-->
 <div class="uofr-header">
   <div class="container">
@@ -22,7 +24,6 @@
   </div>
 </div>
 
-<div style="background-color: black;">
 
 <!--====== MAY BRAGDON HEADER ======-->
 <header id="navbar" role="banner" class="navbar navbar-default">
@@ -386,7 +387,6 @@
 </div>
 <!--/-->
 
-</div> <!-- Closing out the black background -->
 
 
 
@@ -443,6 +443,7 @@
 
 
 </div>
+</div> <!-- Closing out the black background -->
 
 
 <!--====== Navigation Scroll JS ======-->
