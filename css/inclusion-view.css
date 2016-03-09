@@ -76,12 +76,7 @@ form.openseadragon-container {
 .item-metadata div:nth-child(1) {
     font-size: 20px;
 }
-/* Abstract */
-.item-metadata div:nth-child(2) {
-    font-size: 14px;
-    font-style: italic;
-    color: lightgray;
-}
+
 
 
 
