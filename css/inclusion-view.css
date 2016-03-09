@@ -69,6 +69,9 @@ form.openseadragon-container {
     padding: 20px 40px;
     color: lightgray;
 }
+.logged-in .item-metadata {
+    bottom: 50px;
+}
 .item-metadata-label {
     display: none;
 }
@@ -78,8 +81,8 @@ form.openseadragon-container {
     font-family: 'Merriweather', serif;
     color: white;
     font-weight: 100;
-
 }
+
 
 
 
