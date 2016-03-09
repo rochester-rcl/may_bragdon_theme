@@ -44,10 +44,12 @@
     top: 0;
     height: 100%;
 }
-
 .islandora-large-image-content {
     background: #30343b;
     border: none;
+}
+form.openseadragon-container {
+    width: 100%!important;
 }
 
 /* Additional info
