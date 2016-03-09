@@ -56,7 +56,7 @@ portion.
         }
 
 /* Search Box */
-.navbar-form{
+/*.navbar-form{
   padding: 0 0 0 15px;
   }
 .navbar-default .navbar-nav>li>a {
@@ -64,7 +64,7 @@ portion.
   }
   .navbar-default .navbar-nav>li>a:hover {
     color: rgba(255, 255, 255, 1.0);
-  }
+  }*/
 
 .navbar-form .form-control {
       box-shadow: none;
@@ -427,9 +427,10 @@ NAVBAR >> SEARCH BOX
 
 /* Changing the search box styles inside nav */
 .navbar .form-control {
-  background-color: #021e47;
-  border: none;
-  color: #FFF;
+    box-shadow: none;
+    border:none;
+    background-color: #e7e7e7;
+    color: black;
   }
   .navbar .form-control:focus {
     border: none;
