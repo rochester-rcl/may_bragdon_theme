@@ -144,7 +144,11 @@ portion.
     width: 150px;
     height: auto;
 }
-
+/* May B Logo */
+.mayb-logo{
+    width: 235px;
+    height: auto;
+}
 
 /* Search box grow on focus */
 .navbar-search-grow, .navbar .form-control {
