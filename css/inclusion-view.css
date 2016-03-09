@@ -67,7 +67,7 @@ form.openseadragon-container {
     background: rgba(0,0,0,0.5);
     width: 85%;
     padding: 20px 40px;
-    color: white;
+    color: lightgray;
 }
 .item-metadata-label {
     display: none;
@@ -76,6 +76,7 @@ form.openseadragon-container {
 .item-metadata div:nth-child(1) {
     font-size: 20px;
     font-family: 'Merriweather', serif;
+    color: white;
 
 }
 
