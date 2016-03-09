@@ -158,7 +158,9 @@
 
 
 
-<?php include 'https://rclinddev.lib.rochester.edu/maybragdon/sites/all/themes/may_bragdon_theme/images/mayb-logo.png' ?>
+<?php
+require_once(dirname(__FILE__).'print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png');
+?>
 
 
 <div class="main-container container">
