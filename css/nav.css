@@ -180,7 +180,6 @@ portion.
       display: block;
       }
 
-
 .page-title-header{
     width: 40%;
     float: left;
@@ -361,7 +360,7 @@ section .block-title {
 
 /* Nav link default color  */
 .navbar-default .navbar-nav > li > a {
-    color: #71a8fc;
+    color: white;
     }
 
 /* Nav link Hover/Focus color  */
