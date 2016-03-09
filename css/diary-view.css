@@ -152,8 +152,8 @@ a#islandora-paged-tei-seadragon-navigate-right {
 /* Left arrow */
 a#islandora-paged-tei-seadragon-navigate-left {
     left: 35%;
-    border-radius: 5px 0 0 5px;
-    border-right: none;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
 }
 .paged-tei-seadragon-viewer-left-toolbar img {
     width: 26px;
