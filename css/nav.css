@@ -36,10 +36,6 @@ portion.
 
     }
     .navbar-brand-uofr-logo {
-        width: 460px;
-        height: auto;
-        }
-    .navbar-brand-uofr-logo {
         width: 200px;
         height: auto;
         float: right;
@@ -147,15 +143,15 @@ portion.
 /* RCL logo */
 .navbar-brand-rcl-logo{
     display: inline-block;
-    width: 210px;
-    height: auto;
+    width: auto;
+    height: 12px;
 }
 
 /* Digital Projects Logo */
 .navbar-brand-dp-logo{
     display: inline-block;
-    width: 210px;
-    height: auto;
+    width: auto;
+    height: 12px;
 }
 
 
