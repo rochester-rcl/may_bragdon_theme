@@ -150,7 +150,7 @@ a#islandora-paged-tei-seadragon-navigate-right {
     border-right: none;
 }
 /* Left arrow */
-a#islandora-paged-tei-seadragon-navigate-right {
+a#islandora-paged-tei-seadragon-navigate-left {
     left: 35%;
     border-radius: 5px 0 0 5px;
     border-right: none;
