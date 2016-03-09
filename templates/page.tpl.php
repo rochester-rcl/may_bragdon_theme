@@ -78,22 +78,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-<!--====== UNIVERSITY HEADER ======-->
-<div class="uofr-header">
-  <div class="container">
-    <!-- UofR Container -->
-    <div class="uofr-logo-container">
-      <a href="http://www.rochester.edu/">
-        <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr-rcl.png" />
-      </a>
-    </div>
-    <!-- Ever Better Container -->
-    <div class="everbetter-container">
-        <img class="navbar-brand-everbetter" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-dp.png" />
-    </div>
-  </div>
-</div>
-
 
 <!--====== UNIVERSITY HEADER ======-->
 <div class="uofr-header">
@@ -114,7 +98,6 @@
   </div>
 </div>
 
-<div style="background-color: black;">
 
 <header id="navbar" role="banner" class="navbar navbar-default">
   <div class="container">
