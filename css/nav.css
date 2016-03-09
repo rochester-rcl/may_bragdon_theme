@@ -129,7 +129,6 @@ portion.
     top: 0;
 }
 
-/* RCL/DP logo sizing */
 
 
 /* RCL logo */
@@ -137,12 +136,15 @@ portion.
     display: inline-block;
     width: 200px;
     height: auto;
+    margin-right: 5px;
 }
 /* Digital Projects Logo */
 .navbar-brand-dp-logo{
     display: inline-block;
     width: 150px;
     height: auto;
+    border-left: 1px solid #184284;
+    padding: 4px 0 0 10px;
 }
 /* May B Logo */
 .mayb-logo{
