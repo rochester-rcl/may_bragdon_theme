@@ -46,13 +46,22 @@ portion.
     /*position: fixed;*/
     z-index: 1000;
     top: 0;
-    }
+}
 
-/* UofR logo in navbar */
-.navbar-brand-uofr-logo{
+/* RCL logo */
+.navbar-brand-rcl-logo{
+    display: inline-block;
     width: 210px;
     height: auto;
-    }
+}
+
+/* Digital Projects Logo */
+.navbar-brand-dp-logo{
+    display: inline-block;
+    width: 210px;
+    height: auto;
+}
+
 
 /* Search box grow on focus */
 .navbar-search-grow, .navbar .form-control {
