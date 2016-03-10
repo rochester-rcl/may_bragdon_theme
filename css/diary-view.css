@@ -261,6 +261,12 @@ a#tei-viewer-manuscript {
     border: 1px solid white;
     border-radius: 0 5px 5px 0;
 }
+/* Original Only */
+.tei-viewer-original-only {
+    padding: 5px 10px;
+    background: rgba(0,0,0,0.5);
+    color: lightgray;
+}
 
 /* Removing View Occludded Buttons  */
 #tei-viewer-occluded {
