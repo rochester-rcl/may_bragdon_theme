@@ -22,7 +22,7 @@
     position: absolute;
     z-index: 1001;
     display: block;
-    left: 37%;
+    left: 35.8%;
     width: auto;
     bottom: 15px;
 }
@@ -33,6 +33,9 @@
     background: rgba(0,0,0,0.5);
     border-radius: 3px;
     border: 1px solid gray;
+}
+.page-link a:hover{
+background: #30343b;
 }
 /*icon*/
 .page-link i {
