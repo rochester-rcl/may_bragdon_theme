@@ -406,7 +406,6 @@
             </p>
           </div>
         </div>
-
       <!-- Left Side of Footer -->
       <div class="footer-left">
         <!-- <div class="social-icons">
@@ -420,7 +419,6 @@
           <li></li>
           <li></li>
         </ul>
-
         <!-- Copyright  -->
         <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
           University of Rochester | River Campus Libraries <br>
@@ -431,14 +429,11 @@
 
           <a href="user/login">Login</a>
         </div>
-
       </div>
-
-
-
-
+    </div>
 </div>
-</div> <!-- Closing out the black background -->
+
+</div><!-- Closing out the black background -->
 
 
 <!--====== Navigation Scroll JS ======-->
