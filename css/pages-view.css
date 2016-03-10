@@ -20,6 +20,10 @@
 }
 
 
+.pages-page-class dd.islandora-object-caption {
+    display: none;
+}
+
 .islandora-objects-display-switch {
     display: none;
 }

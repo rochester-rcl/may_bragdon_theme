@@ -224,13 +224,24 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 */
 .paged-tei-seadragon-viewer-right-toolbar {
     top: 10px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: auto;
-    border-radius: 5px;
-    padding: 5px 14px;
+    /* border-radius: 5px; */
+    /*padding: 5px 14px;*/
     position: absolute;
     left: 11px;
     z-index: 1000;
+}
+a#tei-viewer-original {
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+    padding: 5px 20px;
+    margin-right: -4px;
+}
+a#tei-viewer-manuscript {
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 20px;
 }
 
 /* Removing View Occludded Buttons  */
