@@ -130,7 +130,7 @@ background: #30343b;
 
 .diary-page-cite .btn-default {
     color: #333;
-    background-color: #fffdf5;
+    background-color: white;
     border-color: #ccc;
     position: absolute;
     z-index: 500;
@@ -140,7 +140,7 @@ background: #30343b;
     border-radius: 5px;
 }
 .diary-page-cite .btn-default:hover {
-    background: white;
+    background: lightgray;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
