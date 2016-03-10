@@ -20,7 +20,7 @@
 /* Pages Link */
 .page-link {
     position: absolute;
-    z-index: 1000;
+    z-index: 1001;
     display: block;
     left: 37%;
     width: auto;
