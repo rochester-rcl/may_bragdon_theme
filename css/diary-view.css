@@ -237,10 +237,16 @@ a#tei-viewer-manuscript {
     border: 1px solid white;
     padding: 5px 20px;
     color: white;
+    background: rgba(0,0,0,0.5)
 }
 a#tei-viewer-original:hover,
 a#tei-viewer-manuscript:hover {
     text-decoration: none;
+    background: #30343b;
+}
+a#tei-viewer-original .active,
+a#tei-viewer-manuscript .active {
+    background: gray;
 }
 a#tei-viewer-original {
     border-radius: 5px 0 0 5px;
