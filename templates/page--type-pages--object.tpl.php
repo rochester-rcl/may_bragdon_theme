@@ -106,11 +106,13 @@
           <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="mayb-logo" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mayb-logo.png" />
           </a>
           <!-- Page title  -->
+          <div class="pages-page-class">
                 <?php if (!empty($title)): ?>
                   <div class="page-title-wrapper">
                     <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
                   </div>
                 <?php endif; ?>
+            </div>
           <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -187,15 +189,6 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
 
-
-<!-- Page title  -->
-      <?php if (!empty($title)): ?>
-        <div class="page-title-wrapper">
-          <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-
-        </div>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
       <?php print $messages; ?>
 
       <?php if (!empty($page['help'])): ?>
