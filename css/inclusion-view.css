@@ -63,9 +63,7 @@ form.openseadragon-container {
     bottom: 0;
     /*background: rgba(0,0,0,0.5);*/
     width: 85%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 100px;
+    padding: 100px 40px 20px 40px;
     color: lightgray;
     /*Gradient*/
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
