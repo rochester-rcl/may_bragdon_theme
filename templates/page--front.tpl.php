@@ -432,7 +432,7 @@
           University of Rochester | River Campus Libraries <br>
           Rare Books, Special Collections and Preservation
           <a href="http://www.rochester.edu/">
-            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
+            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
           </a>
 
           <a href="user/login">Login</a>
