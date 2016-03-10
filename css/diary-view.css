@@ -266,7 +266,7 @@ a#islandora-paged-tei-seadragon-navigate-right img{
     display: block;
     position: absolute;
     z-index: 1000;
-    bottom: 5;
+    bottom: 5px;
     left: 35%;
     padding: 15px 5px 10px 5px;
     width: 50%;
