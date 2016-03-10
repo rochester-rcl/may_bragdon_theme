@@ -72,12 +72,12 @@ form.openseadragon-container {
     display: none;
 }
 /* Title */
-.item-metadata div:nth-child(2) {
+/*.item-metadata div:nth-child(2) {
     font-size: 17px;
     font-family: 'Merriweather', serif;
     color: white;
     font-weight: 100;
-}
+}*/
 
 
 
