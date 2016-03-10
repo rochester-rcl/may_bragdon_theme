@@ -3,18 +3,6 @@
 /* Page Structure
 -----------------------------------*/
 
-/* Bottom Bar */
-.diary-subnav{
-    background: white;
-    display: block;
-    width: 35%;
-    border-top: 1px solid lightgray;
-    position: absolute;
-    bottom: 0;
-    height: 33px;
-    left: 0;
-    z-index: 100;
-}
 
 
 /* Pages Link */
@@ -130,12 +118,10 @@ background: #30343b;
     border-color: #ccc;
     position: absolute;
     z-index: 500;
-    left: 0;
+    left: 8px;
     width: 95px;
-    bottom: 0;
-    border-bottom: none;
-    border-left: none;
-    border-radius: 0 5px 0 0;
+    bottom: 9px;
+    border-radius: 5px;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;

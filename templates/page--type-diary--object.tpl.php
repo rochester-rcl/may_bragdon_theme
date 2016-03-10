@@ -146,16 +146,10 @@
 
 <div class="diary-page-class">
 
-<!--======= DIARY SUB NAV  ========-->
-<div class="diary-subnav">
-Test
-</div>
-<!--======= // ========-->
-
-
 <!--======= CITE THIS BUTTON  ========-->
   <div class="diary-page-cite">
-    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal">Cite This</button>
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal"><i class="fa fa-quote-left"></i>
+ Cite This</button>
   </div>
 <!--======= // ========-->
 
