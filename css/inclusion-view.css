@@ -55,10 +55,6 @@ form.openseadragon-container {
 /* Additional info
 -----------------------------------*/
 
-/* Removing the details for now */
-/*.inclusion-page-class .islandora-large-image-metadata {
-    display: none;
-}*/
 .item-metadata {
     position: fixed;
     z-index: 1000;
@@ -76,7 +72,7 @@ form.openseadragon-container {
     display: none;
 }
 /* Title */
-.item-metadata div:nth-child(1) {
+.item-metadata div:nth-child(2) {
     font-size: 17px;
     font-family: 'Merriweather', serif;
     color: white;
