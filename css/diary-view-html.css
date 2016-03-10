@@ -47,7 +47,8 @@ body, html {
 #paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(96,96,96,0.8);
+    background: #eae8e2;
+    border: 1px solid gray;
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
 }
 #paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb:window-inactive {
