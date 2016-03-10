@@ -59,6 +59,7 @@ form.openseadragon-container {
     position: fixed;
     z-index: 1000;
     left: 0;
+    pointer-events: none;
     bottom: 0;
     /*background: rgba(0,0,0,0.5);*/
     width: 85%;
