@@ -223,12 +223,14 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 - Moved to the TEI area
 */
 .paged-tei-seadragon-viewer-right-toolbar {
-    top: 60px;
+    top: 10px;
     border: 1px solid white;
     width: auto;
     border-radius: 5px;
     padding: 5px 14px;
-    left: calc(35% + 10px);
+    position: absolute;
+    left: 11px;
+    z-index: 1000;
 }
 
 /* Removing View Occludded Buttons  */
