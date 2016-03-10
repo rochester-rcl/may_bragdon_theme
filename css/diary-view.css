@@ -123,6 +123,9 @@ background: #30343b;
     bottom: 9px;
     border-radius: 5px;
 }
+.diary-page-cite .btn-default:hover {
+    background: #30343b;
+}
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
 }
