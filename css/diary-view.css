@@ -252,6 +252,7 @@ a#tei-viewer-manuscript:focus {
 a#tei-viewer-original.active,
 a#tei-viewer-manuscript.active {
     background: gray;
+    pointer-events: none;
 }
 a#tei-viewer-original {
     border-radius: 5px 0 0 5px;
