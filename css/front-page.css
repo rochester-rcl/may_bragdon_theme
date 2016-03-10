@@ -450,12 +450,13 @@ div.vertical-line{
 
 /* Tallest Screens */
 @media (min-height: 1100px) {
-  .scroll-hint {display: none;}
+    .scroll-hint {display: none;}
 }
 
 /* Width Based */
 @media (max-width: 768px) {
     /* Removing the Ever Better graphic on mobile */
+    .right-logo-container{display: none;}
     .uofr-logo-container{width: 100%}
     .everbetter-container {display: none;}
     /**/
