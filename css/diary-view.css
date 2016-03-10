@@ -234,7 +234,7 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 }
 a#tei-viewer-original,
 a#tei-viewer-manuscript {
-    border: 1px solid white;
+    border: 1px solid gray;
     padding: 5px 20px;
     color: white;
     background: rgba(0,0,0,0.5)
@@ -244,8 +244,8 @@ a#tei-viewer-manuscript:hover {
     text-decoration: none;
     background: #30343b;
 }
-a#tei-viewer-original .active,
-a#tei-viewer-manuscript .active {
+a#tei-viewer-original.active,
+a#tei-viewer-manuscript.active {
     background: gray;
 }
 a#tei-viewer-original {
