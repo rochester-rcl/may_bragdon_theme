@@ -262,12 +262,6 @@
 
 
 
-<!--============== MOBILE COVER VERSION  ==============-->
-<div class="mobile-cover">
-  <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
-</div>
-
-
 
 
 <!--============== ABOUT SECTION ==============-->
