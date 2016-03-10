@@ -130,6 +130,9 @@ background: #30343b;
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(252,250,243,1) 98%,rgba(255,253,245,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#fffdf5',GradientType=0 ); /* IE6-9 */
 }
+.logged-in .diary-page-cite {
+    bottom: 50px;
+}
 
 .diary-page-cite .btn-default {
     color: #333;
@@ -146,7 +149,7 @@ background: #30343b;
     background: lightgray;
 }
 .logged-in .diary-page-cite .btn-default {
-  bottom: 60px;
+  /*bottom: 60px;*/
 }
 
 /* Viewer Pane
@@ -527,6 +530,9 @@ span.head {display: none;}
     bottom: 0;
     background: #fffdf5;
     padding: 0px 30px 60px 30px;
+}
+.logged-in #paged-tei-seadragon-viewer-tei {
+    bottom:  52px;
 }
 
 /* Removes the toggle button for TEI */
