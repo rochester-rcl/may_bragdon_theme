@@ -287,4 +287,4 @@
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/ography.js' ?>"></script>
 
 <!--====== MBD Dropdown JS =======-->
-<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/mbd_dropdown.js'; ?>"></script>
+<!-- <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/mbd_dropdown.js'; ?>"></script> -->
