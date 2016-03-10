@@ -125,6 +125,7 @@ background: #30343b;
 }
 .diary-page-cite .btn-default:hover {
     background: #30343b;
+    color: white;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
@@ -415,12 +416,16 @@ of a line */
     padding: 7px;
     position: fixed;
     left: 0px;
-    width: 35%;
+    width: calc(35% - 12px);
     border-bottom: 1px solid lightgray;
     text-align: center;
     background: white;
     z-index: 500;
     white-space: nowrap;
+    background: -moz-linear-gradient(top,  rgba(255,253,245,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,253,245,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,253,245,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf5', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 .tei {
@@ -473,7 +478,7 @@ span.head {display: none;}
     max-height: 5000px;
     position: absolute;
     width: 35%;
-    top: 91px;
+    top: 50px;
     bottom: 0;
     background: #fffdf5;
     padding: 0px 30px 60px 30px;
