@@ -455,10 +455,9 @@ div.vertical-line{
 
 /* Width Based */
 @media (max-width: 768px) {
-    /* Removing the Ever Better graphic on mobile */
+    /*Removing the UofR logo on mobile*/
     .right-logo-container{display: none;}
-    .uofr-logo-container{width: 100%}
-    .everbetter-container {display: none;}
+    .left-logo-container{width: 100%;}
     /**/
     /* Reverting padding on search box for mobile */
     .navbar-form{
