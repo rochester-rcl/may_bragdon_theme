@@ -182,6 +182,7 @@ Test
 <!--===== pages link =====-->
       <?php if (!empty($is_book)): ?>
         <div class="page-link">
+          <i class="fa fa-files-o"></i>
           <a href="<?php print base_path() . 'islandora/object/' . $pid ?>/pages">Pages</a>
         </div>
       <?php endif; ?>

@@ -22,10 +22,14 @@
     position: absolute;
     z-index: 1000;
     display: block;
-    left: 300px;
+    left: 37%;
+    width: auto;
     bottom: 6px;
 }
-
+.page-link a{
+    color: white;
+    text-decoration: none;
+}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
@@ -252,10 +256,14 @@ a#islandora-paged-tei-seadragon-navigate-right img{
     z-index: 1001;
     bottom: 0;
     left: 35%;
-    padding: 5px;
+    padding: 15px 5px 10px 5px;
     width: 50%;
     color: lightgray;
-    background: rgba(0, 0, 0, 0.5);
+    /*background: rgba(0, 0, 0, 0.5);*/
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 .paged-tei-seadragon-viewer-download-datastreams a {
     color: white;
@@ -279,6 +287,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
     float: right;
     padding-right: 15px;
     padding-top: 3px;
+    pointer-events: all;
 }
 
 
