@@ -117,7 +117,6 @@ background: #30343b;
     display: block;
     width: calc(35% -12px);
     width: calc(35% - 12px);
-    border: 1px solid red;
     position: absolute;
     bottom: 0;
     left: 0;
