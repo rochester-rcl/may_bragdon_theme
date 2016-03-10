@@ -253,7 +253,7 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 .paged-tei-seadragon-viewer-download-datastreams {
     display: block;
     position: absolute;
-    z-index: 1001;
+    z-index: 1000;
     bottom: 0;
     left: 35%;
     padding: 15px 5px 10px 5px;
