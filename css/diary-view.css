@@ -141,7 +141,6 @@ background: #30343b;
 }
 .diary-page-cite .btn-default:hover {
     background: white;
-    color: white;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
