@@ -360,6 +360,10 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
   background-color: #30343b;
 
 }
+
+.logged-in .diary-page-class .inclusion-sidebar .region.region-sidebar-second {
+    bottom: 20px;
+}
 .inclusion-sidebar .region.region-sidebar-second .inclusion-label {
   display: block;
   color: white;
