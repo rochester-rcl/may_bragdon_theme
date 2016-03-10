@@ -31,3 +31,6 @@ sub-theme.
 
 /* 7. Inclusion View Overides */
 @import url("inclusion-view.css");
+
+/* 8. Pages View */
+@import url("pages-view.css");
