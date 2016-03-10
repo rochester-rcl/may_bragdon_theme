@@ -24,11 +24,15 @@
     display: block;
     left: 37%;
     width: auto;
-    bottom: 6px;
+    bottom: 15px;
 }
 .page-link a{
     color: white;
     text-decoration: none;
+    padding: 7px 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    border: 1px solid gray;
 }
 /*icon*/
 .page-link i {
