@@ -259,7 +259,6 @@ a#tei-viewer-original {
     margin-right: -4px;
 }
 a#tei-viewer-manuscript {
-    border: 1px solid white;
     border-radius: 0 5px 5px 0;
 }
 /* Original Only */
