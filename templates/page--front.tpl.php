@@ -262,12 +262,6 @@
 
 
 
-<!--============== MOBILE COVER VERSION  ==============-->
-<div class="mobile-cover">
-  <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
-</div>
-
-
 
 
 <!--============== ABOUT SECTION ==============-->
@@ -412,7 +406,6 @@
             </p>
           </div>
         </div>
-
       <!-- Left Side of Footer -->
       <div class="footer-left">
         <!-- <div class="social-icons">
@@ -426,25 +419,21 @@
           <li></li>
           <li></li>
         </ul>
-
         <!-- Copyright  -->
         <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
           University of Rochester | River Campus Libraries <br>
           Rare Books, Special Collections and Preservation
           <a href="http://www.rochester.edu/">
-            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/logo-uofr.png" />
+            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
           </a>
 
           <a href="user/login">Login</a>
         </div>
-
       </div>
-
-
-
-
+    </div>
 </div>
-</div> <!-- Closing out the black background -->
+
+</div><!-- Closing out the black background -->
 
 
 <!--====== Navigation Scroll JS ======-->

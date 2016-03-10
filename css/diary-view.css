@@ -3,29 +3,33 @@
 /* Page Structure
 -----------------------------------*/
 
-/* Bottom Bar */
-.diary-subnav{
-    background: white;
-    display: block;
-    width: 35%;
-    border-top: 1px solid lightgray;
-    position: absolute;
-    bottom: 0;
-    height: 33px;
-    left: 0;
-    z-index: 100;
-}
 
 
 /* Pages Link */
 .page-link {
     position: absolute;
-    z-index: 1000;
+    z-index: 1001;
     display: block;
-    left: 300px;
-    bottom: 6px;
+    left: 35.8%;
+    width: auto;
+    bottom: 15px;
 }
-
+.page-link a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.page-link a:hover{
+background: #30343b;
+}
+/*icon*/
+.page-link i {
+    color: white;
+    font-size: 20px;
+}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
@@ -108,18 +112,36 @@
 
 /* Cite this button
 -----------------------------------*/
+
+.diary-page-cite {
+    display: block;
+    width: calc(35% -12px);
+    width: calc(35% - 12px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    height: 51px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(252,250,243,1) 98%, rgba(255,253,245,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(252,250,243,1) 98%,rgba(255,253,245,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(252,250,243,1) 98%,rgba(255,253,245,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#fffdf5',GradientType=0 ); /* IE6-9 */
+}
+
 .diary-page-cite .btn-default {
     color: #333;
     background-color: #fff;
     border-color: #ccc;
     position: absolute;
     z-index: 500;
-    left: 0;
+    left: 8px;
     width: 95px;
-    bottom: 0;
-    border-bottom: none;
-    border-left: none;
-    border-radius: 0 5px 0 0;
+    bottom: 9px;
+    border-radius: 5px;
+}
+.diary-page-cite .btn-default:hover {
+    background: #30343b;
+    color: white;
 }
 .logged-in .diary-page-cite .btn-default {
   bottom: 51px;
@@ -249,26 +271,27 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 .paged-tei-seadragon-viewer-download-datastreams {
     display: block;
     position: absolute;
-    z-index: 1001;
-    bottom: 0;
+    z-index: 1000;
+    bottom: 5px;
     left: 35%;
-    padding: 5px;
+    padding: 15px 5px 10px 5px;
     width: 50%;
     color: lightgray;
-    background: rgba(0, 0, 0, 0.5);
 }
 .paged-tei-seadragon-viewer-download-datastreams a {
     color: white;
-    background: #3f444c;
-    padding: 3px 8px;
-    border-radius: 2px;
+    padding: 7px 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    border: 1px solid gray;
 }
 .paged-tei-seadragon-viewer-download-datastreams a:hover {
     background: #565c66;
     text-decoration: none;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
-    font-weight: 400;
+    /*font-weight: 400;*/
+    display: none;
 }
 /* Hiding the JPG option */
 div#paged-tei-seadragon-viewer-download-datastream-JP2 {
@@ -279,6 +302,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 {
     float: right;
     padding-right: 15px;
     padding-top: 3px;
+    pointer-events: all;
 }
 
 
@@ -405,15 +429,19 @@ of a line */
 
 /*Moved from Viewer div*/
 .paged-tei-seadragon-viewer-left-toolbar {
-    padding: 7px;
+    padding: 7px 7px 50px 7px;
     position: fixed;
     left: 0px;
-    width: 35%;
-    border-bottom: 1px solid lightgray;
+    width: calc(35% - 12px);
+    /*border-bottom: 1px solid lightgray;*/
     text-align: center;
     background: white;
     z-index: 500;
     white-space: nowrap;
+    background: -moz-linear-gradient(top,  rgba(255,253,245,1) 32%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,253,245,1) 32%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,253,245,1) 32%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf5', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 .tei {
@@ -466,7 +494,7 @@ span.head {display: none;}
     max-height: 5000px;
     position: absolute;
     width: 35%;
-    top: 91px;
+    top: 50px;
     bottom: 0;
     background: #fffdf5;
     padding: 0px 30px 60px 30px;
@@ -766,7 +794,7 @@ name[type=aka]{
       line-height: 2;
     }
     #paged-tei-seadragon-viewer-tei {
-      padding: 0px 30px 20px 60px;
+      padding: 30px 30px 20px 60px;
     }
 }
 /* Very Large  */
@@ -777,7 +805,7 @@ name[type=aka]{
       line-height: 2;
     }
   #paged-tei-seadragon-viewer-tei {
-    padding: 0px 30px 20px 25px;
+    padding: 30px 30px 20px 25px;
   }
 }
 /* Large */
@@ -788,7 +816,7 @@ name[type=aka]{
       line-height: 1.9;
     }
   #paged-tei-seadragon-viewer-tei {
-    padding: 0px 25px 20px 25px;
+    padding: 30px 25px 20px 25px;
   }
 }
 /* Main */
@@ -799,7 +827,7 @@ name[type=aka]{
       line-height: 1.9;
     }
   #paged-tei-seadragon-viewer-tei {
-    padding: 0px 15px 20px 25px;
+    padding: 30px 15px 20px 25px;
   }
   .tei br {
     content: "A" !important;
@@ -827,7 +855,7 @@ name[type=aka]{
     white-space: normal;
     }
   #paged-tei-seadragon-viewer-tei {
-    padding: 0px 15px 20px 15px;
+    padding: 30px 15px 20px 15px;
   }
   .tei br {
     content: "A" !important;

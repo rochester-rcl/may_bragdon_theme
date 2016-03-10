@@ -55,19 +55,22 @@ form.openseadragon-container {
 /* Additional info
 -----------------------------------*/
 
-/* Removing the details for now */
-/*.inclusion-page-class .islandora-large-image-metadata {
-    display: none;
-}*/
 .item-metadata {
     position: fixed;
     z-index: 1000;
     left: 0;
+    pointer-events: none;
     bottom: 0;
-    background: rgba(0,0,0,0.5);
+    /*background: rgba(0,0,0,0.5);*/
     width: 85%;
-    padding: 20px 40px;
+    padding: 100px 40px 20px 40px;
     color: lightgray;
+    /*Gradient*/
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
 }
 .logged-in .item-metadata {
     bottom: 42px;
@@ -76,7 +79,7 @@ form.openseadragon-container {
     display: none;
 }
 /* Title */
-.item-metadata div:nth-child(1) {
+.item-metadata > div:last-of-type {
     font-size: 17px;
     font-family: 'Merriweather', serif;
     color: white;

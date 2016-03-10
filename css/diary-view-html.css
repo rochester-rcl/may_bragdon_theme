@@ -40,18 +40,18 @@ body, html {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
     /*-webkit-border-radius: 10px;*/
     /*border-radius: 10px;*/
-    background: white;
+    background: #fffdf5;
 }
 
 /* Handle */
 #paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(96,96,96,0.8);
+    background: rgba(96,96,96,0.5);
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
 }
 #paged-tei-seadragon-viewer-tei::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(96,96,96,0.4);
+    background: #eae8e2;
 }
 
 
