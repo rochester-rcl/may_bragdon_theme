@@ -30,6 +30,9 @@ background: #30343b;
     color: white;
     font-size: 20px;
 }
+.logged-in .page-link{
+    bottom: 35px;
+}
 
 /*Page Title*/
 .diary-page-class .basic-page-title {
@@ -143,7 +146,7 @@ background: #30343b;
     background: lightgray;
 }
 .logged-in .diary-page-cite .btn-default {
-  bottom: 51px;
+  bottom: 60px;
 }
 
 /* Viewer Pane
@@ -240,7 +243,9 @@ a#tei-viewer-manuscript {
     background: rgba(0,0,0,0.5)
 }
 a#tei-viewer-original:hover,
-a#tei-viewer-manuscript:hover {
+a#tei-viewer-manuscript:hover,
+a#tei-viewer-original:focus,
+a#tei-viewer-manuscript:focus {
     text-decoration: none;
     background: #30343b;
 }
@@ -307,6 +312,9 @@ a#tei-viewer-manuscript {
 .paged-tei-seadragon-viewer-download-datastreams strong{
     /*font-weight: 400;*/
     display: none;
+}
+.logged-in .paged-tei-seadragon-viewer-download-datastreams {
+    bottom: 24px;
 }
 /* Hiding the JPG option */
 div#paged-tei-seadragon-viewer-download-datastream-JP2 {
