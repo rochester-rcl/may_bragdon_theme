@@ -151,7 +151,7 @@
   <img src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/mobile-cover.jpg" />
 </div>
 
-
+<!--
 <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 
 <div>
@@ -161,7 +161,7 @@
     <i class="fa fa-angle-down"></i>
     </div>
   </a>
-</div>
+</div> -->
 
 
 
