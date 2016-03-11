@@ -166,8 +166,10 @@
 
 <div>
   <a class="scroll-hint" href="#">
+      <div class="container">
     <span class="scroll-hint-title">More Info</span>
     <i class="fa fa-angle-down"></i>
+    </div>
   </a>
 </div>
 
