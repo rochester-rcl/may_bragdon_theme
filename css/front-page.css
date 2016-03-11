@@ -264,6 +264,7 @@ i.fa.fa-angle-down {
   margin: auto;
   font-family: 'Merriweather', serif;
   padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .scroll-hint-text a {color: gray;}
