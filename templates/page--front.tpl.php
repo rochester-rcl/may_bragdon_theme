@@ -105,8 +105,8 @@
            <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <div class="">NED as a nurse. May 7, 1893. The Studio. at #12.</div>
+              <div class="">May 7, 1893, p. 81</div>
             </div>
           </div>
         </div>
