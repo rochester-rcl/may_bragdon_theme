@@ -28,7 +28,9 @@
 <!--====== MAY BRAGDON HEADER ======-->
 
 <!-- May B Signature -->
-<img class="may-b-signature" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
+<div class="container">
+    <img class="may-b-signature" alt="May Bragdon" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
+</div>
 <!-- // -->
 
 <header id="navbar" role="banner" class="navbar navbar-default">
