@@ -109,8 +109,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                  <span class="cap-quote">M.B. as a Scribner poster.</span>
-                  <span class="cap-date">8/29 p.172</span>
+                  <span class="cap-quote">M.B. as a Scribner poster</span>
+                  <span class="cap-date">August 29</span>
                   </a>
               </div>
             </div>
@@ -125,8 +125,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6084">
-                  <span class="cap-quote">Group on Sitting room floor! Perfect Little Ladies' Valentine Party, Feb. 1897.</span>
-                  <span class="cap-date">8/29 p.172</span>
+                  <span class="cap-quote">Group on Sitting room floor! Perfect Little Ladies'</span>
+                  <span class="cap-date">Valentine Party, Feb. 1897</span>
                   </a>
               </div>
             </div>
@@ -135,13 +135,13 @@
     </div>
     <!-- Item 3 -->
     <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
       <div class="container" style="position:relative;">
         <div class="car-cap">
             <div class="content">
                 <div class="caption-container">
-                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                  <span class="cap-quote">M.B. as a Scribner poster.</span>
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3391">
+                  <span class="cap-quote">Perfect Little Ladies, in costume, playing Pedro.</span>
                   <span class="cap-date">8/29 p.172</span>
                   </a>
               </div>
@@ -151,14 +151,14 @@
     </div>
     <!-- Item 4 -->
     <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-004.jpg" />
       <div class="container" style="position:relative;">
         <div class="car-cap">
             <div class="content">
                 <div class="caption-container">
-                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                  <span class="cap-quote">M.B. as a Scribner poster.</span>
-                  <span class="cap-date">8/29 p.172</span>
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6205">
+                  <span class="cap-quote">The Aqueduct</span>
+                  <span class="cap-date">2/25/99</span>
                   </a>
               </div>
             </div>
@@ -167,13 +167,13 @@
   </div>
   <!-- Item 5 -->
   <div class="item">
-    <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+    <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-005.jpg" />
     <div class="container" style="position:relative;">
       <div class="car-cap">
           <div class="content">
               <div class="caption-container">
-                <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                <span class="cap-quote">M.B. as a Scribner poster.</span>
+                <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3939">
+                <span class="cap-quote">My "star picture" - the girls at Fairy Lake</span>
                 <span class="cap-date">8/29 p.172</span>
                 </a>
             </div>
