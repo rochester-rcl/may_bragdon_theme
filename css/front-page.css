@@ -26,16 +26,6 @@
 
 
 .carousel-indicators {
-    position: fixed;
-    bottom: 10px;
-    left: 88%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    z-index: 50000;
-    text-align: center;
-    list-style: none;
 }
 .car-img {
   width: 100%;
@@ -111,9 +101,6 @@
 .carousel-control {
     width: 70px;
 }
-
-.carousel-indicators {
-    }
 
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
     right: 15%;
