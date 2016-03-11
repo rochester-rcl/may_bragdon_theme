@@ -37,13 +37,28 @@
     text-align: center;
     list-style: none;
 }
-
-
 .car-img {
   width: 100%;
   height: auto;
 }
 
+.carousel-caption {
+    position: fixed;
+    top: auto;
+    left: 0;
+    /* border: 1px solid red; */
+    display: block;
+    width: 45%;
+    height: 90px;
+    text-align: center;
+    right: 0;
+    bottom: 380px;
+    padding: 25px;
+    margin: auto;
+    /* margin: 0; */
+    z-index: 100000;
+    background: rgba(0,0,0,0.2);
+}
 
 
 /* COVER
