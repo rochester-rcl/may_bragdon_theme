@@ -181,7 +181,7 @@
 
 <!--============== ABOUT SECTION ==============-->
 <div class="tagline-section">
-  <div class="tagline-hint content">
+  <div class="tagline-hint">
       An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
   </div>
 </div>
