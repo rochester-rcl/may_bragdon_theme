@@ -125,7 +125,7 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                  <span class="cap-quote">M.B. as a Scribner poster.</span>
+                  <span class="cap-quote">Group on Sitting room floor! Perfect Little Ladies' Valentine Party, Feb. 1897.</span>
                   <span class="cap-date">8/29 p.172</span>
                   </a>
               </div>

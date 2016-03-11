@@ -25,7 +25,8 @@
 }
 
 
-.carousel-indicators {
+.carousel-indicators li {
+    opacity: 0.6;
 }
 .car-img {
   width: 100%;
