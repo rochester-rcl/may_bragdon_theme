@@ -162,10 +162,7 @@
 <!-- /Header/ -->
 
 
-
-
-
-
+<div class="pages-page-class">
 <div class="main-container container">
 
   <header role="banner" id="page-header">
@@ -267,7 +264,7 @@
 
 
 </div>
-
+</div>
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
