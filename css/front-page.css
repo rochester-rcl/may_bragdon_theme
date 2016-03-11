@@ -3,6 +3,18 @@
 
 .hide {display: none;}
 
+
+
+/* BRANDING
+-----------------------------------*/
+.may-b-signature {
+    position: absolute;
+    z-index: 100;
+    width: 32%;
+    top: 39px;
+}
+
+
 /* ABOUT SECTION
 -----------------------------------*/
 .tagline-section {

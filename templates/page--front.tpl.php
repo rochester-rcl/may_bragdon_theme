@@ -117,7 +117,6 @@
           <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
           <span class="cap-date">February 25, 1897 p.67</span>
           </a>
-          <img class="mayb-signature" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
         </div>
       </div>
     </div>
@@ -128,7 +127,6 @@
         <span class="cap-quote">"There was a fire that would be remembered for ages..."</span>
         <span class="cap-date">February 25, 1897 p.67</span>
         </a>
-        <img class="mayb-signature" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
       </div>
     </div>
     <div class="item">
@@ -139,7 +137,6 @@
           <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
           <span class="cap-date">February 25, 1897 p.67</span>
           </a>
-          <img class="mayb-signature" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/may-b-logo.png" />
         </div>
       </div>
     </div>
