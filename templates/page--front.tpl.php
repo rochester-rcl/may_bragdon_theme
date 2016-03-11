@@ -74,7 +74,7 @@
               $search_form = drupal_get_form('may_bragdon_simple_search_form');
               print drupal_render($search_form);
             ?>
-            <button type="submit" form="may-bragdon-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+            <button type="submit" aria-label="search" form="may-bragdon-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
           </div>
         </li>
       </ul>
@@ -100,13 +100,15 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
-      <div class="content">
-        <div class="car-cap">
-          <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-          <span class="cap-quote">M.B. as a Scribner poster.</span>
-          <span class="cap-date">8/29 p.172</span>
-          </a>
-        </div>
+      <div class="container">
+          <div class="content">
+            <div class="car-cap">
+              <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+              <span class="cap-quote">M.B. as a Scribner poster.</span>
+              <span class="cap-date">8/29 p.172</span>
+              </a>
+            </div>
+          </div>
       </div>
     </div>
     <div class="item">

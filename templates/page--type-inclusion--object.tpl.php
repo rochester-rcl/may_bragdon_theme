@@ -129,7 +129,7 @@
               $search_form = drupal_get_form('may_bragdon_simple_search_form');
               print drupal_render($search_form);
             ?>
-            <button type="submit" form="may-bragdon-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
+            <button type="submit" aria-label="search" form="may-bragdon-simple-search-form" class="btn btn-default form-submit" name="op" value="search" id="edit-submit"><span class="glyphicon glyphicon-search nav-search-icon" aria-hidden="true"></span></button>
           </div>
         </li>
       </ul>
