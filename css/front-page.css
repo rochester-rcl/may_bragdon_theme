@@ -26,7 +26,7 @@
 
 .carousel {
     position: relative;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 .carousel-indicators li {
     opacity: 0.6;
@@ -301,10 +301,10 @@ i.fa.fa-angle-down {
 
 }
 
-.boxes div:nth-child(5),
+/*.boxes div:nth-child(5),
 .boxes div:nth-child(6){
     width: 50%;
-}
+}*/
 
 .box {
     width: 25%;
