@@ -102,9 +102,9 @@
       <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
       <div class="content">
         <div class="car-cap">
-          <a href="#">
-          <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
-          <span class="cap-date">February 25, 1897 p.67</span>
+          <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+          <span class="cap-quote">M.B. as a Scribner poster.</span>
+          <span class="cap-date">8/29 p.172</span>
           </a>
         </div>
       </div>
