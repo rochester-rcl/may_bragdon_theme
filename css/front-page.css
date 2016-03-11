@@ -87,11 +87,13 @@
     width: 348px;
     margin: auto;
     right: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
 /**/
 .cap-quote{
   font-family: 'Merriweather', serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 100;
   display: block;
 }
@@ -120,12 +122,15 @@
 }*/
 
 .car-cap a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 .car-cap a:hover,
 .car-cap a:focus {
-  color: #FFF;
-  text-decoration: none;
+    text-decoration: none;
+}
+.car-cap:hover,
+.car-cap:focus {
+  background: rgba(255, 0, 0, 0.3);
 }
 
 i.fa.fa-angle-left {
