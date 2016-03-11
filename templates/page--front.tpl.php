@@ -89,7 +89,7 @@
 
 <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -108,7 +108,7 @@
             </div>
           </div>
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
@@ -117,8 +117,8 @@
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
-        </div>
-        <div class="item">
+        </div> -->
+        <!-- <div class="item">
           <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
@@ -127,7 +127,7 @@
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
