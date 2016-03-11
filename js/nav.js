@@ -11,12 +11,14 @@ $(window).scroll(function() {
         $('.navbar').addClass("fixed"); // Navbar moves to position:fixed
         $('.carousel-inner').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
+        $('.fade').addClass("out");
       //  $('.header-search').addClass("show");
     }
     else{
         $('.navbar').removeClass("fixed");
         $('.carousel-inner').removeClass("space");
         $('.scroll-hint').removeClass("test");
+        $('.fade').removeClass("out");
         //$('.header-search').removeClass("show");
 
     }

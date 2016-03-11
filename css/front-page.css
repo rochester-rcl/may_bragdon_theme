@@ -13,6 +13,12 @@
     width: 22%;
     top: 39px;
 }
+.fade{
+    display: block;
+}
+.fade.out{
+    display: none;
+}
 
 
 /* ABOUT SECTION
@@ -28,6 +34,7 @@
     position: relative;
     /*margin-top: 50px;*/
 }
+/* Firefox fix to remove black bar */
 @-moz-document url-prefix() {
   .carousel {
      top:-50px;
