@@ -24,7 +24,10 @@
   background-color: black;
 }
 
-
+.carousel {
+    position: relative;
+    margin-top: -50px;
+}
 .carousel-indicators li {
     opacity: 0.6;
 }
@@ -34,7 +37,7 @@
 }
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
-    max-width:none; 
+    max-width:none;
     width: 100%;
     height: auto;
 }
