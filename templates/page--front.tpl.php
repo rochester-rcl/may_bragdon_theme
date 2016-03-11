@@ -168,6 +168,13 @@
   <a class="scroll-hint" href="#">
     <span class="scroll-hint-title">More Info</span>
     <i class="fa fa-angle-down"></i>
+
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active">    </li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
   </a>
 </div>
 
