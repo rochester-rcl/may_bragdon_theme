@@ -99,6 +99,7 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
+      <!-- Slide 1 -->
     <div class="item active">
       <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
       <div class="container" style="position:relative;">
@@ -114,26 +115,70 @@
           </div>
       </div>
     </div>
+    <!-- Item 2 -->
     <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
-      <div class="car-cap">
-        <a href="#">
-        <span class="cap-quote">"There was a fire that would be remembered for ages..."</span>
-        <span class="cap-date">February 25, 1897 p.67</span>
-        </a>
-      </div>
-    </div>
-    <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
-      <div class="content">
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <div class="container" style="position:relative;">
         <div class="car-cap">
-          <a href="#">
-          <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
-          <span class="cap-date">February 25, 1897 p.67</span>
-          </a>
-        </div>
+            <div class="content">
+                <div class="caption-container">
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+                  <span class="cap-quote">M.B. as a Scribner poster.</span>
+                  <span class="cap-date">8/29 p.172</span>
+                  </a>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
+    <!-- Item 3 -->
+    <div class="item">
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <div class="container" style="position:relative;">
+        <div class="car-cap">
+            <div class="content">
+                <div class="caption-container">
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+                  <span class="cap-quote">M.B. as a Scribner poster.</span>
+                  <span class="cap-date">8/29 p.172</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Item 4 -->
+    <div class="item">
+      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+      <div class="container" style="position:relative;">
+        <div class="car-cap">
+            <div class="content">
+                <div class="caption-container">
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+                  <span class="cap-quote">M.B. as a Scribner poster.</span>
+                  <span class="cap-date">8/29 p.172</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- Item 5 -->
+  <div class="item">
+    <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+    <div class="container" style="position:relative;">
+      <div class="car-cap">
+          <div class="content">
+              <div class="caption-container">
+                <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
+                <span class="cap-quote">M.B. as a Scribner poster.</span>
+                <span class="cap-date">8/29 p.172</span>
+                </a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 
   </div>
   <!-- Controls -->
