@@ -88,17 +88,12 @@
 
 /**/
 .car-cap {
-    position: fixed;
+    position: absolute;
     font-size: 12px;
     color: gray;
-    right: 10%;
-    bottom: 0;
+    bottom: 75px;
     text-align: right;
-    width: 50%;
-    border: 1px solid;
-    padding: 30px;
-    left: auto;
-    right: 0px;
+    width: 100%;
     margin: auto;
 }
 /**/
@@ -272,7 +267,7 @@ i.fa.fa-angle-down {
   font-size: 22px;
   width: 80%;
   font-weight: 100;
-  /* text-align: left; */
+  text-align: center;;
   margin: auto;
   font-family: 'Merriweather', serif;
   padding-bottom: 30px;

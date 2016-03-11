@@ -100,7 +100,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
-      <div class="container">
+      <div class="container" style="position:relative;">
         <div class="car-cap">
             <div class="content">
                 <div class="caption-container">
