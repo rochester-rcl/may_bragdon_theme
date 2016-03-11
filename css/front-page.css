@@ -28,6 +28,11 @@
     position: relative;
     /*margin-top: 50px;*/
 }
+@-moz-document url-prefix() {
+  .carousel {
+     top:-50px;
+  }
+}
 .carousel-indicators li {
     opacity: 0.6;
 }
