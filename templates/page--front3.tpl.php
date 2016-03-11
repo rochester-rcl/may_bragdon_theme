@@ -87,62 +87,59 @@
 
 
 
-<!--============== CAROUSEL  ==============-->
-<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="=">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">    </li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
-      <div class="content">
-        <div class="car-cap">
-          <a href="#">
-          <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
-          <span class="cap-date">February 25, 1897 p.67</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-002.jpg" />
-      <div class="car-cap">
-        <a href="#">
-        <span class="cap-quote">"There was a fire that would be remembered for ages..."</span>
-        <span class="cap-date">February 25, 1897 p.67</span>
-        </a>
-      </div>
-    </div>
-    <div class="item">
-      <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-003.jpg" />
-      <div class="content">
-        <div class="car-cap">
-          <a href="#">
-          <span class="cap-quote">"Today I rode into town like a conquering hero..."</span>
-          <span class="cap-date">February 25, 1897 p.67</span>
-          </a>
-        </div>
-      </div>
-    </div>
 
-  </div>
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
-    <i class="fa fa-angle-left"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
-    <i class="fa fa-angle-right"></i>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
+           <img class="car-img" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/slide-001.jpg" />
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="">NED as a nurse. May 7, 1893. The Studio. at #12.</div>
+              <div class="">May 7, 1893, p. 81</div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
 
 
 
