@@ -90,10 +90,13 @@
 <!--============== CAROUSEL  ==============-->
 <div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="=">
   <!-- Indicators -->
+
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">    </li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <div class="container">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active">    </li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </div>
   </ol>
 
   <!-- Wrapper for slides -->

@@ -108,6 +108,10 @@
   display: block;
 }
 
+.carousel-control {
+    width: 70px;
+}
+
 .carousel-indicators {
     }
 
