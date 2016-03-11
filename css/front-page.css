@@ -25,42 +25,18 @@
 }
 
 
-/*Indicator Test*/
-/* Indicators list style */
-.article-slide .carousel-indicators {
-    bottom: 0;
-    left: 0;
-    margin-left: 5px;
-    width: 100%;
-    position: absolute;
-    bottom: 245px;
+.carousel-indicators {
+    position: fixed;
+    bottom: 10px;
+    left: 88%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    z-index: 50000;
+    text-align: center;
+    list-style: none;
 }
-/* Indicators list style */
-.article-slide .carousel-indicators li {
-    border: medium none;
-    border-radius: 0;
-    float: left;
-    height: 54px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 5px !important;
-    margin-top: 0;
-    width: 100px;
-}
-/* Indicators images style */
-.article-slide .carousel-indicators img {
-    border: 2px solid #FFFFFF;
-    float: left;
-    height: 54px;
-    left: 0;
-    width: 100px;
-}
-/* Indicators active image style */
-.article-slide .carousel-indicators .active img {
-    border: 2px solid #428BCA;
-    opacity: 0.7;
-}
-/**/
 
 
 .car-img {
