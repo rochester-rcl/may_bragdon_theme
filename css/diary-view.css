@@ -2,9 +2,9 @@
 
 /* Page Structure
 -----------------------------------*/
-.tei br.a {
+br.a {
 }
-.tei br.b {
+br.b {
   content: "A" !important;
   margin-bottom: 1.5em !important;
   border-right: 1px dotted #7cbcff;
