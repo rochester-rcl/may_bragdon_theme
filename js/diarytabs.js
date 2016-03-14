@@ -6,7 +6,7 @@
                 console.log("TEI")
                 // $(".box").not(".red").hide();
                 // $(".red").show();
-                $('.tei').css({
+                $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'red',
                 });
             }
@@ -14,7 +14,7 @@
                 console.log("Viewer");
                 // $(".box").not(".green").hide();
                 // $(".green").show();
-                $('.tei').css({
+                $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'green',
                 });
             }
@@ -22,7 +22,7 @@
                 console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
-                $('.tei').css({
+                $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'blue',
                 });
             }
