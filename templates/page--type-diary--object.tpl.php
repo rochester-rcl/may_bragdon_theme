@@ -288,7 +288,7 @@ $("#yourButton").toggle(function()
         $('.tei br').removeClass("a").addClass("b"); //Adds 'a', removes 'b'
 
 }, function() {
-        $('#.tei br').removeClass("b").addClass("a"); //Adds 'b', removes 'a'
+        $('.tei br').removeClass("b").addClass("a"); //Adds 'b', removes 'a'
 
 });
 </script>
