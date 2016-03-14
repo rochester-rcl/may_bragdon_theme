@@ -32,6 +32,6 @@
                 $('.tei').css({
                     'background':'red'
                 });
-            }
+            });
     });
 })(jQuery);
