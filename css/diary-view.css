@@ -829,7 +829,7 @@ name[type=aka]{
 /* Largest  */
 @media (min-width: 1701px) {
   .tei .body {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 2;
     }
     #paged-tei-seadragon-viewer-tei {
@@ -839,7 +839,7 @@ name[type=aka]{
 /* Very Large  */
 @media (max-width: 1700px) {
   .tei .body {
-      font-size: 17px;
+      font-size: 16px;
       /*color: blue;*/
       line-height: 2;
     }
