@@ -78,6 +78,7 @@ body {
 
 .mobile-only{display:none;}
 
+
 /*.logged-in .main-container.container  {margin-top: 100px;   }*/
 .logged-in .event-image-push {
   margin-top: 550px; }
@@ -89,6 +90,9 @@ body {
 @media (max-width: 768px) {
     .mobile-only{
         display: block;
+    }
+    .no-mobile{
+        display: none;
     }
 
 }
