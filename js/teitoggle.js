@@ -7,14 +7,13 @@
 
 (function ($) {
     $('#yourButton').click(function() {
-        $('.tei').css({
-            'background':'red'
-            // 'content': '"A" !important',
-            // 'margin-bottom': '1.5em !important',
-            // 'border-right': '1px dotted #7cbcff',
-            // 'height': '17px',
-            // 'width': '4px',
-            // 'margin': '0 5px',
+        $('br').css({
+            'content': '"A" !important',
+            'margin-bottom': '1.5em !important',
+            'border-right': '1px dotted #7cbcff',
+            'height': '17px',
+            'width': '4px',
+            'margin': '0 5px',
         });
     });
 })(jQuery);
