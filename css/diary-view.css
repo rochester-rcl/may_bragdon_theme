@@ -4,12 +4,13 @@
 -----------------------------------*/
 
 #yourButton{
-    height: 60px;
-    width: 300px;
+    height: 35px;
+    width: 100px;
     position: absolute;
     z-index: 6000;
-    top: 100px;
-    left: 50px;
+    top: 55px;
+    left: 10px;
+    border-radius: 5px;
 }
 
 /* Pages Link */

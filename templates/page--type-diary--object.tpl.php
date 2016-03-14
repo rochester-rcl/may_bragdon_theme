@@ -280,7 +280,8 @@
 <!-- // -->
 
 
-<button id="yourButton">TEI TOGGLE<button>
+<button id="yourButton"><i class="fa fa-align-left"></i>
+<button>
 
 
 
