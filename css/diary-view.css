@@ -11,7 +11,7 @@
 }
 #yourButton:hover,
 #yourButton:hover{
-    outline: : 1px solid lightgray;
+    background: $e2e0da;
 }
 button {
     outline: 0;
