@@ -925,9 +925,30 @@ name[type=aka]{
     /*color: lightblue;*/
     white-space: normal;
     }
+
+
   #paged-tei-seadragon-viewer-tei {
     padding: 30px 15px 20px 15px;
+    width: 100%;
   }
+  #paged-tei-seadragon-viewer-tei.hide {
+      display: none;
+  }
+  #paged-tei-seadragon-viewer-seadragon-pane{
+      display: none;
+  }
+  #paged-tei-seadragon-viewer-seadragon-pane.show{
+      display: block;
+  }
+  .region-sidebar-second{
+      display: none;
+  }
+  .region-sidebar-second.show{
+      display: block;
+  }
+
+
+
   .tei br {
     content: "A" !important;
     margin-bottom: 1.5em !important;
