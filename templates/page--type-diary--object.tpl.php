@@ -282,16 +282,20 @@
 
 <button id="yourButton">TEI TOGGLE<button>
 
-<script>
-$("#yourButton").toggle(function()
-{
-        $('br').addClass("b"); //Adds 'a', removes 'b'
+    <script>
+    $('#yourButton').click(function() {
+        $('br').css({
+            'content': '"A" !important';
+            'margin-bottom': '1.5em !important';
+            'border-right': '1px dotted #7cbcff';
+            'height': '17px';
+            'width': '4px';
+            'margin': '0 5px';
+        });
+    });
+     </script>
 
-}, function() {
-        $('br').removeClass("b"); //Adds 'b', removes 'a'
 
-});
-</script>
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
