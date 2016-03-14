@@ -4,8 +4,8 @@
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
                 console.log('tei');
-                $(".box").not(".red").hide();
-                $(".red").show();
+                $(".box").not("#paged-tei-seadragon-viewer-tei").hide("#paged-tei-seadragon-viewer-seadragon-pane");
+                $("#paged-tei-seadragon-viewer-tei").show();
             }
             if($(this).attr("value")=="viewer"){
                 console.log('viewer');
