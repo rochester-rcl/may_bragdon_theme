@@ -282,24 +282,13 @@
 
 <button id="yourButton">TEI TOGGLE<button>
 
-    <script>
-    $('#yourButton').click(function() {
-        $('br').css({
-            'content': '"A" !important',
-            'margin-bottom': '1.5em !important',
-            'border-right': '1px dotted #7cbcff',
-            'height': '17px',
-            'width': '4px',
-            'margin': '0 5px',
-        });
-    });
-     </script>
+
 
 
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
-
+<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/teitoggle.js'; ?>"></script>
 <!--====== OgraphyModal JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/ography.js' ?>"></script>
 
