@@ -82,15 +82,18 @@
 <script type="text/javascript">
 $(document).ready(function(){
     $('input[type="radio"]').click(function(){
+        console.log(tei);
         if($(this).attr("value")=="tei"){
             $(".box").not(".red").hide();
             $(".red").show();
         }
         if($(this).attr("value")=="viewer"){
+            console.log(viewer);
             $(".box").not(".green").hide();
             $(".green").show();
         }
         if($(this).attr("value")=="inclusions"){
+            console.log(inclusions);
             $(".box").not(".blue").hide();
             $(".blue").show();
         }
@@ -100,7 +103,7 @@ $(document).ready(function(){
 
 <!--======= Mobile Tabs  ========-->
 
-<div class="mobile-only">
+<div class="mobile-tabs mobile-only">
     <label><input type="radio" name="colorRadio" value="tei" checked> red</label>
     <label><input type="radio" name="colorRadio" value="viewer"> green</label>
     <label><input type="radio" name="colorRadio" value="inclusions"> blue</label>
