@@ -10,3 +10,7 @@ body, html {
 .inlusion-page-tabs .nav-tabs li.active  a{
   display: none !important;
 }
+
+.openseadragon-canvas {
+    background: black!important;
+}
