@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(function(){
+        console.log("Here!");
         $('input[type="radio"]').click(function(){
-            console.log("Here!");
             if($(this).attr("value")=="tei"){
                 console.log("TEI")
                 $(".box").not(".red").hide();
