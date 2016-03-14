@@ -8,7 +8,7 @@
 (function ($) {
     $('#yourButton').click(function() {
         $('br').css({
-            'content': '"A" !important',
+            'content': '"A"',
             'margin-bottom': '1.5em !important',
             'border-right': '1px dotted #7cbcff',
             'height': '17px',
