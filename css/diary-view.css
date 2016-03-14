@@ -13,6 +13,9 @@
 #yourButton:hover{
     outline: : 1px solid lightgray;
 }
+button {
+    outline: 0;
+}
 
 
 
