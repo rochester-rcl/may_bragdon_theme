@@ -10,8 +10,8 @@
     border: none;
 }
 #yourButton:hover,
-#yourButton:hover{
-    background: $e2e0da;
+#yourButton:focus{
+    background: #e2e0da;
 }
 button {
     outline: 0;
