@@ -6,6 +6,7 @@
                 console.log("TEI")
                 // $(".box").not(".red").hide();
                 // $(".red").show();
+
                 $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'red',
                 });
@@ -14,6 +15,7 @@
                 console.log("Viewer");
                 // $(".box").not(".green").hide();
                 // $(".green").show();
+                $('#paged-tei-seadragon-viewer-tei').addClass("hide");
                 $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'green',
                 });
