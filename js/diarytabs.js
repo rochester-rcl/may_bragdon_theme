@@ -6,7 +6,7 @@
                 console.log("TEI")
                 // $(".box").not(".red").hide();
                 // $(".red").show();
-
+                $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
                 $('#paged-tei-seadragon-viewer-tei').css({
                     'background': 'red',
                 });
