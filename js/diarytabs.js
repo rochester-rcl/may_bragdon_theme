@@ -4,18 +4,27 @@
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
                 console.log('tei');
-                $(".box").not("#paged-tei-seadragon-viewer-tei").hide("#paged-tei-seadragon-viewer-seadragon-pane");
-                $("#paged-tei-seadragon-viewer-tei").show();
+                $('.tei').css({
+                    'background':'red'
+                });
+                // $(".box").not("#paged-tei-seadragon-viewer-tei").hide("#paged-tei-seadragon-viewer-seadragon-pane");
+                // $("#paged-tei-seadragon-viewer-tei").show();
             }
             if($(this).attr("value")=="viewer"){
                 console.log('viewer');
-                $(".box").not(".green").hide();
-                $(".green").show();
+                $('.tei').css({
+                    'background':'blue'
+                });
+                // $(".box").not(".green").hide();
+                // $(".green").show();
             }
             if($(this).attr("value")=="inclusions"){
                 console.log('inclusions');
-                $(".box").not(".blue").hide();
-                $(".blue").show();
+                $('.tei').css({
+                    'background':'green'
+                });
+                // $(".box").not(".blue").hide();
+                // $(".blue").show();
             }
         });
     });
