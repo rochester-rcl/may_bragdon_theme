@@ -165,7 +165,7 @@
 
 
 <!--======= CITE THIS BUTTON  ========-->
-  <div class="diary-page-cite">
+  <div class="diary-page-cite no-mobile">
     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal"><i class="fa fa-quote-left"></i>
  Cite This</button>
   </div>
@@ -298,7 +298,7 @@
 <!-- // -->
 
 
-<button id="yourButton"><i class="fa fa-align-left"></i>
+<button id="yourButton" class="no-mobile"><i class="fa fa-align-left"></i>
 <button>
 
 

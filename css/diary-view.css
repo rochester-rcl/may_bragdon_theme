@@ -929,6 +929,7 @@ name[type=aka]{
 
   #paged-tei-seadragon-viewer-tei {
     padding: 30px 15px 20px 15px;
+    top: 90px;
     width: 100%;
   }
   #paged-tei-seadragon-viewer-tei.hide {
