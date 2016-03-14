@@ -92,7 +92,7 @@ body {
         display: block;
     }
     .no-mobile{
-        display: none;
+        display: none!important;
     }
 
 }
