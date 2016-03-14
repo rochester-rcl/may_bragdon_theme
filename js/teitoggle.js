@@ -15,4 +15,5 @@
             'width': '4px',
             'margin': '0 5px',
         });
+    });
 })(jQuery);
