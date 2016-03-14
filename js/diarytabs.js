@@ -4,18 +4,27 @@
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
                 console.log("TEI")
-                $(".box").not(".red").hide();
-                $(".red").show();
+                // $(".box").not(".red").hide();
+                // $(".red").show();
+                $('.tei').css({
+                    'background': 'red',
+                });
             }
             if($(this).attr("value")=="viewer"){
                 console.log("Viewer");
-                $(".box").not(".green").hide();
-                $(".green").show();
+                // $(".box").not(".green").hide();
+                // $(".green").show();
+                $('.tei').css({
+                    'background': 'green',
+                });
             }
             if($(this).attr("value")=="inclusions"){
                 console.log("Inclusions");
-                $(".box").not(".blue").hide();
-                $(".blue").show();
+                // $(".box").not(".blue").hide();
+                // $(".blue").show();
+                $('.tei').css({
+                    'background': 'blue',
+                });
             }
         });
     });
