@@ -285,10 +285,10 @@
 <script>
 $("#yourButton").toggle(function()
 {
-        $('br').removeClass("a").addClass("b"); //Adds 'a', removes 'b'
+        $('br').addClass("b"); //Adds 'a', removes 'b'
 
 }, function() {
-        $('br').removeClass("b").addClass("a"); //Adds 'b', removes 'a'
+        $('br').removeClass("b"); //Adds 'b', removes 'a'
 
 });
 </script>

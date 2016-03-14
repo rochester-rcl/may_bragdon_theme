@@ -2,7 +2,8 @@
 
 /* Page Structure
 -----------------------------------*/
-br.a {
+br {
+  display: none;
 }
 br.b {
   content: "A" !important;
