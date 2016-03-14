@@ -2,8 +2,24 @@
 
 /* Page Structure
 -----------------------------------*/
-
-
+.tei br.a {
+}
+.tei br.b {
+  content: "A" !important;
+  margin-bottom: 1.5em !important;
+  border-right: 1px dotted #7cbcff;
+  height: 17px;
+  width: 4px;
+  margin: 0 5px;
+}
+#yourButton{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    z-index: 6000;
+    top: 100px;
+    left: 50px;
+}
 
 /* Pages Link */
 .page-link {
