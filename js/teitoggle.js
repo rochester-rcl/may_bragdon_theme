@@ -7,7 +7,7 @@
 
 (function ($) {
     $('#yourButton').click(function() {
-        if ($('br').css('height') !== "17px"){
+        if ($('br').css('height') === "17px"){
             $('br').css({
                 'content': 'normal',
                 'margin-bottom': '0',
