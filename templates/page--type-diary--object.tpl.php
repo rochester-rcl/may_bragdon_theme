@@ -78,29 +78,7 @@
 
 
 
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    console.log('Here');
-    $('input[type="radio"]').click(function(){
-        console.log('tei');
-        if($(this).attr("value")=="tei"){
-            $(".box").not(".red").hide();
-            $(".red").show();
-        }
-        if($(this).attr("value")=="viewer"){
-            console.log('viewer');
-            $(".box").not(".green").hide();
-            $(".green").show();
-        }
-        if($(this).attr("value")=="inclusions"){
-            console.log('inclusions');
-            $(".box").not(".blue").hide();
-            $(".blue").show();
-        }
-    });
-});
-</script>
+
 
 <!--======= Mobile Tabs  ========-->
 
@@ -329,7 +307,13 @@ $(document).ready(function(){
 
 <!--====== Navigation Scroll JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/nav.js'; ?>"></script>
+
+<!--====== TEI br toggle ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/teitoggle.js'; ?>"></script>
+
+<!--====== Diary Page mobile JS ======-->
+<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/diarytabs.js'; ?>"></script>
+
 <!--====== OgraphyModal JS ======-->
 <script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/ography.js' ?>"></script>
 
