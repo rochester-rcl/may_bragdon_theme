@@ -643,9 +643,8 @@ label.control-label {
 }
 
 .tei .date {
-  font-size: 14px;
+  /*font-size: 14px;
   text-transform: uppercase;
-  /*border-bottom: 1px solid lightgray;*/
   border-bottom: double lightgray;
   display: block;
   width: 120%;
@@ -654,8 +653,12 @@ label.control-label {
   margin-left: -55px;
   margin-top: 41px;
   margin-bottom: 30px;
-  padding: 0px 0px 8px 45px;
-  /*white-space: nowrap;*/
+  padding: 0px 0px 8px 45px;*/
+  /* Testing out new way */
+    display: block;
+    width: 120%;
+    font-weight: bold;
+    padding: 15px 0 0 0;
 }
 
 .tei .class--rend--underline {
