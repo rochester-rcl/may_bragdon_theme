@@ -77,6 +77,39 @@
 ?>
 
 
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+        if($(this).attr("value")=="tei"){
+            $(".box").not(".red").hide();
+            $(".red").show();
+        }
+        if($(this).attr("value")=="viewer"){
+            $(".box").not(".green").hide();
+            $(".green").show();
+        }
+        if($(this).attr("value")=="inclusions"){
+            $(".box").not(".blue").hide();
+            $(".blue").show();
+        }
+    });
+});
+</script>
+
+<!--======= Mobile Tabs  ========-->
+
+<div class="mobile-only">
+    <label><input type="radio" name="colorRadio" value="tei" checked> red</label>
+    <label><input type="radio" name="colorRadio" value="viewer"> green</label>
+    <label><input type="radio" name="colorRadio" value="inclusions"> blue</label>
+</div>
+
+
+
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/diary-view-html.css'; ?>">
 
@@ -145,6 +178,9 @@
 
 
 <div class="diary-page-class">
+
+
+
 
 <!--======= CITE THIS BUTTON  ========-->
   <div class="diary-page-cite">
