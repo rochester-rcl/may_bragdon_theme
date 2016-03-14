@@ -27,7 +27,7 @@
                 // $(".blue").show();
             }
             });
-            } else {
+            else {
                 console.log('default');
                 $('.tei').css({
                     'background':'red'
