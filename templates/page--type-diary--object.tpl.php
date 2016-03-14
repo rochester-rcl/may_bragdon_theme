@@ -81,20 +81,20 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    console.log("Here");
+    console.log('Here');
     $('input[type="radio"]').click(function(){
-        console.log("tei");
+        console.log('tei');
         if($(this).attr("value")=="tei"){
             $(".box").not(".red").hide();
             $(".red").show();
         }
         if($(this).attr("value")=="viewer"){
-            console.log("viewer");
+            console.log('viewer');
             $(".box").not(".green").hide();
             $(".green").show();
         }
         if($(this).attr("value")=="inclusions"){
-            console.log("inclusions");
+            console.log('inclusions');
             $(".box").not(".blue").hide();
             $(".blue").show();
         }
