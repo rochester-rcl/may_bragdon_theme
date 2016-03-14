@@ -26,6 +26,12 @@
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
             }
-        });
+            });
+            } else {
+                console.log('default');
+                $('.tei').css({
+                    'background':'red'
+                });
+            }
     });
 })(jQuery);
