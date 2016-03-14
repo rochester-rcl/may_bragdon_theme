@@ -5,12 +5,14 @@
 
 #yourButton{
     height: 35px;
-    width: 100px;
     position: absolute;
     z-index: 6000;
     top: 55px;
     left: 10px;
     border-radius: 5px;
+    background: transparent;
+    padding: 5px 10px;
+    border: none;
 }
 
 /* Pages Link */
