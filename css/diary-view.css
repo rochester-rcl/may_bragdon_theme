@@ -662,9 +662,10 @@ label.control-label {
 }
 
 .tei .class--rend--underline {
-    border-bottom: 1px dotted #989690;
+    border-bottom: 1px solid #989690;
     background-color: transparent;
     text-decoration: none;
+    font-weight: bold;
 }
 
 
