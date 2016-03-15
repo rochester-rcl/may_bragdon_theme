@@ -20,12 +20,14 @@ button {
 
 
 .mobile-tabs {
-    border: 1px solid white;
+    outline: 1px solid gray;
     position: absolute;
     z-index: 5000;
     top: 50px;
     width: 100%;
+    color: white;
     text-align: center;
+    background: rgba(0,0,0,0.5);
 }
 
 
@@ -931,6 +933,7 @@ name[type=aka]{
     padding: 30px 15px 20px 15px;
     top: 90px;
     width: 100%;
+    z-index: 60000;
   }
   #paged-tei-seadragon-viewer-tei.hide {
       display: none;
