@@ -900,7 +900,12 @@ input.stv-radio-tab:checked + label {
 
 
 
-
+.tei br{
+    content: "A" !important;
+    display: block;
+    border-bottom: 1px solid #e8e6dc;
+    width: 100%;
+}
 
 
 /* Media Queries
@@ -967,12 +972,6 @@ input.stv-radio-tab:checked + label {
 }
 
 
-.tei br{
-    content: "A" !important;
-    display: block;
-    border-bottom: 1px solid #e8e6dc;
-    width: 100%;
-}
 
 
 /* Small */
