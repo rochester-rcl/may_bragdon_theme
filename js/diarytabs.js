@@ -7,7 +7,7 @@
                 // $(".box").not(".red").hide();
                 // $(".red").show();
                 $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
-                $('#paged-tei-seadragon-viewer-seadragon-pane').removeClass("show");
+                // $('#paged-tei-seadragon-viewer-seadragon-pane').removeClass("show");
 
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
@@ -18,7 +18,7 @@
                 // $(".box").not(".green").hide();
                 // $(".green").show();
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide");
-                $('#paged-tei-seadragon-viewer-seadragon-pane').addClass("show");
+                // $('#paged-tei-seadragon-viewer-seadragon-pane').addClass("show");
 
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
