@@ -1015,7 +1015,7 @@ input.stv-radio-tab:checked + label {
   #paged-tei-seadragon-viewer-seadragon-pane,
   #paged-tei-seadragon-viewer-tei,
   .region-sidebar-second{
-      top: 120px;
+      top: 133px!important;
     }
 
 
