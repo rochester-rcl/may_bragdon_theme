@@ -1005,7 +1005,6 @@ input.stv-radio-tab:checked + label {
         left: 0;
         right: 0!important;
         z-index: 50000;
-        top: 120px!important;
   }
 
   #roch-tei-viewer-occluded {
