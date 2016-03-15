@@ -919,6 +919,11 @@ name[type=aka]{
     padding-top: 4px;
   }
 }
+
+
+
+
+
 /* Small */
 @media (max-width: 768px) {
   .tei .body {
@@ -927,7 +932,6 @@ name[type=aka]{
     /*color: lightblue;*/
     white-space: normal;
     }
-
 
   #paged-tei-seadragon-viewer-tei {
     padding: 30px 15px 20px 15px;
@@ -962,6 +966,17 @@ name[type=aka]{
   .region-sidebar-second{
       top: 120px;
     }
+
+
+    .paged-tei-seadragon-viewer-left-toolbar {
+        top: 50px;
+        right: 0;
+        left: auto;
+        background: transparent;
+        color: gray;
+        padding: 7px 15px;
+        text-align: right;
+    }
   .navbar-default {
     padding-right: 0;
   }
@@ -982,10 +997,11 @@ name[type=aka]{
       width: 100%;
       display: block;
       right: 0;
-      text-align: center;
+      text-align: left;
       font-size: 14px;
       position: absolute;
       top: 64px;
+      padding-left: 15px;
   }
   .navbar-brand img {
     width: 150px;
