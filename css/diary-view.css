@@ -961,6 +961,11 @@ name[type=aka]{
   }
   .region-sidebar-second.show{
       display: block;
+        width: 100%!important;
+        left: 0;
+        right: 0!important;
+        z-index: 50000;
+        top: 120px!important;
   }
   /*Positioning Elements for mobile*/
   #paged-tei-seadragon-viewer-seadragon-pane,
