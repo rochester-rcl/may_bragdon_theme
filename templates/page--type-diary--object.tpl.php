@@ -82,10 +82,10 @@
 
 <!--======= Mobile Tabs  ========-->
 
-<div class="mobile-tabs mobile-only">
-    <label><input type="radio" name="colorRadio" value="tei" checked> Transcription</label>
-    <label><input type="radio" name="colorRadio" value="viewer"> Diary Page</label>
-    <label><input type="radio" name="colorRadio" value="inclusions"> Inslusion</label>
+<div class="stv-radio-tabs-wrapper mobile-tabs mobile-only">
+    <label><input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" checked> Transcription</label>
+    <label><input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer"> Diary Page</label>
+    <label><input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions"> Inslusion</label>
 </div>
 
 
