@@ -1,6 +1,6 @@
 (function ($) {
     $(document).ready(function(){
-        console.log("Here!");
+        console.log("I am here and watching!");
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
                 console.log("TEI")
@@ -28,7 +28,7 @@
                 console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
-
+                $('.region-sidebar-second').addClass("show");
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
                 });
