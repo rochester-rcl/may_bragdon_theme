@@ -935,10 +935,10 @@ name[type=aka]{
   #paged-tei-seadragon-viewer-tei.hide {
       display: none;
   }
-  #paged-tei-seadragon-viewer-seadragon-pane{
+  /*#paged-tei-seadragon-viewer-seadragon-pane{
       display: none;
-  }
-  #paged-tei-seadragon-viewer-seadragon-pane.show{
+  }*/
+  /*#paged-tei-seadragon-viewer-seadragon-pane.show{
       display: block!important;
       width: 100%!important;
       top: 90px!important;
@@ -946,7 +946,7 @@ name[type=aka]{
       right: 0!important;
       bottom: 0!important;
 
-  }
+  }*/
   .region-sidebar-second{
       display: none;
   }
