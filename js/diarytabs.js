@@ -4,9 +4,10 @@
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
                 console.log("TEI")
-                // $(".box").not(".red").hide();
-                // $(".red").show();
+                // Display TEI pane
                 $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
+                // Hide the other panes
+                $('.region-sidebar-second').removeClass("show");
                 // $('#paged-tei-seadragon-viewer-seadragon-pane').removeClass("show");
 
                 $('#paged-tei-seadragon-viewer-tei').css({
@@ -15,11 +16,12 @@
             }
             if($(this).attr("value")=="viewer"){
                 console.log("Viewer");
-                // $(".box").not(".green").hide();
-                // $(".green").show();
-                $('#paged-tei-seadragon-viewer-tei').addClass("hide");
-                // $('#paged-tei-seadragon-viewer-seadragon-pane').addClass("show");
-
+                // Display Viewer Pane
+                // -Viewer is always displayed-
+                // Hide the other panes
+                $('.region-sidebar-second').removeClass("show"); // Inclusion
+                $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
+                // Additional Style Tweaks
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
                 });
@@ -28,7 +30,11 @@
                 console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
+                // Display Inclusion Pane
                 $('.region-sidebar-second').addClass("show");
+                // Hide the other panes
+                //
+                // Additional Style Tweaks
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
                 });
