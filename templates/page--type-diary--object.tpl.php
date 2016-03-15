@@ -90,7 +90,7 @@
     <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/>
     <label for="viewer">Page</label>
 
-    <input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions" id="viewer" />
+    <input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions" id="inclusions" />
     <label for="inclusions">Inslusion</label>
 
 </div>
