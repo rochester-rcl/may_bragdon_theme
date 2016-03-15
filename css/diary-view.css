@@ -880,7 +880,7 @@ input.stv-radio-tab + label {
     position: relative;
 }
 
-input.stv-radio-tab + label .wider-tab{
+.wider-tab{
     width: 34%;
 }
 
@@ -967,7 +967,13 @@ input.stv-radio-tab:checked + label {
 }
 
 
-
+.tei br{
+    content: "A" !important;
+    display: block;
+    width: 4px;
+    border-bottom: 1px solid #e8e6dc;
+    width: 100%;
+}
 
 
 /* Small */
