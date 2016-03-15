@@ -287,6 +287,12 @@ a#tei-viewer-manuscript.active {
     background: gray;
     pointer-events: none;
 }
+a#tei-viewer-original-only {
+    color: white;
+    padding: 8px 20px;
+    background: rgba(0,0,0,0.5);
+    pointer-events: none;
+}
 a#tei-viewer-original {
     border-radius: 5px 0 0 5px;
     margin-right: -4px;
