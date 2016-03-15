@@ -943,7 +943,9 @@ name[type=aka]{
       display: none;
   }
   #paged-tei-seadragon-viewer-seadragon-pane{
-      /*display: none;*/
+      width: 100%;
+      left: 0;
+      right: 0;
   }
   /*#paged-tei-seadragon-viewer-seadragon-pane.show{
       display: block!important;
