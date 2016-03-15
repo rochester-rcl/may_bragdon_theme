@@ -862,14 +862,14 @@ name[type=aka]{
 
 
 /*Radio Button Tabs*/
-.stv-radio-tabs-wrapper {
+/*.stv-radio-tabs-wrapper {
   clear: both;
   display: inline-block;
   width: 100%;
   border-bottom: 1px solid #428bca;
   padding: 0 10px;
   position: relative;
-}
+}*/
 
 input.stv-radio-tab {
   position: absolute;
