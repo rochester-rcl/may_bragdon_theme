@@ -33,7 +33,7 @@
                 // Display Inclusion Pane
                 $('.region-sidebar-second').addClass("show");
                 // Hide the other panes
-                //
+                $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
                 // Additional Style Tweaks
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
