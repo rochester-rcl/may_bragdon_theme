@@ -938,9 +938,10 @@ name[type=aka]{
   #paged-tei-seadragon-viewer-tei.hide {
       display: none;
   }
-  /*#paged-tei-seadragon-viewer-seadragon-pane{
-      display: none;
-  }*/
+  #paged-tei-seadragon-viewer-seadragon-pane{
+      /*display: none;*/
+      top: 50px;
+  }
   /*#paged-tei-seadragon-viewer-seadragon-pane.show{
       display: block!important;
       width: 100%!important;
@@ -956,7 +957,12 @@ name[type=aka]{
   .region-sidebar-second.show{
       display: block;
   }
-
+  /*Positioning Elements for mobile*/
+  #paged-tei-seadragon-viewer-seadragon-pane,
+  #paged-tei-seadragon-viewer-tei,
+  .region-sidebar-second{
+      top: 50px;
+    }
   .navbar-default {
     padding-right: 0;
   }
