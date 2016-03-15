@@ -83,12 +83,23 @@
 <!--======= Mobile Tabs  ========-->
 
 <div class="stv-radio-tabs-wrapper mobile-tabs mobile-only">
+
+    <input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" id="tei" checked/>
+    <label for="tei">Transcription</label>
+
+    <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/> Diary
+    <label for="viewer">Page</label>
+
+    <input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions" id="viewer" />
+    <label for="inclusions">Inslusion</label>
+
+</div>
+
+<!-- <div class="mobile-tabs mobile-only">
     <label><input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" checked> Transcription</label>
     <label><input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer"> Diary Page</label>
     <label><input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions"> Inslusion</label>
-</div>
-
-
+</div> -->
 
 
 
