@@ -83,9 +83,9 @@
 <!--======= Mobile Tabs  ========-->
 
 <div class="mobile-tabs mobile-only">
-    <label><input type="radio" name="colorRadio" value="tei" checked> red</label>
-    <label><input type="radio" name="colorRadio" value="viewer"> green</label>
-    <label><input type="radio" name="colorRadio" value="inclusions"> blue</label>
+    <label><input type="radio" name="colorRadio" value="tei" checked> Transcription</label>
+    <label><input type="radio" name="colorRadio" value="viewer"> Diary Page</label>
+    <label><input type="radio" name="colorRadio" value="inclusions"> Inslusion</label>
 </div>
 
 
@@ -298,8 +298,8 @@
 <!-- // -->
 
 
-<button id="yourButton" class="no-mobile"><i class="fa fa-align-left"></i>
-<button>
+<div class="no-mobile"><button id="yourButton" class="no-mobile"><i class="fa fa-align-left"></i>
+<button></div>
 
 
 
