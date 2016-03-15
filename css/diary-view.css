@@ -871,9 +871,9 @@ input.stv-radio-tab {
 input.stv-radio-tab + label {
   cursor: pointer;
   float: left;
-  border: none;
+  border: 1px solid gray;
   border-bottom: 0;
-  background-color: #fff;
+  background-color: black;
   margin-right: -1px;
   padding: .5em 1em;
   position: relative;
