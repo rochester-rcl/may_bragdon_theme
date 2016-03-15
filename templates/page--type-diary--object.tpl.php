@@ -87,7 +87,7 @@
     <input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" id="tei" checked/>
     <label for="tei">Transcription</label>
 
-    <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/> Diary
+    <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/>
     <label for="viewer">Page</label>
 
     <input type="radio" class="stv-radio-tab" name="colorRadio" value="inclusions" id="viewer" />
