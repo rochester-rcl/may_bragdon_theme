@@ -970,7 +970,6 @@ input.stv-radio-tab:checked + label {
 .tei br{
     content: "A" !important;
     display: block;
-    width: 4px;
     border-bottom: 1px solid #e8e6dc;
     width: 100%;
 }
@@ -1049,6 +1048,8 @@ input.stv-radio-tab:checked + label {
     content: "A" !important;
     margin-bottom: 1.5em !important;
     border-right: 1px dotted #7cbcff;
+    border-bottom: none;
+    display: inline;
     height: 17px;
     width: 4px;
     margin: 0 5px;
