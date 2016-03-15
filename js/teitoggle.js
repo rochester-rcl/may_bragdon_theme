@@ -15,6 +15,9 @@
                 'height': '0',
                 'width': '0',
                 'margin': '0',
+
+
+
             });
         } else {
             $('br').css({
@@ -24,6 +27,8 @@
                 'height': '17px',
                 'width': '4px',
                 'margin': '0 5px',
+                'border-bottom':'none',
+                'display':'inline'
             });
         }
 
