@@ -8,8 +8,9 @@
                 // $(".red").show();
                 $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
                 $('#paged-tei-seadragon-viewer-seadragon-pane').removeClass("show");
+
                 $('#paged-tei-seadragon-viewer-tei').css({
-                    'background': 'red',
+                    //add css specific styles here
                 });
             }
             if($(this).attr("value")=="viewer"){
@@ -18,16 +19,18 @@
                 // $(".green").show();
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide");
                 $('#paged-tei-seadragon-viewer-seadragon-pane').addClass("show");
+
                 $('#paged-tei-seadragon-viewer-tei').css({
-                    'background': 'green',
+                    //add css specific styles here
                 });
             }
             if($(this).attr("value")=="inclusions"){
                 console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
+
                 $('#paged-tei-seadragon-viewer-tei').css({
-                    'background': 'blue',
+                    //add css specific styles here
                 });
             }
         });
