@@ -22,6 +22,7 @@
         } else {
             console.log("Else do this...");
             $('.fa-align-left').toggleClass('.fa-align-justify');
+            $('.fa-align-justify').removeClass(".fa-align-left");
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
