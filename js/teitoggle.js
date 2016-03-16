@@ -17,6 +17,7 @@
                 'margin': '0',
             });
         } else {
+            $('fa-align-left').toggleClass();
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
@@ -27,9 +28,5 @@
                 'border-bottom':'none',
                 'display':'inline'
             });
-            $('fa-align-left').toggleClass(){
-                console.log("Reader View")
-            });
-        }
     });
 })(jQuery);
