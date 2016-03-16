@@ -23,6 +23,7 @@
             console.log("Else do this...");
             $('.fa-align-justify').toggleClass('.fa-align-left');
             // $('.fa-align-justify').removeClass(".fa-align-left");
+            $('#texticon').removeClass(".fa-align-justify");
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
