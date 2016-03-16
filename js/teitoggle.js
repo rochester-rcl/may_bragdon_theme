@@ -14,7 +14,8 @@
             $('#texticon').addClass("fa-align-justify");
             $( "#yourButton" ).attr({
               alt: "This is for reading",
-              title: "Reader View"
+              title: "Reader View",
+              data-original-title: "Reading View Org"
             });
             $('br').css({
                 // 'content': 'normal',
