@@ -13,12 +13,16 @@
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
             $('br').css({
-                'content': 'normal',
-                'margin-bottom': '0',
-                'border-right': 'none',
-                'height': '0',
-                'width': '0',
-                'margin': '0',
+                // 'content': 'normal',
+                // 'margin-bottom': '0',
+                // 'border-right': 'none',
+                // 'height': '0',
+                // 'width': '0',
+                // 'margin': '0',
+                'content':'"A"',
+                'display': 'block',
+                'border-bottom': '1px solid #e8e6dc',
+                'width': '100%'
             });
         } else {
             console.log("Else do this...");
