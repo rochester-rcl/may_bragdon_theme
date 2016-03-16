@@ -6,8 +6,8 @@
 // the navbar.
 
 (function ($) {
+    console.log("I am also watching!");
     $('#yourButton').click(function() {
-        console.log("I am also watching!");
         if ($('br').css('height') === "17px"){
             console.log("If this...");
             $(this).toggleClass('.fa-align-justify');
