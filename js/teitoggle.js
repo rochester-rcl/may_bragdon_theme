@@ -28,7 +28,4 @@
                 'border-bottom':'none',
                 'display':'inline'
             });
-        });
-    });
-
 })(jQuery);
