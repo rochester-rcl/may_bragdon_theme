@@ -10,7 +10,7 @@
     $('#yourButton').click(function() {
         if ($('br').css('height') === "17px"){
             console.log("If this...");
-            $('#texticon').toggleClass('.fa-align-justify');
+            $('.fa-align-justify').toggleClass('.fa-align-justify');
             $('br').css({
                 'content': 'normal',
                 'margin-bottom': '0',
@@ -21,7 +21,7 @@
             });
         } else {
             console.log("Else do this...");
-            $('#texticon').toggleClass('.fa-align-left');
+            $('.fa-align-justify').toggleClass('.fa-align-left');
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
