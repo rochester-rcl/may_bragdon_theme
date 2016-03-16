@@ -196,8 +196,11 @@
       <?php endif; ?>
 
       <div class="content-h-c">
-      <?php print render($page['content']); ?>
-    </div>
+        <div>
+            <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
+        </div>  
+        <?php print render($page['content']); ?>
+      </div>
 
 
     </section>
