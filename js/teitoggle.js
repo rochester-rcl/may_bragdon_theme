@@ -20,6 +20,7 @@
                 // 'width': '0',
                 // 'margin': '0',
                 'content':'"A"',
+                'height':'auto',
                 'display': 'block',
                 'border-bottom': '1px solid #e8e6dc',
                 'width': '100%'
