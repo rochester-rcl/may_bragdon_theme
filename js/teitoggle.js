@@ -27,7 +27,9 @@
                 'border-bottom':'none',
                 'display':'inline'
             });
+            $('fa-align-left').toggleClass(){
+                console.log("Reader View")
+            });
         }
-
     });
 })(jQuery);
