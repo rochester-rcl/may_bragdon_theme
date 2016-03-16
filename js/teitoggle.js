@@ -12,7 +12,7 @@
             console.log("If this...");
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
-            $('#texticon').prop('title', 'your new title');
+            $('#yourButton').prop('title', 'your new title');
             $('br').css({
                 // 'content': 'normal',
                 // 'margin-bottom': '0',
