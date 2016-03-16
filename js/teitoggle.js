@@ -10,8 +10,8 @@
     $('#yourButton').click(function() {
         if ($('br').css('height') === "17px"){
             console.log("If this...");
-            $('#texticon').removeClass(".fa-align-left");
-            $('#texticon').addClass(".fa-align-justify");
+            $('#texticon').removeClass("fa-align-left");
+            $('#texticon').addClass("fa-align-justify");
             $('br').css({
                 'content': 'normal',
                 'margin-bottom': '0',
@@ -22,8 +22,8 @@
             });
         } else {
             console.log("Else do this...");
-            $('#texticon').removeClass(".fa-align-justify");
-            $('#texticon').addClass(".fa-align-left");
+            $('#texticon').removeClass("fa-align-justify");
+            $('#texticon').addClass("fa-align-left");
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
