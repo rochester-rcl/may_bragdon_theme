@@ -10,7 +10,7 @@
     $('#yourButton').click(function() {
         if ($('br').css('height') === "17px"){
             console.log("If this...");
-            $('.fa-align-justify').toggleClass('.fa-align-justify');
+            $('.fa-align-left').toggleClass('.fa-align-justify');
             $('br').css({
                 'content': 'normal',
                 'margin-bottom': '0',
