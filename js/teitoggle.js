@@ -12,7 +12,10 @@
             console.log("If this...");
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
-            $("#yourButton")[0].title = "new title value";
+            $( "#yourButton" ).attr({
+              alt: "This is for reading",
+              title: "Reader View"
+            });
             $('br').css({
                 // 'content': 'normal',
                 // 'margin-bottom': '0',
