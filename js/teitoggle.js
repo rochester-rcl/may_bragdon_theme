@@ -15,7 +15,7 @@
             $( "#yourButton" ).attr({
               alt: "This is for reading",
               title: "Reader View",
-              data-original-title: "Reading View Org"
+              data-toggle: "tooltip"
             });
             $('br').css({
                 // 'content': 'normal',
