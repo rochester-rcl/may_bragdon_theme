@@ -22,6 +22,7 @@
         } else {
             console.log("Else do this...");
             $('.fa-align-left').toggleClass('fa-align-justify');
+            $('.fa-align-left').toggleClass('.fa-align-justify');
             // $('.fa-align-justify').removeClass(".fa-align-left");
             // $('#texticon').removeClass(".fa-align-justify");
             $('br').css({
