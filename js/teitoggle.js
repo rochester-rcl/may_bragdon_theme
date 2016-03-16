@@ -8,6 +8,8 @@
 (function ($) {
     $('#yourButton').click(function() {
         if ($('br').css('height') === "17px"){
+            console.log("If this...");
+            (this).toggleClass('.fa-align-justify');
             $('br').css({
                 'content': 'normal',
                 'margin-bottom': '0',
@@ -17,6 +19,8 @@
                 'margin': '0',
             });
         } else {
+            console.log("Else do this...");
+            $(this).toggleClass('.fa-align-left');
             $('br').css({
                 'content': '"A"',
                 'margin-bottom': '1.5em !important',
