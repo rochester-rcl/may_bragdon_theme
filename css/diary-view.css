@@ -361,11 +361,11 @@ a#tei-viewer-manuscript {
 .logged-in .paged-tei-seadragon-viewer-download-datastreams {
     bottom: 24px;
 }
-/* Hiding the JPG option */
-div#paged-tei-seadragon-viewer-download-datastream-JP2 {
+/* Hiding the PDF option */
+div#paged-tei-seadragon-viewer-download-datastream-PDF {
     display: none;
 }
-#paged-tei-seadragon-viewer-download-datastream-PDF {
+#paged-tei-seadragon-viewer-download-datastream-JP2 {
     display: inline-block;
     float: right;
     padding-right: 15px;
