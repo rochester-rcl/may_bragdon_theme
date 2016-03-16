@@ -304,7 +304,7 @@
 <!-- // -->
 
 
-<div class="no-mobile"><button id="yourButton" class="no-mobile" data-toggle="tooltip" data-placement="right" title="Enable Reader View"><i id="texticon"class="fa fa-align-justify"></i>
+<div class="no-mobile"><button id="yourButton" class="no-mobile" data-toggle="tooltip" data-placement="right" title="Toggle Transcription Style"><i id="texticon"class="fa fa-align-justify"></i>
 <button></div>
 
 
