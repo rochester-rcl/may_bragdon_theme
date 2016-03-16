@@ -304,7 +304,7 @@
 <!-- // -->
 
 
-<div class="no-mobile"><button id="yourButton" class="no-mobile"><i id="texticon"class="fa fa-align-left"></i>
+<div class="no-mobile"><button id="yourButton" class="no-mobile"><i id="texticon"class="fa fa-align-justify"></i>
 <button></div>
 
 
