@@ -20,6 +20,8 @@
                 //console.log(data);
                 $modal.find('.edit-content').html(data);
                 $('persname[type=display]').html($('persname[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                // placeName
+                $('placename[type=display]').html($('placename[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
             },
             error: function(data){
                 //console.log(data);
@@ -28,5 +30,3 @@
 
     })
 })(jQuery);
-
-

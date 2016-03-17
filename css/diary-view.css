@@ -372,7 +372,11 @@ div#paged-tei-seadragon-viewer-download-datastream-PDF {
     padding-top: 3px;
     pointer-events: all;
 }
-
+div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
+    color: lightgray;
+    font-size: 12px;
+    font-weight: bold;
+}
 
 
 .12345{
