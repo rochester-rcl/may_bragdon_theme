@@ -19,7 +19,9 @@
             {
                 //console.log(data);
                 $modal.find('.edit-content').html(data);
-                $('persname').html($('persname').html().replace("(","<span>").replace(")","</span>"));
+                console.log($('persname').html());
+                console.log($('persname').html().replace("(","<span>").replace(")","</span>"));
+                //$('persname').html($('persname').html().replace("(","<span>").replace(")","</span>"));
             },
             error: function(data){
                 //console.log(data);
