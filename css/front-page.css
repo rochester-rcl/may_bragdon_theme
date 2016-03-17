@@ -120,6 +120,7 @@
 .cap-date{
   font-size: 13px;
   display: block;
+  color: lightgray;
 }
 
 .carousel-control {
