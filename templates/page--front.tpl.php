@@ -129,7 +129,7 @@
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6084">
                   <span class="cap-quote">Group on Sitting room floor! Perfect Little Ladies'</span>
-                  <span class="cap-date">Valentine Party, Feb. 1897</span>
+                  <span class="cap-date">Valentine Party, February 1897</span>
                   </a>
               </div>
             </div>
@@ -144,8 +144,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3391">
-                  <span class="cap-quote">Perfect Little Ladies, in costume, playing Pedro.</span>
-                  <span class="cap-date">8/29 p.172</span>
+                  <span class="cap-quote">Just before starting Ned. Frank. Mazy. Our steps - The Behn's house</span>
+                  <span class="cap-date">May 10th, 1896</span>
                   </a>
               </div>
             </div>
