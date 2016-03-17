@@ -791,7 +791,7 @@ span.date.page_p__000c.diary_A_B81_076A {
 }
 .modal-dialog note {
     display: block;
-    margin: 23px 0 25px 0;
+    margin: 0px 0 25px 0;
     font-size: 15px;
     font-weight: 100;
     border-top: 1px solid lightgray;
@@ -822,6 +822,7 @@ persname span.para {
     color: gray;
     font-size: 14px;
     display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 address {
     display: block;
@@ -847,7 +848,8 @@ placename[type=alternate] {
 }
 birth[cert=high],
 birth[cert=medium],
-death[cert=high] {
+death[cert=high],
+death[cert=medium] {
     display: inline-block;
     color: gray;
     border-right: 1px solid lightgray;
@@ -857,7 +859,7 @@ death[cert=high] {
 }
 persname[type=aka],
 name[type=aka]{
-    /* font-style: italic; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
     color: black;
     display: inline-block;
     background: lightgray;
