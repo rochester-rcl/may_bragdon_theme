@@ -843,6 +843,7 @@ placename[type=alternate] {
     display: block;
     color: gray;
     font-weight: 300;
+    display: none;
 }
 birth[cert=high],
 birth[cert=medium],
