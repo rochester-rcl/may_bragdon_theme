@@ -783,11 +783,11 @@ span.date.page_p__000c.diary_A_B81_076A {
 }
 .ograpy-modal .modal-header {
     min-height: 16.42857143px;
-    padding: 15px;
-    height: 55px;
-    /* border-bottom: 1px solid #e5e5e5; */
-    background: lightgray;
-    border-radius: 4px 4px 0 0;
+        padding: 15px;
+        height: 75px;
+        /* border-bottom: 1px solid #e5e5e5; */
+        /* background: lightgray; */
+        border-radius: 4px 4px 0 0;
 }
 .modal-dialog note {
     display: block;
@@ -815,9 +815,6 @@ placename[type=display],
 label[type=display] {
     font-size: 20px;
     display: block;
-    position: absolute;
-    top: -43px;
-    left: 21px;
 }
 
 persname span.para {
@@ -825,7 +822,11 @@ persname span.para {
     font-size: 14px;
     display: block;
 }
-
+address {
+    display: block;
+    color: gray;
+    font-weight: 300;
+}
 persname[type=index],
 persname[type=primary],
 persname[type=aka],
@@ -844,6 +845,7 @@ address {
     display: block;
     color: gray;
     font-weight: 300;
+    display: none;
 }
 birth[cert=high],
 birth[cert=medium],
