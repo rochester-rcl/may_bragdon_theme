@@ -27,3 +27,58 @@
 .islandora-objects-display-switch {
     display: none;
 }
+
+.pages-page-class .back-to-diary-btn a{
+    width: auto;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+/*Images*/
+.pages-page-class .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    -webkit-box-shadow: 5px 5px 6px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 6px -2px rgba(0,0,0,1);
+    box-shadow: 5px 5px 6px -2px rgba(0,0,0,1);
+}
+
+
+/* Pager*/
+.pages-page-class .pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: lightgray;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #ddd;
+}
+
+.pages-page-class .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #5d6b84;
+    border-color: #5d6b84;
+}
+
+.pages-page-class .pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: lightgray;
+    text-decoration: none;
+    /* background-color: #fff; */
+    border: 1px solid gray;
+}
+.pages-page-class .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #53585f;
+    border-color: gray;
+}
