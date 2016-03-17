@@ -832,7 +832,6 @@ persname[type=primary],
 persname[type=aka],
 name[type=index],
 name[type=primary],
-name[type=aka],
 idno[type=LCNAF],
 label[type=index],
 label[type=primary],
@@ -860,6 +859,7 @@ death[cert=high] {
 persname[type=aka],
 name[type=aka]{
     font-style: italic;
+    color: gray;
 }
 
 
