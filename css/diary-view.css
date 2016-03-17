@@ -819,6 +819,13 @@ label[type=display] {
     top: -43px;
     left: 21px;
 }
+
+persname[type=display] span .para {
+    color: gray;
+    font-size: 14px;
+    display: block;
+}
+
 persname[type=index],
 persname[type=primary],
 persname[type=aka],
@@ -846,11 +853,14 @@ death[cert=high] {
     border-right: 1px solid lightgray;
     padding-right: 5px;
     font-weight: 300;
+    display: none;
 }
 persname[type=aka],
 name[type=aka]{
     font-style: italic;
 }
+
+
 
 
 /* Cite this
