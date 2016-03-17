@@ -52,7 +52,9 @@ form.openseadragon-container {
     width: 100%!important;
     background: black!important;
 }
-
+a#clip {
+    display: none;
+}
 /* Additional info
 -----------------------------------*/
 
