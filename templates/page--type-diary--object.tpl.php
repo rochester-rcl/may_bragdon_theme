@@ -296,13 +296,6 @@
     </div>
 </div>
 
-<!-- Test -->
-<script type="text/javascript">
-    console.log($('.paged-tei-seadragon-viewer-download-datastreams'));
-    $('.paged-tei-seadragon-viewer-download-datastreams').html($('.paged-tei-seadragon-viewer-download-datastreams').html().replace(/(\([^)]+\))/, '<span class="12345">$1</span>'));
-</script>
-<!-- // -->
-
 
 <div class="no-mobile"><button id="yourButton" class="no-mobile" data-toggle="tooltip" data-placement="right" title="Toggle Transcription Style"><i id="texticon"class="fa fa-align-justify"></i>
 <button></div>
