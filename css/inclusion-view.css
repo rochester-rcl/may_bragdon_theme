@@ -50,6 +50,7 @@
 }
 form.openseadragon-container {
     width: 100%!important;
+    background: black!important;
 }
 
 /* Additional info
