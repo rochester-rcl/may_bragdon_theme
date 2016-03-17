@@ -19,9 +19,7 @@
             {
                 //console.log(data);
                 $modal.find('.edit-content').html(data);
-                console.log($('persname').html());
-                console.log($('persname').html().replace("(","<span>").replace(")","</span>"));
-                //$('persname').html($('persname').html().replace("(","<span>").replace(")","</span>"));
+                $('persname[type=display]').html($('persname[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
             },
             error: function(data){
                 //console.log(data);
