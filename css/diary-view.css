@@ -857,8 +857,12 @@ death[cert=high] {
 }
 persname[type=aka],
 name[type=aka]{
-    font-style: italic;
-    color: gray;
+    /* font-style: italic; */
+    color: black;
+    display: inline-block;
+    background: lightgray;
+    /* border-radius: 3px; */
+    padding: 5px 10px;
 }
 
 
