@@ -28,6 +28,11 @@
     display: none;
 }
 
+.pages-page-class .inside-nav {
+    background-color: black;
+    margin-bottom: 0;
+}
+
 .pages-page-class .back-to-diary-btn a{
     width: auto;
     border: 1px solid gray;
