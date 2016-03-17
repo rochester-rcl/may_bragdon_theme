@@ -774,7 +774,6 @@ span.date.page_p__000c.diary_A_B81_076A {
 -----------------------------------*/
 
 .modal-dialog{
-    font-family: 'Merriweather', serif;
 }
 .modal-body{
     padding: 25px;
@@ -805,6 +804,7 @@ span.date.page_p__000c.diary_A_B81_076A {
     font-size: 15px;
     font-weight: 100;
     padding-top: 13px;
+    font-family: 'Merriweather', serif;
 }
 .modal-dialog .close {
     /*float: right;
@@ -825,6 +825,7 @@ label[type=display] {
     font-size: 20px;
     display: block;
     margin-top: -86px;
+    font-family: 'Merriweather', serif;
 }
 
 persname span.para {
