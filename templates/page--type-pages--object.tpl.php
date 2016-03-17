@@ -76,7 +76,7 @@
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/css/pages-view-html.css'; ?>">
 
 
 <!--====== UNIVERSITY HEADER ======-->
@@ -198,7 +198,7 @@
       <div class="content-h-c">
         <div>
             <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
-        </div>  
+        </div>
         <?php print render($page['content']); ?>
       </div>
 
