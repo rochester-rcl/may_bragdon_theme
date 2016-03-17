@@ -381,6 +381,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
       width: 100%;
       margin: 0;
       color: #919aaf;
+      border-top: none;
 }
 .footer-left,
 .footer-right{
