@@ -820,7 +820,7 @@ label[type=display] {
     left: 21px;
 }
 
-persname span .para {
+persname span.para {
     color: gray;
     font-size: 14px;
     display: block;
