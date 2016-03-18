@@ -870,10 +870,10 @@ label[type=alternate],
 desc[type=place],
 placename[type=index],
 placename[type=primary],
-placename[type=alternate] {
-    display: block;
-    color: gray;
-    font-weight: 300;
+placename[type=alternate],
+settlement,
+region,
+country {
     display: none;
 }
 birth[cert=high],

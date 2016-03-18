@@ -91,7 +91,7 @@
 
 
 <!--============== CAROUSEL  ==============-->
-<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="=">
+<div id="carousel-example-generic" class="carousel slide no-mobile" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
         <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
