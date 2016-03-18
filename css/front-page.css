@@ -70,7 +70,15 @@
     z-index: 100000;
     background: rgba(0,0,0,0.2);
 }
+/* Making caption thicker on safari*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    .cap-quote {
 
+        font-weight: bold;
+
+    }
+}}
 
 /* COVER
 -----------------------------------*/
