@@ -95,10 +95,10 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
         <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="4"></li>
   </ol>
 
 
