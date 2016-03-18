@@ -176,7 +176,7 @@
           <div class="content">
               <div class="caption-container">
                 <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3939">
-                <span class="cap-quote">My "star picture"<br> - the girls at Fairy Lake</span>
+                <span class="cap-quote">My "star picture" -<br>the girls at Fairy Lake</span>
                 <span class="cap-date">8/29 p.172</span>
                 </a>
             </div>
