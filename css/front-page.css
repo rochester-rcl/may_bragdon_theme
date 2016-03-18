@@ -70,15 +70,7 @@
     z-index: 100000;
     background: rgba(0,0,0,0.2);
 }
-/* Making caption thicker on safari*/
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    .safari_only .cap-quote {
 
-        font-weight: bold;
-
-    }
-}}
 
 /* COVER
 -----------------------------------*/
@@ -105,7 +97,6 @@
     display: none;
     }
 
-/**/
 .car-cap {
     position: absolute;
     font-size: 12px;
@@ -118,11 +109,9 @@
     border-radius: 5px;
     padding: 10px 15px;
 }
-/**/
 .cap-quote{
   font-family: 'Merriweather', serif;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 17px;
   display: block;
 }
 .cap-date{
