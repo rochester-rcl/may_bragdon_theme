@@ -637,6 +637,11 @@ label.control-label {
     cursor: pointer;
 }
 
+.tei .note{
+    display: inline-block;
+    font-family: FontAwesome;
+}
+
 /* Note popover */
 .tei .popover {
     position: fixed;
