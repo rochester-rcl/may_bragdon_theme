@@ -6,10 +6,10 @@
 // the navbar.
 
 (function ($) {
-    console.log("I am also watching!");
+    // console.log("I am also watching!");
     $('#yourButton').click(function() {
         if ($('br').css('height') === "17px"){
-            console.log("If this...");
+            // console.log("If this...");
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
             $( "#yourButton" ).attr({
@@ -31,7 +31,7 @@
                 'width': '100%'
             });
         } else {
-            console.log("Else do this...");
+            // console.log("Else do this...");
             $('#texticon').removeClass("fa-align-justify");
             $('#texticon').addClass("fa-align-left");
             $('br').css({
