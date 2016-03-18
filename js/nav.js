@@ -19,6 +19,7 @@ $(window).scroll(function() {
         $('.carousel-inner').removeClass("space");
         $('.scroll-hint').removeClass("test");
         $('.logo-fade').addClass("out");
+        $('.may-b-signature').fadeIn( 700);
     }
 });
 })(jQuery);
