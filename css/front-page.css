@@ -73,7 +73,7 @@
 /* Making caption thicker on safari*/
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
-    .cap-quote {
+    .safari_only .cap-quote {
 
         font-weight: bold;
 
