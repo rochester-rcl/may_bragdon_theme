@@ -12,15 +12,13 @@ $(window).scroll(function() {
         $('.carousel-inner').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
         $('.logo-fade').removeClass("out");
-      //  $('.header-search').addClass("show");
+        $('.may-b-signature').fadeOut( 500);
     }
     else{
         $('.navbar').removeClass("fixed");
         $('.carousel-inner').removeClass("space");
         $('.scroll-hint').removeClass("test");
         $('.logo-fade').addClass("out");
-        //$('.header-search').removeClass("show");
-
     }
 });
 })(jQuery);
