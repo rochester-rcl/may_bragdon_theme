@@ -12,7 +12,7 @@ $(window).scroll(function() {
         $('.carousel-inner').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
         $('.logo-fade').removeClass("out");
-        $(".may-b-signature, .cap-quote, .carousel-indicators").fadeOut( 500);
+        $(".may-b-signature, .car-cap, .carousel-indicators").fadeOut( 900);
     }
     else{
         $('.navbar').removeClass("fixed");

@@ -475,6 +475,16 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 /* Transcription Pane
 -----------------------------------*/
 
+.diary-page-class .no-markup {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    color: lightgray;
+    font-size: 22px;
+}
+
 /* Removing the P tag style */
 .tei .p {
   margin: 0!important;
