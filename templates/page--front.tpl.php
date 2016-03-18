@@ -95,10 +95,10 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
         <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-toggle="tooltip" data-placement="top" title="M.B. as a Scribner poster. 8/29" data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-toggle="tooltip" data-placement="top" title="Perfect Little Ladies' Valentine Party" data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-toggle="tooltip" data-placement="top" title="The Behn's house May 10th, 1896" data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-toggle="tooltip" data-placement="top" title="The Aqueduct" data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-toggle="tooltip" data-placement="top" title="The girls at Fairy Lake" data-target="#carousel-example-generic" data-slide-to="4"></li>
   </ol>
 
 
