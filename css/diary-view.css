@@ -708,18 +708,17 @@ label.control-label {
 .tei a.placeName[data-ref],
 .tei a.orgName[data-ref],
 .tei a.title[data-ref],
-.tei a.name[data-ref]
-{
+.tei a.name[data-ref]{
     color: black;
     font-weight: 400;
     padding: 0px 2px;
     border-bottom: 2px solid #248ED1;
 }
-.tei .div .persName[data-ref]:hover,
-.tei .div .placeName[data-ref]:hover,
-.tei .div .orgName[data-ref]:hover,
-.tei .div .title[data-ref]:hover,
-.tei .div .name[data-ref]:hover {
+.tei a.persName[data-ref]:hover,
+.tei a.placeName[data-ref]:hover,
+.tei a.orgName[data-ref]:hover,
+.tei a.title[data-ref]:hover,
+.tei a.name[data-ref]:hover {
     border-bottom:2px solid gray;
     cursor: pointer;
 }
