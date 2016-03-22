@@ -87,3 +87,11 @@
     background-color: #53585f;
     border-color: gray;
 }
+
+dd .page-number-prefix{
+    color: white;
+}
+
+dd .diary-page-number{
+    color: white;
+}
