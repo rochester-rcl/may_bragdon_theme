@@ -749,7 +749,9 @@ label.control-label {
     font-weight: bold;
 }
 
-
+.tei .hi {
+    background-color: transparent;
+}
 /*  removing indent */
 .tei p {
     text-indent: 0!important;
