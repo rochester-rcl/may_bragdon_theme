@@ -752,6 +752,12 @@ label.control-label {
 .tei .hi {
     background-color: transparent;
 }
+
+.tei .ref {
+    display: block;
+    color: black;
+    background-color: inherit;
+}
 /*  removing indent */
 .tei p {
     text-indent: 0!important;
@@ -1136,7 +1142,8 @@ input.stv-radio-tab:checked + label {
       width: 100%;
       display: block;
       right: 0;
-      text-align: left;
+      text-align: center;
+      width: 100%;
       font-size: 14px;
       position: absolute;
       top: 64px;
