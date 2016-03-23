@@ -19,9 +19,22 @@
             {
                 //console.log(data);
                 $modal.find('.edit-content').html(data);
-                $('persname[type=display]').html($('persname[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
-                // placeName
-                $('placename[type=display]').html($('placename[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                if( $('persname[type=display]').length > 0 ){
+                    $('persname[type=display]').html($('persname[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                }
+                
+                if( $('name[type=display]').length > 0 ){
+                    $('name[type=display]').html($('name[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                }
+                
+                if( $('label[type=display]').length > 0 ){
+                    $('label[type=display]').html($('label[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                }
+                
+                if($('placename[type=display]').length > 0){
+                     $('placename[type=display]').html($('placename[type=display]').html().replace("(",'<span class="para">').replace(")","</span>"));
+                }
+                
             },
             error: function(data){
                 //console.log(data);
