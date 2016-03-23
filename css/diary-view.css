@@ -874,7 +874,8 @@ label[type=display] {
     font-family: 'Merriweather', serif;
 }
 
-persname span.para {
+persname span.para,
+placename span.para {
     color: gray;
     font-size: 14px;
     display: block;
@@ -920,6 +921,7 @@ name[type=aka]{
     display: inline-block;
     background: #ebebeb;
     padding: 5px 10px;
+    margin-top: 4px;
 }
 
 
