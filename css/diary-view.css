@@ -1,21 +1,5 @@
-#yourButton{
-    height: 35px;
-    position: absolute;
-    z-index: 6000;
-    top: 55px;
-    left: 10px;
-    border-radius: 5px;
-    background: transparent;
-    padding: 5px 10px;
-    border: none;
-}
-#yourButton:hover,
-#yourButton:focus{
-    background: #e2e0da;
-}
-button {
-    outline: 0;
-}
+
+
 
 
 
@@ -236,9 +220,6 @@ a#islandora-paged-tei-seadragon-navigate-left img{
 a#islandora-paged-tei-seadragon-navigate-right img{
     right: 17%;
 }
-/*.paged-tei-seadragon-viewer-left-toolbar img:hover {
-    opacity: 1;
-}*/
 
 #book-viewer {
     width: 100%;
@@ -469,11 +450,31 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
     width: 100%;
 }
 
-/*//*/
 
 
 /* Transcription Pane
 -----------------------------------*/
+
+/* TEI BR Toggle*/
+#yourButton{
+    height: 35px;
+    position: absolute;
+    z-index: 6000;
+    top: 55px;
+    left: 10px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px 10px;
+    border: none;
+}
+#yourButton:hover,
+#yourButton:focus{
+    background: #e2e0da;
+}
+button {
+    outline: 0;
+}
+
 
 .diary-page-class .no-markup {
     text-align: center;
@@ -507,22 +508,15 @@ of a line */
 .caption + br {
   display: none;
 }
-/*.body br:last-child {
-    display: none;
-}*/
-
-/*.seg.class--rend--undone {
-    color: red!important;
-}*/
 
 .class--rend--overwrite {
     text-decoration: line-through;
     opacity: 0.5;
 }
 
-/*.seg.class--rend--undone {
+.seg.class--rend--undone {
     color: red!important;
-}*/
+}
 
 
 /* Page Select Menu */
@@ -578,8 +572,6 @@ textarea:focus {
     width: 100%;
     padding-bottom: 100px;
     padding-top: 30px;
-    /*white-space: nowrap;*/
-    /*margin-left: -30px;*/
 }
 .tei > div {
     line-height: 20px;
@@ -719,13 +711,7 @@ label.control-label {
 .tei .name:hover  {
   color: black;
   text-decoration: none;
-  pointer-events:
 }
-/*.tei .persName[data-ref],
-.tei .placeName[data-ref],
-.tei .orgName[data-ref],
-.tei .title[data-ref],
-.tei .div .name[data-ref],*/
 /* With <a> */
 .tei a.persName[data-ref],
 .tei a.placeName[data-ref],
