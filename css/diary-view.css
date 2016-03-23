@@ -880,6 +880,7 @@ label span.para {
     color: gray;
     font-size: 14px;
     display: block;
+    font-weight: 400;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 address {
