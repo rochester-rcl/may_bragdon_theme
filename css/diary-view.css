@@ -875,7 +875,8 @@ label[type=display] {
 }
 
 persname span.para,
-placename span.para {
+placename span.para,
+label span.para {
     color: gray;
     font-size: 14px;
     display: block;
