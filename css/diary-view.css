@@ -70,14 +70,11 @@ background: #30343b;
     border: none;
     color: white;
     font-weight: 100;
-    float: left;
-    /* padding: 0; */
     position: absolute;
     margin: 0;
-    left: 40%;
+    text-align: center;
     top: 16px;
-    right: 0;
-    /* padding-top: 12px; */
+    width: 100%;
 }
 .diary-page-class .page-title-wrapper {
     margin-top: 0;
@@ -155,6 +152,7 @@ background: #30343b;
     left: 0;
     z-index: 100;
     height: 51px;
+    pointer-events: none;
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(252,250,243,1) 98%, rgba(255,253,245,1) 99%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(252,250,243,1) 98%,rgba(255,253,245,1) 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(252,250,243,1) 98%,rgba(255,253,245,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -174,6 +172,7 @@ background: #30343b;
     width: 95px;
     bottom: 9px;
     border-radius: 5px;
+    pointer-events: all;
 }
 .diary-page-cite .btn-default:hover {
     background: lightgray;
@@ -204,6 +203,7 @@ a#islandora-paged-tei-seadragon-navigate-right{
     width: 49px;
     border: 1px solid gray;
     display: block;
+    pointer-events: all;
 }
 a#islandora-paged-tei-seadragon-navigate-left:hover,
 a#islandora-paged-tei-seadragon-navigate-right:hover{
@@ -531,6 +531,18 @@ of a line */
     width: auto;
     background: white;
     font-size: 18px;
+    pointer-events: all;
+    cursor: pointer;
+}
+.diary-page-class .uneditable-input,
+input:hover,
+select:hover,
+textarea:hover,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 0 2pt lightgray;
+    outline: none;
 }
 
 /*Moved from Viewer div*/
@@ -538,6 +550,7 @@ of a line */
     padding: 7px 7px 50px 7px;
     position: fixed;
     left: 0px;
+    pointer-events: none;
     width: calc(35% - 12px);
     /*border-bottom: 1px solid lightgray;*/
     text-align: center;
@@ -685,7 +698,12 @@ label.control-label {
 .tei .div .placeName,
 .tei .div .orgName,
 .tei .div .title,
-.tei .div .name {
+.tei .div .name,
+.tei .persName,
+.tei .placeName,
+.tei .orgName,
+.tei .title,
+.tei .name {
   color: black;
   text-decoration: none;
 }
@@ -693,7 +711,12 @@ label.control-label {
 .tei .div .placeName:hover,
 .tei .div .orgName:hover,
 .tei .div .title:hover,
-.tei .div .name:hover {
+.tei .div .name:hover,
+.tei .persName:hover,
+.tei .placeName:hover,
+.tei .orgName:hover,
+.tei .title:hover,
+.tei .name:hover  {
   color: black;
   text-decoration: none;
   pointer-events:
@@ -877,10 +900,13 @@ label[type=display] {
     font-family: 'Merriweather', serif;
 }
 
-persname span.para {
+persname span.para,
+placename span.para,
+label span.para {
     color: gray;
     font-size: 14px;
     display: block;
+    font-weight: 400;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 address {
@@ -923,6 +949,7 @@ name[type=aka]{
     display: inline-block;
     background: #ebebeb;
     padding: 5px 10px;
+    margin-top: 4px;
 }
 
 
@@ -1044,10 +1071,6 @@ input.stv-radio-tab:checked + label {
       width: 4px;
       margin: 0 5px;
   }
-  .diary-page-class .basic-page-title {
-    left: 248px;
-    font-size: 14px;
-  }
   .navbar-brand img {
     width: 150px;
     padding-top: 4px;
@@ -1142,7 +1165,7 @@ input.stv-radio-tab:checked + label {
       width: 100%;
       display: block;
       right: 0;
-      text-align: center;
+      text-align: left;
       width: 100%;
       font-size: 14px;
       position: absolute;
