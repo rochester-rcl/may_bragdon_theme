@@ -694,19 +694,19 @@ label.control-label {
 }
 
 
-.tei .div .persName,
-.tei .div .placeName,
-.tei .div .orgName,
-.tei .div .title,
-.tei .div .name {
+.tei .persName,
+.tei .placeName,
+.tei .orgName,
+.tei .title,
+.tei .name {
   color: black;
   text-decoration: none;
 }
-.tei .div .persName:hover,
-.tei .div .placeName:hover,
-.tei .div .orgName:hover,
-.tei .div .title:hover,
-.tei .div .name:hover {
+.tei .persName:hover,
+.tei .placeName:hover,
+.tei .orgName:hover,
+.tei .title:hover,
+.tei .name:hover {
   color: black;
   text-decoration: none;
   pointer-events:
