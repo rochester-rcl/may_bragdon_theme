@@ -537,7 +537,7 @@ of a line */
 input:hover,
 select:hover,
 textarea:hover {
-    border: 2px solid gray;
+    outline: 2px solid gray;
 }
 
 /*Moved from Viewer div*/
