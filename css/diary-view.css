@@ -538,6 +538,7 @@ input:hover,
 select:hover,
 textarea:hover {
     outline: 2px solid gray;
+    border-radius: 5px;
 }
 
 /*Moved from Viewer div*/
