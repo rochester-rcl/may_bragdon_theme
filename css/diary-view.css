@@ -536,8 +536,12 @@ of a line */
 .diary-page-class .uneditable-input,
 input:hover,
 select:hover,
-textarea:hover {
+textarea:hover,
+input:focus,
+select:focus,
+textarea:focus {
     box-shadow: 0 0 0 2pt lightgray;
+    outline: none;
 }
 
 /*Moved from Viewer div*/
