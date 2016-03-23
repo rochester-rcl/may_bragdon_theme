@@ -531,14 +531,13 @@ of a line */
     background: white;
     font-size: 18px;
     pointer-events: all;
-    cursor: auto;
+    cursor: pointer;
 }
 .diary-page-class .uneditable-input,
 input:hover,
 select:hover,
 textarea:hover {
-    outline: 2px solid gray;
-    border-radius: 5px;
+    box-shadow: 0 0 0 2pt lightgray;
 }
 
 /*Moved from Viewer div*/
