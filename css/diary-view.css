@@ -1148,7 +1148,6 @@ input.stv-radio-tab:checked + label {
       position: absolute;
       top: 64px;
       padding-left: 15px;
-      outline: 1px solid red;
   }
   .navbar-brand img {
     width: 150px;
