@@ -70,14 +70,11 @@ background: #30343b;
     border: none;
     color: white;
     font-weight: 100;
-    float: left;
-    /* padding: 0; */
     position: absolute;
     margin: 0;
-    left: 40%;
+    text-align: center;
     top: 16px;
-    right: 0;
-    /* padding-top: 12px; */
+    width: 100%;
 }
 .diary-page-class .page-title-wrapper {
     margin-top: 0;
@@ -1044,10 +1041,6 @@ input.stv-radio-tab:checked + label {
       width: 4px;
       margin: 0 5px;
   }
-  .diary-page-class .basic-page-title {
-    left: 248px;
-    font-size: 14px;
-  }
   .navbar-brand img {
     width: 150px;
     padding-top: 4px;
@@ -1142,7 +1135,7 @@ input.stv-radio-tab:checked + label {
       width: 100%;
       display: block;
       right: 0;
-      text-align: center;
+      text-align: left;
       width: 100%;
       font-size: 14px;
       position: absolute;
