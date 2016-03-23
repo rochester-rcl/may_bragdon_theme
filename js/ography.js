@@ -5,18 +5,6 @@
 
 (function ($) {
     
-    //HACK - this will replace anything with a colon followed by a number 
-    // and replace it with the current pid
-    $('.tabs--primary.nav.nav-tabs li a').each(function(index, element){
-        if($(element).text() != "Pages"){
-            var value = $(element).attr("href");
-            var match = value.match(/\w*%3A\d*[^\/]/g);
-            var currentPid =  $("#islandora_paged_tei_seadragon_pager").val();
-            if(currentPid){
-                 $(element).attr("href", value.replace(match, currentPid));
-            }
-        }
-    });
     
     $('#OgraphyModal').on('show.bs.modal', function(e) {
 
