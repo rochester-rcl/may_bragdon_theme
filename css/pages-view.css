@@ -1,5 +1,7 @@
 
-
+.islandora-objects-grid div.diary-page-image-wrapper:first-child {
+    display: none;
+}
 .diary-page-image-wrapper {
     width: 20%;
     float: left;
