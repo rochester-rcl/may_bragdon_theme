@@ -515,7 +515,7 @@ of a line */
 }
 
 .seg.class--rend--undone {
-    color: red!important;
+    text-decoration: line-through;
 }
 
 
@@ -755,7 +755,6 @@ label.control-label {
     border-bottom: 1px solid #989690;
     background-color: transparent;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .tei .hi {
