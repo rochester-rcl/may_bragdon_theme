@@ -1,17 +1,16 @@
 
-.islandora-objects-grid div.diary-page-image-wrapper:first-child {
+/*.islandora-objects-grid div.diary-page-image-wrapper:first-child {
     display: none;
-}
+}*/
 .diary-page-image-wrapper {
     width: 24%;
     float: left;
     height: 390px;
 }
 
-.islandora-objects-grid div.diary-page-image-wrapper:nth-child(odd) {
-    /* outline: 1px solid red; */
+/*.islandora-objects-grid div.diary-page-image-wrapper:nth-child(odd) {
     margin-right: 2%;
-}
+}*/
 
 .pages-page-class .basic-page-title {
     font-size: 16px;
