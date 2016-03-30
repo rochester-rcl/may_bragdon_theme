@@ -652,11 +652,13 @@ label.control-label {
 
 .note i {
     color: black;
+    opacity: 0.5;
 }
 
 .note i:hover {
     color: black;
     cursor: pointer;
+    opacity: 1;
 }
 
 .tei .note{
@@ -664,7 +666,8 @@ label.control-label {
     font-family: FontAwesome;
 }
 
-.note a {
+.note a,
+.note {
     border-bottom: none!important;
 }
 
