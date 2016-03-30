@@ -444,7 +444,8 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 
 /* Original Manuscript Img  */
 #roch-tei-viewer-occluded {
-    padding: 5px 18px 17px 0px;
+    padding: 5px 15px 0 0px;
+    border-bottom: 1px solid black;
 }
 #roch-tei-viewer-occluded img {
     width: 100%;
@@ -648,6 +649,11 @@ label.control-label {
     font-size: 18px;
     margin: 0 3px;
 }
+
+.note i {
+    color: black;
+}
+
 .note i:hover {
     color: black;
     cursor: pointer;
@@ -656,6 +662,10 @@ label.control-label {
 .tei .note{
     display: inline-block;
     font-family: FontAwesome;
+}
+
+.note a {
+    border-bottom: none!important;
 }
 
 /* Note popover */
