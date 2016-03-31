@@ -861,6 +861,9 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-body{
     padding: 25px;
 }
+.ograpy-modal .modal-footer {
+    display: none;
+}
 
 .modal-content{
     -webkit-box-shadow: 5px 5px 0px -2px rgba(0,0,0,0.54);
@@ -884,8 +887,8 @@ span.date.page_p__000c.diary_A_B81_076A {
 .modal-dialog note {
     display: block;
     margin: 20px 0 35px 0;
-    font-size: 15px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 500;
     padding-top: 13px;
     font-family: 'Merriweather', serif;
 }
