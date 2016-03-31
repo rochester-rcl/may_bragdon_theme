@@ -11,14 +11,14 @@ $(window).scroll(function() {
         $('.navbar').addClass("fixed"); // Navbar moves to position:fixed
         $('.carousel-inner').addClass("space"); // Spacer
         $('.scroll-hint').addClass("test");
-        $('.logo-fade').removeClass("in");
+        $('.logo-fade').addClass("in");
         $(".may-b-signature, .car-cap, .carousel-indicators").fadeOut( 900);
     }
     else{
         $('.navbar').removeClass("fixed");
         $('.carousel-inner').removeClass("space");
         $('.scroll-hint').removeClass("test");
-        $('.logo-fade').addClass("in");
+        $('.logo-fade').removeClass("in");
         $('.may-b-signature, .car-cap, .carousel-indicators').fadeIn( 700);
     }
 });
