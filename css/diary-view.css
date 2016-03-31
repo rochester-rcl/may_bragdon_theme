@@ -55,10 +55,12 @@ background: #30343b;
     color: white;
     font-weight: 100;
     position: absolute;
-    margin: 0;
+    margin: auto;
     text-align: center;
     top: 16px;
-    width: 100%;
+    width: 36%;
+    left: 0;
+    right: 0;
 }
 .diary-page-class .page-title-wrapper {
     margin-top: 0;
