@@ -14,10 +14,10 @@
     top: 39px;
 }
 .logo-fade{
-    display: block;
-}
-.logo-fade.test{
     display: none;
+}
+.logo-fade.in{
+    display: block;
 }
 
 
