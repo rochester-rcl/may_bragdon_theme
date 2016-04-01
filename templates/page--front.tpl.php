@@ -372,17 +372,6 @@
         </div>
       <!-- Left Side of Footer -->
       <div class="footer-left">
-        <!-- <div class="social-icons">
-          <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook-square"></i></a>
-          <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter-square"></i></a>
-          <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube-square"></i></a>
-          <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
-        </div> -->
-        <ul class="">
-          <li><a href="#">Advanced Search</a></li>
-          <li></li>
-          <li></li>
-        </ul>
         <!-- Copyright  -->
         <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
           University of Rochester | River Campus Libraries <br>
@@ -390,12 +379,12 @@
           <a href="http://www.rochester.edu/">
             <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
           </a>
-
           <a href="user/login">Login</a>
         </div>
       </div>
     </div>
 </div>
+<!-- End of Footer -->
 
 </div><!-- Closing out the black background -->
 

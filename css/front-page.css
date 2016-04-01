@@ -373,7 +373,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 --------------------------------*/
 
 .footer{
-      padding-top: 15px;
+      padding-top: 0;
       background-color: #021e47;
       width: 100%;
       margin: 0;
@@ -385,6 +385,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   width: 50%;
   float: right;
   margin-top: 40px;
+  font-size: 12px;
 }
 .footer-left ul {list-style: none;}
 
