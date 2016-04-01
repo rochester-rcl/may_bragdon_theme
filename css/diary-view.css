@@ -382,7 +382,6 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
   right: 0;
   top: 50px;
   bottom: 0;
-  padding: 1% 0 0 1%;
   background-color: #30343b;
 
 }
@@ -405,15 +404,19 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
   padding: 2px;
 }
 
-.islandora-compound-thumb,
-.islandora-compound-thumbs{
+.diary-page-class .islandora-compound-thumb,
+.diary-page-class .islandora-compound-thumbs{
    border: none;
 }
 
-.islandora-compound-thumbs img.active,
-.islandora-compound-thumbs img {
+.diary-page-class .islandora-compound-thumbs img.active,
+.diary-page-class .islandora-compound-thumbs img {
     border: none;
     width: 100%;
+}
+
+.bragdon-child-grouping {
+    padding: 0 4%;
 }
 
 /* Making back look closed to front */
@@ -448,6 +451,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 #roch-tei-viewer-occluded {
     padding: 5px 15px 0 0px;
     border-bottom: 1px solid black;
+    height: 225px;
 }
 #roch-tei-viewer-occluded img {
     width: 100%;
