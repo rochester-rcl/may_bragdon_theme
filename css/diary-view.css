@@ -453,12 +453,12 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 
 .islandora-compound-title {
     color: gray;
+    margin-top: 20px;
 }
 
 /* Original Manuscript Img  */
 #roch-tei-viewer-occluded {
     padding: 5%;
-    height: 225px;
     background-color: #202328;
     position: relative;
 }
