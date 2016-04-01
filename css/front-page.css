@@ -380,6 +380,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
       color: #919aaf;
       border-top: none;
 }
+.footer a{
+    color: #76acff;
+}
+.footer a:hover{
+    color: white;
+}
 .footer-left,
 .footer-right{
   width: 50%;
