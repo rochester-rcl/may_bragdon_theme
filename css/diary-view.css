@@ -514,7 +514,6 @@ of a line */
 
 .class--rend--overwrite {
     text-decoration: line-through;
-    opacity: 0.5;
 }
 
 .seg.class--rend--undone {
