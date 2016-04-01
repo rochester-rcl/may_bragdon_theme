@@ -71,6 +71,11 @@
                   <li><a href="https://rclind2.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
                </li>
                </ul>
+               <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="islandora/search/mods_genre_mt%3A%28photographs%29">Photographs</a></li>
+               </li>
         <li><a href="<?php print base_path() ?>about">About</a></li>
         <!-- Nav Search box -->
         <li>
