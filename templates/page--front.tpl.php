@@ -76,6 +76,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="islandora/search/mods_genre_mt%3A%28photographs%29">Photographs</a></li>
                </li>
+              </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
         <!-- Nav Search box -->
         <li>
