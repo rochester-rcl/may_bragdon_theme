@@ -454,9 +454,9 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 
 /* Original Manuscript Img  */
 #roch-tei-viewer-occluded {
-    padding: 5px 15px 0 0px;
-    border-bottom: 1px solid black;
+    padding: 5%;
     height: 225px;
+    background-color: #202328;
 }
 #roch-tei-viewer-occluded img {
     width: 100%;
