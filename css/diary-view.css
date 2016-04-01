@@ -419,6 +419,11 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
     padding: 0 4%;
 }
 
+.islandora-compound-thumb img {
+    width: 100%!important;
+    max-width: none!important;
+}
+
 /* Making back look closed to front */
 .inclusion-label.label-1,
 .inclusion-label.label-2,
