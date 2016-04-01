@@ -439,7 +439,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
     font-size: 12px;
     text-align: center;
     padding: 45px 10px 6px 10px;
-    bottom: 0;
+    bottom: 8%;
     width: 90%;
     margin: auto;
     left: 0;
@@ -458,7 +458,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
 
 /* Original Manuscript Img  */
 #roch-tei-viewer-occluded {
-    padding: 5%;
+    padding: 5% 5% 10% 5%;
     background-color: #202328;
     position: relative;
 }
