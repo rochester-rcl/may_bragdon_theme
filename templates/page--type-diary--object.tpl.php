@@ -148,13 +148,13 @@
            <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inclusions<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="islandora/search/mods_genre_mt%3A%28clippings%29">Clippings</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28correspondence%29">Correspondence</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28ephemera%29">Ephemera</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28leaflets%29">Leaflets</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28photographs%29">Photographs</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28playbills%29">Playbills</a></li>
-              <li><a href="islandora/search/mods_genre_mt%3A%28textiles%29">Textiles</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28clippings%29">Clippings</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28correspondence%29">Correspondence</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28ephemera%29">Ephemera</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28leaflets%29">Leaflets</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28photographs%29">Photographs</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28playbills%29">Playbills</a></li>
+              <li><a href="../maybragdon/islandora/search/mods_genre_mt%3A%28textiles%29">Textiles</a></li>
            </li>
           </ul>
         <li><a href="<?php print base_path() ?>about">About</a></li>
