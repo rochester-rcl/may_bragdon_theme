@@ -43,7 +43,7 @@
     color: white;
     border-radius: 0;
     background: black;
-    border: none;
+    border: 1px solid black;
 }
 
 
