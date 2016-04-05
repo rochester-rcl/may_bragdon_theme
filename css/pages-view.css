@@ -17,6 +17,18 @@
     color: white;
 }
 
+/* Tabs */
+.page-page-tabs .tab-container-edit-screens {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    width: 35%;
+    border-top: 1px solid lightgray;
+}
+
+
 /*.islandora-objects-grid div.diary-page-image-wrapper:nth-child(odd) {
     margin-right: 2%;
 }*/
