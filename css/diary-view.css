@@ -167,9 +167,10 @@ background: #30343b;
   /*bottom: 60px;*/
 }
 
+
+
 /* Viewer Pane
 -----------------------------------*/
-
 .openseadragon-container div:nth-child(3) {
     /*border: 1px solid red!important;*/
     position: absolute;

@@ -222,7 +222,16 @@
   </div>
 </div>
 
+<!--===== TABS =====-->
+    <?php if (!empty($tabs)): ?>
+      <div class="page-page-tabs">
+        <div class="tab-container-edit-screens">
+          <?php print render($tabs); ?>
+        </div>
+      </div>
+    <?php endif; ?>
 
+    
 <!--====== FOOTER ======-->
 <div class="footer">
     <div class="container">
