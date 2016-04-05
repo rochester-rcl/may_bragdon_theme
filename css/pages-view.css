@@ -27,6 +27,16 @@
     width: 35%;
     border-top: 1px solid lightgray;
 }
+.page-page-tabs .nav-tabs {
+    border: none;
+    margin: 0;
+}
+.page-page-tabs .nav-tabs > li.active > a{
+    border: none;
+}
+.page-page-tabs .nav-tabs > li > a{
+    padding: 5px 10px;
+}
 
 
 /*.islandora-objects-grid div.diary-page-image-wrapper:nth-child(odd) {
