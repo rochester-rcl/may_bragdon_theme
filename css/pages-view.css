@@ -40,8 +40,9 @@
 }
 .page-page-tabs .nav-tabs > li > a:hover,
 .page-page-tabs .nav-tabs > li > a:focus{
-    color: gray;
+    color: white;
     border-radius: 0;
+    background: black;
 }
 
 
