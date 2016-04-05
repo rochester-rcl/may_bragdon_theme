@@ -32,10 +32,16 @@
 }
 .page-page-tabs .nav-tabs > li.active > a{
     border: none;
+    display: none;
 }
 .page-page-tabs .nav-tabs > li > a{
     padding: 5px 10px;
-    color: white;
+    color: lightgray;
+}
+.page-page-tabs .nav-tabs > li > a:hover,
+.page-page-tabs .nav-tabs > li > a:focus{
+    color: gray;
+    border-radius: 0;
 }
 
 
