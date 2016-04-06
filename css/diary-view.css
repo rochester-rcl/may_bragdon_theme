@@ -891,11 +891,11 @@ span.date.page_p__000c.diary_A_B81_076A {
 }
 .ograpy-modal .modal-header {
     min-height: 16.42857143px;
-        padding: 15px;
-        height: 75px;
-        /* border-bottom: 1px solid #e5e5e5; */
-        /* background: lightgray; */
-        border-radius: 4px 4px 0 0;
+    padding: 15px;
+    height: 75px;
+    /* border-bottom: 1px solid #e5e5e5; */
+    /* background: lightgray; */
+    border-radius: 4px 4px 0 0;
 }
 .modal-dialog note {
     display: block;
