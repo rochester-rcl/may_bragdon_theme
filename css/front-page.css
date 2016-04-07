@@ -341,7 +341,15 @@ i.fa.fa-angle-down {
     font-weight: 100;
     }
 
-.box-headline,
+.box-page-count {
+    position: absolute;
+    color: white;
+    z-index: 5000;
+    bottom: 18px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
 
 .box-date{
     font-family: 'Merriweather', serif;
@@ -354,7 +362,7 @@ i.fa.fa-angle-down {
     right: 0;
     left: 0;
     font-weight: 100;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 40px 10px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
 background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
