@@ -158,7 +158,7 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A4910">
-                  <span class="cap-quote">Just before starting Ned. Frank. Mazy. Our steps - The Behn's house</span>
+                  <span class="cap-quote">Just before starting Ned, Frank, Mazy. Our steps - The Behn's house.</span>
                   <span class="cap-date">May 10th, 1896</span>
                   </a>
               </div>
