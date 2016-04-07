@@ -261,6 +261,7 @@
     <img class="box-images" alt="Diary February 27 to December 31, 1893" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
       <div class="box-date">February 27 - December 31, 1893</div>
+      <div class="box-page-count">308 Pages, 23 inclusions</div>
     </div>
   </a>
 </div>
