@@ -176,6 +176,7 @@ dd .diary-page-number{
 
 @media (max-width: 768px) {
     .diary-page-image-wrapper {
-        width: 23%;
+        width: 100%;
+        padding: 20px;
     }
 }
