@@ -62,7 +62,6 @@
     width: 100%;
     padding: 5px 5px 15px 9px;
     font-size: 18px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100 */
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -72,7 +71,7 @@
 
 
 .pages-page-class .basic-page-title {
-    font-size: 16px;
+    /*font-size: 16px;
     border: none;
     color: white;
     font-weight: 100;
@@ -81,10 +80,29 @@
     margin: auto;
     left: 0;
     width: 30%;
-    outline: 1px dashed gray;
     top: 16px;
     right: 0;
+    text-align: center;*/
+
+    /* Testing out a new way to display pages title */
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-weight: 100;
+    float: left;
+    padding: 10px 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    width: 100%;
+    top: 50px;
+    /*background: rgba(0,0,0,0.4);*/
+    right: 0;
     text-align: center;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 
