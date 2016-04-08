@@ -3,7 +3,7 @@
     display: none;
 }*/
 .diary-page-image-wrapper {
-    width: 24%;
+    width: 23%;
     float: left;
     height: 365px;
     position: relative;
@@ -160,6 +160,20 @@ dd .diary-page-number{
 
 
 /* Media Queries */
+@media (max-width: 1200px) {
+    .diary-page-image-wrapper {
+        width: 23%;
+        height: 285px;
+    }
+}
+
+@media (max-width: 992px) {
+    .diary-page-image-wrapper {
+        width: 30%;
+        height: 295px;
+    }
+}
+
 @media (max-width: 768px) {
     .diary-page-image-wrapper {
         width: 23%;
