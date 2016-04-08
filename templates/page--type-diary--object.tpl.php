@@ -90,8 +90,8 @@
     <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/>
     <label for="viewer">Page</label>
 
-    <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="inclusions" id="inclusions" />
-    <label for="inclusions">Inslusion</label>
+    <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="Additions" id="Additions" />
+    <label for="Additions">Inslusion</label>
 
 </div>
 
@@ -146,7 +146,7 @@
            </li>
            </ul>
            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inclusions<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Additions<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/maybragdon/islandora/search/mods_genre_mt%3A%28clippings%29">Clippings</a></li>
               <li><a href="/maybragdon/islandora/search/mods_genre_mt%3A%28correspondence%29">Correspondence</a></li>
