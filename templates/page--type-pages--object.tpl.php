@@ -112,8 +112,10 @@
                     <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
                   </div>
                 <?php endif; ?>
-                <div class="back-to-diary-btn">
-                    <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
+                <div class="container">
+                    <div class="back-to-diary-btn">
+                        <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
+                    </div>
                 </div>
             </div>
           <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
