@@ -211,9 +211,7 @@
       <?php endif; ?>
 
       <div class="content-h-c">
-        <div class="back-to-diary-btn">
-            <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
-        </div>
+
         <?php print render($page['content']); ?>
       </div>
 
