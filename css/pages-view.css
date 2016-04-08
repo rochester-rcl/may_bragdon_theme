@@ -16,13 +16,18 @@
 }
 
 /* Tabs */
-.page-page-tabs .tab-container-edit-screens {
+.page-page-tabs {
+    display: none;
+}
+
+.logged-in .page-page-tabs {
     position: fixed;
     z-index: 999;
     bottom: 0px;
     left: 0px;
     width: 100%;
     background: rgba(0,0,0,0.7);
+    display: block;
 }
 .page-page-tabs .nav-tabs {
     border: none;
