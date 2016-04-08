@@ -5,11 +5,9 @@
 .diary-page-image-wrapper {
     width: 24%;
     float: left;
-    height: 390px;
+    height: 365px;
     position: relative;
     margin: 5px;
-
-
 }
 .page-number-prefix,
 .diary-page-number{
@@ -158,4 +156,12 @@ dd .page-number-prefix{
 
 dd .diary-page-number{
     color: white;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .diary-page-image-wrapper {
+        width: 23%;
+    }
 }
