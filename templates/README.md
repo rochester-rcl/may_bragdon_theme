@@ -1,5 +1,12 @@
 #Templates
 
+,,,
+<div class="back-to-diary-btn">
+    <a href="<?php print base_path() ?>islandora/object/<?php print $pid ?>">Back To Diary</a>
+</div>
+,,,
+
+
 This folder contains all the PHP template (TPL) files. The page TPL files control the nav, footer, and other high level elements on a page. The node TPL files control the specific layout of form fields. For example if you would like to change the way the register button displays on the event content type you would edit **node--event.tpl.php**. If you want to edit the navigation on that page you would edit **page--type-event.tpl.php**.
 
 The root folder contains a file named **template.php**. This file dictates how drupal will read these TPL files. Especially the them suggestions.
