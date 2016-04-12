@@ -45,7 +45,7 @@
                         location: location}
                     $.ajax({
                         type: "POST",
-                        url: "/may_bragdon/send-feedback",
+                        url: "/maybragdon/may_bragdon/send-feedback",
                         data: data,
                         success: function (msg) {
                            //assume optimistic ok
