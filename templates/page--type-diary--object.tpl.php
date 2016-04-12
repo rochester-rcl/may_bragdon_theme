@@ -224,6 +224,41 @@
       </div>
     <?php endif; ?>
 
+      <!--===== Contact Form =====--> 
+       <!-- Button trigger modal -->
+       <button type="button" id="contact-button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-form-wrapper">
+           Contact Us
+       </button>
+
+       <!-- Modal -->
+       <div class="modal fade" id="contact-form-wrapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+           <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                       <h4 class="modal-title" id="myModalLabel">Feedback</h4>
+                   </div>
+                   <div class="modal-body">
+                       <form id="contact-form">
+                           <fieldset class="form-group email">
+                               <label for="email">Email address</label>
+                               <input type="email" class="form-control" id="email" placeholder="Enter email">
+                               <small class="text-muted">We'll never share your email with anyone else.</small>
+                           </fieldset>
+                           <fieldset class="form-group feedback">
+                               <label for="exampleTextarea">Feedback</label>
+                               <textarea class="form-control" id="feedback" rows="3"></textarea>
+                           </fieldset>
+                           <input type="text" name="unused" id="unused">
+                       </form>
+                   </div>
+                   <div class="modal-footer">
+                       <button type="button" class="btn btn-primary">Send</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                   </div>
+               </div>
+           </div>
+       </div>
 
 <!--===== ALERTS  =====-->
 <?php if (!empty($messages)): ?>
@@ -314,6 +349,9 @@
 
 
 
+
+<!--====== Navigation Scroll JS ======-->
+<script src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme') . '/js/send_email.js'; ?>"></script>
 
 
 <!--====== Navigation Scroll JS ======-->

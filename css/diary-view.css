@@ -90,6 +90,32 @@ background: #30343b;
   background: black;
 }
 
+#contact-button{
+    font-size: 17px;
+    margin: auto;
+    border: 1px dashed lightgray;
+    padding: 30px 25px;
+    background-color: #f3f8ff;
+    position: fixed;
+    color:black;
+    z-index: 999;
+    background: white;
+    border-top: 1px solid lightgray;
+    bottom: 10px;
+    right:10px;
+    
+}
+
+#contact-form-wrapper .label{
+    color: black;
+}
+
+#contact-form-wrapper #unused{
+    display:none;
+}
+
+
+
 /* Tabs */
 .diary-page-class .tab-container-edit-screens {
     position: fixed;
