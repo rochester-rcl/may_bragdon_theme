@@ -93,16 +93,17 @@ background: #30343b;
 #contact-button{
     font-size: 17px;
     margin: auto;
-    padding: 8px 20px;
-    background-color: #f3f8ff;
+    padding: 6px 20px;
+    border: none;
     position: fixed;
     color:white;
     z-index: 999;
     background: black;
-    border-top: 1px solid lightgray;
-    bottom: 10px;
+    bottom: 6px;
     right:10px;
-
+}
+#contact-button:hover{
+    background: #424750;
 }
 
 #contact-form-wrapper .label{
