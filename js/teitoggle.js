@@ -17,14 +17,7 @@
               title: "Reader View",
             //   data-toggle: "tooltip"
             });
-            $('br').css({
-                // 'content': 'normal',
-                // 'margin-bottom': '0',
-                // 'border-right': 'none',
-                // 'height': '0',
-                // 'width': '0',
-                // 'margin': '0',
-                'content':'"A"',
+            $('span.line-break').css({
                 'height':'auto',
                 'display': 'block',
                 'border-bottom': '1px solid #e8e6dc',
@@ -44,7 +37,7 @@
                 'position':'relative',
                 'top':'2px',
                 'margin':'0 4px 0 0',
-                'display':'inline'                
+                'display':'inline'
             });
         }
     });
