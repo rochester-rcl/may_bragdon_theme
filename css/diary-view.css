@@ -1096,16 +1096,14 @@ span.line-break {
   #paged-tei-seadragon-viewer-tei {
     padding: 30px 15px 20px 25px;
   }
-  .tei br {
-      content: "A" !important;
-      /*margin-bottom: 1.5em !important;*/
+  span.line-break {
+      display: inline-block;
       border-right: 1px dotted #7cbcff;
       border-bottom: none;
-      display: inline;
       height: 17px;
       width: 4px;
       margin: 0 5px;
-  }
+   }
   .navbar-brand img {
     width: 150px;
     padding-top: 4px;
