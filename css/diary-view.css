@@ -549,7 +549,7 @@ button {
 of a line */
 .date + span.line-break,
 .caption + span.line-break {
-  display: none;
+  display: none!important;
 }
 .date span.line-break,
 .caption span.line-break {
