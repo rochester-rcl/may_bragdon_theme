@@ -551,6 +551,11 @@ of a line */
 .caption + span.line-break {
   display: none;
 }
+.date span.line-break,
+.caption span.line-break {
+  display: none;
+}
+
 .class--rend--overwrite {
     text-decoration: line-through;
 }
