@@ -553,7 +553,7 @@ of a line */
 }
 .date span.line-break,
 .caption span.line-break {
-  display: none;
+  display: none!important;
 }
 
 .class--rend--overwrite {
