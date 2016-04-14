@@ -842,8 +842,8 @@ label.control-label {
 .caption .name,
 .caption a,
 .caption a.placeName  {
-    margin: 0 4px;
-    color: gray;
+    margin: 0;
+    color: gray!important;
 }
 .caption .date {
   border: none;
