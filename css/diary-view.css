@@ -565,7 +565,7 @@ of a line */
 }
 
 /* Page Select Menu */
-.diary-page-class .uneditable-input, input, select, textarea {
+.diary-page-class select{
     max-width: 100%;
     width: auto;
     background: white;
