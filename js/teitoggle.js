@@ -27,18 +27,19 @@
             // console.log("Else do this...");
             $('#texticon').removeClass("fa-align-justify");
             $('#texticon').addClass("fa-align-left");
-            $('span.line-break').css({
-                'display': 'inline-block',
-                'border-right': '1px dotted #7cbcff',
-                'height': '17px',
-                'width': '0px',
-                'margin': '0 5px',
-                'border-bottom':'none',
-                'position':'relative',
-                'top':'2px',
-                'margin':'0 4px 0 0',
-                'display':'inline'
-            });
+            $('span.line-break').addClass("inline");
+            // $('span.line-break').css({
+            //     'display': 'inline-block',
+            //     'border-right': '1px dotted #7cbcff',
+            //     'height': '17px',
+            //     'width': '0px',
+            //     'margin': '0 5px',
+            //     'border-bottom':'none',
+            //     'position':'relative',
+            //     'top':'2px',
+            //     'margin':'0 4px 0 0',
+            //     'display':'inline'
+            // });
         }
     });
 })(jQuery);

@@ -1049,7 +1049,16 @@ span.line-break {
     width: 100%;
 }
 
-
+span.line-break.inline {
+    display: inline-block;
+    border-right: 1px dotted #7cbcff;
+    border-bottom: none;
+    height: 17px;
+    width: 0px;
+    position: relative;
+    top: 2px;
+    margin: 0px 4px 0 0;
+ }
 /* Media Queries
 -----------------------------------*/
 
