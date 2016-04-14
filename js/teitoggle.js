@@ -17,12 +17,13 @@
               title: "Reader View",
             //   data-toggle: "tooltip"
             });
-            $('span.line-break').css({
-                'height':'auto',
-                'display': 'block',
-                'border-bottom': '1px solid #e8e6dc',
-                'width': '100%'
-            });
+            // $('span.line-break').css({
+            //     'height':'auto',
+            //     'display': 'block',
+            //     'border-bottom': '1px solid #e8e6dc',
+            //     'width': '100%'
+            // });
+            $('span.line-break').removeClass("inline");
         } else {
             // console.log("Else do this...");
             $('#texticon').removeClass("fa-align-justify");
