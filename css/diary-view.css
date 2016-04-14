@@ -559,18 +559,6 @@ of a line */
     text-decoration: line-through;
 }
 
-/*.unclear{
-    position: relative;
-}
-
-.unclear:after{
-    content: "\f059"; <--- this is your text. You can also use UTF-8 character codes as I do here
-    font-family: FontAwesome!important;
-    left:-5px;
-    position:absolute;
-    top:0;
-}*/
-
 /* Page Select Menu */
 .diary-page-class .uneditable-input, input, select, textarea {
     max-width: 100%;
@@ -851,7 +839,8 @@ label.control-label {
 .caption .placeName,
 .caption .orgName,
 .caption .title,
-.caption .name  {
+.caption .name,
+.caption a  {
     margin: 0 8px;
     color: gray;
 }
