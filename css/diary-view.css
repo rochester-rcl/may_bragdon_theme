@@ -91,9 +91,9 @@ background: #30343b;
 }
 
 #contact-button{
-    font-size: 17px;
+    font-size: 15px;
     margin: auto;
-    padding: 6px 20px;
+    padding: 7px 20px;
     border: none;
     position: fixed;
     color:white;
@@ -547,8 +547,12 @@ button {
 
 /* Removing the ""|"" @ the begining
 of a line */
-.date + br,
-.caption + br {
+.date + span.line-break,
+.caption + span.line-break {
+  display: none;
+}
+.date span.line-break,
+.caption span.line-break {
   display: none;
 }
 
@@ -559,18 +563,6 @@ of a line */
 .seg.class--rend--undone {
     text-decoration: line-through;
 }
-
-/*.unclear{
-    position: relative;
-}
-
-.unclear:after{
-    content: "\f059"; <--- this is your text. You can also use UTF-8 character codes as I do here
-    font-family: FontAwesome!important;
-    left:-5px;
-    position:absolute;
-    top:0;
-}*/
 
 /* Page Select Menu */
 .diary-page-class .uneditable-input, input, select, textarea {
@@ -837,8 +829,12 @@ label.control-label {
   font-family: sans-serif;
   font-style: italic;
   color: gray;
-  font-weight: 200;
   display: block;
+    padding: 6px;
+    line-height: 1.5;
+    border-left: 2px solid #EFC2AE;
+    background: #F7F3E4;
+    margin: 5px 5px 5px 0px;
 }
 
 /* Making nested elements look better  */
@@ -853,9 +849,11 @@ label.control-label {
 .caption .placeName,
 .caption .orgName,
 .caption .title,
-.caption .name  {
-    margin: 0 8px;
-    color: gray;
+.caption .name,
+.caption a,
+.caption a.placeName  {
+    margin: 0;
+    color: gray!important;
 }
 .caption .date {
   border: none;
@@ -1045,12 +1043,7 @@ input.stv-radio-tab:checked + label {
 /**/
 
 
-
-
-
-
-.tei br{
-    content: "A" !important;
+span.line-break {
     display: block;
     border-bottom: 1px solid #e8e6dc;
     width: 100%;
@@ -1102,16 +1095,16 @@ input.stv-radio-tab:checked + label {
   #paged-tei-seadragon-viewer-tei {
     padding: 30px 15px 20px 25px;
   }
-  .tei br {
-      content: "A" !important;
-      /*margin-bottom: 1.5em !important;*/
+  span.line-break {
+      display: inline-block;
       border-right: 1px dotted #7cbcff;
       border-bottom: none;
-      display: inline;
       height: 17px;
-      width: 4px;
-      margin: 0 5px;
-  }
+      width: 0px;
+      position: relative;
+      top: 2px;
+      margin: 0px 4px 0 0;
+   }
   .navbar-brand img {
     width: 150px;
     padding-top: 4px;
