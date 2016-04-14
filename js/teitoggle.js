@@ -12,6 +12,7 @@
             // console.log("If this...");
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
+            $('span.line-break').removeClass("inline");
             $( "#yourButton" ).attr({
               alt: "This is for reading",
               title: "Reader View",
@@ -23,7 +24,6 @@
             //     'border-bottom': '1px solid #e8e6dc',
             //     'width': '100%'
             // });
-            $('span.line-break').removeClass("inline");
         } else {
             // console.log("Else do this...");
             $('#texticon').removeClass("fa-align-justify");
