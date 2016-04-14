@@ -840,8 +840,9 @@ label.control-label {
 .caption .orgName,
 .caption .title,
 .caption .name,
-.caption a  {
-    margin: 0 8px;
+.caption a,
+.caption a.placeName  {
+    margin: 0 4px;
     color: gray;
 }
 .caption .date {
