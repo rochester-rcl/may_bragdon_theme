@@ -8,7 +8,7 @@
 (function ($) {
     // console.log("I am also watching!");
     $('#yourButton').click(function() {
-        if ($('br').css('height') === "17px"){
+        if ($('span.line-break').css('height') === "17px"){
             // console.log("If this...");
             $('#texticon').removeClass("fa-align-left");
             $('#texticon').addClass("fa-align-justify");
