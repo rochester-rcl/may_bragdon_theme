@@ -830,6 +830,11 @@ label.control-label {
   font-style: italic;
   color: gray;
   display: block;
+    padding: 6px;
+    line-height: 1.5;
+    border-left: 2px solid #EFC2AE;
+    background: #F7F3E4;
+    margin: 5px 5px 5px 0px;
 }
 
 /* Making nested elements look better  */
