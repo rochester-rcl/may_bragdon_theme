@@ -72,7 +72,7 @@
                </li>
                </ul>
                <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inclusions<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Additions<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="/maybragdon/islandora/search/mods_genre_mt%3A%28clippings%29">Clippings</a></li>
                   <li><a href="/maybragdon/islandora/search/mods_genre_mt%3A%28correspondence%29">Correspondence</a></li>
@@ -83,7 +83,7 @@
                   <li><a href="/maybragdon/islandora/search/mods_genre_mt%3A%28textiles%29">Textiles</a></li>
                </li>
               </ul>
-        <li><a href="<?php print base_path() ?>about">About</a></li>
+        <li><a href="<?php print base_path() ?>about" role="button" aria-haspopup="true" aria-expanded="false">About</a></li>
         <!-- Nav Search box -->
         <li>
           <div class="header-search">
