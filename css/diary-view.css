@@ -677,6 +677,12 @@ label.control-label {
 .note::before {
     display: none;
 }
+.fa-sticky-note-o:before {
+    content: "\f24a";
+    width: 29px;
+    height: auto;
+    background: white;
+}
 .tei.reading div.note {
     display: inline-block;
     font-size: 18px;
