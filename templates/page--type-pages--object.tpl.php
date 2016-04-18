@@ -237,7 +237,7 @@
         <div class="footer-right">
           <div class="address">
             <p>
-              Rare Books, Special Collections & Preservation <br>
+              Rare Books, Special Collections and Preservation <br>
               Rush Rhees Library <br>
               Second Floor, Room 225 <br>
               755 Library Road <br>
