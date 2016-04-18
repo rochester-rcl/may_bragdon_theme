@@ -677,12 +677,12 @@ label.control-label {
 .note::before {
     display: none;
 }
-.fa-sticky-note-o:before {
+/*.fa-sticky-note-o:before {
     content: "\f24a";
     width: 29px!important;
     height: auto!important;
     background: white!important;
-}
+}*/
 .tei.reading div.note {
     display: inline-block;
     font-size: 18px;
@@ -692,6 +692,12 @@ label.control-label {
 .note i {
     color: black;
     opacity: 0.5;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    bottom: 2px;
+    width: 19px!important;
+    height: auto;
 }
 
 .note i:hover {
