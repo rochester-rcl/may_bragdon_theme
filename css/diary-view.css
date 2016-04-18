@@ -692,12 +692,14 @@ label.control-label {
 .note i {
     color: black;
     opacity: 0.5;
-    font-size: 13px;
+    font-size: 14px;
     display: block;
     position: relative;
     bottom: 2px;
     width: 19px!important;
     height: auto;
+    left: -4px;
+    margin-right: -12px;
 }
 
 .note i:hover {
