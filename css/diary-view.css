@@ -679,9 +679,9 @@ label.control-label {
 }
 .fa-sticky-note-o:before {
     content: "\f24a";
-    width: 29px;
-    height: auto;
-    background: white;
+    width: 29px!important;
+    height: auto!important;
+    background: white!important;
 }
 .tei.reading div.note {
     display: inline-block;
