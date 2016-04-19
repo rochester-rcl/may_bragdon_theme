@@ -271,13 +271,9 @@ a#islandora-paged-tei-seadragon-navigate-right img{
 */
 .paged-tei-seadragon-viewer-right-toolbar {
     top: 10px;
-    /* border: 1px solid white; */
-    width: auto;
-    /* border-radius: 5px; */
-    /*padding: 5px 14px;*/
     position: absolute;
     left: 11px;
-    z-index: 1000;
+    z-index: 5000;
 }
 a#tei-viewer-original,
 a#tei-viewer-manuscript {
@@ -592,7 +588,6 @@ textarea:focus {
     left: 0px;
     pointer-events: none;
     width: calc(35% - 12px);
-    /*border-bottom: 1px solid lightgray;*/
     text-align: center;
     background: white;
     z-index: 500;
@@ -1151,7 +1146,7 @@ span.line-break.inline {
     padding: 30px 15px 20px 15px;
     top: 90px;
     width: 100%;
-    z-index: 60000;
+    z-index: 100;
   }
   #paged-tei-seadragon-viewer-tei.hide {
       display: none;
