@@ -217,6 +217,7 @@ a#islandora-paged-tei-seadragon-navigate-right{
     border: 1px solid gray;
     display: block;
     pointer-events: all;
+    z-index: 1000;
 }
 a#islandora-paged-tei-seadragon-navigate-left:hover,
 a#islandora-paged-tei-seadragon-navigate-right:hover{
