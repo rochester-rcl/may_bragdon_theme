@@ -18,6 +18,7 @@ dt.solr-label.mods-titleinfo-title-ms {
 /* Removing padding on title/metadata */
 .islandora-inline-metadata dd {
     padding-left: 0;
+    width: 100%;
 }
 
 section#block-islandora-solr-basic-facets ul {
