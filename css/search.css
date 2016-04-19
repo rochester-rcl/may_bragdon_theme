@@ -3,6 +3,12 @@
 
 
 
+/* Removing the page title - We should have the search term be the title */
+.col-sm-9 .basic-page-title {
+    display: none;
+}
+
+
 /* Removing title & Subjects Heading */
 dt.solr-label.mods-subject-name-displayform-mt,
 dt.solr-label.mods-titleinfo-title-ms {
@@ -12,4 +18,12 @@ dt.solr-label.mods-titleinfo-title-ms {
 /* Removing padding on title/metadata */
 .islandora-inline-metadata dd {
     padding-left: 0;
+}
+
+/* Removing borders on search results */
+dl.solr-fields {
+    border-top: none;
+}
+.solr-fields dt, .solr-fields dd {
+    border-top: none;
 }
