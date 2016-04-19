@@ -20,11 +20,25 @@ dt.solr-label.mods-titleinfo-title-ms {
     padding-left: 0;
 }
 
+section#block-islandora-solr-basic-facets ul {
+    padding-left: 0;
+}
 section#block-islandora-solr-basic-facets ul li{
     list-style-type: none;
-    margin-left: 0;
     text-indent: -13px;
 }
+
+.islandora-solr-facet-wrapper h3 {
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px){
+    .col-sm-3 {
+        width: 38%;
+    }
+}
+
 /*Removing plus/minus*/
 .plusminus{
     display: none;
