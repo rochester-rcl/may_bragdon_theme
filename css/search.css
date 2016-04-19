@@ -34,7 +34,10 @@ section#block-islandora-solr-basic-facets ul li{
 
 @media (min-width: 768px){
     .col-sm-3 {
-        width: 38%;
+        width: 35%;
+    }
+    .col-sm-9 {
+        width: 65%;
     }
 }
 
