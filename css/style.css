@@ -35,3 +35,6 @@ sub-theme.
 
 /* 8. Pages View */
 @import url("pages-view.css");
+
+/* 9. Search Pages  */
+@import url("search.css");
