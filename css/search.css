@@ -25,7 +25,6 @@ section#block-islandora-solr-basic-facets ul {
 }
 section#block-islandora-solr-basic-facets ul li{
     list-style-type: none;
-    text-indent: -13px;
 }
 
 .islandora-solr-facet-wrapper h3 {
