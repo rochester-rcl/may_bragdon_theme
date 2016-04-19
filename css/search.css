@@ -20,6 +20,16 @@ dt.solr-label.mods-titleinfo-title-ms {
     padding-left: 0;
 }
 
+section#block-islandora-solr-basic-facets ul li{
+    list-style-type: none;
+    margin-left: 0;
+    text-indent: -13px;
+}
+/*Removing plus/minus*/
+.plusminus{
+    display: none;
+}
+
 /* Removing borders on search results */
 dl.solr-fields {
     border-top: none;
