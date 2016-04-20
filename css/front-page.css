@@ -344,7 +344,7 @@ i.fa.fa-angle-down {
 .box-page-count {
     position: absolute;
     color: white;
-    z-index: 5000;
+    z-index: 500;
     bottom: 18px;
     width: 100%;
     text-align: center;
