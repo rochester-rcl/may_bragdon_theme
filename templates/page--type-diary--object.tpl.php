@@ -90,8 +90,8 @@
     <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/>
     <label for="viewer">Page</label>
 
-    <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="Additions" id="Additions" />
-    <label for="Additions">Inslusion</label>
+    <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="Inclusions" id="Inclusions" />
+    <label for="Inclusions">Inslusion</label>
 
 </div>
 
@@ -224,7 +224,7 @@
       </div>
     <?php endif; ?>
 
-      <!--===== Contact Form =====--> 
+      <!--===== Contact Form =====-->
        <!-- Button trigger modal -->
        <button type="button" id="contact-button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-form-wrapper">
            Contact Us
@@ -233,11 +233,11 @@
        <!-- Modal -->
        <div class="modal fade" id="contact-form-wrapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
            <div class="modal-dialog" role="document">
-               
+
            </div>
        </div>
-       
-       
+
+
 
        <div id="feedback-form" class="hidden">
            <div class="modal-content">
@@ -280,8 +280,8 @@
                </div>
            </div>
        </div>
-       
-       
+
+
 
 <!--===== ALERTS  =====-->
 <?php if (!empty($messages)): ?>

@@ -26,8 +26,8 @@
                     //add css specific styles here
                 });
             }
-            if($(this).attr("value")=="additions"){
-                // console.log("Additions");
+            if($(this).attr("value")=="inclusions"){
+                // console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
                 // Display Inclusion Pane

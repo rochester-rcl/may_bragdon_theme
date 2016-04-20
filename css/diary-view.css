@@ -394,7 +394,7 @@ div#paged-tei-seadragon-viewer-download-datastream-JP2 span {
     font-size: 5px;
 }
 
-/* Additions Pane
+/* Inclusions Pane
 -----------------------------------*/
 
 .diary-page-class .inclusion-sidebar .region.region-sidebar-second{
@@ -898,7 +898,9 @@ span.date.page_p__000c.diary_A_B81_076A {
 
 /* Model Dialog
 -----------------------------------*/
-
+.modal {
+    z-index: 5000;
+}
 .modal-dialog{
 }
 .modal-body{
