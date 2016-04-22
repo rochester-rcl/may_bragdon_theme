@@ -353,14 +353,16 @@ a#tei-viewer-manuscript {
     width: 50%;
     color: lightgray;
 }
-#paged-tei-seadragon-viewer-download-datastream-JP2 a {
+#paged-tei-seadragon-viewer-download-datastream-JP2 a,
+.paged-tei-seadragon-viewer-download-datastream-JP2 a {
     color: white;
     padding: 7px 20px;
     background: rgba(0,0,0,0.5);
     border-radius: 3px;
     border: 1px solid gray;
 }
-#paged-tei-seadragon-viewer-download-datastream-JP2 a:hover {
+#paged-tei-seadragon-viewer-download-datastream-JP2 a:hover,
+.paged-tei-seadragon-viewer-download-datastream-JP2 a:hover {
     background: #565c66;
     text-decoration: none;
 }
@@ -370,6 +372,12 @@ a#tei-viewer-manuscript {
 }
 .logged-in .paged-tei-seadragon-viewer-download-datastreams {
     bottom: 24px;
+}
+.paged-tei-seadragon-viewer-download-datastream-JP2 {
+    position: absolute;
+    right: 18%;
+    bottom: 20px;
+    z-index: 500000;
 }
 /* Hiding the PDF option */
 div#paged-tei-seadragon-viewer-download-datastream-PDF {
