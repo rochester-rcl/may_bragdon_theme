@@ -553,6 +553,14 @@ of a line */
   display: none!important;
 }
 
+/* Any dates that are mentions */
+span[data-type=mentioned] {
+    display: inline!important;
+    width: auto!important;
+    font-weight: 400!important;
+    padding: 0!important;
+}
+
 .class--rend--overwrite {
     text-decoration: line-through;
 }
@@ -1077,7 +1085,7 @@ span.line-break.inline {
 /* Largest  */
 @media (min-width: 1701px) {
   .tei .body {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 2;
     }
     #paged-tei-seadragon-viewer-tei {
@@ -1087,7 +1095,7 @@ span.line-break.inline {
 /* Very Large  */
 @media (max-width: 1700px) {
   .tei .body {
-      font-size: 15px;
+      font-size: 14px;
       /*color: blue;*/
       line-height: 2;
     }
@@ -1098,7 +1106,7 @@ span.line-break.inline {
 /* Large */
 @media (max-width: 1200px) {
   .tei .body {
-      font-size: 15px;
+      font-size: 14px;
       /*color: red;*/
       line-height: 1.9;
     }
@@ -1109,7 +1117,7 @@ span.line-break.inline {
 /* Main */
 @media (max-width: 1000px) {
   .tei .body {
-      font-size: 14px;
+      font-size: 13px;
       /*color: green;*/
       line-height: 1.9;
     }

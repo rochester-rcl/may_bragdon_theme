@@ -91,7 +91,7 @@
     <label for="viewer">Page</label>
 
     <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="Inclusions" id="Inclusions" />
-    <label for="Inclusions">Inslusion</label>
+    <label for="Inclusions">Inclusions</label>
 
 </div>
 
