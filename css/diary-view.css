@@ -353,14 +353,14 @@ a#tei-viewer-manuscript {
     width: 50%;
     color: lightgray;
 }
-.paged-tei-seadragon-viewer-download-datastreams a {
+#paged-tei-seadragon-viewer-download-datastream-JP2 a {
     color: white;
     padding: 7px 20px;
     background: rgba(0,0,0,0.5);
     border-radius: 3px;
     border: 1px solid gray;
 }
-.paged-tei-seadragon-viewer-download-datastreams a:hover {
+#paged-tei-seadragon-viewer-download-datastream-JP2 a:hover {
     background: #565c66;
     text-decoration: none;
 }
