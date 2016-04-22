@@ -367,7 +367,6 @@ a#tei-viewer-manuscript {
     text-decoration: none;
 }
 .paged-tei-seadragon-viewer-download-datastreams strong{
-    /*font-weight: 400;*/
     display: none;
 }
 .logged-in .paged-tei-seadragon-viewer-download-datastreams {
@@ -375,7 +374,7 @@ a#tei-viewer-manuscript {
 }
 .paged-tei-seadragon-viewer-download-datastream-JP2 {
     position: absolute;
-    right: 18%;
+    right: 10px;
     bottom: 20px;
     z-index: 500000;
 }
