@@ -42,6 +42,17 @@ section#block-islandora-solr-basic-facets ul li{
     }
 }
 
+.may-b-search {
+    display: block;
+    float: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#islandora-solr-result-count {
+    display: block;
+    text-align: right;
+}
 /*Removing plus/minus*/
 .plusminus{
     display: none;

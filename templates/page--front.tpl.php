@@ -243,7 +243,7 @@
 <div class="tagline-section">
     <div class="container">
       <div class="tagline-hint">
-      An nostrum dissentiunt usu, eu sit odio natum. Clita equidem legendos eos eu. An deleniti singulis sensibus pri, verear philosophia id eum, fabellas menandri te ius.
+      Ten diaries spanning 1893-1914 illustrate the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ theatre, and a connection with the natural world.
       </div>
     </div>
 </div>
