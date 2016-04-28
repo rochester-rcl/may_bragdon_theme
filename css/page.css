@@ -15,5 +15,14 @@
 
 @media (max-width: 768px) {
     .basic-page-title   {font-size: 45px;}
+    .navbar-brand-rcl-logo{
+        width: 55%;
+    }
+    .navbar-brand-dp-logo{
+        width: 40%;
+    }
+    .left-logo-container{
+        text-align: center;
+    }
 
 }

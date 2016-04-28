@@ -4,10 +4,10 @@
 
 
 .mobile-tabs {
-    outline: 1px solid gray;
+    border: 1px solid gray;
     position: absolute;
     z-index: 5000;
-    top: 93px;
+    top: 98px;
     width: 100%;
     color: white;
     text-align: center;
