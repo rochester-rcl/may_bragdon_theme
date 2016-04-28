@@ -1049,12 +1049,15 @@ input.stv-radio-tab + label {
     cursor: pointer;
     float: left;
     outline: 1px solid gray;
-    border-bottom: 0;
     background-color: black;
     margin-right: -1px;
     padding: .5em 1em;
-    width: 33%;
+    width: 33.444%;
     position: relative;
+}
+
+.diary-page-class .mobile-tabs label {
+    margin-bottom: 0;
 }
 
 .wider-tab{
