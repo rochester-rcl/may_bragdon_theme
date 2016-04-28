@@ -24,5 +24,8 @@
     .left-logo-container{
         text-align: center;
     }
+    .navbar-nav {
+        margin: 0;
+    }
 
 }
