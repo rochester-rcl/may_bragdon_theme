@@ -1158,6 +1158,9 @@ span.line-break.inline {
 
 /* Small */
 @media (max-width: 768px) {
+    .navbar-default{
+        padding-right: 0;
+    }
   .tei .body {
     font-size: 13px;
     line-height: 1.8;
