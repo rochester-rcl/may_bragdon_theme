@@ -497,6 +497,15 @@ div.vertical-line{
 
 /* Width Based */
 @media (max-width: 768px) {
+    .navbar {
+        border: none;
+        border-radius: 0;
+        left: 0;
+        background: rgba(0,0,0,0.);
+        right: 0;
+        position: absolute;
+        margin: 0;
+    }
     .may-b-signature{
         display: none!important;
     }
