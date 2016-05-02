@@ -163,7 +163,7 @@
         <div class="car-cap">
             <div class="content">
                 <div class="caption-container">
-                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A4910">
+                  <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3460">
                   <span class="cap-quote">Edith Joiner, J. Con Hillman, and Helen Dutcher</span>
                   <span class="cap-date">Irondequoit, NY.  April 25, 1897</span>
                   </a>
