@@ -171,7 +171,13 @@
 
 
 <div class="main-container container">
-
+    <!--===== ALERTS  =====-->
+    <?php if (!empty($messages)): ?>
+      <div class="alert-messages-container">
+          <?php print render($messages); ?>
+      </div>
+    <?php endif; ?>
+    
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead">Site slogan</p>
@@ -210,12 +216,7 @@
 
       <?php print render($title_suffix); ?>
 
-      <!--===== ALERTS  =====-->
-      <?php if (!empty($messages)): ?>
-        <div class="alert-messages-container">
-            <?php print render($messages); ?>
-        </div>
-      <?php endif; ?>
+
 
 
       <?php if (!empty($page['help'])): ?>
