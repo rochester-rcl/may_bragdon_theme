@@ -126,8 +126,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A5556">
-                  <span class="cap-quote">M.B. as a Scribner poster</span>
-                  <span class="cap-date">August 29</span>
+                  <span class="cap-quote">May Bragdon in Highland Park</span>
+                  <span class="cap-date">Rochester, NY. August 29, 1896</span>
                   </a>
               </div>
             </div>
@@ -142,8 +142,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6084">
-                  <span class="cap-quote">Group on Sitting room floor! <br>Perfect Little Ladies'</span>
-                  <span class="cap-date">Valentine Party, February 1897</span>
+                  <span class="cap-quote">May Bragdon’s valentine party</span>
+                  <span class="cap-date">Rochester, NY.  February 19, 1897</span>
                   </a>
               </div>
             </div>

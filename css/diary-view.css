@@ -6,7 +6,7 @@
 .mobile-tabs {
     border: 1px solid gray;
     position: absolute;
-    z-index: 5000;
+    /*z-index: 5000;*/
     top: 98px;
     width: 100%;
     color: white;
@@ -76,11 +76,13 @@ background: #30343b;
   width: 70%;
   position: absolute;
   z-index: 6000;
-  top: 60px;
   left: 0;
   right: 0;
   margin: auto;
   opacity: 0.9;
+}
+.diary-page-class .alert-messages-container {
+    top: 60px;
 }
 
 /*header color*/

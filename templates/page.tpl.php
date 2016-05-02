@@ -209,7 +209,14 @@
       <?php endif; ?>
 
       <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
+
+      <!--===== ALERTS  =====-->
+      <?php if (!empty($messages)): ?>
+        <div class="alert-messages-container">
+            <?php print render($messages); ?>
+        </div>
+      <?php endif; ?>
+
 
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
