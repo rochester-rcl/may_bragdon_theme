@@ -348,7 +348,9 @@ i.fa.fa-angle-down {
     bottom: 18px;
     width: 100%;
     text-align: center;
-    color: gray;
+    text-transform: uppercase;
+    color: lightgray;
+    font-size: 13px;
 }
 
 .box-date{
@@ -544,9 +546,10 @@ div.vertical-line{
     /**/
     .tagline-hint{
       font-size: 14px;
-      position: absolute;;
+      position: absolute;
       top: 595px;
       margin: auto;
+      width: 80%;
       left: 0;
       right: 0;
       text-align: center;
