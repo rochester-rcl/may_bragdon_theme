@@ -497,6 +497,9 @@ div.vertical-line{
 
 /* Width Based */
 @media (max-width: 768px) {
+    .may-b-signature{
+        display: none!important;
+    }
     /*Removing the UofR logo on mobile*/
     .right-logo-container{display: none;}
     .left-logo-container{width: 100%;}
@@ -547,7 +550,7 @@ div.vertical-line{
     .tagline-hint{
       font-size: 14px;
       position: absolute;
-      top: 595px;
+      top: 11%;
       margin: auto;
       width: 80%;
       left: 0;
