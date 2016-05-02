@@ -49,6 +49,15 @@ body {
   width: 80%;
   margin: auto; }
 
+.alert-messages-container{
+    position: absolute;
+    z-index: 999999999;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .content {
   font-size: 17px; }
 

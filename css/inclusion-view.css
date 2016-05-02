@@ -32,14 +32,7 @@
     background-color: #50555e;
 }
 
-.alert{
-        z-index: 99999999;
-    position: absolute;
-    width: 80%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 80px;
+.inclusion-page-class .alert-messages-container{
 }
 
 
