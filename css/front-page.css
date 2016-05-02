@@ -322,7 +322,7 @@ i.fa.fa-angle-down {
     border: 1px solid black;
 }
 .box-images {
-    height: auto;
+    /*height: auto;*/
     width: 100%;
     opacity: 0.9;
     }
