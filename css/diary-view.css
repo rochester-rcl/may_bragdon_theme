@@ -275,7 +275,7 @@ a#islandora-paged-tei-seadragon-navigate-right img{
     top: 10px;
     position: absolute;
     left: 11px;
-    z-index: 5000;
+    z-index: 500;
 }
 a#tei-viewer-original,
 a#tei-viewer-manuscript {
