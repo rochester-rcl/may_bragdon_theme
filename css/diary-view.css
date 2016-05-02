@@ -72,7 +72,7 @@ background: #30343b;
 }
 
 /* Alert Messages */
-.alert-messages-container {
+/*.alert-messages-container {
   width: 70%;
   position: absolute;
   z-index: 6000;
@@ -80,7 +80,7 @@ background: #30343b;
   right: 0;
   margin: auto;
   opacity: 0.9;
-}
+}*/
 .diary-page-class .alert-messages-container {
     top: 60px;
 }
