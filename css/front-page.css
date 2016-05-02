@@ -497,7 +497,7 @@ div.vertical-line{
 
 /* Width Based */
 @media (max-width: 768px) {
-    .navbar {
+    .front-page .navbar {
         border: none;
         border-radius: 0;
         left: 0;
