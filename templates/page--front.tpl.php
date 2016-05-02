@@ -164,8 +164,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A4910">
-                  <span class="cap-quote">Just before starting Ned, Frank, Mazy. Our steps - The Behn's house.</span>
-                  <span class="cap-date">May 10th, 1896</span>
+                  <span class="cap-quote">Edith Joiner, J. Con Hillman, and Helen Dutcher</span>
+                  <span class="cap-date">Irondequoit, NY.  April 25, 1897</span>
                   </a>
               </div>
             </div>
@@ -180,8 +180,8 @@
             <div class="content">
                 <div class="caption-container">
                   <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6205">
-                  <span class="cap-quote">The Aqueduct</span>
-                  <span class="cap-date">2/25/99</span>
+                  <span class="cap-quote">Erie canal aqueduct over the Genesee river</span>
+                  <span class="cap-date">Downtown Rochester, NY. February 25, 1899</span>
                   </a>
               </div>
             </div>
@@ -196,8 +196,8 @@
           <div class="content">
               <div class="caption-container">
                 <a href="https://rclind2.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3939">
-                <span class="cap-quote">My "star picture" -<br>the girls at Fairy Lake</span>
-                <span class="cap-date">8/29 p.172</span>
+                <span class="cap-quote">Helen Dutcher, Miss Dymond, and Edith Joiner</span>
+                <span class="cap-date">Fairy Lake, Ontario, Canada. August 1, 1897</span>
                 </a>
             </div>
           </div>
