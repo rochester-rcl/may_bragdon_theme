@@ -102,6 +102,12 @@
 <!-- /Header/ -->
 
 
+<!--===== ALERTS  =====-->
+<?php if (!empty($messages)): ?>
+  <div class="alert-messages-container">
+      <?php print render($messages); ?>
+  </div>
+<?php endif; ?>
 
 
 <!--============== CAROUSEL  ==============-->
