@@ -1232,16 +1232,16 @@ span.line-break.inline {
     margin: 0 5px;
   }
   .diary-page-class .basic-page-title {
+      left: 0;
       margin: auto;
+      width: 100%;
       display: block;
       right: 0;
-      text-align: center;
-      width: 90%;
+      text-align: left;
+      width: 100%;
       font-size: 14px;
       position: absolute;
-      top: 61px;
-      margin: auto;
-      left: 0;
+      top: 64px;
       padding-left: 15px;
   }
   .navbar-brand img {
