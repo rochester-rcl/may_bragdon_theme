@@ -506,6 +506,12 @@ div.vertical-line{
         margin: 0;
         position: absolute;
     }
+    .navbar-collapse.collapse.in {
+        background: rgba(0,0,0,0.8);
+        transition: opacity .50s ease-in-out;
+        -moz-transition: opacity .50s ease-in-out;
+        -webkit-transition: opacity .50s ease-in-out;
+    }
     .front-page .navbar.fixed{
         position: fixed;
         top: 0px;
