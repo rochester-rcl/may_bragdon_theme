@@ -504,6 +504,7 @@ div.vertical-line{
         background: rgba(0,0,0,0.);
         right: 0;
         margin: 0;
+        position: fixed;
     }
     .may-b-signature{
         display: none!important;
@@ -572,7 +573,6 @@ div.vertical-line{
     /**/
     .mobile-cover {
       display: block;
-      margin-top: -50px;
     }
     /**/
     .mobile-cover img{
