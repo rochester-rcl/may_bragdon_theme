@@ -506,6 +506,11 @@ div.vertical-line{
         margin: 0;
         position: fixed;
     }
+    .front-page .navbar.fixed{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        }
     .may-b-signature{
         display: none!important;
     }
