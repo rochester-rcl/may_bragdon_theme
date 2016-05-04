@@ -1202,18 +1202,20 @@ span.line-break.inline {
   #paged-tei-seadragon-viewer-seadragon-pane,
   #paged-tei-seadragon-viewer-tei,
   .region-sidebar-second{
-      top: 133px!important;
+      top: 156px!important;
     }
 
 
     .paged-tei-seadragon-viewer-left-toolbar {
-        top: 50px;
+        top: 77px;
         right: 0;
-        left: auto;
+        margin: auto;
+        left: 0;
         background: transparent;
         color: gray;
         padding: 7px 15px;
-        text-align: right;
+        text-align: center;
+        width: 100%;
     }
   .navbar-default {
     padding-right: 0;
@@ -1237,11 +1239,11 @@ span.line-break.inline {
       width: 100%;
       display: block;
       right: 0;
-      text-align: left;
-      width: 100%;
-      font-size: 14px;
+      text-align: center;
+      width: 90%;
+      font-size: 12px;
       position: absolute;
-      top: 64px;
+      top: 60px;
       padding-left: 15px;
   }
   .navbar-brand img {
