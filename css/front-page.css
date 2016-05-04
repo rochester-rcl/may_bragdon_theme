@@ -101,9 +101,9 @@
     position: absolute;
     font-size: 12px;
     color: gray;
-    bottom: 75px;
+    bottom: 45px;
     text-align: right;
-    width: 348px;
+    width: 370px;
     margin: auto;
     right: 0;
     border-radius: 5px;
@@ -111,7 +111,7 @@
 }
 .cap-quote{
   font-family: 'Merriweather', serif;
-  font-size: 17px;
+  font-size: 14px;
   display: block;
 }
 .cap-date{
