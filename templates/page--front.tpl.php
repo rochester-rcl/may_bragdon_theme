@@ -250,7 +250,7 @@
 <div class="tagline-section">
     <div class="container">
       <div class="tagline-hint">
-      Ten diaries spanning 1893-1914 illustrate the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ theatre, and a connection with the natural world.
+      Ten diaries spanning 1893-1914 illustrate the life of a single working woman set free by the bicycle and enlivened by friendships, the Kodak, theatre, and a connection with the natural world.
       </div>
     </div>
 </div>
@@ -268,7 +268,7 @@
     <img class="box-images" alt="Diary February 27 to December 31, 1893" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1893.jpg" />
     <div class="box-text">
       <div class="box-date">February 27 - December 31, 1893</div>
-      <div class="box-page-count">302 Pages</div>
+      <!-- <div class="box-page-count">302 Pages</div> -->
     </div>
   </a>
 </div>
@@ -278,7 +278,7 @@
     <img class="box-images" alt="Diary April 6, 1895 to February 26, 1896" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1896.jpg" />
     <div class="box-text">
       <div class="box-date">April 6, 1895 - February 26, 1896</div>
-      <div class="box-page-count">303 Pages</div>
+      <!-- <div class="box-page-count">303 Pages</div> -->
     </div>
   </a>
 </div>
@@ -289,7 +289,7 @@
     <img class="box-images" alt="Diary February 29, 1896 to February 24, 1897" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1895-96.jpg" />
     <div class="box-text">
       <div class="box-date">February 29, 1896 - February 24, 1897</div>
-      <div class="box-page-count">283 Pages</div>
+      <!-- <div class="box-page-count">283 Pages</div> -->
     </div>
   </a>
 </div>
@@ -299,7 +299,7 @@
     <img class="box-images" alt="Diary February 25, 1897 to November 11, 1898" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1897-98.jpg" />
     <div class="box-text">
       <div class="box-date">February 25, 1897 - November 11, 1898</div>
-      <div class="box-page-count">303 Pages</div>
+      <!-- <div class="box-page-count">303 Pages</div> -->
     </div>
   </a>
 </div>
@@ -310,7 +310,7 @@
     <div class="box-text">
       <!-- <div class="box-headline">1897-1898</div> -->
       <div class="box-date">November 12, 1898 - January 18, 1902</div>
-      <div class="box-page-count">303 Pages</div>
+      <!-- <div class="box-page-count">303 Pages</div> -->
     </div>
   </a>
 </div>
@@ -320,7 +320,7 @@
     <img class="box-images" alt="Diary January 19, 1902 to February 4, 1904" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1902-04.jpg" />
     <div class="box-text">
       <div class="box-date">January 19, 1902 - February 4, 1904</div>
-      <div class="box-page-count">305 Pages</div>
+      <!-- <div class="box-page-count">305 Pages</div> -->
     </div>
   </a>
 </div>
@@ -330,7 +330,7 @@
     <img class="box-images" alt="Diary February 26, 1904 to June 8, 1905" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1904-05.jpg" />
     <div class="box-text">
       <div class="box-date">February 26, 1904 - June 8, 1905</div>
-      <div class="box-page-count">301 Pages</div>
+      <!-- <div class="box-page-count">301 Pages</div> -->
     </div>
   </a>
 </div>
@@ -340,7 +340,7 @@
     <img class="box-images" alt="Diary June 9, 1905 to October 17, 1907" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1905-07.jpg" />
     <div class="box-text">
       <div class="box-date">June 9, 1905 - October 17, 1907</div>
-      <div class="box-page-count">288 Pages</div>
+      <!-- <div class="box-page-count">288 Pages</div> -->
     </div>
   </a>
 </div>
@@ -350,7 +350,7 @@
     <img class="box-images" alt="Diary October 18, 1907 to December 31, 1909" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1907-09.jpg" />
     <div class="box-text">
         <div class="box-date">October 18, 1907 - December 31, 1909</div>
-        <div class="box-page-count">202 Pages</div>
+        <!-- <div class="box-page-count">202 Pages</div> -->
     </div>
   </a>
 </div>
@@ -360,7 +360,7 @@
     <img class="box-images" alt="Diary January 1, 1910 to December 31, 1914" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/1910-14.jpg" />
     <div class="box-text">
       <div class="box-date">January 1, 1910 - December 31, 1914</div>
-      <div class="box-page-count">385 Pages</div>
+      <!-- <div class="box-page-count">385 Pages</div> -->
     </div>
   </a>
 </div>
