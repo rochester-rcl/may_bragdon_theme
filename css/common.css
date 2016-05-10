@@ -6,6 +6,9 @@ These are the global base styles.
 -------------------------------*/
 /* CUSTOM STYLES
 -------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+
 html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
