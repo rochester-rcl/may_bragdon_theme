@@ -109,6 +109,11 @@ a#clip {
     left: 20px;
     color: white;
 }
+.islandora-large-image-metadata .notes {
+    color: white;
+    cursor: pointer;
+    display: inline;
+}
 .islandora-large-image-metadata a {
     color: white;
     border-bottom: 2px solid gray;
