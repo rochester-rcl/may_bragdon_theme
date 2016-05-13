@@ -77,7 +77,8 @@ a#clip {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
 }
-.logged-in .item-metadata {
+.logged-in .item-metadata,
+.logged-in .islandora-large-image-metadata {
     bottom: 42px;
 }
 .item-metadata-label {
@@ -91,7 +92,31 @@ a#clip {
     font-weight: 100;
 }
 
+.islandora-large-image-metadata {
+    display: block;
+    clear: both;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
 
+.islandora-large-image-metadata {
+    display: block;
+    clear: both;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.islandora-large-image-metadata a {
+    color: white;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.islandora-large-image-metadata a:hover {
+    text-decoration: none;
+}
 
 
 
