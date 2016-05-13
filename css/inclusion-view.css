@@ -125,10 +125,19 @@ a#clip {
 .islandora-large-image-metadata .head{
     pointer-events: all;
 }
-.islandora-large-image-metadata .notes {
+.islandora-large-image-metadata .note {
     color: white;
     cursor: pointer;
     display: inline;
+}
+.islandora-large-image-metadata .note i{
+    color: white;
+    opacity: 0.7;
+    font-weight: bold;
+    display: inline;
+}
+.islandora-large-image-metadata .note i:hover{
+    opacity: 1;
 }
 .islandora-large-image-metadata a {
     color: white;
