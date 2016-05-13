@@ -140,14 +140,15 @@ a#clip {
 .islandora-large-image-metadata .note i:hover{
     opacity: 1;
 }
-/*.islandora-large-image-metadata a {
+.islandora-large-image-metadata a {
     color: white;
-    border-bottom: 2px solid gray;
-    cursor: pointer;
-}*/
-/*.islandora-large-image-metadata a:hover {
+    border-bottom: none;
+    cursor: text;
     text-decoration: none;
-}*/
+}
+.islandora-large-image-metadata a:hover {
+    text-decoration: none;
+}
 
 .islandora-large-image-metadata a.persName[data-ref],
 .islandora-large-image-metadata a.placeName[data-ref],
