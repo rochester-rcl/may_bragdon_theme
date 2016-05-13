@@ -124,6 +124,8 @@ a#clip {
 .islandora-large-image-metadata a,
 .islandora-large-image-metadata .head{
     pointer-events: all;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
 }
 .islandora-large-image-metadata .note {
     color: white;
