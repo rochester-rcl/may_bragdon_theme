@@ -135,20 +135,38 @@ a#clip {
     opacity: 0.7;
     font-weight: bold;
     display: inline;
+    left: 3px;
 }
 .islandora-large-image-metadata .note i:hover{
     opacity: 1;
 }
-.islandora-large-image-metadata a {
+/*.islandora-large-image-metadata a {
+    color: white;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}*/
+/*.islandora-large-image-metadata a:hover {
+    text-decoration: none;
+}*/
+
+.islandora-large-image-metadata a.persName[data-ref],
+.islandora-large-image-metadata a.placeName[data-ref],
+.islandora-large-image-metadata a.orgName[data-ref],
+.islandora-large-image-metadata a.title[data-ref],
+.islandora-large-image-metadata a.name[data-ref]{
     color: white;
     border-bottom: 2px solid gray;
     cursor: pointer;
 }
-.islandora-large-image-metadata a:hover {
+.islandora-large-image-metadata a.persName[data-ref]:hover,
+.islandora-large-image-metadata a.placeName[data-ref]:hover,
+.islandora-large-image-metadata a.orgName[data-ref]:hover,
+.islandora-large-image-metadata a.title[data-ref]:hover,
+.islandora-large-image-metadata a.name[data-ref]:hover {
+    border-bottom:2px solid white;
+    cursor: pointer;
     text-decoration: none;
 }
-
-
 
 
 /* Nav overides
