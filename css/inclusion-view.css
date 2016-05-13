@@ -128,8 +128,9 @@ a#clip {
     font-size: 15px;
 }
 .islandora-large-image-metadata .note {
-    color: white;
+    color: lightgray;
     cursor: pointer;
+    font-style: italic;
     display: inline;
 }
 .islandora-large-image-metadata .note i{
