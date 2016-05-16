@@ -1,6 +1,8 @@
 
 
-
+.islandora-solr-sort .img-responsive {
+    width: auto;
+}
 
 
 /* Removing the page title - We should have the search term be the title */
