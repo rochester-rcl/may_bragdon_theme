@@ -1158,7 +1158,6 @@ span.line-break.inline {
 
 
 
-
 /* Small */
 @media (max-width: 768px) {
     .navbar-default{
@@ -1172,28 +1171,29 @@ span.line-break.inline {
     }
 
   #paged-tei-seadragon-viewer-tei {
+    display: block;
     padding: 30px 15px 20px 15px;
     top: 90px;
     width: 100%;
     z-index: 100;
   }
   #paged-tei-seadragon-viewer-tei.hide {
-      display: none;
+      display: none!important;
   }
   #paged-tei-seadragon-viewer-seadragon-pane{
       width: 100%;
       left: 0;
       right: 0;
   }
-  .region-sidebar-second{
-      display: none;
+  .region-sidebar-second.hide{
+      display: none!important;
   }
-  .region-sidebar-second.show{
+  .region-sidebar-second{
       display: block;
-        width: 100%!important;
-        left: 0;
-        right: 0!important;
-        z-index: 50000;
+      width: 100%!important;
+      left: 0;
+      right: 0!important;
+      z-index: 500000000;
   }
 
   #roch-tei-viewer-occluded {
