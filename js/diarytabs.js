@@ -25,7 +25,7 @@
 
                 // Additional Style Tweaks
                 $('#paged-tei-seadragon-viewer-tei').css({
-                    //add css specific styles here
+                    //     'height':'auto',
                 });
             }
             if($(this).attr("value")=="inclusions"){
@@ -37,8 +37,8 @@
                 // Hide the other panes
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
                 // Additional Style Tweaks
-                $('#paged-tei-seadragon-viewer-tei').css({
-                    //add css specific styles here
+                $('.region-sidebar-second').css({
+                    'z-index':'5000',
                 });
             }
         });
