@@ -1177,7 +1177,7 @@ span.line-break.inline {
     width: 100%;
     z-index: 5000;
   }
-  #paged-tei-seadragon-viewer-tei.hide {
+  #paged-tei-seadragon-viewer-tei.hide-pane {
       display: none;
   }
   #paged-tei-seadragon-viewer-seadragon-pane{
@@ -1186,7 +1186,7 @@ span.line-break.inline {
       right: 0;
       /*z-index: 1000;*/
   }
-  .region-sidebar-second.hide{
+  .region-sidebar-second.hide-pane{
       display: none;
   }
   .region-sidebar-second.top{
