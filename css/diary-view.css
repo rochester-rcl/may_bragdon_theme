@@ -1071,7 +1071,7 @@ input.stv-radio-tab + label:hover {
   background-color: lightgray;
 }
 input.stv-radio-tab:checked + label {
-  background-color: gray;
+  background-color: #30343b;
   border: none;
     z-index: 1;
 }
@@ -1213,7 +1213,7 @@ span.line-break.inline {
         margin: auto;
         left: 0;
         background: transparent;
-        color: gray;
+        color: white;
         padding: 7px 15px;
         text-align: center;
         width: 100%;
@@ -1255,7 +1255,7 @@ span.line-break.inline {
   a#islandora-paged-tei-seadragon-navigate-left,
   a#islandora-paged-tei-seadragon-navigate-right {
       top: 50px;
-      height: 71px;
+      height: 70px;
       background: #30343b;
       border: none;
       border-radius: 0;
@@ -1266,6 +1266,22 @@ span.line-break.inline {
   }
   a#islandora-paged-tei-seadragon-navigate-right {
     right: 0;
+}
+.diary-page-class select {
+    font-size: 15px;
+    color: black;
+}
+.page-link{
+    left: 10px;
+}
+#paged-tei-seadragon-viewer-download-datastream-JP2 a {
+    position: fixed;
+    left: 120px;
+    bottom: 9px;
+    padding: 5px 20px;
+}
+#contact-button {
+    bottom: 9px;
 }
    /* Hiding things on mobile */
    /*.paged-tei-seadragon-viewer-download-datastreams a,
