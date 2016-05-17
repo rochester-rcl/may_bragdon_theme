@@ -7,7 +7,7 @@
                 // Display TEI pane
                 $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
                 // Hide the other panes
-                $('.region-sidebar-second').removeClass("show");
+                $('.region-sidebar-second').addClass("hide");
                 // $('#paged-tei-seadragon-viewer-seadragon-pane').removeClass("show");
 
                 $('#paged-tei-seadragon-viewer-tei').css({
@@ -19,7 +19,7 @@
                 // Display Viewer Pane
                 // -Viewer is always displayed-
                 // Hide the other panes
-                $('.region-sidebar-second').removeClass("show"); // Inclusion
+                $('.region-sidebar-second').addClass("hide"); // Inclusion
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
 
                 // Additional Style Tweaks
@@ -32,7 +32,7 @@
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
                 // Display Inclusion Pane
-                $('.region-sidebar-second').addClass("show");
+                $('.region-sidebar-second').removeClass("hide");
                 // Hide the other panes
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
                 // Additional Style Tweaks
