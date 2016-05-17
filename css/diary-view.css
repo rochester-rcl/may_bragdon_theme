@@ -1187,7 +1187,7 @@ span.line-break.inline {
       /*z-index: 1000;*/
   }
   .region-sidebar-second.hide{
-      display: none!important;
+      display: none;
   }
   .region-sidebar-second{
       display: block;

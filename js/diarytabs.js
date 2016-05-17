@@ -34,12 +34,13 @@
                 // $(".blue").show();
                 // Display Inclusion Pane
                 $('.region-sidebar-second').removeClass("hide");
+                $('.region-sidebar-second').addClass("top");
                 // Hide the other panes
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
                 // Additional Style Tweaks
-                $('.region-sidebar-second').css({
-                    'z-index':'99999999',
-                });
+                // $('.region-sidebar-second').css({
+                //     'z-index':'99999999',
+                // });
             }
         });
     });
