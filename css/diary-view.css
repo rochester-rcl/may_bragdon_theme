@@ -1286,10 +1286,10 @@ span.line-break.inline {
     bottom: 9px;
 }
    /* Hiding things on mobile */
-   /*.paged-tei-seadragon-viewer-download-datastreams a,
+   .paged-tei-seadragon-viewer-download-datastreams a,
    .page-link a,
    a#islandora-paged-tei-seadragon-navigate-left,
    a#islandora-paged-tei-seadragon-navigate-right{
        display: none;
-   }*/
+   }
 }
