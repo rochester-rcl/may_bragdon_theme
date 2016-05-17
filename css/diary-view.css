@@ -1159,7 +1159,7 @@ span.line-break.inline {
 
 
 /* Small */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .navbar-default{
         padding-right: 0!important;
     }
