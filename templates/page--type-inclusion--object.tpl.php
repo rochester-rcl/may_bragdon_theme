@@ -107,18 +107,18 @@
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A524">February 27-December 31, 1893</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A1047">April 6, 1895-February 26, 1896</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A4673">February 29, 1896-February 24, 1897</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A3356">February 25, 1897-November 11, 1898</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A6104">November 12, 1898-January 18, 1902</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A7854">January 19, 1902-February 4, 1904</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A9149">February 26, 1904-June 8, 1905</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A12692">June 9, 1905-October 17, 1907</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A14209">October 18, 1907-December 31, 1909</a></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora/object/maybragdon%3A16177">January 1, 1910-December 31, 1914</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A524">February 27-December 31, 1893</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A1047">April 6, 1895-February 26, 1896</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A4673">February 29, 1896-February 24, 1897</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A3356">February 25, 1897-November 11, 1898</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A6104">November 12, 1898-January 18, 1902</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A7854">January 19, 1902-February 4, 1904</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A9149">February 26, 1904-June 8, 1905</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A12692">June 9, 1905-October 17, 1907</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A14209">October 18, 1907-December 31, 1909</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora/object/maybragdon%3A16177">January 1, 1910-December 31, 1914</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="https://maybragdon.lib.rochester.edu/maybragdon/islandora">All Diaries</a></li>
+                <li><a href="https://maybragdon.lib.rochester.edu/islandora">All Diaries</a></li>
              </li>
              </ul>
              <li class="dropdown">
