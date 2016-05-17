@@ -1194,7 +1194,7 @@ span.line-break.inline {
       width: 100%!important;
       left: 0;
       right: 0!important;
-      z-index: 4500;
+      z-index: 5000;
   }
 
   #roch-tei-viewer-occluded {
