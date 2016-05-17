@@ -314,4 +314,10 @@ a#clip {
     .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
         display: none;
     }
+    .islandora-large-image-metadata {
+        width: 100%;
+    }
+    .islandora-large-image-content-wrapper {
+        width: 100% !important;
+    }
 }
