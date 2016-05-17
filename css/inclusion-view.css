@@ -170,11 +170,16 @@ a#clip {
     cursor: pointer;
     text-decoration: none;
 }
-
+/*Testing to see if there are any instances out there of this*/
 .class--type--event {
     color: red!important;
     background: yellow;
     outline: 1px solid pink;
+}
+.islandora-large-image-metadata .class--type--event {
+    color: white;
+    border-bottom: 2px solid gray!important;
+    cursor: pointer;
 }
 
 /* Nav overides
