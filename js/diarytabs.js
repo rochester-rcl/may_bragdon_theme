@@ -1,6 +1,6 @@
 (function ($) {
     $(document).ready(function(){
-        $('#paged-tei-seadragon-viewer-tei').addClass("hide-pane-pane");
+        $('#paged-tei-seadragon-viewer-tei').addClass("hide-pane");
         $('.region-sidebar-second').addClass("hide-pane");
         console.log("I am here and watching!");
         $('input[type="radio"]').click(function(){
