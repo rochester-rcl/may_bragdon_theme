@@ -38,7 +38,7 @@
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
                 // Additional Style Tweaks
                 $('.region-sidebar-second').css({
-                    'z-index':'5000',
+                    'z-index':'99999999',
                 });
             }
         });
