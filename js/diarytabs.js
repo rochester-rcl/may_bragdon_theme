@@ -21,6 +21,7 @@
                 // Hide the other panes
                 $('.region-sidebar-second').removeClass("show"); // Inclusion
                 $('#paged-tei-seadragon-viewer-tei').addClass("hide"); // TEI
+
                 // Additional Style Tweaks
                 $('#paged-tei-seadragon-viewer-tei').css({
                     //add css specific styles here
