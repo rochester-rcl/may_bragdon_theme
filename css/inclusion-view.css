@@ -171,6 +171,11 @@ a#clip {
     text-decoration: none;
 }
 
+.class--type--event {
+    color: red!important;
+    background: yellow;
+    outline: 1px solid pink;
+}
 
 /* Nav overides
 -----------------------------------*/
