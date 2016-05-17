@@ -1,5 +1,6 @@
 (function ($) {
     $(document).ready(function(){
+        $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
         // console.log("I am here and watching!");
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
