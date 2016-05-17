@@ -1198,6 +1198,7 @@ span.line-break.inline {
 
   #roch-tei-viewer-occluded {
     padding: 0;
+    display: none;
     }
   /*Positioning Elements for mobile*/
   #paged-tei-seadragon-viewer-seadragon-pane,
