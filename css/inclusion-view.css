@@ -311,4 +311,7 @@ a#clip {
 }
 /* Small */
 @media (max-width: 768px) {
+    .inclusion-page-class .inclusion-sidebar .region.region-sidebar-second{
+        display: none;
+    }
 }
