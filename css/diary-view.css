@@ -1189,12 +1189,14 @@ span.line-break.inline {
   .region-sidebar-second.hide{
       display: none;
   }
+  .region-sidebar-second.top{
+      z-index: 99999999999;
+  }
   .region-sidebar-second{
       display: block;
       width: 100%!important;
       left: 0;
       right: 0!important;
-      z-index: 4999;
   }
 
   #roch-tei-viewer-occluded {

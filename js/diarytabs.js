@@ -1,10 +1,10 @@
 (function ($) {
     $(document).ready(function(){
         $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
-        // console.log("I am here and watching!");
+        console.log("I am here and watching!");
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
-                // console.log("TEI")
+                console.log("TEI")
                 // Display TEI pane
                 $('#paged-tei-seadragon-viewer-tei').removeClass("hide");
                 // Hide the other panes
@@ -16,7 +16,7 @@
                 });
             }
             if($(this).attr("value")=="viewer"){
-                // console.log("Viewer");
+                console.log("Viewer");
                 // Display Viewer Pane
                 // -Viewer is always displayed-
                 // Hide the other panes
@@ -29,7 +29,7 @@
                 });
             }
             if($(this).attr("value")=="inclusions"){
-                // console.log("Inclusions");
+                console.log("Inclusions");
                 // $(".box").not(".blue").hide();
                 // $(".blue").show();
                 // Display Inclusion Pane
