@@ -1175,7 +1175,7 @@ span.line-break.inline {
     padding: 30px 15px 20px 15px;
     top: 90px;
     width: 100%;
-    z-index: 100;
+    z-index: 5000;
   }
   #paged-tei-seadragon-viewer-tei.hide {
       display: none!important;
@@ -1184,7 +1184,7 @@ span.line-break.inline {
       width: 100%;
       left: 0;
       right: 0;
-      z-index: 5000;
+      z-index: 4000;
   }
   .region-sidebar-second.hide{
       display: none!important;
