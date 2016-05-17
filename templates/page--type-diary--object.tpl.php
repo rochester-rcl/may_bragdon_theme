@@ -84,10 +84,10 @@
 
 <div class="stv-radio-tabs-wrapper mobile-tabs mobile-only">
 
-    <input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" id="tei" checked/>
+    <input type="radio"  class="stv-radio-tab" name="colorRadio" value="tei" id="tei" />
     <label for="tei">Transcription</label>
 
-    <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"/>
+    <input type="radio" class="stv-radio-tab" name="colorRadio" value="viewer" id="viewer"checked/>
     <label for="viewer">Page</label>
 
     <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="inclusions" id="Inclusions" />
