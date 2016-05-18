@@ -172,7 +172,9 @@
         <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
     </div>
     <div class="container">
-        In Drupal, each unique piece of content, or node, has its own unique ID number. Pages are nodes and therefore each page has a unique ID, or node number. One way to address a page is by its node number. For example, the URL for the default home page of your new Drupal Cloud site is http:// sitename.mit.edu/node/1. Node numbers are assigned to content sequentially.
+        <div class="about-text">
+            May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.
+        </div>
     </div>
 </div>
 
