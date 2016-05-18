@@ -809,11 +809,12 @@ label.control-label {
   text-decoration: none;
 }
 /* With <a> */
-.tei a.persName[data-ref],
+/*.tei a.persName[data-ref],
 .tei a.placeName[data-ref],
 .tei a.orgName[data-ref],
 .tei a.title[data-ref],
-.tei a.name[data-ref]{
+.tei a.name[data-ref],
+.tei a.class--type--event[data-ref]{
     color: black;
     font-weight: 400;
     padding: 0px 2px;
@@ -823,10 +824,24 @@ label.control-label {
 .tei a.placeName[data-ref]:hover,
 .tei a.orgName[data-ref]:hover,
 .tei a.title[data-ref]:hover,
-.tei a.name[data-ref]:hover {
+.tei a.name[data-ref]:hover,
+.tei a.class--type--event[data-ref] {
+    border-bottom:2px solid gray;
+    cursor: pointer;
+}*/
+
+.tei a[data-ref]{
+    color: black;
+    font-weight: 400;
+    padding: 0px 2px;
+    border-bottom: 2px solid #248ED1;
+}
+
+.tei a[data-ref]:hover {
     border-bottom:2px solid gray;
     cursor: pointer;
 }
+
 
 .tei .date {
     display: block;

@@ -16,3 +16,9 @@
     width: 100%;
     height: auto;
 }
+.about-text {
+    margin-top: -160px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+}

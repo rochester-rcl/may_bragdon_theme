@@ -207,12 +207,8 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
 
-<!--===== TABS =====-->
-    <?php if (!empty($tabs)): ?>
-      <div class="tab-container-edit-screens">
-      <?php print render($tabs); ?>
-    </div>
-    <?php endif; ?>
+
+
 
 
 <!-- Page title  -->
