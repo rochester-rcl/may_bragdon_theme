@@ -3,7 +3,6 @@ body, html {
   height:100%;
   width:100%;
   overflow: hidden;
-  min-width: 768px;
   background-color: black;
 }
 /* Hack to remove the view tab on the inclusion page */
