@@ -168,7 +168,7 @@
 
 <!--======= /HEADER  ========-->
 <div class="about-first-sec">
-    <div class="">
+    <div class="about-too-img">
         <img src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
     </div>
     <div class="container">
