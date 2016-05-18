@@ -1,0 +1,9 @@
+
+
+.about-first-sec {
+        background: url('https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
