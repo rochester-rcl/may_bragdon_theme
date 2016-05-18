@@ -167,10 +167,11 @@
 
 
 <!--======= /HEADER  ========-->
-
-In Drupal, each unique piece of content, or node, has its own unique ID number. Pages are nodes and therefore each page has a unique ID, or node number. One way to address a page is by its node number. For example, the URL for the default home page of your new Drupal Cloud site is http:// sitename.mit.edu/node/1. Node numbers are assigned to content sequentially.
-
-
+<div class="about-first-sec">
+    <div class="container">
+        In Drupal, each unique piece of content, or node, has its own unique ID number. Pages are nodes and therefore each page has a unique ID, or node number. One way to address a page is by its node number. For example, the URL for the default home page of your new Drupal Cloud site is http:// sitename.mit.edu/node/1. Node numbers are assigned to content sequentially.
+    </div>
+</div>
 
 <div class="main-container container">
     <!--===== ALERTS  =====-->

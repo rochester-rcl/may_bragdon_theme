@@ -38,3 +38,6 @@ sub-theme.
 
 /* 9. Search Pages  */
 @import url("search.css");
+
+/* 10. About Page  */
+@import url("about.css");
