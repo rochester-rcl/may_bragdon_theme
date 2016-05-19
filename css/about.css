@@ -31,12 +31,15 @@
     color: white;
     font-size: 17px;
     font-family: 'Merriweather', serif;
-    padding: 0 0 20px 0;
+    padding: 0 0 100px 0;
 }
 .about-text-sub .container{
 }
 .about-text-container{
     margin-top: -150px;
+}
+#section-intro {
+    background: #004272;
 }
 
 @media (max-width: 768px) {
@@ -47,5 +50,8 @@
     }
     .about-text-sub .container{
         margin-top: 0;
+    }
+    .about-text-container{
+        margin-top: -180px;
     }
 }
