@@ -856,6 +856,12 @@ label.control-label {
     text-decoration: none;
 }
 
+/* For text above */
+.tei span.add {
+    font-size: 90%;
+    font-style: italic;
+    color: black;
+}
 .tei .hi {
     background-color: transparent;
 }
