@@ -36,7 +36,7 @@
 .about-text-sub .container{
 }
 .about-text-container{
-    margin-top: 150px;
+    margin-top: -150px;
 }
 
 @media (max-width: 768px) {
