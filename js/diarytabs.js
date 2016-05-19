@@ -2,6 +2,13 @@
     $(document).ready(function(){
         $('#paged-tei-seadragon-viewer-tei').addClass("hide-pane");
         $('.region-sidebar-second').addClass("hide-pane");
+        
+        var $prev_next = $('#block-islandora-compound-object-compound-navigation .islandora-compound-prev-next');
+        if($prev_next.length > 0 ){
+            $('#paged-tei-seadragon-viewer-tei').removeClass("no-inclusion-tab");
+        } else {
+            $('#paged-tei-seadragon-viewer-tei').addClass("no-inclusion-tab");
+        }
         console.log("I am here and watching!");
         $('input[type="radio"]').click(function(){
             if($(this).attr("value")=="tei"){
