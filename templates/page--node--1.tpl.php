@@ -172,6 +172,12 @@
         <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
     </div>
     <div class="container">
+        <!-- Page title  -->
+              <?php if (!empty($title)): ?>
+                <div class="page-title-wrapper">
+                  <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
+                </div>
+              <?php endif; ?>
         <div class="about-text">
             May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.
         </div>
@@ -211,12 +217,7 @@
 
 
 
-<!-- Page title  -->
-      <?php if (!empty($title)): ?>
-        <div class="page-title-wrapper">
-          <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-        </div>
-      <?php endif; ?>
+
 
       <?php print render($title_suffix); ?>
 

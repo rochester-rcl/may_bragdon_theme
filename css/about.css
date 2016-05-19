@@ -22,3 +22,13 @@
     font-size: 17px;
     font-family: 'Merriweather', serif;
 }
+
+
+
+@media (max-width: 768px) {
+    .about-text {
+        margin-top: 20px;
+        color: black;
+        font-size: 13px;
+    }
+}
