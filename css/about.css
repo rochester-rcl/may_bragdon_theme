@@ -24,14 +24,16 @@
 .about-text span {
     font-size: 27px;
     display: block;
+    padding-bottom: 25px;
 }
 .about-text-sub{
-    background: #004272;
+    /*background: #004272;*/
     width: 100%;
     color: white;
     font-size: 17px;
     font-family: 'Merriweather', serif;
     padding: 0 0 100px 0;
+    color: #DFF1F9;
 }
 .about-text-sub .container{
 }
