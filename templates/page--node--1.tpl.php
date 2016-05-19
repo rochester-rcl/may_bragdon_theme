@@ -196,7 +196,7 @@
                     <p>The impetus for this Project was a researcher’s discovery that her ancestors were among May Bragdon’s closest friends and were brought to life in the diaries’ words and images. Recognizing the diaries’ significance in the wider study of women’s history, we have worked to not only provide increased access to them through annotated transcriptions, but to represent their materiality in a digital environment.</p>
                 </div>
             </div>
-<div>
+</div>
 
 
 
