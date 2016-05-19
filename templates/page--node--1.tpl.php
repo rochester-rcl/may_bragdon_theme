@@ -170,7 +170,6 @@
 <div class="about-first-sec">
     <div id="section-intro" class="about-top-img-container">
         <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
-    </div>
     <div class="about-text-container">
         <div class="container">
             <div class="about-text">
@@ -185,6 +184,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <div class="main-container container">
