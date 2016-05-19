@@ -173,7 +173,7 @@
     </div>
     <div class="container">
         <div class="about-text">
-            <span>May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. </span>The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.
+            <span>May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. </span><p>The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.</p>
         </div>
     </div>
     <div class="about-text-sub">
