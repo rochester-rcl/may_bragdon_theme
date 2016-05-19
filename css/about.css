@@ -47,13 +47,18 @@
 @media (max-width: 768px) {
     .about-text {
         margin-top: 20px;
-        color: black;
         font-size: 13px;
     }
     .about-text-sub .container{
         margin-top: 0;
     }
+    .about-text-sub{
+        font-size: 15px;
+    }
     .about-text-container{
-        margin-top: -180px;
+        margin-top: -50px;
+    }
+    .about-text span {
+        font-size: 20px;
     }
 }
