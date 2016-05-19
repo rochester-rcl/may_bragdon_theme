@@ -56,6 +56,11 @@
 .about-mayb-text {
     padding-bottom: 100px;
 }
+.about-sec-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .about-text {
