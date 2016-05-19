@@ -77,22 +77,21 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
 <!--====== UNIVERSITY HEADER ======-->
 <div class="uofr-header">
   <div class="container">
     <!-- UofR Container -->
     <div class="left-logo-container">
-      <a href="http://www.rochester.edu/">
+      <a href="http://www.library.rochester.edu/">
         <img class="navbar-brand-rcl-logo" alt="River Campus Libraries" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/rcl_logo.png" />
       </a>
-      <a href="http://www.rochester.edu/">
         <img class="navbar-brand-dp-logo" alt="Digital Projects" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/dp_logo.png" />
-    </a>
     </div>
     <!-- Right Container -->
     <div class="right-logo-container">
+     <a href="http://www.rochester.edu/">
         <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/uofr_logo.png" />
+    </a>
     </div>
   </div>
 </div>
@@ -177,7 +176,7 @@
           <?php print render($messages); ?>
       </div>
     <?php endif; ?>
-    
+
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead">Site slogan</p>
