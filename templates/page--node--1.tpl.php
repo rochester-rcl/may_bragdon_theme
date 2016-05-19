@@ -169,7 +169,8 @@
 <!--======= /HEADER  ========-->
 <div class="about-first-sec">
     <div id="section-intro" class="about-top-img-container">
-        <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
+        <!-- <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg"> -->
+        <img class="about-top-img" alt="About" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/about.jpg" />
     <div class="about-text-container">
         <div class="container">
             <div class="about-text">
@@ -186,6 +187,11 @@
     </div>
 </div>
 </div>
+<div id="section-about-mayb" class="about-mayb-container">
+            <img class="about-mayb-img" alt="About" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/about.jpg" />
+<div>
+
+
 
 <div class="main-container container">
     <!--===== ALERTS  =====-->

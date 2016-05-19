@@ -40,8 +40,15 @@
 .about-text-container{
     margin-top: -150px;
 }
+.about-mayb-img{
+    width: 100%;
+    height: auto;
+}
 #section-intro {
     background: #004272;
+}
+#section-about-mayb{
+    background: ;
 }
 
 @media (max-width: 768px) {
