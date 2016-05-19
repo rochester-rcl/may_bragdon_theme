@@ -22,6 +22,10 @@
     font-size: 17px;
     font-family: 'Merriweather', serif;
 }
+.about-text span {
+    font-size: 27px;
+    display: block;
+}
 .about-text-sub{
     background: #004272;
     width: 100%;
