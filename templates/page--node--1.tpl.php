@@ -266,7 +266,7 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="tab-container-edit-screens">
+      <div class="tab-container-edit-screens container">
       <?php print render($tabs); ?>
     </div>
     <?php endif; ?>

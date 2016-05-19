@@ -66,6 +66,8 @@
 }
 .about-main-content{
     font-family: 'Merriweather', serif;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 .about-main-content ul li {
     margin-left: 30px;
