@@ -23,11 +23,12 @@
     font-family: 'Merriweather', serif;
 }
 .about-text-sub{
-    background: #1f3f64;
+    background: #24456f;
     width: 100%;
     color: white;
     font-size: 15px;
     font-family: 'Merriweather', serif;
+    padding: 20px 0;
 
 }
 
