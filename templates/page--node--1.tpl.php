@@ -172,14 +172,14 @@
         <img class="about-top-img" src="https://maybragdondev.lib.rochester.edu/sites/all/themes/may_bragdon_theme/images/about.jpg">
     </div>
     <div class="container">
-        <!-- Page title  -->
-              <?php if (!empty($title)): ?>
-                <div class="page-title-wrapper">
-                  <h1 class="page-header basic-page-title"><?php print $title; ?></h1>
-                </div>
-              <?php endif; ?>
         <div class="about-text">
             May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.
+        </div>
+    </div>
+    <div class="about-text-sub">
+        <div class="container">
+            <p>The May Bragdon Diaries Project presents TEI encoded full text transcriptions and facsimiles of these ten diaries on a searchable website. Alongside its transcription, each diary page is seen in its original “as created” form (i.e. with any inclusions in place), and/or in a manuscript only view, as well as individual images of all inclusions from that page.</p>
+            <p>The impetus for this Project was a researcher’s discovery that her ancestors were among May Bragdon’s closest friends and were brought to life in the diaries’ words and images. Recognizing the diaries’ significance in the wider study of women’s history, we have worked to not only provide increased access to them through annotated transcriptions, but to represent their materiality in a digital environment.</p>
         </div>
     </div>
 </div>

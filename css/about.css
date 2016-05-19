@@ -17,12 +17,15 @@
     height: auto;
 }
 .about-text {
-    margin-top: -160px;
+    margin-top: -230px;
     color: white;
     font-size: 17px;
     font-family: 'Merriweather', serif;
 }
-
+.about-text-sub{
+    background: #1f3f64;
+    width: 100%;
+}
 
 
 @media (max-width: 768px) {
