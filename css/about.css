@@ -43,6 +43,7 @@
 .about-mayb-img{
     width: 100%;
     height: auto;
+    float: left;
 }
 #section-intro {
     background: #004272;
