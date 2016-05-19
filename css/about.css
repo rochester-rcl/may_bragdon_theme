@@ -17,7 +17,6 @@
     height: auto;
 }
 .about-text {
-    margin-top: -230px;
     color: white;
     font-size: 17px;
     font-family: 'Merriweather', serif;
@@ -35,7 +34,9 @@
     padding: 0 0 20px 0;
 }
 .about-text-sub .container{
-    margin-top: -50px;
+}
+.about-text-container{
+    margin-top: 150px;
 }
 
 @media (max-width: 768px) {
