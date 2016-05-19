@@ -264,6 +264,14 @@
   </div>
 </div>
 
+<!--===== TABS =====-->
+    <?php if (!empty($tabs)): ?>
+      <div class="tab-container-edit-screens">
+      <?php print render($tabs); ?>
+    </div>
+    <?php endif; ?>
+
+
 
 <!--====== FOOTER ======-->
 <div class="footer">
