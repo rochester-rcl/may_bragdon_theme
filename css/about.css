@@ -76,6 +76,11 @@
 
 .about-diaries-text {
     font-family: 'Merriweather', serif;
+    padding-top: 60px;
+}
+
+.about-diaries-text ul li {
+    margin-left: 30px;
 }
 
 @media (max-width: 768px) {
