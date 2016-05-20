@@ -91,7 +91,9 @@ dl.solr-fields {
 .solr-fields dt, .solr-fields dd {
     border-top: none;
 }
-
+ul.islandora-solr-sort li {
+    list-style-type: none;
+}
 
 
 @media (max-width: 768px) {
