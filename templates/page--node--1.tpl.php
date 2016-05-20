@@ -174,6 +174,13 @@
         <img class="about-top-img" alt="About" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/about.jpg" />
     <div class="about-text-container">
         <div class="container">
+            <ul>
+                <li><a href="#section-about-mayb">About May Bragdon</a></li>
+                <li>The Physical Diaries</li>
+                <li>Notes on Transcriptions</li>
+                <li>Editorial Practice</li>
+                <li>Project Team Members</li>
+            </ul>
             <div class="about-text">
                 <span>May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. </span>
             </div>
@@ -318,7 +325,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-    
+
 
     </section>
 
