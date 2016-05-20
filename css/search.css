@@ -20,6 +20,7 @@ section#block-islandora-solr-sort ul a {
 }
 section#block-islandora-solr-sort a:hover {
     text-decoration: none;
+    background: #eeeeee;
 }
 
 
