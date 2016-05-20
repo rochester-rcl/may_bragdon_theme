@@ -15,6 +15,7 @@ section#block-islandora-solr-sort ul {
     top: 148px;
     right: 7%;
     text-align: right;
+    position: absolute;
 }
 
 
