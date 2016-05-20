@@ -5,7 +5,7 @@
     display: inline-block;
     height: 13px;
 }
-section#block-islandora-solr-sort ul {
+section#block-islandora-solr-sort ul a {
     list-style-type: none;
     font-weight: bold;
     font-size: 16px;
@@ -17,6 +17,9 @@ section#block-islandora-solr-sort ul {
     text-align: right;
     position: absolute;
     z-index: 5000;
+}
+section#block-islandora-solr-sort a:hover {
+    text-decoration: none;
 }
 
 
