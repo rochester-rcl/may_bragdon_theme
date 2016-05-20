@@ -201,6 +201,29 @@
 </div>
 
 
+<div id="section-about-diaries" class="about-diaries-container">
+            <div class="about-diaries-text">
+                <div class="container">
+                    <div class="about-sec-title">The Physical Diaries</div>
+                    <p>Each of the ten diaries was created in a commercially-produced book whose structure was not intended to accommodate additional content:  May Bragdon added some 3,200 items across the 10 volumes.  Although these ‘inclusions’ amplified the diaries’ content, they also obscured the manuscript and, therefore, created an impediment to use.  For a majority of pages, it was not possible to read the manuscript without manipulating the inclusions.  This manipulation of brittle paper substrates, compounded by uneven applications of adhesive and complex layering, led to mechanical damage.  Particularly during the last decade as use of the diaries increased, more and more ‘inclusions’ had come free of their adhesive—sometimes tearing at the point of attachment, sometimes not.  Once these items became disassociated from the page upon which May Bragdon had placed them, their meaning was diminished, if not lost entirely.</p>
+
+                    During the first phase of the Project, we:
+                    <ul>
+                        <li>Imaged the diaries as May Bragdon created them, generating master tiffs, derivative jpgs and also preservation microfilm</li>
+                        <li>Captioned each of the 3,200 inclusions to record which diary, which page, and in what order on the page it appeared</li>
+                        <li>Safely removed the inclusions</li>
+                        <li>Imaged the unobscured manuscript pages and each of their associated inclusions.  Again, digital masters and derivatives as well as microfilm were created.</li>
+                        <li>Created transcription guidelines which would accurately capture May’s captioning system and correctly map it to the inclusions</li>
+                        <li>Transcribed the diaries</li>
+                        <li>Developed a structure for TEI documents which would accurately place the captions and inclusion files</li>
+                        <li>Established a basic TEI encoding schema focused on annotating the people, places and things most prominent in May Bragdon’s life.  Although we tagged most person names and places to aid in future development of the site, the initial phase of the project provides annotation for 514 frequently mentioned entities.</li>
+                    </ul>
+
+                    <p>At around this point in our project, the River Campus Libraries chose Islandora as its digital asset management system.  Islandora uses drupal modules to ingest and manage content in an underlying Fedora Repository. Digital assets are stored as objects- images, videos, books, and compound objects. We originally thought we would ingest the diaries as books. The book module, however, did not allow for the number of different digital assets that represented a single diary page: An image of the page as it was originally created with all inclusions, an image of the page with inclusions removed, a TEI transcription, and images of each of the inclusions. We decided on a compound object model, ingesting each page as a compound object with all of its attendant digital surrogates.  Library staff created MODs metadata records for each page and each diary programmatically, scraping information from the TEI documents.</p>
+                </div>
+            </div>
+</div>
+
 
 <div class="main-container container">
     <!--===== ALERTS  =====-->
