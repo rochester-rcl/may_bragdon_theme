@@ -226,16 +226,49 @@
 
 
 <div id="section-about-trans" class="about-trans-container">
-            <div class="about-trans-text">
-                <div class="container">
-                    <div class="about-sec-title">Notes on Transcriptions</div>
-                        <p>Our aim was to transcribe each page exactly as it appears. All punctuation, capitalization, spelling (and misspelling), idiosyncratic grammar, word repetitions, abbreviations, underlining, strikethroughs, etc. have been preserved in the transcription. </p>
-                        <p>Line breaks are rendered as they appear in the original, with the exception of entry dates, which are seen in bold on their own line.  This decision was made to aid the search function.  is this true? The marginalia seen in the ‘manuscript view’ may be May Bragdon’s caption for an inclusion, or a general note of hers related to the day.  Transcriptions of inclusion captions are visible once the reader selects an individual inclusion.  May’s general notes are displayed in gray (not black) italicized text, at the head of the entry to which they refer. No matter how skilled a transcriber, errors may be made and/or interpretations of handwriting may change: we will continue to work to correct our transcriptions. </p>
-                </div>
-            </div>
+    <div class="about-trans-text">
+        <div class="container">
+            <div class="about-sec-title">Notes on Transcriptions</div>
+                <p>Our aim was to transcribe each page exactly as it appears. All punctuation, capitalization, spelling (and misspelling), idiosyncratic grammar, word repetitions, abbreviations, underlining, strikethroughs, etc. have been preserved in the transcription. </p>
+                <p>Line breaks are rendered as they appear in the original, with the exception of entry dates, which are seen in bold on their own line.  This decision was made to aid the search function.  is this true? The marginalia seen in the ‘manuscript view’ may be May Bragdon’s caption for an inclusion, or a general note of hers related to the day.  Transcriptions of inclusion captions are visible once the reader selects an individual inclusion.  May’s general notes are displayed in gray (not black) italicized text, at the head of the entry to which they refer. No matter how skilled a transcriber, errors may be made and/or interpretations of handwriting may change: we will continue to work to correct our transcriptions. </p>
         </div>
+    </div>
+</div>
 
+<div id="section-about-editorial" class="about-editorial-container">
+    <div class="about-editorial-text">
+        <div class="container">
+            <div class="about-sec-title">Editorial Practice</div>
+            <p>The Project’s guiding editorial practice has been to let May Bragdon’s voice be heard with as little interference as possible.  We have taken care to keep editorial notes and comment distinct from May Bragdon’s own writing.  At this point, editorial notes have been added to shine a bit more light on the primary people and places from this period of May’s life.  We hope to add more annotations, ideally as part of student projects.  The major editorial component of this Project has been the selection of people and places to provide additional information about: these are seen in the transcriptions as underlined in blue.  When clicked upon, a pop up window appears with biographical or other information.  Although there are 500+ such précis, there is much more work to be done. </p>
+            <p>The other major editorial function has been disambiguating one “Charlotte” or “Edith” or “Henry” from another.  For example, a single page might invoke 2 distinct people each named “Charlotte,” one of whom is in a physical location called Charlotte.  Deciding which of these words “Charlotte” refers to Charlotte Davis, or Charlotte Wilkinson or Charlotte, N.Y. could only be done by a human being.  Any text which is not directly transcribed from the diaries is accompanied by “Editorial note.”  These notes may include:</p>
+            <ul>
+                <li>Surname presumed/unknown.  If the editor assigned a surname with 50- 75% certainty, an editorial note “Surname presumed” will appear.  If the editor could not reasonably assign an identity, “Surname unknown” will appear.</li>
+                <li>Contextualizing information.</li>
+                <li>A surname to aid the reader in disambiguation</li>
+                <li>Identities of people seen in a photograph who are not named by May Bragdon.  Many of the photographs in the Project have captions whose meaning is diminished outside the context of the larger entry.  May Bragdon recognized the people in her photographs, she did not need to list them out.  In the interest of making these resources available as quickly as possible, we decided to add editorial notes with additional data in later phases of the project.</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
+<div id="section-about-team" class="about-team-container">
+    <div class="about-team-text">
+        <div class="container">
+            <div class="about-sec-title">Project Team Members</div>
+            <ul>
+                <li>Nora Dimmock</li>
+                <li>Joe Easterly</li>
+                <li>Elica Krasteva</li>
+                <li>Jim Kuhn</li>
+                <li>Harish Nayak</li>
+                <li>Andrea G. Reithmayr</li>
+                <li>Joshua Romphf</li>
+                <li>Adam Traub</li>
+            </ul>
+            <p>The Project received support in many forms from many quarters.  In addition to our  colleagues in the River Campus Libraries, we are indebted to our gracious donor, our intrepid researcher, Peter Bragdon and the Bragdon family. </p>
+        </div>
+    </div>
+</div>
 
 
 <div class="main-container container">
