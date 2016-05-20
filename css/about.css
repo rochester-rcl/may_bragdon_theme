@@ -83,7 +83,17 @@
     padding: 60px 0;
     background: #F1F1F1;
 }
-
+ul.about-menu {
+    position: absolute;
+    top: 125px;
+    width: 100%;
+}
+ul.about-menu a{
+    color: white;
+}
+.about-text-container ul li {
+    display: inline;
+}
 .about-diaries-text ul li,
 .about-team-text ul li,
 .about-editorial-text ul li {
