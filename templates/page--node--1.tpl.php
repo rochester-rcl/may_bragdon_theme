@@ -176,10 +176,10 @@
         <div class="container">
             <ul class="about-menu">
                 <li><a href="#section-about-mayb">About May Bragdon</a></li>
-                <li>The Physical Diaries</li>
-                <li>Notes on Transcriptions</li>
-                <li>Editorial Practice</li>
-                <li>Project Team Members</li>
+                <li><a href="#section-about-diaries">The Physical Diaries</a></li>
+                <li><a href="#section-about-trans">Notes on Transcriptions</a></li>
+                <li><a href="#section-about-editorial">Editorial Practice</a></li>
+                <li><a href="#section-about-team">Project Team Members</a></li>
             </ul>
             <div class="about-text">
                 <span>May Bragdon (1865-1947) created diaries that resemble scrapbooks: she layered her manuscripts with original photographs, fabric swatches, theatre programs, correspondence, and other ephemera. </span>

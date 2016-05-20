@@ -85,14 +85,17 @@
 }
 ul.about-menu {
     position: absolute;
+    left: 0;
+    right: 0;
     top: 125px;
-    width: 100%;
+    text-align: center;
 }
 ul.about-menu a{
     color: white;
 }
 .about-text-container ul li {
     display: inline;
+    padding: 0 5px;
 }
 .about-diaries-text ul li,
 .about-team-text ul li,
@@ -116,5 +119,8 @@ ul.about-menu a{
     }
     .about-text span {
         font-size: 20px;
+    }
+    ul.about-menu {
+        display: none;
     }
 }
