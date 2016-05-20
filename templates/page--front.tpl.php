@@ -51,8 +51,8 @@
         </div>
         <!-- Nav links -->
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-              <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" >
+              <ul class="nav navbar-nav navbar-right" role="list">
                    <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diaries <span class="caret"></span></a>
                     <ul class="dropdown-menu">
