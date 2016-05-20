@@ -77,7 +77,8 @@
 
 .about-diaries-text,
 .about-trans-text,
-.about-editorial-text{
+.about-editorial-text,
+.about-team-text {
     font-family: 'Merriweather', serif;
     padding: 60px 0;
     background: #F1F1F1;
