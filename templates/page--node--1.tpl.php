@@ -318,10 +318,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-      <div class="content-h-c about-main-content">
-      <?php print render($page['content']); ?>
-    </div>
-
+    
 
     </section>
 
