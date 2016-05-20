@@ -174,7 +174,7 @@
         <img class="about-top-img" alt="About" src="<?php print base_path() . drupal_get_path('theme', 'may_bragdon_theme');?>/images/about.jpg" />
     <div class="about-text-container">
         <div class="container">
-            <ul>
+            <ul class="about-menu">
                 <li><a href="#section-about-mayb">About May Bragdon</a></li>
                 <li>The Physical Diaries</li>
                 <li>Notes on Transcriptions</li>
