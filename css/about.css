@@ -92,10 +92,15 @@ ul.about-menu {
 }
 ul.about-menu a{
     color: white;
+    border-bottom: 2px solid gray;
+}
+ul.about-menu a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid gray;
 }
 .about-text-container ul li {
     display: inline;
-    padding: 0 5px;
+    margin: 0 5px;
 }
 .about-diaries-text ul li,
 .about-team-text ul li,
