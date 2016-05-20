@@ -74,6 +74,9 @@
     margin-left: 30px;
 }
 
+.about-diaries-text {
+    font-family: 'Merriweather', serif;
+}
 
 @media (max-width: 768px) {
     .about-text {
