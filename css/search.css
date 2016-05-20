@@ -9,13 +9,14 @@ section#block-islandora-solr-sort ul {
     list-style-type: none;
     font-weight: bold;
     font-size: 16px;
-    border-top: 1px solid lightgray;
-    margin-top: 28px;
-    padding-top: 10px;
-    top: 148px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    top: 184px;
     right: 7%;
     text-align: right;
     position: absolute;
+    z-index: 5000;
 }
 
 
@@ -85,4 +86,19 @@ dl.solr-fields {
 }
 .solr-fields dt, .solr-fields dd {
     border-top: none;
+}
+
+
+
+@media (max-width: 768px) {
+    section#block-islandora-solr-sort ul {
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 16px;
+        border-top: 1px solid lightgray;
+        margin-top: 28px;
+        padding-top: 10px;
+        text-align: left;
+        position:static;
+    }
 }
