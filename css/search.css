@@ -12,12 +12,20 @@ section#block-islandora-solr-sort ul {
     border-top: 1px solid lightgray;
     margin-top: 28px;
     padding-top: 10px;
+    top: 148px;
+    right: 7%;
+    text-align: right;
 }
 
 
 /* Removing the page title - We should have the search term be the title */
 .col-sm-9 .basic-page-title {
     display: none;
+}
+
+
+aside.col-sm-3 {
+    position: static;
 }
 
 
