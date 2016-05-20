@@ -207,7 +207,7 @@
                     <div class="about-sec-title">The Physical Diaries</div>
                     <p>Each of the ten diaries was created in a commercially-produced book whose structure was not intended to accommodate additional content:  May Bragdon added some 3,200 items across the 10 volumes.  Although these ‘inclusions’ amplified the diaries’ content, they also obscured the manuscript and, therefore, created an impediment to use.  For a majority of pages, it was not possible to read the manuscript without manipulating the inclusions.  This manipulation of brittle paper substrates, compounded by uneven applications of adhesive and complex layering, led to mechanical damage.  Particularly during the last decade as use of the diaries increased, more and more ‘inclusions’ had come free of their adhesive—sometimes tearing at the point of attachment, sometimes not.  Once these items became disassociated from the page upon which May Bragdon had placed them, their meaning was diminished, if not lost entirely.</p>
 
-                    During the first phase of the Project, we:
+                    <strong>During the first phase of the Project, we:</strong>
                     <ul>
                         <li>Imaged the diaries as May Bragdon created them, generating master tiffs, derivative jpgs and also preservation microfilm</li>
                         <li>Captioned each of the 3,200 inclusions to record which diary, which page, and in what order on the page it appeared</li>
@@ -223,6 +223,19 @@
                 </div>
             </div>
 </div>
+
+
+<div id="section-about-trans" class="about-trans-container">
+            <div class="about-trans-text">
+                <div class="container">
+                    <div class="about-sec-title">Notes on Transcriptions</div>
+                        <p>Our aim was to transcribe each page exactly as it appears. All punctuation, capitalization, spelling (and misspelling), idiosyncratic grammar, word repetitions, abbreviations, underlining, strikethroughs, etc. have been preserved in the transcription. </p>
+                        <p>Line breaks are rendered as they appear in the original, with the exception of entry dates, which are seen in bold on their own line.  This decision was made to aid the search function.  is this true? The marginalia seen in the ‘manuscript view’ may be May Bragdon’s caption for an inclusion, or a general note of hers related to the day.  Transcriptions of inclusion captions are visible once the reader selects an individual inclusion.  May’s general notes are displayed in gray (not black) italicized text, at the head of the entry to which they refer. No matter how skilled a transcriber, errors may be made and/or interpretations of handwriting may change: we will continue to work to correct our transcriptions. </p>
+                </div>
+            </div>
+        </div>
+
+
 
 
 <div class="main-container container">
