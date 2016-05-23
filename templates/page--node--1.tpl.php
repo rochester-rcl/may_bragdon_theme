@@ -187,9 +187,9 @@
         </div>
         <div class="about-text-sub">
             <div class="container">
-                <p>The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the ‘Kodak,’ the theatre, and a connection with the natural world. The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.</p>
-                <p>The May Bragdon Diaries Project presents TEI encoded full text transcriptions and facsimiles of these ten diaries on a searchable website. Alongside its transcription, each diary page is seen in its original “as created” form (i.e. with any inclusions in place), and/or in a manuscript only view, as well as individual images of all inclusions from that page.</p>
-                <p>The impetus for this Project was a researcher’s discovery that her ancestors were among May Bragdon’s closest friends and were brought to life in the diaries’ words and images. Recognizing the diaries’ significance in the wider study of women’s history, we have worked to not only provide increased access to them through annotated transcriptions, but to represent their materiality in a digital environment.</p>
+                <p>The ten diaries spanning 1893-1914 present an illustrated view of the life of a single working woman set free by the bicycle and enlivened by friendships, the Kodak, the theatre, and a connection with the natural world.  The constellation of people in which she, her family, her co-workers, and her friends orbited included the well-known and the obscure.</p>
+                <p>The May Bragdon Diaries Project presents TEI encoded full text transcriptions and facsimiles of these ten diaries on a searchable website. The site allows simultaneous viewing of a transcription alongside the manuscript and the original (as created) view of each page as well as images of any inclusions from that page.</p>
+                <p>The impetus for this Project was a researcher’s discovery that her ancestors were among May Bragdon’s closest friends and were brought to life in the diaries’ words and images.  Recognizing the diaries’ significance in the wider study of women’s history, we have worked to provide increased access to them through annotated transcriptions along with a representation of their materiality in a digital environment.</p>
             </div>
         </div>
     </div>
@@ -200,9 +200,9 @@
             <div class="about-mayb-text">
                 <div class="container">
                     <div class="about-sec-title">About May Bragdon</div>
-                    <p>The daughter of abolitionists Katherine Elmina Shipherd and George Chandler Bragdon and the sister of architect, artist, and theatre designer Claude Bragdon, May Bragdon was born May 16, 1865 in Adams, N.Y. She and her family moved repeatedly before settling in Rochester, N.Y. in 1884. In 1889, after four years with H. H. Warner's Safe Cure Company, May began working for the Cutler Manufacturing Company (later known as the Cutler Mail Chute Co.). She quickly became executive secretary to its principals, architect and inventor James G. Cutler and his brother J. Warren Cutler. In 1910, she left Cutler's to work as office manager for her brother’s architectural practice and his Manas Press. In 1918, economic pressures led Claude Bragdon to reduce his office staff, and May went on to work with the Employment Office of the Combined Metal Trades (1918-1919), the Clothiers' Exchange (1919-1923) during its landmark negotiations with Amalgamated Clothing Workers and, in 1924, the Gannett Publishing Company, where she remained until her retirement in 1938. May Bragdon died March 21, 1947.</p>
+                    <p>The daughter of abolitionists Katherine Elmina Shipherd and George Chandler Bragdon and the sister of architect, writer, and theatre designer Claude Bragdon, May Bragdon was born May 16, 1865 in Adams, N.Y.  She and her family moved repeatedly before settling in Rochester, N.Y. in 1884.  In 1889, after four years with H. H. Warner's Safe Cure Company, May began working for the Cutler Manufacturing Company (later known as the Cutler Mail Chute Co.).  She quickly became executive secretary to its principals, architect and inventor James G. Cutler and his brother J. Warren Cutler.  In 1910, she left Cutler's to work as office manager for her brother’s architectural practice and his Manas Press. In 1918, economic pressures led Claude Bragdon to reduce his office staff and May went on to work with the Employment Office of the Combined Metal Trades (1918-1919), the Clothiers' Exchange (1919-1923) during its landmark negotiations with Amalgamated Clothing Workers and, in 1924, the Gannett Publishing Company, where she remained until her retirement in 1938.  May Bragdon died March 21, 1947.</p>
 
-                    <p>The ten diaries reproduced here are but a selection from the broad record May Bragdon left to us.  She was an inveterate record keeper and cataloger:  The <a href="http://rbscp.lib.rochester.edu/803">Bragdon Family Papers</a> and the <a href="http://rbscp.lib.rochester.edu/801">Bragdon Family Papers Addition</a> contain her correspondence, other diaries (1880-1884; 1943-47), autograph books, photo albums, scrapbooks 1881-1912, phenological notebooks, records of books read, family histories, indexes to her brother’s correspondence, and etc.  These ten diaries were chosen for the Project because of the rich photographic and ephemeral content that augments the manuscript and because of the transformational period they capture.</p>
+                    <p>The ten diaries reproduced here are but a selection of May Bragdon’s papers.  She was an inveterate record keeper and cataloger:  the <a href="http://rbscp.lib.rochester.edu/803">Bragdon Family Papers</a> and the <a href="http://rbscp.lib.rochester.edu/801">Bragdon Family Papers Addition</a> contain her correspondence, other diaries (1880-1884; 1943-47), autograph books, photo albums, scrapbooks 1881-1912, phenological notebooks, reading lists, family histories, indexes to her brother’s correspondence, and etc.  These ten diaries were chosen for the Project because of the rich illustrative material that augments the manuscript and because of the transformational period they capture.</p>
                 </div>
             </div>
 </div>
@@ -212,7 +212,7 @@
             <div class="about-diaries-text">
                 <div class="container">
                     <div class="about-sec-title">The Physical Diaries</div>
-                    <p>Each of the ten diaries was created in a commercially-produced book whose structure was not intended to accommodate additional content:  May Bragdon added some 3,200 items across the 10 volumes.  Although these ‘inclusions’ amplified the diaries’ content, they also obscured the manuscript and, therefore, created an impediment to use.  For a majority of pages, it was not possible to read the manuscript without manipulating the inclusions.  This manipulation of brittle paper substrates, compounded by uneven applications of adhesive and complex layering, led to mechanical damage.  Particularly during the last decade as use of the diaries increased, more and more ‘inclusions’ had come free of their adhesive—sometimes tearing at the point of attachment, sometimes not.  Once these items became disassociated from the page upon which May Bragdon had placed them, their meaning was diminished, if not lost entirely.</p>
+                    <p>Each of the ten diaries was created in a commercially produced book whose structure was not intended to accommodate additional content.  May Bragdon added thousands of items across the ten volumes. Although these inclusions amplified the diaries’ content, they also obscured the manuscript and, therefore, created an impediment to use.  For a majority of pages, it was not possible to read the manuscript without manipulating the inclusions.  The manipulation of brittle paper substrates, compounded by uneven applications of adhesive and complex layering, led to mechanical damage.  Particularly during the last decade as use of the diaries increased, more and more inclusions had come free of their adhesive—sometimes tearing at the point of attachment, sometimes not.  Once these items became disassociated from the page upon which May Bragdon had placed them, their meaning was diminished, if not entirely lost.</p>
 
                     <strong>During the first phase of the Project, we:</strong>
                     <ul>
@@ -226,7 +226,7 @@
                         <li>Established a basic TEI encoding schema focused on annotating the people, places and things most prominent in May Bragdon’s life.  Although we tagged most person names and places to aid in future development of the site, the initial phase of the project provides annotation for 514 frequently mentioned entities.</li>
                     </ul>
 
-                    <p>At around this point in our project, the River Campus Libraries chose Islandora as its digital asset management system.  Islandora uses drupal modules to ingest and manage content in an underlying Fedora Repository. Digital assets are stored as objects- images, videos, books, and compound objects. We originally thought we would ingest the diaries as books. The book module, however, did not allow for the number of different digital assets that represented a single diary page: An image of the page as it was originally created with all inclusions, an image of the page with inclusions removed, a TEI transcription, and images of each of the inclusions. We decided on a compound object model, ingesting each page as a compound object with all of its attendant digital surrogates.  Library staff created MODs metadata records for each page and each diary programmatically, scraping information from the TEI documents.</p>
+                    <p>At around this point in our project, the River Campus Libraries chose Islandora as its digital asset management system.  Islandora uses drupal modules to ingest and manage content in an underlying Fedora repository: digital assets are stored as objects. We originally thought we would ingest the diaries as books. The book module, however, did not allow for the number of different digital assets that represented a single diary page: an image of the page as it was originally created with all inclusions, an image of the page with inclusions removed, a TEI transcription, and images of each of the inclusions. We decided on a compound object model, ingesting each page as a compound object with all of its attendant digital surrogates.</p>
                 </div>
             </div>
 </div>
@@ -236,8 +236,8 @@
     <div class="about-trans-text">
         <div class="container">
             <div class="about-sec-title">Notes on Transcriptions</div>
-                <p>Our aim was to transcribe each page exactly as it appears. All punctuation, capitalization, spelling (and misspelling), idiosyncratic grammar, word repetitions, abbreviations, underlining, strikethroughs, etc. have been preserved in the transcription. </p>
-                <p>Line breaks are rendered as they appear in the original, with the exception of entry dates, which are seen in bold on their own line.  This decision was made to aid the search function.  is this true? The marginalia seen in the ‘manuscript view’ may be May Bragdon’s caption for an inclusion, or a general note of hers related to the day.  Transcriptions of inclusion captions are visible once the reader selects an individual inclusion.  May’s general notes are displayed in gray (not black) italicized text, at the head of the entry to which they refer. No matter how skilled a transcriber, errors may be made and/or interpretations of handwriting may change: we will continue to work to correct our transcriptions. </p>
+                <p>Our aim has been to transcribe each page exactly as written by May Bragdon. All punctuation, capitalization, spelling (and misspelling), idiosyncratic grammar, word repetitions, abbreviations, underlining, strikethroughs, etc. have been preserved in the transcription.</p>
+                <p>Line breaks are rendered as they appear in the original, with the exception of entry dates, which are seen in bold on their own line.  This decision was made to provide a visual cue for each entry. The marginalia seen in the manuscript view may be either May Bragdon’s caption for an inclusion or a general note related to that specific day. Transcriptions of May’s general notes are displayed in gray italicized text at the head of the entry to which they refer. Transcriptions of inclusion captions are visible once the reader selects an individual inclusion to view. The handwriting on clippings and programs has not yet been transcribed. No matter how skilled a transcriber, errors may be made and/or interpretations of handwriting may change: we will continue to work to correct our transcriptions.</p>
         </div>
     </div>
 </div>
@@ -246,13 +246,14 @@
     <div class="about-editorial-text">
         <div class="container">
             <div class="about-sec-title">Editorial Practice</div>
-            <p>The Project’s guiding editorial practice has been to let May Bragdon’s voice be heard with as little interference as possible.  We have taken care to keep editorial notes and comment distinct from May Bragdon’s own writing.  At this point, editorial notes have been added to shine a bit more light on the primary people and places from this period of May’s life.  We hope to add more annotations, ideally as part of student projects.  The major editorial component of this Project has been the selection of people and places to provide additional information about: these are seen in the transcriptions as underlined in blue.  When clicked upon, a pop up window appears with biographical or other information.  Although there are 500+ such précis, there is much more work to be done. </p>
-            <p>The other major editorial function has been disambiguating one “Charlotte” or “Edith” or “Henry” from another.  For example, a single page might invoke 2 distinct people each named “Charlotte,” one of whom is in a physical location called Charlotte.  Deciding which of these words “Charlotte” refers to Charlotte Davis, or Charlotte Wilkinson or Charlotte, N.Y. could only be done by a human being.  Any text which is not directly transcribed from the diaries is accompanied by “Editorial note.”  These notes may include:</p>
+            <p>The Project’s guiding editorial practice has been to let May Bragdon’s voice be heard with as little interference as possible.  We have taken care to keep editorial notes distinct from May Bragdon’s own writing.   A major editorial component of this Project has been the selection of which people, places and names to annotate.  Given the scale of the project and its timeline, a decision was made to begin by focusing on the primary people and places from this period of May’s life.</p>
+            <p>In the transcription pane, certain names and words are underlined in blue.  When these words are clicked upon, a pop up window appears with biographical or other information.  Although there are 500+ such précis, there is much more work to be done.</p>
+            <p>Another major editorial function has been disambiguating one “Charlotte” or “Edith” or “Henry” from another.  For example, a single page might invoke two distinct people named “Charlotte,” one of whom is in a physical location called Charlotte.  Deciding which of these words “Charlotte” refers to Charlotte Davis or Charlotte Wilkinson or Charlotte, N.Y. could only be done by a human being.  Any text which is not directly transcribed from the diaries is accompanied by “Editorial note.”  These notes may include:</p>
             <ul>
-                <li>Surname presumed/unknown.  If the editor assigned a surname with 50- 75% certainty, an editorial note “Surname presumed” will appear.  If the editor could not reasonably assign an identity, “Surname unknown” will appear.</li>
-                <li>Contextualizing information.</li>
-                <li>A surname to aid the reader in disambiguation</li>
-                <li>Identities of people seen in a photograph who are not named by May Bragdon.  Many of the photographs in the Project have captions whose meaning is diminished outside the context of the larger entry.  May Bragdon recognized the people in her photographs, she did not need to list them out.  In the interest of making these resources available as quickly as possible, we decided to add editorial notes with additional data in later phases of the project.</li>
+              <li>A surname to aid the reader in disambiguation</li>
+              <li>Surname presumed/unknown.  If the editor assigned a surname with 50-75% certainty, an editorial note “Surname presumed” will appear.  If the editor could not reasonably assign an identity, “Surname unknown” will appear.</li>
+              <li>Contextualizing information</li>
+              <li>Identities of people seen in a photograph who are not named by May Bragdon. Many of the photographs in the Project have captions whose meaning is diminished outside the context of the larger entry.  May Bragdon recognized the people in her photographs, she did not need to name them.  While editorial notes and annotations exist for many of the inclusions, the process of making them visible to the reader is still underway.</li>
             </ul>
         </div>
     </div>
@@ -263,16 +264,19 @@
         <div class="container">
             <div class="about-sec-title">Project Team Members</div>
             <ul>
-                <li>Nora Dimmock</li>
-                <li>Joe Easterly</li>
-                <li>Elica Krasteva</li>
-                <li>Jim Kuhn</li>
-                <li>Harish Nayak</li>
-                <li>Andrea G. Reithmayr</li>
-                <li>Joshua Romphf</li>
-                <li>Adam Traub</li>
+              <li>Nora Dimmock</li>
+              <li>Tom Downie</li>
+              <li>Joe Easterly</li>
+              <li>Elica Krasteva</li>
+              <li>Jim Kuhn</li>
+              <li>Sean Morris</li>
+              <li>Harish Nayak</li>
+              <li>Andrea Reithmayr</li>
+              <li>Joshua Romphf</li>
+              <li>Nate Sarr</li>
+              <li>Adam Traub</li>
             </ul>
-            <p>The Project received support in many forms from many quarters.  In addition to our  colleagues in the River Campus Libraries, we are indebted to our gracious donor, our intrepid researcher, Peter Bragdon and the Bragdon family. </p>
+            <p>The May Bragdon Diaries Project has received support in many forms from many individuals.  The work of each of the Project team members has been supported by our colleagues in the River Campus Libraries, to whom we express our thanks.  We are also indebted to a generous donor, a steadfast researcher, and, of course, to May Bragdon and her extended family who have given us the privilege of stewarding her legacy and learning from her experience.</p>
         </div>
     </div>
 </div>
