@@ -272,7 +272,7 @@
               <li>Sean Morris</li>
               <li>Harish Nayak</li>
               <li>Andrea Reithmayr</li>
-              <li>Joshua Romphf</li>
+              <li>Josh Romphf</li>
               <li>Nate Sarr</li>
               <li>Adam Traub</li>
             </ul>
