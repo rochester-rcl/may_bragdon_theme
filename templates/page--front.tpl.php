@@ -250,7 +250,7 @@
 <div class="tagline-section">
     <div class="container">
       <div class="tagline-hint">
-      Ten diaries spanning 1893-1914 illustrate the life of a single working woman set free by the bicycle and enlivened by friendships, the Kodak, theatre, and a connection with the natural world.
+      Ten diaries spanning 1893-1914 illustrate the life of a single working woman set free by the bicycle and enlivened by friendships, the Kodak, the theatre, and a connection with the natural world.
       </div>
     </div>
 </div>
