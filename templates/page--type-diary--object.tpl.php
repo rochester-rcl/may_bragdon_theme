@@ -92,7 +92,7 @@
 
     <input type="radio" class="stv-radio-tab wider-tab" name="colorRadio" value="inclusions" id="inclusions" />
     <label for="inclusions" id="mobile-inclusion-tab">Inclusions</label>
-    
+
 </div>
 
 
