@@ -198,6 +198,14 @@ background: #30343b;
     border-radius: 5px;
     pointer-events: all;
 }
+.diary-page-cite .span  {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 44px;
+    width: 42px;
+}
+
 .diary-page-cite .btn-default:hover {
     background: lightgray;
 }
