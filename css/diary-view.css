@@ -175,7 +175,7 @@ background: #30343b;
     bottom: 0;
     left: 0;
     top: 50px;
-    z-index: 100;
+    z-index: 1000;
     height: 100%;
     pointer-events: none;
     /*background: -moz-linear-gradient(top,  rgba(252,250,243,0) 0%, rgba(252,250,243,1) 98%, rgba(255,253,245,1) 99%);
