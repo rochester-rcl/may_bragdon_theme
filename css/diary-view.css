@@ -198,7 +198,7 @@ background: #30343b;
     border-radius: 5px;
     pointer-events: all;
 }
-.diary-page-cite .span  {
+.diary-page-cite span  {
     position: absolute;
     right: 0px;
     top: 0px;
