@@ -208,7 +208,7 @@ background: #30343b;
 }
 
 .diary-page-cite .btn-default:hover {
-    background: lightgray;
+    background: #e2e0da;
 }
 .logged-in .diary-page-cite .btn-default {
   /*bottom: 60px;*/
