@@ -184,9 +184,11 @@
 
 <!--======= CITE THIS BUTTON  ========-->
   <div class="diary-page-cite no-mobile">
-      <div data-toggle="tooltip" data-placement="left" title="Cite this">
-        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal"><i class="fa fa-quote-left"></i></button>
-    </div>
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#citeThisModal">
+        <div data-toggle="tooltip" data-placement="left" title="Cite this">
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </button>
   </div>
 <!--======= // ========-->
 
