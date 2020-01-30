@@ -117,3 +117,34 @@ function may_bragdon_theme_preprocess_page(&$vars) {
         }
     }
 }
+
+/**
+ * Implements hook_cmodel_pid_islandora_view_object_alter().
+ */
+function may_bragdon_theme_islandora_pagecmodel_islandora_view_object_alter(&$object, &$rendered) {
+  if (isset($object['TEI']) && $object['TEI']->content) {
+    module_load_include('inc', 'islandora_paged_content', 'includes/utilities');
+
+    $book_pid = islandora_paged_content_get_relationship($object->relationships, FEDORA_RELS_EXT_URI, 'isMemberOf', NULL);
+    $book = islandora_object_load($book_pid);
+    $pages = islandora_paged_content_get_pages($book);
+    $params = array(
+     'object' => $object,
+     'pages' => $pages,
+    );
+    $output = theme('islandora_paged_tei_seadragon_viewer', $params);
+    $rendered['islandora_book']['#markup'] .= $output;
+  }
+}
+
+/**
+ * Implements hook_CMODEL_PID_islandora_solr_object_result_alter().
+ */
+function may_bragdon_theme_islandora_pageCModel_islandora_solr_object_result_alter(&$search_result, $query_processor) {
+  // Let's append the islandora_paged_content_page param to the url.
+  module_load_include('inc', 'islandora_paged_content', 'includes/utilities');
+
+  $object = islandora_object_load($search_result['PID']);
+  $page_num = islandora_paged_content_get_relationship($object->relationships, ISLANDORA_RELS_EXT_URI, 'isPageNumber', NULL);
+  $search_result['object_url_params']['islandora_paged_content_page'] = $page_num;
+}
