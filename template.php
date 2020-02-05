@@ -5,7 +5,6 @@
  */
 function may_bragdon_theme_preprocess_page(&$vars) {
 
-    
     $current_path = current_path();
     $url_parts = explode( '/', $current_path);
     
@@ -78,7 +77,7 @@ function may_bragdon_theme_preprocess_page(&$vars) {
                     $suggests, array($type), theme_get_suggestions($args, $type)
             );
         } else if (isset($vars['page']['content']['system_main']['islandora_book'])) {
-            
+
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
 
@@ -94,9 +93,9 @@ function may_bragdon_theme_preprocess_page(&$vars) {
             $suggests = array_merge(
                     $suggests, array($type), theme_get_suggestions($args, $type)
             ); 
-            
+ 
         } else if (isset($vars['page']['sidebar_second']['islandora_compound_object_compound_navigation'])) {
-            
+ 
             // Ref suggestions.
             $suggests = &$vars['theme_hook_suggestions'];
 
@@ -147,4 +146,10 @@ function may_bragdon_theme_islandora_pageCModel_islandora_solr_object_result_alt
   $object = islandora_object_load($search_result['PID']);
   $page_num = islandora_paged_content_get_relationship($object->relationships, ISLANDORA_RELS_EXT_URI, 'isPageNumber', NULL);
   $search_result['object_url_params']['islandora_paged_content_page'] = $page_num;
+
+  // Overwrite the page pid in the url with its book's pid.
+  $book_pid = islandora_paged_content_get_relationship($object->relationships, ISLANDORA_RELS_EXT_URI, 'isPageOf', NULL);
+  $book_pid = isset($book_pid) && $book_pid != NULL ? $book_pid : islandora_paged_content_get_relationship($object->relationships, ISLANDORA_RELS_EXT_URI, 'isMemberOf', NULL);
+  $url = "islandora/object/$book_pid";
+  $search_result['object_url'] = $url;
 }
