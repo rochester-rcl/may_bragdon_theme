@@ -153,3 +153,15 @@ function may_bragdon_theme_islandora_pageCModel_islandora_solr_object_result_alt
   $url = "islandora/object/$book_pid";
   $search_result['object_url'] = $url;
 }
+
+/**
+ * Implements template_preprocess_islandora_paged_tei_seadragon_viewer().
+ */
+function may_bragdon_theme_preprocess_islandora_paged_tei_seadragon_viewer(&$variables) {
+  $theme_path = drupal_get_path('theme', 'may_bragdon_theme');
+  $left_src = file_create_url("$theme_path/images/back_white.png");
+  $right_src = file_create_url("$theme_path/images/next_white.png");
+
+  $variables['nav_left'] = '<a title="Previous" href="#" id="islandora-paged-tei-seadragon-navigate-left"><img src="' . $left_src . '"></img></a>';
+  $variables['nav_right'] = '<a title="Next" href="#" id="islandora-paged-tei-seadragon-navigate-right"><img src="' . $right_src . '"></img></a>';
+}
