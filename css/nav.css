@@ -148,7 +148,7 @@ portion.
 }
 /* May B Logo */
 .mayb-logo{
-    width: 235px;
+    width: 235px !important;
     height: auto;
 }
 
