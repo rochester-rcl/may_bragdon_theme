@@ -218,13 +218,11 @@ background: #30343b;
 
 /* Viewer Pane
 -----------------------------------*/
-.openseadragon-container div:nth-child(3) {
+.openseadragon-container div:nth-child(6) {
     /*border: 1px solid red!important;*/
-    position: absolute;
+    position: absolute !important;
     right: 8px;
-    left: initial;
-    top: 104px!important;
-    left: auto!important;
+    margin-top: 104px !important;
 }
 
 /* Arrow icons: Left and Right */
@@ -350,7 +348,7 @@ a#tei-viewer-manuscript {
 }
 
 /* adding padding for buttons */
-.diary-page-class button img {
+.diary-page-class div img {
     padding: 3px!important;
     width: 35px;
     height: auto;
